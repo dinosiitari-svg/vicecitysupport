@@ -1,0 +1,69 @@
+---
+// Numbered steps / location list, optionally with a saved checklist.
+interface Props {
+  storageKey: string;
+  items: { title: string; detail?: string }[];
+  listType: 'steps' | 'locations';
+  checklist: boolean;
+  placeholderCount: number;
+}
+const { storageKey, items, listType, checklist, placeholderCount } = Astro.props;
+const isPlaceholder = items.length === 0;
+const rows = isPlaceholder
+  ? Array.from({ length: placeholderCount }, (_, i) => ({
+      title: listType === 'locations' ? `Location ${i + 1}: being verified at launch` : `Step ${i + 1}: being verified at launch`,
+      detail: undefined as string | undefined,
+    }))
+  : items;
+const canCheck = checklist && !isPlaceholder;
+---
+{canCheck && (
+  <div class="checklist-head" data-checklist-head={storageKey}>
+    <span class="progress-text"><span data-done>0</span> / {rows.length} found</span>
+    <div class="progress" aria-hidden="true"><span data-bar></span></div>
+    <button type="button" class="btn-reset" data-reset>Reset</button>
+  </div>
+)}
+{checklist && isPlaceholder && (
+  <p class="meta">A tick-off checklist (saved on your device) will appear here once the list is verified.</p>
+)}
+<ol class:list={['item-list', listType]} data-checklist={canCheck ? storageKey : undefined}>
+  {rows.map((it, i) => (
+    <li class:list={{ placeholder: isPlaceholder }}>
+      {canCheck ? (
+        <label>
+          <input type="checkbox" data-key={it.title} aria-label={`Mark "${it.title}" as found`} />
+          <span><span class="t">{it.title}</span>{it.detail && <div class="d" set:html={it.detail} />}</span>
+        </label>
+      ) : (
+        <span><span class="t">{it.title}</span>{it.detail && <div class="d" set:html={it.detail} />}</span>
+      )}
+    </li>
+  ))}
+</ol>
+
+<script>
+  // Checklist progress is stored in localStorage (only on the player's device),
+  // keyed by item title so reordering the list later doesn't scramble ticks.
+  document.querySelectorAll<HTMLOListElement>('ol[data-checklist]').forEach((list) => {
+    const key = 'vcs-checklist:' + list.dataset.checklist;
+    const head = document.querySelector(`[data-checklist-head="${list.dataset.checklist}"]`);
+    const boxes = Array.from(list.querySelectorAll<HTMLInputElement>('input[type=checkbox]'));
+    let saved: string[] = [];
+    try { saved = JSON.parse(localStorage.getItem(key) || '[]'); } catch {}
+    const update = () => {
+      const done = boxes.filter((b) => b.checked).map((b) => b.dataset.key!);
+      boxes.forEach((b) => b.closest('li')?.classList.toggle('done', b.checked));
+      if (head) {
+        head.querySelector('[data-done]')!.textContent = String(done.length);
+        (head.querySelector('[data-bar]') as HTMLElement).style.width = (done.length / boxes.length) * 100 + '%';
+      }
+      try { localStorage.setItem(key, JSON.stringify(done)); } catch {}
+    };
+    boxes.forEach((b) => { b.checked = saved.includes(b.dataset.key!); b.addEventListener('change', update); });
+    head?.querySelector('[data-reset]')?.addEventListener('click', () => {
+      if (confirm('Clear all ticks on this checklist?')) { boxes.forEach((b) => (b.checked = false)); update(); }
+    });
+    update();
+  });
+</script>

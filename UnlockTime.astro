@@ -1,0 +1,82 @@
+---
+// Shows each visitor the GTA 6 unlock time in THEIR timezone.
+// Controlled entirely by LAUNCH in src/data/site.ts.
+import { LAUNCH } from '../data/site';
+const zones = [
+  ['Los Angeles (PT)', 'America/Los_Angeles'],
+  ['New York (ET)', 'America/New_York'],
+  ['London (UK)', 'Europe/London'],
+  ['Berlin / Paris (CET)', 'Europe/Berlin'],
+  ['Dubai (GST)', 'Asia/Dubai'],
+  ['Mumbai (IST)', 'Asia/Kolkata'],
+  ['Tokyo (JST)', 'Asia/Tokyo'],
+  ['Sydney (AET)', 'Australia/Sydney'],
+];
+---
+<section class="unlock" data-mode={LAUNCH.unlockMode} data-utc={LAUNCH.unlockTimeUTC} data-date={LAUNCH.releaseDate} aria-live="polite">
+  <div class="small">Your timezone: <strong data-tz>detecting…</strong></div>
+  {LAUNCH.unlockMode === 'unconfirmed' && (
+    <>
+      <div class="big">Thursday, November 19, 2026</div>
+      <p class="small" style="margin:6px 0 0">
+        The release <strong>date</strong> is confirmed by Rockstar. The exact unlock <strong>time</strong> has not been
+        officially announced yet. This box will show your local unlock time automatically as soon as it is.
+      </p>
+      <div class="countdown" data-countdown aria-label="Countdown to November 19, 2026 (midnight, your time)">
+        <div><b data-d>–</b><span>days</span></div><div><b data-h>–</b><span>hrs</span></div><div><b data-m>–</b><span>min</span></div><div><b data-s>–</b><span>sec</span></div>
+      </div>
+      <p class="small" style="margin:4px 0 0">Countdown runs to the start of November 19 in your timezone, not to a confirmed unlock time.</p>
+    </>
+  )}
+  {LAUNCH.unlockMode === 'local-midnight' && (
+    <>
+      <div class="big">Midnight, November 19, 2026, your local time</div>
+      <div class="countdown" data-countdown>
+        <div><b data-d>–</b><span>days</span></div><div><b data-h>–</b><span>hrs</span></div><div><b data-m>–</b><span>min</span></div><div><b data-s>–</b><span>sec</span></div>
+      </div>
+    </>
+  )}
+  {LAUNCH.unlockMode === 'global' && (
+    <>
+      <div class="big" data-local>…</div>
+      <div class="countdown" data-countdown>
+        <div><b data-d>–</b><span>days</span></div><div><b data-h>–</b><span>hrs</span></div><div><b data-m>–</b><span>min</span></div><div><b data-s>–</b><span>sec</span></div>
+      </div>
+      <div class="prose"><table style="margin-top:12px">
+        <thead><tr><th>City</th><th>Unlock time</th></tr></thead>
+        <tbody>{zones.map(([label, tz]) => <tr><td>{label}</td><td data-zone={tz}>…</td></tr>)}</tbody>
+      </table></div>
+    </>
+  )}
+</section>
+
+<script>
+  const box = document.querySelector<HTMLElement>('.unlock');
+  if (box) {
+    const { mode, utc, date } = box.dataset as Record<string, string>;
+    const tz = Intl.DateTimeFormat().resolvedOptions().timeZone;
+    box.querySelector('[data-tz]')!.textContent = tz.replace(/_/g, ' ');
+    const [y, mo, d] = date.split('-').map(Number);
+    // Target: a fixed global moment, or local midnight on release day.
+    const target = mode === 'global' && utc ? new Date(utc) : new Date(y, mo - 1, d, 0, 0, 0);
+    const fmt = (z?: string) =>
+      new Intl.DateTimeFormat('en-US', { weekday: 'short', month: 'short', day: 'numeric', hour: 'numeric', minute: '2-digit', timeZone: z, timeZoneName: 'short' }).format(target);
+    const local = box.querySelector('[data-local]');
+    if (local) local.textContent = fmt();
+    box.querySelectorAll<HTMLElement>('[data-zone]').forEach((td) => (td.textContent = fmt(td.dataset.zone)));
+    const cd = box.querySelector('[data-countdown]');
+    const pad = (n: number) => String(n).padStart(2, '0');
+    const tick = () => {
+      if (!cd) return;
+      let s = Math.max(0, Math.floor((target.getTime() - Date.now()) / 1000));
+      if (s === 0) { cd.innerHTML = '<div><b>Live</b><span>out now</span></div>'; return; }
+      const dd = Math.floor(s / 86400); s %= 86400;
+      cd.querySelector('[data-d]')!.textContent = String(dd);
+      cd.querySelector('[data-h]')!.textContent = pad(Math.floor(s / 3600));
+      cd.querySelector('[data-m]')!.textContent = pad(Math.floor((s % 3600) / 60));
+      cd.querySelector('[data-s]')!.textContent = pad(s % 60);
+      setTimeout(tick, 1000);
+    };
+    tick();
+  }
+</script>

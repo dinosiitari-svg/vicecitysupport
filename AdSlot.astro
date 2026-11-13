@@ -1,0 +1,11 @@
+---
+// Placeholder ad slot. When you get approved by an ad network, paste its
+// code here (one place) and every page updates. Heights are reserved now so
+// adding ads later won't make the page jump around (good for Core Web Vitals).
+interface Props { position: 'top' | 'mid' | 'sidebar' }
+const { position } = Astro.props;
+const labels = { top: 'Ad slot · Top (728×90 / 320×100)', mid: 'Ad slot · Mid-content (336×280)', sidebar: 'Ad slot · Sidebar (300×600)' };
+---
+<aside class:list={['ad-slot', position]} data-ad-slot={position} aria-label="Advertisement placeholder">
+  <span>{labels[position]}</span>
+</aside>

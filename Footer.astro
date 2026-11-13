@@ -1,0 +1,18 @@
+---
+import { SITE, SECTIONS } from '../data/site';
+const year = new Date().getFullYear();
+---
+<footer class="site-footer">
+  <div class="wrap">
+    <nav aria-label="Footer">
+      <a href="/">Home</a>
+      {Object.entries(SECTIONS).map(([k, s]) => <a href={`/${k}/`}>{s.label}</a>)}
+      <a href="/about/">About</a>
+      <a href="/contact/">Contact</a>
+      <a href="/privacy-policy/">Privacy Policy</a>
+      <a href="/disclaimer/">Disclaimer</a>
+    </nav>
+    <p>© {year} {SITE.name}. A fan-made guide site.</p>
+    <p>Not affiliated with, endorsed by or sponsored by Rockstar Games or Take-Two Interactive. Grand Theft Auto and related names are trademarks of their respective owners. <a href="/disclaimer/">Full disclaimer</a>.</p>
+  </div>
+</footer>

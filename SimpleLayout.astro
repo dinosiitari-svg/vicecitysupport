@@ -1,0 +1,12 @@
+---
+// For About / Contact / Privacy / Disclaimer.
+import BaseLayout from './BaseLayout.astro';
+interface Props { title: string; description: string }
+const { title, description } = Astro.props;
+---
+<BaseLayout title={title} description={description}>
+  <div class="wrap" style="max-width: 820px">
+    <h1>{title}</h1>
+    <div class="prose"><slot /></div>
+  </div>
+</BaseLayout>

@@ -1,0 +1,88 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import AdSlot from '../components/AdSlot.astro';
+import Icon from '../components/Icon.astro';
+import { SITE, SECTIONS, type SectionKey } from '../data/site';
+import { getPublicPages, sectionOf, sectionLabel, urlOf, byUpdated, fmtDate } from '../lib/pages';
+
+const pages = await getPublicPages();
+const recent = [...pages].sort(byUpdated).slice(0, 8);
+const searchIndex = pages.map((p) => ({ q: p.data.question, d: p.data.description, u: urlOf(p), s: sectionLabel(p) }));
+const counts = Object.fromEntries(Object.keys(SECTIONS).map((k) => [k, pages.filter((p) => sectionOf(p) === k).length]));
+
+const jsonLd = [{
+  '@context': 'https://schema.org',
+  '@type': 'WebSite',
+  name: SITE.name,
+  url: SITE.url + '/',
+}];
+---
+<BaseLayout title={SITE.name} description={SITE.description} jsonLd={jsonLd}>
+  <div class="wrap">
+    <section class="hero">
+      <div class="sun" aria-hidden="true"></div>
+      <div class="grid-floor" aria-hidden="true"></div>
+      <h1>GTA 6 collectibles, <span class="c">found fast.</span></h1>
+      <p class="lead">Straight answers, map locations and tick-off checklists for every GTA 6 collectible. Built for your phone, next to the TV.</p>
+      <div class="search" role="search">
+        <label for="q" class="visually-hidden">Search the guides</label>
+        <Icon name="search" size={20} />
+        <input id="q" type="search" placeholder="Search e.g. “missable”, “map size”…" autocomplete="off" aria-controls="results" />
+        <ul id="results" class="search-results" aria-live="polite"></ul>
+      </div>
+      <div class="launch-strip">
+        <a class="chip" href="/launch/what-time-does-gta-6-unlock/">Release: <strong>Nov 19, 2026</strong></a>
+        <a class="chip" href="/launch/what-platforms-is-gta-6-on/">PS5 · Xbox Series X|S</a>
+        <span class="chip">Collectible data: <strong>verifying at launch</strong></span>
+      </div>
+    </section>
+
+    <AdSlot position="top" />
+
+    <h2>Browse by category</h2>
+    <div class="grid">
+      {(Object.entries(SECTIONS) as [SectionKey, (typeof SECTIONS)[SectionKey]][]).map(([k, s]) => (
+        <a class="card" href={`/${k}/`}>
+          <span class="icon"><Icon name={s.icon} /></span>
+          <h3>{s.label}</h3>
+          <p>{s.blurb}</p>
+          <span class="count">{counts[k]} guides →</span>
+        </a>
+      ))}
+    </div>
+
+    <AdSlot position="mid" />
+
+    <h2>Recently updated</h2>
+    <ul class="page-list">
+      {recent.map((p) => (
+        <li><a href={urlOf(p)}><span class="q">{p.data.question}</span><span class="when">{fmtDate(p.data.updated)}</span></a></li>
+      ))}
+    </ul>
+  </div>
+  <script type="application/json" id="search-data" set:html={JSON.stringify(searchIndex)} />
+</BaseLayout>
+
+<script>
+  const data: { q: string; d: string; u: string; s: string }[] = JSON.parse(document.getElementById('search-data')!.textContent!);
+  const input = document.getElementById('q') as HTMLInputElement;
+  const out = document.getElementById('results')!;
+  const esc = (s: string) => s.replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' })[c]!);
+  input.addEventListener('input', () => {
+    const terms = input.value.toLowerCase().split(/\s+/).filter(Boolean);
+    if (!terms.length) { out.classList.remove('show'); out.innerHTML = ''; return; }
+    const hits = data
+      .map((p) => {
+        const hay = (p.q + ' ' + p.d + ' ' + p.s).toLowerCase();
+        const score = terms.reduce((n, t) => n + (p.q.toLowerCase().includes(t) ? 3 : hay.includes(t) ? 1 : -99), 0);
+        return { p, score };
+      })
+      .filter((h) => h.score > 0)
+      .sort((a, b) => b.score - a.score)
+      .slice(0, 8);
+    out.innerHTML = hits.length
+      ? hits.map(({ p }) => `<li><a href="${p.u}"><span class="sec">${esc(p.s)}</span>${esc(p.q)}</a></li>`).join('')
+      : '<li class="none">No guide for that yet. New pages go up daily after launch.</li>';
+    out.classList.add('show');
+  });
+</script>

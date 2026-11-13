@@ -1,0 +1,12 @@
+---
+import Icon from './Icon.astro';
+interface Props { note?: string }
+const { note } = Astro.props;
+---
+<div class="status-banner" role="status">
+  <Icon name="alert" size={20} />
+  <div>
+    <strong>Being verified at launch, check back soon.</strong><br />
+    {note ?? "GTA 6 releases on November 19, 2026. We only publish collectible names, counts and locations once we've confirmed them in the game ourselves. Nothing on this page is guessed."}
+  </div>
+</div>

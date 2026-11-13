@@ -1,0 +1,126 @@
+---
+// Renders every Markdown file in src/content/pages/ as an answer page.
+import { getCollection, render } from 'astro:content';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import AdSlot from '../components/AdSlot.astro';
+import Breadcrumbs from '../components/Breadcrumbs.astro';
+import StatusBanner from '../components/StatusBanner.astro';
+import ItemList from '../components/ItemList.astro';
+import UnlockTime from '../components/UnlockTime.astro';
+import Icon from '../components/Icon.astro';
+import { SITE, SECTIONS } from '../data/site';
+import { sectionOf, urlOf, fmtDate, byOrder, type Page } from '../lib/pages';
+
+export async function getStaticPaths() {
+  const pages = await getCollection('pages');
+  return pages.map((page) => ({ params: { slug: page.id }, props: { page } }));
+}
+
+const { page } = Astro.props as { page: Page };
+const d = page.data;
+const { Content } = await render(page);
+const section = sectionOf(page);
+const sec = SECTIONS[section];
+const url = new URL(urlOf(page), SITE.url).href;
+const verifying = d.status === 'verifying';
+
+const related = (await getCollection('pages'))
+  .filter((p) => !p.data.template && p.id !== page.id && sectionOf(p) === section)
+  .sort(byOrder)
+  .slice(0, 6);
+
+const listTitle = d.listTitle ?? (d.listType === 'locations' ? 'All locations' : 'Step by step');
+
+// Structured data: FAQ (main question + extra FAQs), breadcrumbs, article dates.
+const faqEntries = [{ q: d.question, a: d.answer }, ...d.faq];
+const jsonLd = [
+  {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: faqEntries.map((f) => ({
+      '@type': 'Question',
+      name: f.q,
+      acceptedAnswer: { '@type': 'Answer', text: f.a },
+    })),
+  },
+  {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'Home', item: SITE.url + '/' },
+      { '@type': 'ListItem', position: 2, name: sec.label, item: `${SITE.url}/${section}/` },
+      { '@type': 'ListItem', position: 3, name: d.question, item: url },
+    ],
+  },
+  {
+    '@context': 'https://schema.org',
+    '@type': 'Article',
+    headline: d.question,
+    description: d.description,
+    dateModified: d.updated.toISOString(),
+    mainEntityOfPage: url,
+    publisher: { '@type': 'Organization', name: SITE.name, url: SITE.url },
+  },
+];
+---
+<BaseLayout title={d.question} description={d.description} ogType="article" noindex={d.template} jsonLd={d.template ? [] : jsonLd} modified={d.updated}>
+  <div class="wrap">
+    <AdSlot position="top" />
+    <div class="layout">
+      <article>
+        <Breadcrumbs trail={[{ label: 'Home', href: '/' }, { label: sec.label, href: `/${section}/` }, { label: d.question }]} />
+        {d.template && (
+          <p class="status-banner"><span><strong>Template page.</strong> Hidden from Google and the sitemap. Copy this file, rename it, and fill it in. See HOW-TO-ADD-A-PAGE.md.</span></p>
+        )}
+        <h1>{d.question}</h1>
+        <p class="direct-answer">{d.answer}</p>
+        <div class="meta">
+          {verifying
+            ? <span class="badge verifying"><Icon name="alert" size={14} /> Being verified</span>
+            : <span class="badge verified"><Icon name="check" size={14} /> Verified</span>}
+          <span>Last verified: <time datetime={d.lastVerified?.toISOString()}>{d.lastVerified ? fmtDate(d.lastVerified) : 'Pending, verifying at launch'}</time></span>
+        </div>
+
+        {verifying && <StatusBanner note={d.statusNote} />}
+        {d.widget === 'unlock-time' && <UnlockTime />}
+
+        {(d.items.length > 0 || verifying) && (
+          <section aria-labelledby="list-h">
+            <h2 id="list-h">{listTitle}</h2>
+            <ItemList storageKey={page.id} items={d.items} listType={d.listType} checklist={d.checklist} placeholderCount={d.placeholderCount} />
+          </section>
+        )}
+
+        <AdSlot position="mid" />
+
+        <div class="prose"><Content /></div>
+
+        {d.faq.length > 0 && (
+          <section class="faq" aria-labelledby="faq-h">
+            <h2 id="faq-h">Quick answers</h2>
+            {d.faq.map((f) => <details><summary>{f.q}</summary><p>{f.a}</p></details>)}
+          </section>
+        )}
+
+        {d.sources.length > 0 && (
+          <section class="sources">
+            <h2>Sources</h2>
+            <ul>{d.sources.map((s) => <li><a href={s.url} rel="nofollow noopener" target="_blank">{s.label}</a></li>)}</ul>
+          </section>
+        )}
+      </article>
+
+      <aside class="sidebar">
+        <div class="sidebar-sticky">
+          <AdSlot position="sidebar" />
+          {related.length > 0 && (
+            <div class="panel">
+              <h3 style="margin-top:0">More in {sec.label}</h3>
+              <ul class="page-list">{related.map((p) => <li><a href={urlOf(p)}><span class="q">{p.data.question}</span></a></li>)}</ul>
+            </div>
+          )}
+        </div>
+      </aside>
+    </div>
+  </div>
+</BaseLayout>

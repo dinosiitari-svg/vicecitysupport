@@ -1,0 +1,26 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import AdSlot from './AdSlot.astro';
+import Breadcrumbs from './Breadcrumbs.astro';
+import { SECTIONS, type SectionKey } from '../data/site';
+import { getPublicPages, sectionOf, urlOf, byOrder } from '../lib/pages';
+interface Props { section: SectionKey }
+const { section } = Astro.props;
+const sec = SECTIONS[section];
+const pages = (await getPublicPages()).filter((p) => sectionOf(p) === section).sort(byOrder);
+---
+<BaseLayout title={`GTA 6 ${sec.label}`} description={`GTA 6 ${sec.label.toLowerCase()}: ${sec.blurb}`}>
+  <div class="wrap">
+    <AdSlot position="top" />
+    <Breadcrumbs trail={[{ label: 'Home', href: '/' }, { label: sec.label }]} />
+    <h1>GTA 6 {sec.label}</h1>
+    <p>{sec.blurb}</p>
+    <ul class="page-list">
+      {pages.map((p) => (
+        <li><a href={urlOf(p)}><span class="q">{p.data.question}</span>
+          <span class:list={['badge', p.data.status]}>{p.data.status === 'verified' ? 'Verified' : 'Verifying'}</span></a></li>
+      ))}
+    </ul>
+    <AdSlot position="mid" />
+  </div>
+</BaseLayout>
