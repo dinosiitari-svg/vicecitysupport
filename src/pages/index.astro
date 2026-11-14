@@ -2,6 +2,7 @@
 import BaseLayout from '../layouts/BaseLayout.astro';
 import AdSlot from '../components/AdSlot.astro';
 import Icon from '../components/Icon.astro';
+import Countdown from '../components/Countdown.astro';
 import { SITE, SECTIONS, type SectionKey } from '../data/site';
 import { getPublicPages, sectionOf, sectionLabel, urlOf, byUpdated, fmtDate } from '../lib/pages';
 
@@ -23,6 +24,7 @@ const jsonLd = [{
       <div class="sun" aria-hidden="true"></div>
       <div class="grid-floor" aria-hidden="true"></div>
       <h1>GTA 6 collectibles, <span class="c">found fast.</span></h1>
+      <Countdown />
       <p class="lead">Straight answers, map locations and tick-off checklists for every GTA 6 collectible. Built for your phone, next to the TV.</p>
       <div class="search" role="search">
         <label for="q" class="visually-hidden">Search the guides</label>

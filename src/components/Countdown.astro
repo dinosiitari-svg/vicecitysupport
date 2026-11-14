@@ -1,0 +1,64 @@
+---
+// Homepage countdown to GTA 6 release, in the visitor's own timezone.
+// Uses LAUNCH in src/data/site.ts: counts to midnight on release day (local),
+// or to the official global unlock moment once unlockMode is 'global'.
+import { LAUNCH } from '../data/site';
+const official = LAUNCH.unlockMode === 'global' && LAUNCH.unlockTimeUTC;
+---
+<div class="hero-countdown" data-utc={official ? LAUNCH.unlockTimeUTC : ''} data-date={LAUNCH.releaseDate}>
+  <p class="cd-label">GTA 6 releases in</p>
+  <div class="countdown" role="timer" aria-live="off">
+    <div><b data-d>–</b><span>days</span></div>
+    <div><b data-h>–</b><span>hours</span></div>
+    <div><b data-m>–</b><span>min</span></div>
+    <div><b data-s>–</b><span>sec</span></div>
+  </div>
+  <p class="cd-note">
+    <span data-target>Counting down to November 19, 2026 in your timezone</span>
+    {official ? '' : ' · exact unlock time not yet announced'}.
+    <a href="/launch/what-time-does-gta-6-unlock/">Unlock time details →</a>
+  </p>
+  <p class="cd-live" hidden>
+    <strong>GTA 6 is out now!</strong> <a href="/collectibles/">Start tracking your collectibles →</a>
+  </p>
+</div>
+
+<style>
+  .hero-countdown { max-width: 480px; margin: 0 auto 22px; }
+  .cd-label { margin: 0 0 4px; font-size: 0.85rem; letter-spacing: 0.14em; text-transform: uppercase; color: var(--cyan-soft); }
+  .hero-countdown .countdown { margin: 0 0 8px; }
+  .hero-countdown .countdown b { font-size: clamp(1.6rem, 8vw, 2.4rem); }
+  .cd-note { margin: 0; font-size: 0.85rem; color: var(--muted); }
+  .cd-live { margin: 0; font-size: 1.1rem; color: #fff; }
+</style>
+
+<script>
+  document.querySelectorAll<HTMLElement>('.hero-countdown').forEach((box) => {
+    const { utc, date } = box.dataset as Record<string, string>;
+    const [y, mo, d] = date.split('-').map(Number);
+    const target = utc ? new Date(utc) : new Date(y, mo - 1, d, 0, 0, 0);
+    const tz = Intl.DateTimeFormat().resolvedOptions().timeZone.replace(/_/g, ' ');
+    const label = box.querySelector('[data-target]')!;
+    label.textContent = utc
+      ? 'Unlocks ' + new Intl.DateTimeFormat('en-US', { weekday: 'short', month: 'short', day: 'numeric', hour: 'numeric', minute: '2-digit', timeZoneName: 'short' }).format(target) + ` (${tz})`
+      : `Counting down to midnight, Nov 19 (${tz})`;
+    const pad = (n: number) => String(n).padStart(2, '0');
+    const set = (sel: string, v: string) => (box.querySelector(sel)!.textContent = v);
+    const tick = () => {
+      let s = Math.floor((target.getTime() - Date.now()) / 1000);
+      if (s <= 0) {
+        box.querySelector('.countdown')!.setAttribute('hidden', '');
+        box.querySelector('.cd-label')!.setAttribute('hidden', '');
+        box.querySelector('.cd-note')!.setAttribute('hidden', '');
+        box.querySelector('.cd-live')!.removeAttribute('hidden');
+        return;
+      }
+      set('[data-d]', String(Math.floor(s / 86400))); s %= 86400;
+      set('[data-h]', pad(Math.floor(s / 3600)));
+      set('[data-m]', pad(Math.floor((s % 3600) / 60)));
+      set('[data-s]', pad(s % 60));
+      setTimeout(tick, 1000);
+    };
+    tick();
+  });
+</script>
