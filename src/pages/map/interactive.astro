@@ -2,6 +2,7 @@
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import AdSlot from '../../components/AdSlot.astro';
 import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import NotifySignup from '../../components/NotifySignup.astro';
 import { SITE } from '../../data/site';
 import data from '../../data/map-markers.json';
 
@@ -111,6 +112,8 @@ const jsonLd = [
       </p>
       <a class="btn btn-submit" href="/map/submit/">Found something? Add it to the map</a>
     </div>
+
+    <NotifySignup />
 
     <AdSlot position="mid" />
 

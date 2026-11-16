@@ -1,0 +1,113 @@
+---
+// Email capture. Uses Netlify Forms (no backend): submissions appear in
+// Netlify → your site → Forms, and can be emailed or forwarded to a mailing
+// list tool later. Submits over fetch so the visitor is never taken off the
+// page; falls back to a normal POST if JavaScript is off.
+interface Props {
+  heading?: string;
+  blurb?: string;
+}
+const {
+  heading = 'Get new locations as we verify them',
+  blurb = 'One email when a batch of locations goes live. No spam, unsubscribe any time.',
+} = Astro.props;
+---
+
+<section class="notify" aria-labelledby="notify-h">
+  <div class="notify-text">
+    <h2 id="notify-h">{heading}</h2>
+    <p>{blurb}</p>
+  </div>
+
+  <form
+    class="notify-form"
+    name="notify"
+    method="POST"
+    action="/thanks/"
+    data-netlify="true"
+    netlify-honeypot="bot-field"
+  >
+    <input type="hidden" name="form-name" value="notify" />
+    <p class="visually-hidden"><label>Don&rsquo;t fill this out: <input name="bot-field" /></label></p>
+
+    <div class="notify-row">
+      <label class="visually-hidden" for="notify-email">Your email address</label>
+      <input id="notify-email" type="email" name="email" required autocomplete="email" placeholder="you@example.com" />
+      <button class="btn" type="submit">Notify me</button>
+    </div>
+
+    <label class="notify-consent">
+      <input type="checkbox" name="consent" value="yes" required />
+      <span>Yes, email me when new locations are verified. I can unsubscribe any time. See the <a href="/privacy-policy/">Privacy Policy</a>.</span>
+    </label>
+
+    <p class="notify-status" role="status" aria-live="polite"></p>
+  </form>
+</section>
+
+<style is:global>
+  .notify {
+    display: grid; gap: 18px; margin: 28px 0;
+    background: linear-gradient(135deg, rgba(255, 46, 151, 0.1), rgba(25, 227, 255, 0.07));
+    border: 1px solid var(--line); border-radius: var(--radius); padding: 22px;
+  }
+  @media (min-width: 860px) { .notify { grid-template-columns: minmax(0, 1fr) minmax(0, 1.1fr); align-items: center; gap: 28px; } }
+  .notify h2 { margin: 0 0 6px; font-size: 1.25rem; color: #fff; text-shadow: 0 0 10px rgba(255, 46, 151, 0.45); }
+  .notify-text p { margin: 0; color: var(--muted); font-size: 0.95rem; }
+  .notify-form { display: grid; gap: 12px; margin: 0; max-width: none; }
+  .notify-row { display: flex; gap: 10px; flex-wrap: wrap; }
+  .notify-row input[type='email'] {
+    flex: 1 1 200px; min-width: 0; font: inherit; color: #fff; background: var(--bg-2);
+    border: 1px solid var(--line); border-radius: 999px; padding: 12px 18px;
+  }
+  .notify-row input[type='email']:focus { outline: none; border-color: var(--cyan); box-shadow: 0 0 14px rgba(25, 227, 255, 0.3); }
+  .notify-row .btn { flex: none; }
+  .notify-consent { display: flex; gap: 10px; align-items: flex-start; font-size: 0.85rem; color: var(--muted); cursor: pointer; }
+  .notify-consent input[type='checkbox'] {
+    appearance: none; flex: none; width: 20px; height: 20px; margin: 1px 0 0; border-radius: 6px;
+    border: 2px solid var(--cyan); background: transparent; display: grid; place-items: center; cursor: pointer;
+  }
+  .notify-consent input[type='checkbox']:checked { background: var(--cyan); }
+  .notify-consent input[type='checkbox']:checked::after {
+    content: ''; width: 5px; height: 10px; border: solid var(--bg); border-width: 0 3px 3px 0; transform: rotate(45deg) translate(-1px, -1px);
+  }
+  .notify-status { margin: 0; font-size: 0.9rem; min-height: 0; }
+  .notify-status.ok { color: var(--ok); }
+  .notify-status.err { color: var(--warn); }
+  .notify.done .notify-row, .notify.done .notify-consent { display: none; }
+</style>
+
+<script>
+  document.querySelectorAll<HTMLFormElement>('form.notify-form').forEach((form) => {
+    const status = form.querySelector('.notify-status');
+    const section = form.closest('.notify');
+
+    form.addEventListener('submit', async (e) => {
+      e.preventDefault();
+      const btn = form.querySelector<HTMLButtonElement>('button[type="submit"]');
+      if (btn) { btn.disabled = true; btn.textContent = 'Sending…'; }
+      if (status) { status.className = 'notify-status'; status.textContent = ''; }
+
+      try {
+        const body = new URLSearchParams(new FormData(form) as any).toString();
+        const res = await fetch('/', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+          body,
+        });
+        if (!res.ok) throw new Error(String(res.status));
+        section?.classList.add('done');
+        if (status) {
+          status.className = 'notify-status ok';
+          status.textContent = "You're on the list. We'll email you when the next batch is verified.";
+        }
+      } catch {
+        if (btn) { btn.disabled = false; btn.textContent = 'Notify me'; }
+        if (status) {
+          status.className = 'notify-status err';
+          status.textContent = "That didn't go through. Try again, or use the contact form.";
+        }
+      }
+    });
+  });
+</script>

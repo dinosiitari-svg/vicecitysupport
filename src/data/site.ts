@@ -8,6 +8,18 @@ export const SITE = {
     'Fast, mobile-friendly GTA 6 collectible locations, map guides and 100% completion checklists. Fan-made and updated after launch.',
 };
 
+// ─── Where people can follow you ───
+// Fill in a URL to make the link appear in the footer. Leave '' to hide it.
+// These are how launch-week visitors come back without going through Google,
+// so they are worth having live before launch day.
+export const SOCIAL = {
+  instagram: '',   // e.g. 'https://instagram.com/vicecitysupport'
+  discord: '',     // e.g. 'https://discord.gg/xxxxxxx'
+  tiktok: '',
+  youtube: '',
+  reddit: '',
+};
+
 // Sections = first folder in src/content/pages/. Shown in the nav and homepage grid.
 export const SECTIONS = {
   launch: {

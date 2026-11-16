@@ -1,6 +1,18 @@
 ---
-import { SITE, SECTIONS } from '../data/site';
+import { SITE, SECTIONS, SOCIAL } from '../data/site';
 const year = new Date().getFullYear();
+
+// Only the ones you've filled in on src/data/site.ts show up.
+const labels: Record<string, string> = {
+  instagram: 'Instagram',
+  discord: 'Discord',
+  tiktok: 'TikTok',
+  youtube: 'YouTube',
+  reddit: 'Reddit',
+};
+const socials = Object.entries(SOCIAL)
+  .filter(([, url]) => url)
+  .map(([key, url]) => ({ key, url, label: labels[key] ?? key }));
 ---
 <footer class="site-footer">
   <div class="wrap">
@@ -12,7 +24,24 @@ const year = new Date().getFullYear();
       <a href="/privacy-policy/">Privacy Policy</a>
       <a href="/disclaimer/">Disclaimer</a>
     </nav>
+
+    {socials.length > 0 && (
+      <nav class="social" aria-label="Follow us">
+        <span class="social-label">Follow</span>
+        {socials.map((s) => (
+          <a href={s.url} rel="noopener me" target="_blank">{s.label}</a>
+        ))}
+      </nav>
+    )}
+
     <p>© {year} {SITE.name}. A fan-made guide site.</p>
     <p>Not affiliated with, endorsed by or sponsored by Rockstar Games or Take-Two Interactive. Grand Theft Auto and related names are trademarks of their respective owners. <a href="/disclaimer/">Full disclaimer</a>.</p>
   </div>
 </footer>
+
+<style is:global>
+  .site-footer .social { display: flex; flex-wrap: wrap; align-items: center; gap: 6px 14px; margin: 0 0 14px; }
+  .site-footer .social-label { font-size: 0.78rem; text-transform: uppercase; letter-spacing: 0.09em; color: var(--pink-soft); }
+  .site-footer .social a { color: var(--text); text-decoration: none; }
+  .site-footer .social a:hover { color: var(--cyan); }
+</style>
