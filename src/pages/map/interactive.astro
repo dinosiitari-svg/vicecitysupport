@@ -104,10 +104,13 @@ const jsonLd = [
       </div>
     </div>
 
-    <p class="map-note">
-      {confirmed} of {total} locations are confirmed in-game; the rest come from community reports and are marked
-      with a dashed amber ring until we check them ourselves.
-    </p>
+    <div class="map-foot">
+      <p class="map-note">
+        {confirmed} of {total} locations are confirmed in-game; the rest come from community reports and are marked
+        with a dashed amber ring until we check them ourselves.
+      </p>
+      <a class="btn btn-submit" href="/map/submit/">Found something? Add it to the map</a>
+    </div>
 
     <AdSlot position="mid" />
 
@@ -271,7 +274,10 @@ const jsonLd = [
   .legend-list { list-style: none; padding: 0; margin: 0; display: grid; gap: 8px; }
   .legend-list li { display: flex; align-items: center; gap: 9px; font-size: 0.93rem; }
   .legend-list li > a, .legend-list li > span:not(.dot):not(.fp-num) { flex: 1; }
-  .map-note { color: var(--muted); font-size: 0.9rem; margin: 14px 0 0; }
+  .map-note { color: var(--muted); font-size: 0.9rem; margin: 0; }
+  .map-foot { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 14px; margin: 16px 0 0; }
+  .map-foot .map-note { flex: 1 1 320px; }
+  .btn-submit { flex: none; font-size: 0.95rem; padding: 11px 20px; }
 </style>
 
 <script>

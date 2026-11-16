@@ -1,0 +1,130 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import AdSlot from '../../components/AdSlot.astro';
+import data from '../../data/map-markers.json';
+
+const { groups, categories } = data;
+const grouped = groups.map((g) => ({ ...g, cats: categories.filter((c) => c.group === g.id) }));
+
+const title = 'Submit a GTA 6 Location';
+const description =
+  'Found a collectible, store or gang area in GTA 6? Send us the location and we will add it to the interactive map, credited to you.';
+---
+
+<BaseLayout title={title} description={description}>
+  <div class="wrap">
+    <AdSlot position="top" />
+    <Breadcrumbs trail={[{ label: 'Home', href: '/' }, { label: 'Map & Regions', href: '/map/' }, { label: 'Submit a location' }]} />
+    <h1>Submit a Location</h1>
+    <p class="direct-answer">
+      Found something that isn&rsquo;t on the map yet? Send it here and we&rsquo;ll add it &mdash; credited to you if
+      you want the credit. Every submission gets checked before it goes live.
+    </p>
+
+    <div class="submit-steps">
+      <div>
+        <span class="n">1</span>
+        <p><strong>Get the coordinates.</strong> Open the <a href="/map/interactive/?coords" target="_blank" rel="noopener">map in coordinate mode</a>, point at the spot, and copy the numbers in the corner. Not sure? Leave it blank and describe it instead.</p>
+      </div>
+      <div>
+        <span class="n">2</span>
+        <p><strong>Describe how to reach it.</strong> &ldquo;Under the third pier pillar, swim down&rdquo; beats &ldquo;at the beach&rdquo;. This is what people actually read.</p>
+      </div>
+      <div>
+        <span class="n">3</span>
+        <p><strong>Send a screenshot if you have one.</strong> It&rsquo;s the fastest way for us to verify and get your pin live.</p>
+      </div>
+    </div>
+
+    <form
+      class="form submit-form"
+      name="location"
+      method="POST"
+      action="/thanks/"
+      data-netlify="true"
+      netlify-honeypot="bot-field"
+      enctype="multipart/form-data"
+    >
+      <input type="hidden" name="form-name" value="location" />
+      <p class="visually-hidden"><label>Don&rsquo;t fill this out: <input name="bot-field" /></label></p>
+
+      <label>What is it?
+        <select name="category" required>
+          <option value="">Choose a type&hellip;</option>
+          {grouped.map((g) => (
+            <optgroup label={g.label}>
+              {g.cats.map((c) => <option value={c.label}>{c.label}</option>)}
+            </optgroup>
+          ))}
+          <option value="Something else">Something else</option>
+        </select>
+      </label>
+
+      <label>Short name for the pin
+        <input type="text" name="name" required maxlength="80" placeholder="Ocean Drive &mdash; under the boardwalk" />
+      </label>
+
+      <div class="coord-pair">
+        <label>x &nbsp;<span class="opt">optional</span>
+          <input type="text" name="x" inputmode="decimal" placeholder="31.4" />
+        </label>
+        <label>y &nbsp;<span class="opt">optional</span>
+          <input type="text" name="y" inputmode="decimal" placeholder="68.2" />
+        </label>
+      </div>
+
+      <label>How do you get to it?
+        <textarea name="directions" rows="4" required placeholder="Swim under the boardwalk, it's on the second pillar from the pier. Easier at night."></textarea>
+      </label>
+
+      <label>Screenshot <span class="opt">optional, speeds things up a lot</span>
+        <input type="file" name="screenshot" accept="image/*" />
+      </label>
+
+      <label>Platform <span class="opt">optional</span>
+        <select name="platform">
+          <option value="">&mdash;</option>
+          <option>PS5</option>
+          <option>Xbox Series X|S</option>
+          <option>PC</option>
+        </select>
+      </label>
+
+      <label>Credit this to <span class="opt">optional &mdash; your name or handle, shown on the pin</span>
+        <input type="text" name="credit" maxlength="40" placeholder="@yourhandle" />
+      </label>
+
+      <label>Email <span class="opt">optional, only if you want a reply</span>
+        <input type="email" name="email" autocomplete="email" />
+      </label>
+
+      <button class="btn" type="submit">Send location</button>
+    </form>
+
+    <p class="sources" style="margin-top:18px">
+      By sending a location you confirm it&rsquo;s your own find or your own words, not copied from another site, and
+      you&rsquo;re happy for it to appear on this map. We use your email only to reply &mdash; see our
+      <a href="/privacy-policy/">Privacy Policy</a>.
+    </p>
+
+    <AdSlot position="mid" />
+  </div>
+</BaseLayout>
+
+<style is:global>
+  .submit-steps { display: grid; gap: 12px; margin: 0 0 26px; }
+  @media (min-width: 760px) { .submit-steps { grid-template-columns: repeat(3, minmax(0, 1fr)); } }
+  .submit-steps > div { display: flex; gap: 12px; align-items: flex-start; background: var(--panel); border: 1px solid var(--line); border-radius: 12px; padding: 14px 16px; }
+  .submit-steps .n {
+    flex: none; width: 28px; height: 28px; border-radius: 50%; display: grid; place-items: center;
+    font-weight: 800; font-size: 0.85rem; color: var(--bg); background: var(--cyan); box-shadow: 0 0 10px rgba(25, 227, 255, 0.5);
+  }
+  .submit-steps p { margin: 0; font-size: 0.93rem; color: var(--muted); }
+  .submit-steps strong { color: #fff; display: block; }
+
+  .submit-form .opt { font-weight: 400; font-size: 0.82rem; color: var(--muted); }
+  .submit-form optgroup { background: var(--bg-2); color: var(--pink-soft); }
+  .submit-form input[type='file'] { padding: 10px 12px; color: var(--muted); }
+  .coord-pair { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 14px; }
+</style>
