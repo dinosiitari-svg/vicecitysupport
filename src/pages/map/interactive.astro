@@ -1,0 +1,453 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import AdSlot from '../../components/AdSlot.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import { SITE } from '../../data/site';
+import data from '../../data/map-markers.json';
+
+const { groups, categories, markers } = data;
+
+// Counts per category, rendered server-side so the page has real content for Google
+// (and so it still says something useful if JavaScript never runs).
+const countOf = (catId: string) => markers.filter((m) => m.cat === catId).length;
+const grouped = groups.map((g) => ({
+  ...g,
+  cats: categories.filter((c) => c.group === g.id).map((c) => ({ ...c, count: countOf(c.id) })),
+}));
+const total = markers.length;
+const confirmed = markers.filter((m) => m.status === 'confirmed').length;
+
+const title = 'GTA 6 Interactive Map';
+const description =
+  'Interactive GTA 6 map of Leonida: collectibles, stores, gang territories and more, with filters for each type and tick-boxes that save on your phone.';
+
+const jsonLd = [
+  {
+    '@context': 'https://schema.org',
+    '@type': 'WebApplication',
+    name: `${title} | ${SITE.name}`,
+    applicationCategory: 'GameApplication',
+    operatingSystem: 'Any',
+    url: new URL('/map/interactive/', SITE.url).href,
+    description,
+    offers: { '@type': 'Offer', price: '0', priceCurrency: 'USD' },
+  },
+];
+---
+
+<BaseLayout title={title} description={description} jsonLd={jsonLd}>
+  <div class="wrap">
+    <AdSlot position="top" />
+    <Breadcrumbs trail={[{ label: 'Home', href: '/' }, { label: 'Map & Regions', href: '/map/' }, { label: 'Interactive Map' }]} />
+    <h1>GTA 6 Interactive Map</h1>
+    <p class="direct-answer">
+      Every collectible, store and gang area we have located in Leonida, on one map. Use the filters to show
+      only what you are hunting, and tick things off as you find them &mdash; your ticks save on this device.
+    </p>
+
+    <div class="map-status" id="map-status" hidden>
+      <strong>Base map image not installed yet.</strong>
+      <span>You are looking at a placeholder grid. Markers and filters all work &mdash; drop your map image in
+      <code>public/map/base-map.jpg</code> and it appears here automatically.</span>
+    </div>
+
+    <!-- ─── The map ─── -->
+    <div class="map-app" id="map-app">
+      <div class="map-bar">
+        <button class="map-filter-btn" id="filter-btn" aria-expanded="false" aria-controls="filter-panel">
+          <span class="fb-icon" aria-hidden="true">&#9776;</span> Filters
+          <span class="fb-count" id="fb-count"></span>
+        </button>
+        <div class="map-search">
+          <input type="search" id="marker-search" placeholder="Search locations&hellip;" aria-label="Search map locations" autocomplete="off" />
+        </div>
+        <div class="map-progress" id="map-progress" aria-live="polite">
+          <b id="found-count">0</b> / <span id="shown-count">{total}</span> found
+        </div>
+      </div>
+
+      <div class="map-body">
+        <aside class="filter-panel" id="filter-panel" aria-label="Map filters">
+          <div class="fp-actions">
+            <button type="button" data-all="on">Select all</button>
+            <button type="button" data-all="off">Clear all</button>
+          </div>
+          <label class="fp-toggle">
+            <input type="checkbox" id="hide-found" />
+            <span>Hide what I&rsquo;ve found</span>
+          </label>
+          {grouped.map((g) => (
+            <section class="fp-group">
+              <h2>{g.label}</h2>
+              {g.cats.map((c) => (
+                <label class="fp-row">
+                  <input type="checkbox" class="cat-toggle" value={c.id} checked />
+                  <span class="dot" style={`--c:${c.color}`} aria-hidden="true">{c.glyph}</span>
+                  <span class="fp-label">{c.label}</span>
+                  <span class="fp-num">{c.count}</span>
+                </label>
+              ))}
+            </section>
+          ))}
+          <button type="button" class="btn-reset" id="reset-found">Reset my ticks</button>
+        </aside>
+
+        <div class="map-canvas-wrap">
+          <div id="map" role="application" aria-label="Interactive map of Leonida"></div>
+          <output class="coord-readout" id="coord-readout" hidden></output>
+          <noscript>
+            <div class="map-noscript">
+              The interactive map needs JavaScript. The full list of what is on it is below.
+            </div>
+          </noscript>
+        </div>
+      </div>
+    </div>
+
+    <p class="map-note">
+      {confirmed} of {total} locations are confirmed in-game; the rest come from community reports and are marked
+      with a dashed amber ring until we check them ourselves.
+    </p>
+
+    <AdSlot position="mid" />
+
+    <!-- ─── Server-rendered contents: good for search engines, works without JS ─── -->
+    <h2>What&rsquo;s on the map</h2>
+    <div class="grid">
+      {grouped.map((g) => (
+        <div class="panel">
+          <h3>{g.label}</h3>
+          <ul class="legend-list">
+            {g.cats.map((c) => (
+              <li>
+                <span class="dot" style={`--c:${c.color}`} aria-hidden="true">{c.glyph}</span>
+                {c.page ? <a href={c.page}>{c.label}</a> : <span>{c.label}</span>}
+                <span class="fp-num">{c.count}</span>
+              </li>
+            ))}
+          </ul>
+        </div>
+      ))}
+    </div>
+
+    <h2>How to use it</h2>
+    <ul>
+      <li>Drag to pan, pinch or scroll to zoom, double-tap to zoom in.</li>
+      <li>Open <strong>Filters</strong> and untick everything except the type you are hunting.</li>
+      <li>Tap a marker, then <strong>Mark as found</strong>. Ticks save on this device, so you can close the page and come back.</li>
+      <li>Tick <strong>Hide what I&rsquo;ve found</strong> to clear the map down to what is left.</li>
+    </ul>
+
+    <p class="sources">
+      Fan-made and unofficial. Not affiliated with or endorsed by Rockstar Games or Take-Two Interactive.
+    </p>
+  </div>
+</BaseLayout>
+
+<style is:global>
+  /* ─── Interactive map page ─── */
+  .map-status {
+    display: flex; flex-direction: column; gap: 4px;
+    border: 1px dashed rgba(255, 210, 63, 0.6); background: rgba(255, 210, 63, 0.07);
+    color: #fff3c4; border-radius: var(--radius); padding: 14px 16px; margin: 0 0 16px;
+    font-size: 0.95rem;
+  }
+  .map-status strong { color: var(--warn); }
+  .map-status code { background: var(--bg-2); padding: 1px 6px; border-radius: 5px; color: var(--cyan-soft); }
+
+  .map-app { border: 1px solid var(--line); border-radius: var(--radius); background: var(--panel); overflow: hidden; }
+
+  .map-bar { display: flex; align-items: center; gap: 10px; padding: 10px; border-bottom: 1px solid var(--line); background: var(--bg-2); flex-wrap: wrap; }
+  .map-filter-btn {
+    display: inline-flex; align-items: center; gap: 8px; font: inherit; font-weight: 700; font-size: 0.92rem;
+    color: #fff; background: var(--panel-2); border: 1px solid var(--line); border-radius: 10px;
+    padding: 9px 14px; cursor: pointer; flex: none;
+  }
+  .map-filter-btn:hover { border-color: var(--pink); }
+  .fb-count { color: var(--pink-soft); font-variant-numeric: tabular-nums; }
+  .map-search { flex: 1 1 180px; min-width: 0; }
+  .map-search input {
+    width: 100%; font: inherit; font-size: 0.95rem; color: #fff; background: var(--panel);
+    border: 1px solid var(--line); border-radius: 10px; padding: 9px 14px;
+  }
+  .map-search input:focus { outline: none; border-color: var(--cyan); }
+  .map-progress { flex: none; font-size: 0.9rem; color: var(--muted); font-variant-numeric: tabular-nums; }
+  .map-progress b { color: var(--cyan); font-size: 1.05rem; }
+
+  .map-body { display: grid; grid-template-columns: minmax(0, 1fr); position: relative; }
+  @media (min-width: 900px) { .map-body { grid-template-columns: 252px minmax(0, 1fr); } }
+
+  .filter-panel {
+    background: var(--bg-2); border-right: 1px solid var(--line);
+    padding: 14px; max-height: 620px; overflow-y: auto;
+  }
+  @media (max-width: 899px) {
+    .filter-panel {
+      display: none; position: absolute; inset: 0 0 auto 0; z-index: 1000;
+      max-height: 70vh; border-right: 0; border-bottom: 1px solid var(--line);
+      box-shadow: 0 16px 40px rgba(0, 0, 0, 0.6);
+    }
+    .filter-panel.open { display: block; }
+  }
+  .fp-actions { display: flex; gap: 8px; margin-bottom: 12px; }
+  .fp-actions button {
+    flex: 1; font: inherit; font-size: 0.82rem; color: var(--muted); background: none;
+    border: 1px solid var(--line); border-radius: 8px; padding: 7px 4px; cursor: pointer;
+  }
+  .fp-actions button:hover { color: #fff; border-color: var(--cyan); }
+  .fp-toggle { display: flex; align-items: center; gap: 9px; font-size: 0.9rem; color: var(--text); padding: 8px 0 12px; border-bottom: 1px solid var(--line); cursor: pointer; }
+  .fp-group h2 { font-size: 0.78rem; text-transform: uppercase; letter-spacing: 0.08em; color: var(--pink-soft); text-shadow: none; margin: 16px 0 6px; }
+  .fp-row { display: flex; align-items: center; gap: 9px; padding: 6px 4px; border-radius: 8px; cursor: pointer; min-height: 38px; }
+  .fp-row:hover { background: var(--panel-2); }
+  .fp-label { flex: 1; font-size: 0.92rem; min-width: 0; }
+  .fp-num { color: var(--muted); font-size: 0.8rem; font-variant-numeric: tabular-nums; }
+  .filter-panel input[type='checkbox'], .fp-toggle input[type='checkbox'] {
+    appearance: none; flex: none; width: 20px; height: 20px; margin: 0; border-radius: 6px;
+    border: 2px solid var(--cyan); background: transparent; display: grid; place-items: center; cursor: pointer;
+  }
+  .filter-panel input[type='checkbox']:checked, .fp-toggle input[type='checkbox']:checked { background: var(--cyan); }
+  .filter-panel input[type='checkbox']:checked::after, .fp-toggle input[type='checkbox']:checked::after {
+    content: ''; width: 5px; height: 10px; border: solid var(--bg); border-width: 0 3px 3px 0; transform: rotate(45deg) translate(-1px, -1px);
+  }
+  .filter-panel .btn-reset { width: 100%; margin-top: 18px; }
+
+  .dot {
+    flex: none; width: 22px; height: 22px; border-radius: 50%;
+    display: inline-grid; place-items: center; font-size: 11px; line-height: 1;
+    color: #0a0710; background: var(--c); box-shadow: 0 0 9px color-mix(in srgb, var(--c) 65%, transparent);
+  }
+
+  .map-canvas-wrap { position: relative; min-width: 0; }
+  #map { height: 620px; background: var(--bg); }
+  @media (max-width: 899px) { #map { height: 72vh; min-height: 420px; } .filter-panel { max-height: 70vh; } }
+  .map-noscript { padding: 40px 20px; text-align: center; color: var(--muted); }
+
+  /* Coordinate helper — only appears with ?coords in the URL, for adding markers */
+  .coord-readout {
+    position: absolute; right: 10px; bottom: 10px; z-index: 900;
+    background: rgba(10, 7, 16, 0.9); border: 1px solid var(--line); border-radius: 9px;
+    padding: 7px 11px; font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+    font-size: 0.82rem; color: var(--cyan-soft); pointer-events: none; user-select: all;
+  }
+
+  /* Leaflet marker pins */
+  .pin {
+    width: 24px; height: 24px; border-radius: 50%; display: grid; place-items: center;
+    font-size: 12px; line-height: 1; color: #0a0710; background: var(--c);
+    border: 2px solid rgba(10, 7, 16, 0.85);
+    box-shadow: 0 0 10px color-mix(in srgb, var(--c) 70%, transparent);
+    cursor: pointer; transition: transform 0.12s;
+  }
+  .pin:hover { transform: scale(1.25); }
+  .pin.unverified { border-style: dashed; border-color: var(--warn); }
+  .pin.found { opacity: 0.4; filter: grayscale(1); }
+
+  /* Leaflet chrome, restyled for the dark neon theme */
+  .leaflet-container { background: var(--bg); font: inherit; outline: none; }
+  .leaflet-bar a, .leaflet-bar a:hover {
+    background: var(--panel); color: #fff; border-bottom-color: var(--line);
+  }
+  .leaflet-bar a:hover { background: var(--panel-2); color: var(--cyan); }
+  .leaflet-bar { border: 1px solid var(--line); box-shadow: none; }
+  .leaflet-popup-content-wrapper {
+    background: var(--panel); color: var(--text); border: 1px solid var(--line);
+    border-radius: 12px; box-shadow: 0 10px 34px rgba(0, 0, 0, 0.6);
+  }
+  .leaflet-popup-tip { background: var(--panel); border: 1px solid var(--line); }
+  .leaflet-popup-content { margin: 14px 16px; font-size: 0.95rem; line-height: 1.5; }
+  .leaflet-popup-close-button { color: var(--muted) !important; }
+  .leaflet-container a.leaflet-popup-close-button:hover { color: #fff !important; background: transparent; }
+  .pop-cat { font-size: 0.74rem; text-transform: uppercase; letter-spacing: 0.07em; color: var(--c); font-weight: 700; }
+  .pop-name { font-weight: 700; color: #fff; margin: 3px 0 4px; font-size: 1rem; }
+  .pop-note { color: var(--muted); margin: 0 0 10px; }
+  .pop-flag { display: inline-block; font-size: 0.74rem; color: var(--warn); border: 1px solid rgba(255, 210, 63, 0.5); border-radius: 999px; padding: 2px 9px; margin-bottom: 8px; }
+  .pop-btn {
+    display: block; width: 100%; font: inherit; font-weight: 700; font-size: 0.88rem; cursor: pointer;
+    color: var(--bg); background: var(--cyan); border: 0; border-radius: 9px; padding: 9px 12px;
+  }
+  .pop-btn.is-found { background: var(--panel-2); color: var(--muted); border: 1px solid var(--line); }
+  .pop-link { display: inline-block; margin-top: 9px; font-size: 0.88rem; }
+
+  .legend-list { list-style: none; padding: 0; margin: 0; display: grid; gap: 8px; }
+  .legend-list li { display: flex; align-items: center; gap: 9px; font-size: 0.93rem; }
+  .legend-list li > a, .legend-list li > span:not(.dot):not(.fp-num) { flex: 1; }
+  .map-note { color: var(--muted); font-size: 0.9rem; margin: 14px 0 0; }
+</style>
+
+<script>
+  import L from 'leaflet';
+  import 'leaflet/dist/leaflet.css';
+  import data from '../../data/map-markers.json';
+
+  const { map: cfg, categories, markers } = data;
+  const catById = Object.fromEntries(categories.map((c) => [c.id, c]));
+  const STORE_KEY = 'vcs-map-found';
+
+  const el = document.getElementById('map');
+  if (el) {
+    // ─── Found-state, saved on this device (same idea as the checklist pages) ───
+    let found: Set<string>;
+    try {
+      found = new Set<string>(JSON.parse(localStorage.getItem(STORE_KEY) || '[]'));
+    } catch {
+      found = new Set<string>();
+    }
+    const keyOf = (m: { cat: string; name: string }) => `${m.cat}|${m.name}`;
+    const save = () => {
+      try {
+        localStorage.setItem(STORE_KEY, JSON.stringify([...found]));
+      } catch {
+        /* private mode — ticks just won't persist */
+      }
+    };
+
+    // ─── Map, in plain image coordinates ───
+    const map = L.map(el, {
+      crs: L.CRS.Simple,
+      minZoom: -5,
+      maxZoom: 4,
+      zoomControl: true,
+      attributionControl: false,
+      preferCanvas: true,
+    });
+    const bounds = L.latLngBounds([0, 0], [cfg.height, cfg.width]);
+
+    // Use the real map image when it's installed, otherwise fall back to the placeholder grid.
+    const probe = new Image();
+    probe.onload = () => L.imageOverlay(cfg.image, bounds).addTo(map);
+    probe.onerror = () => {
+      L.imageOverlay(cfg.placeholder, bounds).addTo(map);
+      document.getElementById('map-status')?.removeAttribute('hidden');
+    };
+    probe.src = cfg.image;
+
+    map.fitBounds(bounds);
+    map.setMaxBounds(bounds.pad(0.25));
+    map.setMinZoom(map.getZoom() - 1);
+
+    // ─── Markers ───
+    const layer = L.layerGroup().addTo(map);
+    const entries = markers.map((m) => {
+      const cat = catById[m.cat];
+      const key = keyOf(m);
+      const icon = L.divIcon({
+        className: '',
+        html: `<div class="pin ${m.status !== 'confirmed' ? 'unverified' : ''} ${found.has(key) ? 'found' : ''}" style="--c:${cat?.color || '#fff'}">${cat?.glyph || ''}</div>`,
+        iconSize: [24, 24],
+        iconAnchor: [12, 12],
+        popupAnchor: [0, -14],
+      });
+      const marker = L.marker([cfg.height * (1 - m.y / 100), cfg.width * (m.x / 100)], {
+        icon,
+        title: m.name,
+        keyboard: true,
+        alt: `${cat?.label || m.cat}: ${m.name}`,
+      });
+      marker.bindPopup(() => popupHtml(m, cat, key), { minWidth: 210, maxWidth: 260 });
+      marker.on('popupopen', (e) => {
+        const btn = e.popup.getElement()?.querySelector('.pop-btn');
+        btn?.addEventListener('click', () => {
+          found.has(key) ? found.delete(key) : found.add(key);
+          save();
+          refresh();
+          marker.closePopup();
+        });
+      });
+      return { m, cat, key, marker };
+    });
+
+    function popupHtml(m: any, cat: any, key: string) {
+      const isFound = found.has(key);
+      return `
+        <div class="pop" style="--c:${cat?.color || '#fff'}">
+          <div class="pop-cat">${esc(cat?.label || m.cat)}</div>
+          <div class="pop-name">${esc(m.name)}</div>
+          ${m.status !== 'confirmed' ? '<span class="pop-flag">Unconfirmed &mdash; community report</span>' : ''}
+          ${m.note ? `<p class="pop-note">${esc(m.note)}</p>` : ''}
+          <button class="pop-btn ${isFound ? 'is-found' : ''}" type="button">${isFound ? 'Found ✓ — undo' : 'Mark as found'}</button>
+          ${cat?.page ? `<a class="pop-link" href="${cat.page}">More on ${esc(cat.label)} &rarr;</a>` : ''}
+        </div>`;
+    }
+    const esc = (s: string) =>
+      String(s).replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]!));
+
+    // ─── Filtering ───
+    const catBoxes = [...document.querySelectorAll<HTMLInputElement>('.cat-toggle')];
+    const hideFound = document.getElementById('hide-found') as HTMLInputElement | null;
+    const search = document.getElementById('marker-search') as HTMLInputElement | null;
+    const shownCount = document.getElementById('shown-count');
+    const foundCount = document.getElementById('found-count');
+    const fbCount = document.getElementById('fb-count');
+
+    function refresh() {
+      const on = new Set(catBoxes.filter((b) => b.checked).map((b) => b.value));
+      const q = (search?.value || '').trim().toLowerCase();
+      const hide = !!hideFound?.checked;
+      let shown = 0;
+      let foundShown = 0;
+
+      for (const e of entries) {
+        const isFound = found.has(e.key);
+        const visible =
+          on.has(e.m.cat) &&
+          (!q || e.m.name.toLowerCase().includes(q) || (e.m.note || '').toLowerCase().includes(q)) &&
+          !(hide && isFound);
+
+        if (visible) {
+          shown++;
+          if (isFound) foundShown++;
+          if (!layer.hasLayer(e.marker)) layer.addLayer(e.marker);
+          const pin = e.marker.getElement()?.querySelector('.pin');
+          pin?.classList.toggle('found', isFound);
+        } else if (layer.hasLayer(e.marker)) {
+          layer.removeLayer(e.marker);
+        }
+      }
+
+      if (shownCount) shownCount.textContent = String(shown);
+      if (foundCount) foundCount.textContent = String(foundShown);
+      if (fbCount) fbCount.textContent = `${on.size}/${catBoxes.length}`;
+    }
+
+    catBoxes.forEach((b) => b.addEventListener('change', refresh));
+    hideFound?.addEventListener('change', refresh);
+    search?.addEventListener('input', refresh);
+    document.querySelectorAll<HTMLButtonElement>('.fp-actions button').forEach((b) =>
+      b.addEventListener('click', () => {
+        const on = b.dataset.all === 'on';
+        catBoxes.forEach((c) => (c.checked = on));
+        refresh();
+      }),
+    );
+    document.getElementById('reset-found')?.addEventListener('click', () => {
+      if (!confirm('Clear every location you have ticked off?')) return;
+      found.clear();
+      save();
+      refresh();
+    });
+
+    // ─── Coordinate helper: add ?coords to the URL when you're placing markers ───
+    if (new URLSearchParams(location.search).has('coords')) {
+      const out = document.getElementById('coord-readout');
+      out?.removeAttribute('hidden');
+      const clamp = (n: number) => Math.min(100, Math.max(0, n)).toFixed(1);
+      const show = (e: any) => {
+        const x = clamp((e.latlng.lng / cfg.width) * 100);
+        const y = clamp((1 - e.latlng.lat / cfg.height) * 100);
+        if (out) out.textContent = `"x": ${x}, "y": ${y}`;
+      };
+      map.on('mousemove', show);
+      map.on('click', show);
+    }
+
+    // Filter panel toggle (mobile)
+    const fBtn = document.getElementById('filter-btn');
+    const fPanel = document.getElementById('filter-panel');
+    fBtn?.addEventListener('click', () => {
+      const open = fPanel!.classList.toggle('open');
+      fBtn.setAttribute('aria-expanded', String(open));
+    });
+
+    refresh();
+  }
+</script>

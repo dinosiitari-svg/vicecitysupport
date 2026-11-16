@@ -1,4 +1,23 @@
 ---
 import SectionIndex from '../../components/SectionIndex.astro';
+import Icon from '../../components/Icon.astro';
+import data from '../../data/map-markers.json';
+const total = data.markers.length;
 ---
-<SectionIndex section="map" />
+<SectionIndex section="map">
+  <a class="card featured-map" href="/map/interactive/">
+    <span class="icon"><Icon name="map" size={24} /></span>
+    <h3>Interactive Map</h3>
+    <p>Every collectible, store and gang area on one map, with a filter for each type and tick-boxes that save on your phone.</p>
+    <span class="count">{total} locations mapped &rarr;</span>
+  </a>
+</SectionIndex>
+
+<style is:global>
+  .featured-map {
+    margin: 0 0 22px;
+    border-color: rgba(255, 46, 151, 0.55);
+    background: linear-gradient(135deg, rgba(255, 46, 151, 0.12), rgba(25, 227, 255, 0.07));
+  }
+  .featured-map .icon { background: rgba(255, 46, 151, 0.12); color: var(--pink); border-color: rgba(255, 46, 151, 0.4); }
+</style>

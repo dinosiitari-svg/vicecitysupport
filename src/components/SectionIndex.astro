@@ -15,6 +15,7 @@ const pages = (await getPublicPages()).filter((p) => sectionOf(p) === section).s
     <Breadcrumbs trail={[{ label: 'Home', href: '/' }, { label: sec.label }]} />
     <h1>GTA 6 {sec.label}</h1>
     <p>{sec.blurb}</p>
+    <slot />
     <ul class="page-list">
       {pages.map((p) => (
         <li><a href={urlOf(p)}><span class="q">{p.data.question}</span>

@@ -1,0 +1,86 @@
+{
+  "_readme": [
+    "EVERYTHING on the interactive map comes from this one file. See HOW-TO-ADD-A-MARKER.md.",
+    "x and y are PERCENTAGES of the base image (x: 0 = left edge, 100 = right edge; y: 0 = top, 100 = bottom).",
+    "Percentages mean you can swap the base map image for a bigger/better one without moving a single marker.",
+    "status: 'confirmed' = you verified it in-game. 'unverified' = from a community source, shown with a dashed amber ring."
+  ],
+
+  "map": {
+    "image": "/map/base-map.jpg",
+    "placeholder": "/map/base-map-placeholder.svg",
+    "width": 4096,
+    "height": 4096,
+    "credit": ""
+  },
+
+  "groups": [
+    { "id": "collectibles", "label": "Collectibles" },
+    { "id": "stores", "label": "Stores & Services" },
+    { "id": "activities", "label": "Activities" },
+    { "id": "areas", "label": "Areas & Points of Interest" }
+  ],
+
+  "categories": [
+    { "id": "hidden-packages", "group": "collectibles", "label": "Hidden Packages", "color": "#ff2e97", "glyph": "◆", "page": "/collectibles/" },
+    { "id": "street-art",      "group": "collectibles", "label": "Street Art",      "color": "#c77dff", "glyph": "✿", "page": "/collectibles/" },
+    { "id": "signal-jammers",  "group": "collectibles", "label": "Signal Jammers",  "color": "#19e3ff", "glyph": "▲", "page": "/collectibles/" },
+    { "id": "shipwrecks",      "group": "collectibles", "label": "Shipwrecks",      "color": "#3ef0a0", "glyph": "⚓", "page": "/collectibles/" },
+    { "id": "time-capsules",   "group": "collectibles", "label": "Time Capsules",   "color": "#ffd23f", "glyph": "●", "page": "/collectibles/" },
+
+    { "id": "clothing",   "group": "stores", "label": "Clothing Stores", "color": "#ff7ac0", "glyph": "☂", "page": "" },
+    { "id": "gun-shops",  "group": "stores", "label": "Gun Shops",       "color": "#ff6b4a", "glyph": "⌖", "page": "" },
+    { "id": "barbers",    "group": "stores", "label": "Barbers & Tattoo","color": "#8af1ff", "glyph": "✂", "page": "" },
+    { "id": "garages",    "group": "stores", "label": "Garages & Mods",  "color": "#ffb347", "glyph": "⚙", "page": "" },
+    { "id": "safehouses", "group": "stores", "label": "Safehouses",      "color": "#9ee37d", "glyph": "⌂", "page": "" },
+
+    { "id": "stunt-jumps", "group": "activities", "label": "Stunt Jumps",   "color": "#ff2e97", "glyph": "↑", "page": "" },
+    { "id": "races",       "group": "activities", "label": "Races",         "color": "#19e3ff", "glyph": "▶", "page": "" },
+    { "id": "side-jobs",   "group": "activities", "label": "Side Jobs",     "color": "#ffd23f", "glyph": "★", "page": "" },
+
+    { "id": "gang-areas",      "group": "areas", "label": "Gang Territories", "color": "#e5484d", "glyph": "■", "page": "" },
+    { "id": "police",          "group": "areas", "label": "Police Stations",  "color": "#5b8dff", "glyph": "◉", "page": "" },
+    { "id": "hospitals",       "group": "areas", "label": "Hospitals",        "color": "#ffffff", "glyph": "✚", "page": "" },
+    { "id": "viewpoints",      "group": "areas", "label": "Viewpoints",       "color": "#c0f070", "glyph": "◎", "page": "" }
+  ],
+
+  "markers": [
+    { "cat": "hidden-packages", "x": 31.4, "y": 68.2, "name": "Ocean Drive — under the boardwalk", "note": "SAMPLE DATA. Swim under the third set of pillars from the pier.", "status": "unverified" },
+    { "cat": "hidden-packages", "x": 44.9, "y": 55.1, "name": "Downtown rooftop AC unit", "note": "SAMPLE DATA. Fire escape on the east side of the block.", "status": "unverified" },
+    { "cat": "hidden-packages", "x": 62.3, "y": 41.7, "name": "Everglades airboat wreck", "note": "SAMPLE DATA. Tucked inside the half-sunken hull.", "status": "unverified" },
+    { "cat": "hidden-packages", "x": 22.7, "y": 79.4, "name": "Marina storm drain", "note": "SAMPLE DATA. Crouch-walk in at low tide.", "status": "unverified" },
+
+    { "cat": "street-art", "x": 38.1, "y": 60.5, "name": "Alley mural, Little Havana", "note": "SAMPLE DATA. Behind the laundromat.", "status": "unverified" },
+    { "cat": "street-art", "x": 50.6, "y": 49.8, "name": "Overpass piece", "note": "SAMPLE DATA. Visible from the northbound lane.", "status": "unverified" },
+    { "cat": "street-art", "x": 29.2, "y": 72.9, "name": "Skate park wall", "note": "SAMPLE DATA. South wall of the bowl.", "status": "unverified" },
+
+    { "cat": "signal-jammers", "x": 55.8, "y": 33.4, "name": "Radio mast, north ridge", "note": "SAMPLE DATA. Base of the tower, behind the fence.", "status": "unverified" },
+    { "cat": "signal-jammers", "x": 41.3, "y": 24.6, "name": "Industrial park roof", "note": "SAMPLE DATA. Needs a helicopter or a long climb.", "status": "unverified" },
+
+    { "cat": "shipwrecks", "x": 17.5, "y": 58.3, "name": "Offshore freighter", "note": "SAMPLE DATA. Deep dive, bring scuba gear.", "status": "unverified" },
+    { "cat": "shipwrecks", "x": 13.8, "y": 71.2, "name": "Reef sailboat", "note": "SAMPLE DATA. Shallow enough to free-dive.", "status": "unverified" },
+
+    { "cat": "time-capsules", "x": 67.4, "y": 62.8, "name": "Swamp cabin yard", "note": "SAMPLE DATA. Dig spot marked by the rusted mailbox.", "status": "unverified" },
+    { "cat": "time-capsules", "x": 48.2, "y": 77.6, "name": "Beach dunes", "note": "SAMPLE DATA. Between the two lifeguard towers.", "status": "unverified" },
+
+    { "cat": "clothing", "x": 36.5, "y": 63.9, "name": "Beachfront clothing store", "note": "SAMPLE DATA.", "status": "unverified" },
+    { "cat": "clothing", "x": 52.1, "y": 51.3, "name": "Downtown mall outlet", "note": "SAMPLE DATA.", "status": "unverified" },
+    { "cat": "gun-shops", "x": 45.7, "y": 58.4, "name": "Strip-mall gun shop", "note": "SAMPLE DATA.", "status": "unverified" },
+    { "cat": "gun-shops", "x": 64.9, "y": 47.2, "name": "Rural gun shop", "note": "SAMPLE DATA.", "status": "unverified" },
+    { "cat": "barbers", "x": 34.8, "y": 66.7, "name": "Ocean Drive barber", "note": "SAMPLE DATA.", "status": "unverified" },
+    { "cat": "garages", "x": 42.6, "y": 69.8, "name": "Custom garage", "note": "SAMPLE DATA.", "status": "unverified" },
+    { "cat": "safehouses", "x": 33.9, "y": 64.8, "name": "Starter apartment", "note": "SAMPLE DATA.", "status": "unverified" },
+    { "cat": "safehouses", "x": 59.4, "y": 55.9, "name": "Trailer, out east", "note": "SAMPLE DATA.", "status": "unverified" },
+
+    { "cat": "stunt-jumps", "x": 47.3, "y": 44.1, "name": "Canal ramp", "note": "SAMPLE DATA. Approach fast from the west.", "status": "unverified" },
+    { "cat": "stunt-jumps", "x": 57.6, "y": 68.4, "name": "Construction site ramp", "note": "SAMPLE DATA.", "status": "unverified" },
+    { "cat": "races", "x": 39.8, "y": 52.7, "name": "Street race start", "note": "SAMPLE DATA. Night only.", "status": "unverified" },
+    { "cat": "side-jobs", "x": 43.4, "y": 61.2, "name": "Courier job board", "note": "SAMPLE DATA.", "status": "unverified" },
+
+    { "cat": "gang-areas", "x": 37.2, "y": 57.6, "name": "North-side crew turf", "note": "SAMPLE DATA. Heavier police response at night.", "status": "unverified" },
+    { "cat": "gang-areas", "x": 61.8, "y": 59.3, "name": "Backcountry crew turf", "note": "SAMPLE DATA.", "status": "unverified" },
+    { "cat": "police", "x": 40.1, "y": 59.8, "name": "Central police station", "note": "SAMPLE DATA.", "status": "unverified" },
+    { "cat": "hospitals", "x": 46.8, "y": 56.2, "name": "City hospital", "note": "SAMPLE DATA. Respawn point.", "status": "unverified" },
+    { "cat": "viewpoints", "x": 53.9, "y": 36.8, "name": "Ridge lookout", "note": "SAMPLE DATA. Good screenshot spot.", "status": "unverified" }
+  ]
+}
