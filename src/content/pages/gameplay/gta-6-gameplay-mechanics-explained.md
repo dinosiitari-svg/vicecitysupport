@@ -34,6 +34,12 @@ items:
     detail: "Jewelry stores are reported to open after Chapter 3, bank vaults and armored trucks after an optional Chapter 4 mission."
   - title: "Loot has to be fenced"
     detail: "Duffel-bag loot isn't cash until you sell it to a fence, and carried cash should be banked at an ATM."
+  - title: "Three kinds of money"
+    detail: "Bank balance is safe, carried cash is capped and lost on death, and loot must be fenced before it's money."
+  - title: "Safehouses come with the story"
+    detail: "You don't buy them; they work like a home base, similar to the camp in Red Dead Redemption 2."
+  - title: "Police hidden from the minimap"
+    detail: "Officers reportedly no longer appear on the minimap; the Focus ability shows nearby police instead."
   - title: "In-game social media"
     detail: "A social feed that reacts to the world is part of the game."
 faq:
@@ -64,6 +70,8 @@ order: 0
 - [How the GTA 6 wanted system works](/gameplay/how-does-the-wanted-system-work-in-gta-6/)
 - [Switching between Jason and Lucia](/gameplay/can-you-switch-between-jason-and-lucia/)
 - [How robberies work](/gameplay/how-do-robberies-work-in-gta-6/)
+- [How to make money](/gameplay/how-to-make-money-in-gta-6/)
+- [How safehouses work](/gameplay/how-do-safehouses-work-in-gta-6/)
 
 ## How we'll update this page
 

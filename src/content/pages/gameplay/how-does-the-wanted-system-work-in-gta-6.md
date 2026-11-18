@@ -16,6 +16,8 @@ items:
     detail: "Police note whether the pair are together. Separating can throw off a search that's looking for two people."
   - title: "Leave the hot area and stay away"
     detail: "Places where you commit crimes stay on alert for a while. Going back too soon can push your stars right back up."
+  - title: "Wait out the red stars"
+    detail: "Once you've escaped the chase, the stars reportedly turn red and police search a red hot area on the map based on what they know. Stay out of it until the heat drops."
   - title: "Use a Pay 'n' Spray"
     detail: "Previews report that a respray still clears your wanted level."
 faq:
@@ -28,8 +30,16 @@ faq:
   - q: "What are hot areas?"
     a: "Areas where you've committed crimes stay on alert, with more police around, for some time afterwards. If you return while it's still hot, your wanted level can come back."
   - q: "What are the icons under the wanted stars?"
-    a: "They show what police know about you, for example your clothing, vehicle, weapon and whether Jason and Lucia are together."
+    a: "They show what police know about you, for example your appearance, clothing, vehicle, weapon, CCTV footage and whether Jason and Lucia are together. Each one can be cleared: change your hair or wear a mask or hat, change outfit, swap or respray the car, get rid of the weapon, destroy the footage, or split the pair up."
+  - q: "What do red wanted stars mean?"
+    a: "Guides report that red stars mean you've escaped the immediate chase but police are still searching the area, shown as a red hot area on the map. At the highest level that area can reportedly cover the whole map."
+  - q: "Can you see cops on the minimap in GTA 6?"
+    a: "Reportedly not. Police no longer show on the minimap; instead you use the Focus ability to spot nearby officers, even through walls."
+  - q: "Does a mask stop you getting a wanted level?"
+    a: "Wearing a mask and avoiding witnesses and cameras may leave police with no description, which shows as a hollow star. This is reported in guides but not yet confirmed in-game."
 sources:
+  - label: "GTAbase: GTA 6 wanted level and police system guide"
+    url: "https://www.gtabase.com/articles/gta-6/gta-6-wanted-level-explained-police-system-guide"
   - label: "SVG: GTA 6's wanted system, everything Rockstar has confirmed"
     url: "https://www.svg.com/2246084/gta-6-wanted-system-explained-rockstar/"
   - label: "Press Start: how GTA 6's reinvented wanted system works"
@@ -47,4 +57,4 @@ order: 1
 
 ## What isn't confirmed yet
 
-Exactly which crimes give which star level, how long a hot area lasts, and whether there's a long-term record that follows you between crimes. We'll fill these in as we test them.
+Exactly which crimes give which star level, how long a hot area lasts, and what being busted or wasted costs you. One guide reports that splitting Jason and Lucia drops your wanted level by a star; we haven't seen that confirmed elsewhere. Guides also report that police keep a profile of you after a wanted level ends, but how long it lasts isn't known. We'll fill these in as we test them.
