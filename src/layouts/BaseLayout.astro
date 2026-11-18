@@ -2,7 +2,7 @@
 import '../styles/global.css';
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
-import { SITE } from '../data/site';
+import { SITE, adsensePubId } from '../data/site';
 
 interface Props {
   title: string;              // page title (site name is appended)
@@ -17,6 +17,8 @@ const { title, description = SITE.description, ogType = 'website', noindex = fal
 const canonical = new URL(Astro.url.pathname, SITE.url).href;
 const fullTitle = title === SITE.name ? `${SITE.name}: ${SITE.tagline}` : `${title} | ${SITE.name}`;
 const ogImage = new URL('/og-default.png', SITE.url).href;
+const pubId = adsensePubId();
+const adClient = pubId ? `ca-${pubId}` : '';
 ---
 <!doctype html>
 <html lang="en">
@@ -50,7 +52,17 @@ const ogImage = new URL('/og-default.png', SITE.url).href;
 
     {jsonLd.map((d) => <script type="application/ld+json" set:html={JSON.stringify(d)} />)}
 
-    <!-- AD NETWORK HEAD CODE goes here later (e.g. AdSense auto-ads script). -->
+    {/* Google AdSense: only added once ADS.adsenseClient is set in src/data/site.ts.
+        The same script shows Google's own cookie-consent message to EU/UK visitors
+        once that message is switched on in the AdSense account. */}
+    {adClient && <meta name="google-adsense-account" content={adClient} />}
+    {adClient && (
+      <script
+        async
+        src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${adClient}`}
+        crossorigin="anonymous"
+      ></script>
+    )}
   </head>
   <body>
     <a class="skip" href="#main">Skip to content</a>

@@ -20,6 +20,33 @@ export const SOCIAL = {
   reddit: '',
 };
 
+// ─── Advertising (Google AdSense) ───
+// Leave adsenseClient as '' until you have an AdSense account. While it's empty,
+// no ad code, no ads.txt and no ad boxes appear anywhere on the site.
+//
+// When you sign up, AdSense shows your publisher ID, which looks like
+// 'ca-pub-1234567890123456'. Paste it below and push: that adds the AdSense
+// code to every page (so Google can check the site), creates /ads.txt, and
+// turns on Auto ads once Google approves you.
+//
+// slots: optional. Only fill these if you create manual "ad units" in AdSense
+// and want ads in the fixed top / mid / sidebar spots. Auto ads work without them.
+export const ADS = {
+  adsenseClient: '' as string,   // e.g. 'ca-pub-1234567890123456'
+  slots: {
+    top: '' as string,
+    mid: '' as string,
+    sidebar: '' as string,
+  },
+};
+
+/** 'ca-pub-123…' (or 'pub-123…') → 'pub-123…', the form ads.txt needs. '' if not set. */
+export function adsensePubId(): string {
+  const id = ADS.adsenseClient.trim();
+  if (!id) return '';
+  return id.startsWith('ca-') ? id.slice(3) : id;
+}
+
 // Sections = first folder in src/content/pages/. Shown in the nav and homepage grid.
 export const SECTIONS = {
   launch: {
