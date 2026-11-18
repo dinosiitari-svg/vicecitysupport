@@ -1,24 +1,44 @@
 ---
 question: "How many collectibles are in GTA 6?"
-answer: "This is being verified at launch, check back soon: GTA 6 releases on November 19, 2026 and we only publish answers we've confirmed in-game."
-description: "How many collectibles are in GTA 6? Full count by type, verified in-game after the November 19, 2026 launch."
+answer: "Early guides count roughly 3,000 trackable items in GTA 6's in-game Progress list, with the biggest collectible sets being 480 trading cards (in 18 sets) and 125 Cocaine Flamingos."
+description: "How many collectibles are in GTA 6? About 3,000 tracked items, including 480 cards in 18 sets and 125 Cocaine Flamingos. Counts by type."
 status: verifying
-# lastVerified: 2026-11-20   <- add when you verify in-game, then set status: verified
-updated: 2026-11-13
+statusNote: "Early numbers from guide writers who played before launch. We are checking them in-game and will update."
+updated: 2026-11-18
 listType: locations
-listTitle: "Collectible types and counts"
+listTitle: "Collectible types and counts (early reports)"
 checklist: false
 placeholderCount: 6
-items: []
-# items:
-#   - title: "Example item name"
-#     detail: "Where it is / how to get it"
+items:
+  - title: "Collectible cards: 480"
+    detail: "Split across 18 themed sets. You can sell cards at pawn shops."
+  - title: "Cocaine Flamingos: 125"
+    detail: "The largest single collectible type reported so far."
+  - title: "WAiNK photo scans: 112"
+    detail: "Four groups: 31 landmarks, 35 curiosities, 23 sculptures and 23 No Flusher tags."
+  - title: "Underwater discoveries: 33"
+    detail: "Found by diving."
+  - title: "Magazines, books and comics: 27"
+    detail: "Plus 7 book swap spots."
+  - title: "Meditation spots: 18"
+    detail: "Listed under exploration in the Progress menu."
+  - title: "Wyman's cars: 5"
+    detail: "Reported as exclusive to the Ultimate Edition."
 faq:
+  - q: "Why do some sites say GTA 6 has 3,000 collectibles?"
+    a: "The in-game Progress list also tracks things like vehicles, weapons, animals, stunt jumps, robberies and shops. Counted together, that's around 3,000 entries. The classic 'find them all' collectibles are a smaller part of it."
+  - q: "Where can I see how many collectibles I have?"
+    a: "Guides report a Progress section in the map menu that lists every category. See our page on the in-game collectibles tracker."
   - q: "Do the collectible counts differ between PS5 and Xbox?"
-    a: "Being verified at launch, check back soon."
+    a: "No difference has been reported. We'll update this if that changes."
+sources:
+  - label: "PowerPyx: GTA 6 collectible guide and Progress Database overview"
+    url: "https://www.powerpyx.com/gta-6-collectible-guide-progress-database/"
+  - label: "PowerPyx: GTA 6 collectible card sets overview"
+    url: "https://www.powerpyx.com/gta-6-all-collectible-card-sets-locations/"
 order: 1
 ---
 
-<!-- After launch: replace the answer above with a one-sentence direct answer,
-     fill in `items`, set `status: verified` and `lastVerified`, and write any
-     extra tips below this line (or delete this comment). -->
+## What counts as a collectible
+
+GTA 6 tracks a lot more than hidden items. The Progress list reportedly also covers vehicles, weapons, animals, fishing, stunt jumps, races, gang operations and robberies. This page lists the item types you collect by finding them in the world. We'll add exact in-game confirmations as we check them.
