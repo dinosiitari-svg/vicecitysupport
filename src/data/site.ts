@@ -37,6 +37,11 @@ export const SECTIONS = {
     blurb: 'Region-by-region collectible routes across Leonida.',
     icon: 'map',
   },
+  gameplay: {
+    label: 'Gameplay',
+    blurb: 'How the wanted system, character switching and other GTA 6 mechanics work.',
+    icon: 'pad',
+  },
 } as const;
 
 export type SectionKey = keyof typeof SECTIONS;
