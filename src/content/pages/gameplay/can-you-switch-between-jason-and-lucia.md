@@ -14,8 +14,8 @@ items:
     detail: "Certain story moments are meant to be seen from Jason's or Lucia's side only, so switching is disabled there."
   - title: "They can play together or apart"
     detail: "The pair can travel as a duo or split up and do their own thing, and they can call and text each other when apart."
-  - title: "When it unlocks: not confirmed"
-    detail: "One guide reports free switching opens up about 30% of the way into the story. We haven't confirmed this yet."
+  - title: "When it unlocks: after Chapter 2 (reported)"
+    detail: "A trophy guide written from pre-launch play says free roam with both characters and switching open after the Chapter 2 mission Coffee Break. The game has five chapters, so that's roughly in line with earlier reports of about 30–40% in."
 faq:
   - q: "Can you switch characters at any time in GTA 6?"
     a: "Not at any time. Switching is limited during some story sections, and Rockstar describes it as tied to story progress."
@@ -24,6 +24,8 @@ faq:
   - q: "What button switches characters in GTA 6?"
     a: "Reports disagree (a shoulder button vs. the D-pad). We'll confirm the control in-game and update this answer."
 sources:
+  - label: "PowerPyx: GTA 6 trophy guide and roadmap"
+    url: "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/"
   - label: "TweakTown: Rockstar explains how GTA 6 character switching works"
     url: "https://www.tweaktown.com/news/113383/rockstar-explains-how-gta-6-character-switching-will-work-between-jason-and-lucia/index.html"
   - label: "GameSpot: how to switch between Jason and Lucia"

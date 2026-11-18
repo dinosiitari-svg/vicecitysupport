@@ -1,7 +1,7 @@
 ---
 question: "Are any GTA 6 collectibles missable?"
-answer: "No missable collectibles have been reported so far, but collectible cards are a limited supply (you can't farm them by buying items), so don't sell or skip cards you need for a set."
-description: "Can you miss GTA 6 collectibles for good? None reported yet, but cards are limited. What to watch for, updated as players report."
+answer: "One is reported so far: the meditation spot at Jason's house can only be done in Chapter 1. Collectible cards are also a limited supply, so don't sell or skip cards you need for a set."
+description: "Can you miss GTA 6 collectibles for good? One Chapter 1 meditation spot is reported missable, and cards are limited. What to watch for."
 status: verifying
 statusNote: "Early numbers from guide writers who played before launch. We are checking them in-game and will update."
 updated: 2026-11-18
@@ -10,6 +10,8 @@ listTitle: "Things to watch out for"
 checklist: true
 placeholderCount: 5
 items:
+  - title: "Chapter 1 meditation spot at Jason's house"
+    detail: "Reported as gone after Chapter 1. Only 15 of 18 meditations are needed for the 100% checklist, but it may matter for the meditation trophy, so do it while you can."
   - title: "Collectible cards are finite"
     detail: "Cards can't be farmed by buying items. You need at least 372 of the 480 cards to complete the 15 sets the 100% checklist requires, depending on which sets you pick."
   - title: "Some Progress categories are hidden at first"
@@ -18,8 +20,10 @@ items:
     detail: "Reported as exclusive to the Ultimate Edition, so standard-edition players can't get them."
 faq:
   - q: "Can you still get collectibles after the story ends?"
-    a: "Not confirmed yet, but no guide has reported collectibles that disappear after the story. We'll update this as players finish the game."
+    a: "Yes, free roam continues after the ending. Reports say there's no mission replay, and that side missions unavailable during parts of the story don't block 100%."
 sources:
+  - label: "PowerPyx: GTA 6 trophy guide and roadmap"
+    url: "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/"
   - label: "PowerPyx: GTA 6 collectible guide and Progress Database overview"
     url: "https://www.powerpyx.com/gta-6-collectible-guide-progress-database/"
   - label: "PowerPyx: GTA 6 collectible card sets overview"

@@ -30,6 +30,10 @@ items:
     detail: "Combat has improved cover and lets you disable enemies, not only kill them."
   - title: "Robberies are a whole activity type"
     detail: "Guides report 11 kinds of robbery, from convenience and liquor stores to jewelry stores, pawn shops and bank jobs."
+  - title: "Bigger robberies unlock with the story"
+    detail: "Jewelry stores are reported to open after Chapter 3, bank vaults and armored trucks after an optional Chapter 4 mission."
+  - title: "Loot has to be fenced"
+    detail: "Duffel-bag loot isn't cash until you sell it to a fence, and carried cash should be banked at an ATM."
   - title: "In-game social media"
     detail: "A social feed that reacts to the world is part of the game."
 faq:
@@ -40,6 +44,8 @@ faq:
   - q: "Does GTA 6 have a Heat system?"
     a: "Press coverage describes a new Heat system alongside the wanted level. Rockstar says it isn't a simple good-or-evil meter like Red Dead 2's Honour. We're confirming how it works in-game."
 sources:
+  - label: "PowerPyx: GTA 6 trophy guide and roadmap"
+    url: "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/"
   - label: "VICE: GTA 6 review roundup"
     url: "https://www.vice.com/en/article/gta-6-review-roundup/"
   - label: "Game Rant: Rockstar officially confirms new GTA 6 gameplay features"
@@ -57,6 +63,7 @@ order: 0
 
 - [How the GTA 6 wanted system works](/gameplay/how-does-the-wanted-system-work-in-gta-6/)
 - [Switching between Jason and Lucia](/gameplay/can-you-switch-between-jason-and-lucia/)
+- [How robberies work](/gameplay/how-do-robberies-work-in-gta-6/)
 
 ## How we'll update this page
 
