@@ -32,7 +32,7 @@ export const SOCIAL = {
 // slots: optional. Only fill these if you create manual "ad units" in AdSense
 // and want ads in the fixed top / mid / sidebar spots. Auto ads work without them.
 export const ADS = {
-  adsenseClient: '' as string,   // e.g. 'ca-pub-1234567890123456'
+  adsenseClient: 'ca-pub-4441053538028640' as string,   // e.g. 'ca-pub-1234567890123456'
   slots: {
     top: '' as string,
     mid: '' as string,
