@@ -53,7 +53,7 @@ export type SectionKey = keyof typeof SECTIONS;
 // Leave it as 'unconfirmed' until there's an official announcement.
 export const LAUNCH = {
   releaseDate: '2026-11-19',
-  unlockMode: 'unconfirmed' as 'unconfirmed' | 'global' | 'local-midnight',
+  unlockMode: 'local-midnight' as 'unconfirmed' | 'global' | 'local-midnight',
   unlockTimeUTC: '' as string,
   sourceUrl:
     'https://www.rockstargames.com/newswire/article/ak3ak31a49a221/grand-theft-auto-vi-is-now-set-to-launch-november-19-2026',
