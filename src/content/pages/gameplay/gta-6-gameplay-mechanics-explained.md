@@ -50,6 +50,8 @@ items:
     detail: "Apps like WAINK (scan cars before stealing them), Ryde Me (rides) and BuckMe (banking) plug into core systems."
   - title: "Cars must be registered to keep"
     detail: "Stolen cars need their tracker removed and registering at a Pay 'n' Spray, and garage space is limited."
+  - title: "Focus mode"
+    detail: "Clicking both sticks slows things down and highlights noisy enemies, random events and alarmed doors. Food, petting animals and tidying litter refill it."
 faq:
   - q: "Is GTA 6 more realistic than GTA 5?"
     a: "In several systems, yes: police need witnesses, driving and carjacking were rebuilt, and Jason and Lucia have needs like food and sleep."
@@ -58,6 +60,8 @@ faq:
   - q: "Does GTA 6 have a Heat system?"
     a: "Press coverage describes a new Heat system alongside the wanted level. Rockstar says it isn't a simple good-or-evil meter like Red Dead 2's Honour. We're confirming how it works in-game."
 sources:
+  - label: "Kotaku: 32 spoiler-free tips as you hop into Grand Theft Auto 6"
+    url: "https://kotaku.com/32-spoiler-free-tips-as-you-hop-into-grand-theft-auto-6-2000758016"
   - label: "All Things How: GTA 6 weapon loadout limit"
     url: "https://allthings.how/gta-6-weapon-system-how-the-new-loadout-limit-works/"
   - label: "Beebom: all GTA 6 phone apps"
@@ -89,6 +93,7 @@ order: 0
 - [How many weapons you can carry](/gameplay/how-do-weapons-work-in-gta-6/)
 - [Every app on the GTA 6 phone](/gameplay/what-apps-are-on-the-gta-6-phone/)
 - [How to steal and keep cars](/gameplay/how-to-steal-and-keep-cars-in-gta-6/)
+- [Beginner tips for your first hours](/gameplay/gta-6-tips-for-beginners/)
 
 ## How we'll update this page
 

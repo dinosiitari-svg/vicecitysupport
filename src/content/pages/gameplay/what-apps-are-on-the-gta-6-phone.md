@@ -13,11 +13,11 @@ items:
   - title: "Snapmatic: browse the social feed"
     detail: "Scroll posts and follow accounts. Jason and Lucia can't post publicly, since they're avoiding a digital trail, but they can send photos privately."
   - title: "Ryde Me: book a ride"
-    detail: "Taxi-style fast travel. You can talk to the driver, and rides may be shared with strangers."
+    detail: "Taxi-style rides. Talk to the driver and you can skip the journey for $100."
   - title: "Fitness app: track sleep and tiredness"
     detail: "Ties into the leads' needs and how their abilities recover."
   - title: "Scooter Bros: get your car delivered"
-    detail: "Delivers your personal vehicle for a fee, along with the weapons stored in its trunk."
+    detail: "Brings your owned vehicles to you, repairs them and gets them out of the police impound, for a fee. A $12,500 Premium tier gives three free uses per in-game day."
   - title: "BuckMe: banking"
     detail: "Digital banking for your money."
   - title: "On Demand: shows and music"
@@ -30,12 +30,14 @@ faq:
   - q: "What is WAINK in GTA 6?"
     a: "A phone app that scans parked cars and shows whether they're locked, alarmed or fitted with a tracker, and what they're worth."
   - q: "Is there fast travel in GTA 6?"
-    a: "Reports say the Ryde Me app books rides around the map. We're checking whether you can skip the trip in-game."
+    a: "Yes. Book a ride with Ryde Me, then interact with the driver (hold the left trigger) to skip the trip for $100, according to a reviewer's launch-day tips."
   - q: "Are LifeInvader, Bleeter or WhatUp in GTA 6?"
     a: "Those names come up in rumours and leaks, but they aren't confirmed apps yet. We'll update this list as we play."
   - q: "Does using your phone affect your wanted level?"
     a: "One guide suggests being visible online can feed into police attention, but we haven't seen that confirmed anywhere."
 sources:
+  - label: "Kotaku: 32 spoiler-free tips as you hop into Grand Theft Auto 6"
+    url: "https://kotaku.com/32-spoiler-free-tips-as-you-hop-into-grand-theft-auto-6-2000758016"
   - label: "Beebom: all GTA 6 phone apps and their uses"
     url: "https://beebom.com/all-gta-6-phone-apps/"
   - label: "All Things How: GTA 6 phone, Snapmatic and WAINK explained"
@@ -55,4 +57,4 @@ In GTA V the phone was a menu with an internet browser. In GTA 6 it's an object 
 
 ## What isn't confirmed yet
 
-The full app list, whether the in-game internet has browsable websites, whether Ryde Me lets you skip the trip, and whether phone activity affects your wanted level.
+The full app list, whether the in-game internet has browsable websites, and whether phone activity affects your wanted level.

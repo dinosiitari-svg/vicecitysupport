@@ -37,7 +37,11 @@ faq:
     a: "Reportedly not. Police no longer show on the minimap; instead you use the Focus ability to spot nearby officers, even through walls."
   - q: "Does a mask stop you getting a wanted level?"
     a: "Wearing a mask and avoiding witnesses and cameras may leave police with no description, which shows as a hollow star. This is reported in guides but not yet confirmed in-game."
+  - q: "Can you talk your way out of a wanted level?"
+    a: "At one star, sometimes. Aim at an officer who hasn't drawn a gun and you get options to defuse or provoke; a reviewer reports defusing can clear a one-star wanted level, but some officers attack anyway."
 sources:
+  - label: "Kotaku: 32 spoiler-free tips as you hop into Grand Theft Auto 6"
+    url: "https://kotaku.com/32-spoiler-free-tips-as-you-hop-into-grand-theft-auto-6-2000758016"
   - label: "GTAbase: GTA 6 wanted level and police system guide"
     url: "https://www.gtabase.com/articles/gta-6/gta-6-wanted-level-explained-police-system-guide"
   - label: "SVG: GTA 6's wanted system, everything Rockstar has confirmed"

@@ -25,6 +25,10 @@ items:
   - title: "Or sell it"
     detail: "Take a stolen car to a fence to sell it. Damage and the car's security level affect the price."
 faq:
+  - q: "How do you know if a stolen car has a tracker?"
+    a: "A red tracker icon appears in the bottom-left corner next to the engine and fuel icons. Keep moving, because driving slowly for too long lets police find you. You can also hold up on the D-pad to scan a car with WAINK before you take it."
+  - q: "How do you repair a car in GTA 6?"
+    a: "Any gas pump repairs cars and motorbikes for a small fee. The Scooter Bros app also repairs vehicles and gets them out of the impound, but usually costs more."
   - q: "Can you still steal any car in GTA 6?"
     a: "You can still pull drivers out of their cars, but some parked cars stay locked until you've progressed the story and picked up the right tools, such as a key cloner."
   - q: "How many cars can you keep in GTA 6?"
@@ -36,6 +40,8 @@ faq:
   - q: "Can you store guns in your car?"
     a: "Yes. The trunk works as a mobile armory and wardrobe. See our weapons guide."
 sources:
+  - label: "Kotaku: 32 spoiler-free tips as you hop into Grand Theft Auto 6"
+    url: "https://kotaku.com/32-spoiler-free-tips-as-you-hop-into-grand-theft-auto-6-2000758016"
   - label: "GTABase: GTA 6 car stealing guide"
     url: "https://www.gtabase.com/articles/gta-6/gta-6-car-stealing-guide-how-to-steal-sell-keep-vehicles"
   - label: "PC Games: GTA 6 only lets you keep three cars at first (German)"
