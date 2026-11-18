@@ -48,6 +48,8 @@ items:
     detail: "You carry only a few weapons; the rest live in your car's trunk or at a safehouse."
   - title: "Phone apps tied to gameplay"
     detail: "Apps like WAINK (scan cars before stealing them), Ryde Me (rides) and BuckMe (banking) plug into core systems."
+  - title: "Cars must be registered to keep"
+    detail: "Stolen cars need their tracker removed and registering at a Pay 'n' Spray, and garage space is limited."
 faq:
   - q: "Is GTA 6 more realistic than GTA 5?"
     a: "In several systems, yes: police need witnesses, driving and carjacking were rebuilt, and Jason and Lucia have needs like food and sleep."
@@ -86,6 +88,7 @@ order: 0
 - [What happens when you die or get busted](/gameplay/what-happens-when-you-die-in-gta-6/)
 - [How many weapons you can carry](/gameplay/how-do-weapons-work-in-gta-6/)
 - [Every app on the GTA 6 phone](/gameplay/what-apps-are-on-the-gta-6-phone/)
+- [How to steal and keep cars](/gameplay/how-to-steal-and-keep-cars-in-gta-6/)
 
 ## How we'll update this page
 
