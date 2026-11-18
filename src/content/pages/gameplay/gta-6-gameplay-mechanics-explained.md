@@ -52,13 +52,15 @@ items:
     detail: "Stolen cars need their tracker removed and registering at a Pay 'n' Spray, and garage space is limited."
   - title: "Focus mode"
     detail: "Clicking both sticks slows things down and highlights noisy enemies, random events and alarmed doors. Food, petting animals and tidying litter refill it."
+  - title: "Criminal profile"
+    detail: "A separate rank for Jason and Lucia that tracks needless violence; reportedly it can break for good."
 faq:
   - q: "Is GTA 6 more realistic than GTA 5?"
     a: "In several systems, yes: police need witnesses, driving and carjacking were rebuilt, and Jason and Lucia have needs like food and sleep."
   - q: "Do you need money to progress in GTA 6?"
     a: "Yes. Rockstar has said the campaign requires money to move forward, so side activities and jobs matter. Early reviews mention stealing cars, robbing jewelry stores and diving for treasure as ways to earn outside the story."
   - q: "Does GTA 6 have a Heat system?"
-    a: "Press coverage describes a new Heat system alongside the wanted level. Rockstar says it isn't a simple good-or-evil meter like Red Dead 2's Honour. We're confirming how it works in-game."
+    a: "Yes. Heat is the police side: what officers know about you and where they're searching. Separately, a criminal profile tracks how cleanly or violently Jason and Lucia operate. Rockstar says it isn't a simple good-or-evil meter like Red Dead 2's Honour. See our criminal profile guide below."
 sources:
   - label: "Kotaku: 32 spoiler-free tips as you hop into Grand Theft Auto 6"
     url: "https://kotaku.com/32-spoiler-free-tips-as-you-hop-into-grand-theft-auto-6-2000758016"
@@ -94,6 +96,7 @@ order: 0
 - [Every app on the GTA 6 phone](/gameplay/what-apps-are-on-the-gta-6-phone/)
 - [How to steal and keep cars](/gameplay/how-to-steal-and-keep-cars-in-gta-6/)
 - [Beginner tips for your first hours](/gameplay/gta-6-tips-for-beginners/)
+- [How the criminal profile works](/gameplay/how-does-the-criminal-profile-work-in-gta-6/)
 
 ## How we'll update this page
 
