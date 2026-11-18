@@ -54,6 +54,8 @@ items:
     detail: "Clicking both sticks slows things down and highlights noisy enemies, random events and alarmed doors. Food, petting animals and tidying litter refill it."
   - title: "Criminal profile"
     detail: "A separate rank for Jason and Lucia that tracks needless violence; reportedly it can break for good."
+  - title: "Fishing and hunting"
+    detail: "Fishing is catch-and-release only; hunting pays by selling what you collect."
 faq:
   - q: "Is GTA 6 more realistic than GTA 5?"
     a: "In several systems, yes: police need witnesses, driving and carjacking were rebuilt, and Jason and Lucia have needs like food and sleep."
@@ -97,6 +99,7 @@ order: 0
 - [How to steal and keep cars](/gameplay/how-to-steal-and-keep-cars-in-gta-6/)
 - [Beginner tips for your first hours](/gameplay/gta-6-tips-for-beginners/)
 - [How the criminal profile works](/gameplay/how-does-the-criminal-profile-work-in-gta-6/)
+- [Fishing, hunting and side activities](/gameplay/can-you-fish-and-hunt-in-gta-6/)
 
 ## How we'll update this page
 
