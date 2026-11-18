@@ -44,6 +44,10 @@ items:
     detail: "No character creator, but clothes shops, barbers, salons, tattoos and the gym let you change both leads' look."
   - title: "In-game social media"
     detail: "A social feed that reacts to the world is part of the game."
+  - title: "Limited weapon loadout"
+    detail: "You carry only a few weapons; the rest live in your car's trunk or at a safehouse."
+  - title: "Phone apps tied to gameplay"
+    detail: "Apps like WAINK (scan cars before stealing them), Ryde Me (rides) and BuckMe (banking) plug into core systems."
 faq:
   - q: "Is GTA 6 more realistic than GTA 5?"
     a: "In several systems, yes: police need witnesses, driving and carjacking were rebuilt, and Jason and Lucia have needs like food and sleep."
@@ -52,6 +56,10 @@ faq:
   - q: "Does GTA 6 have a Heat system?"
     a: "Press coverage describes a new Heat system alongside the wanted level. Rockstar says it isn't a simple good-or-evil meter like Red Dead 2's Honour. We're confirming how it works in-game."
 sources:
+  - label: "All Things How: GTA 6 weapon loadout limit"
+    url: "https://allthings.how/gta-6-weapon-system-how-the-new-loadout-limit-works/"
+  - label: "Beebom: all GTA 6 phone apps"
+    url: "https://beebom.com/all-gta-6-phone-apps/"
   - label: "PowerPyx: GTA 6 trophy guide and roadmap"
     url: "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/"
   - label: "VICE: GTA 6 review roundup"
@@ -76,6 +84,8 @@ order: 0
 - [How safehouses work](/gameplay/how-do-safehouses-work-in-gta-6/)
 - [Character customization: clothes, hair and tattoos](/gameplay/how-to-change-your-look-in-gta-6/)
 - [What happens when you die or get busted](/gameplay/what-happens-when-you-die-in-gta-6/)
+- [How many weapons you can carry](/gameplay/how-do-weapons-work-in-gta-6/)
+- [Every app on the GTA 6 phone](/gameplay/what-apps-are-on-the-gta-6-phone/)
 
 ## How we'll update this page
 

@@ -26,7 +26,7 @@ faq:
   - q: "What time does GTA 6 unlock in Finland and the rest of Europe?"
     a: "At midnight local time on November 19. In Finland that's 00:00 EET, in the UK 00:00 GMT, in Germany and France 00:00 CET."
   - q: "Can I play early with the New Zealand trick?"
-    a: "Some players switch their console region to New Zealand to start earlier. It isn't supported by Rockstar, needs a New Zealand account and purchase on PlayStation, and there are reports of PlayStation accounts getting banned for it. We don't recommend it."
+    a: "Xbox players report that setting the console's location to New Zealand and restarting lets a digital copy start early. On PS5 it doesn't work that way: the unlock follows the region of the PlayStation Store account the game was bought on, so a US-bought copy won't unlock early. There are unconfirmed reports of account suspensions, and PlayStation's terms require an account in your real region. It isn't supported by Rockstar and we don't recommend it."
   - q: "Does the Ultimate Edition give early access?"
     a: "No. Every edition unlocks at the same time."
 sources:
@@ -36,6 +36,8 @@ sources:
     url: "https://tech.yahoo.com/gaming/articles/gta-6-release-time-revealed-164658612.html"
   - label: "GTA BOOM: GTA 6 countdown and regional unlock times"
     url: "https://www.gtaboom.com/gta-6-countdown"
+  - label: "VICE: the New Zealand trick on Xbox and PS5"
+    url: "https://www.vice.com/en/article/gta-6-new-zealand-trick-xbox-ps5/"
 order: 1
 ---
 
