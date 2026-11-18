@@ -40,6 +40,8 @@ items:
     detail: "You don't buy them; they work like a home base, similar to the camp in Red Dead Redemption 2."
   - title: "Police hidden from the minimap"
     detail: "Officers reportedly no longer appear on the minimap; the Focus ability shows nearby police instead."
+  - title: "Restyle Jason and Lucia"
+    detail: "No character creator, but clothes shops, barbers, salons, tattoos and the gym let you change both leads' look."
   - title: "In-game social media"
     detail: "A social feed that reacts to the world is part of the game."
 faq:
@@ -72,6 +74,8 @@ order: 0
 - [How robberies work](/gameplay/how-do-robberies-work-in-gta-6/)
 - [How to make money](/gameplay/how-to-make-money-in-gta-6/)
 - [How safehouses work](/gameplay/how-do-safehouses-work-in-gta-6/)
+- [Character customization: clothes, hair and tattoos](/gameplay/how-to-change-your-look-in-gta-6/)
+- [What happens when you die or get busted](/gameplay/what-happens-when-you-die-in-gta-6/)
 
 ## How we'll update this page
 
