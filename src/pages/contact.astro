@@ -1,13 +1,16 @@
 ---
 import SimpleLayout from '../layouts/SimpleLayout.astro';
+import { FORMS } from '../data/site';
 ---
 <SimpleLayout title="Contact" description="Contact Vice City Support: report a wrong collectible location, suggest a guide or ask a question.">
   <p>Found a wrong location, a missing collectible or have a suggestion? Send it here. We read everything.</p>
-  <!-- Netlify Forms: Netlify detects this form at deploy time (data-netlify="true").
-       Submissions appear in Netlify → your site → Forms, and can be emailed to you. -->
-  <form class="form" name="contact" method="POST" action="/thanks/" data-netlify="true" netlify-honeypot="bot-field">
-    <input type="hidden" name="form-name" value="contact" />
-    <p class="visually-hidden"><label>Don't fill this out: <input name="bot-field" /></label></p>
+  <!-- Sent by Web3Forms, which emails each message to you. Key lives in src/data/site.ts. -->
+  <form class="form" name="contact" method="POST" action="https://api.web3forms.com/submit">
+    <input type="hidden" name="access_key" value={FORMS.web3formsKey} />
+    <input type="hidden" name="subject" value="Vice City Support: contact form" />
+    <input type="hidden" name="from_name" value="vicecitysupport.com" />
+    <input type="hidden" name="redirect" value={FORMS.thanksUrl} />
+    <input type="checkbox" name="botcheck" class="visually-hidden" style="display:none" tabindex="-1" autocomplete="off" />
     <label>Name (optional)<input type="text" name="name" autocomplete="name" /></label>
     <label>Email (optional, only if you want a reply)<input type="email" name="email" autocomplete="email" /></label>
     <label>Topic

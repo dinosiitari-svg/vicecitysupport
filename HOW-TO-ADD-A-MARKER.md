@@ -96,7 +96,7 @@ The filter panel, the legend and all the counts pick it up on the next build.
 
 ## 5. Publish
 
-Commit and push. Netlify rebuilds and the map is live in about a minute &mdash; same as any answer page.
+Commit and push. Cloudflare rebuilds and the map is live in about a minute &mdash; same as any answer page.
 
 Editing from your phone: on github.com open `src/data/map-markers.json` &rarr; pencil icon &rarr; edit &rarr;
 "Commit changes".

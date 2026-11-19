@@ -1,6 +1,6 @@
 # vicecitysupport.com
 
-Fan-made GTA 6 collectibles & map guide. Astro static site, hosted free on Netlify.
+Fan-made GTA 6 collectibles & map guide. Astro static site, hosted free on Cloudflare Pages (was Netlify).
 
 - Run locally: `npm install` then `npm run dev` → http://localhost:4321
 - Build: `npm run build` (output in `dist/`)
