@@ -79,6 +79,7 @@ Rockstar replaced GTA V's instant hot-wire with what it calls a stratified syste
 - [How to make money](/gameplay/how-to-make-money-in-gta-6/)
 - [How many weapons you can carry](/gameplay/how-do-weapons-work-in-gta-6/)
 - [Every app on the GTA 6 phone](/gameplay/what-apps-are-on-the-gta-6-phone/)
+- [How to sell cars](/gameplay/how-to-sell-cars-in-gta-6/)
 
 ## What isn't confirmed yet
 

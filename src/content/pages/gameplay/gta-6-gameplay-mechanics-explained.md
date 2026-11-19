@@ -76,6 +76,10 @@ items:
     detail: "Register a car to make it yours; lost or impounded personal vehicles come back through Scooter Bros for a fee."
   - title: "Random encounters and secrets"
     detail: "Rare night-time events, like a UFO in the woods of Kelly County, can unlock hidden trophies."
+  - title: "Gang Illegal Operations"
+    detail: "39 repeatable gang sites to rob across nine gang groups; sell the drugs you take to a fence."
+  - title: "Selling and respraying cars"
+    detail: "Sell your own cars at a Pay 'n' Spray and stolen ones to a fence; a Pay 'n' Spray also clears a car's police heat."
 faq:
   - q: "Is GTA 6 more realistic than GTA 5?"
     a: "In several systems, yes: police need witnesses, driving and carjacking were rebuilt, and Jason and Lucia have needs like food and sleep."
@@ -130,6 +134,8 @@ order: 0
 - [How to get a parachute](/gameplay/how-to-get-a-parachute-in-gta-6/)
 - [Where is the UFO in GTA 6?](/gameplay/where-is-the-ufo-in-gta-6/)
 - [Strip club locations](/gameplay/where-are-the-strip-clubs-in-gta-6/)
+- [How gang Illegal Operations work](/gameplay/how-do-gang-illegal-operations-work-in-gta-6/)
+- [How to sell cars](/gameplay/how-to-sell-cars-in-gta-6/)
 
 ## How we'll update this page
 

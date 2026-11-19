@@ -60,5 +60,6 @@ order: 3
 ## Related
 
 - [How safe codes work](/gameplay/how-do-safe-codes-work-in-gta-6/)
+- [How gang Illegal Operations work](/gameplay/how-do-gang-illegal-operations-work-in-gta-6/)
 - [How the GTA 6 wanted system works](/gameplay/how-does-the-wanted-system-work-in-gta-6/)
 - [All GTA 6 gameplay mechanics](/gameplay/gta-6-gameplay-mechanics-explained/)
