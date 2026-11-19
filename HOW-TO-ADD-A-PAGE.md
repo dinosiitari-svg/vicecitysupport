@@ -38,7 +38,7 @@ faq:
 
 4. **Delete the line `template: true`** (otherwise the page stays hidden from Google).
 5. Optional: write extra text, tips or tables in normal Markdown below the second `---`.
-6. Save → commit → push to GitHub. Netlify rebuilds and the page is live in ~1 minute.
+6. Save → commit → push to GitHub. Cloudflare rebuilds and the page is live in ~1 minute.
    It's added to the sitemap, search box, section page and "Recently updated" automatically.
 
 ## Update one of the existing placeholder pages after launch
@@ -53,7 +53,7 @@ Open e.g. `src/content/pages/collectibles/are-any-gta-6-collectibles-missable.md
 - Indentation matters in the top section: use 2 spaces, never tabs.
 - If you rename an item title, players' ticks for that item reset (ticks are saved per title).
 - Don't change the file name of a live page (it changes the URL). If you must, add a redirect in `netlify.toml`.
-- Writing it from your phone: on github.com open the file → pencil icon → edit → "Commit changes". Netlify deploys automatically.
+- Writing it from your phone: on github.com open the file → pencil icon → edit → "Commit changes". Cloudflare deploys automatically.
 
 ## Set the official unlock time
 Edit `src/data/site.ts` → `LAUNCH`:

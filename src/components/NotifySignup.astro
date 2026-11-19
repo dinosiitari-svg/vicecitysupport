@@ -1,7 +1,6 @@
 ---
-// Email capture. Uses Netlify Forms (no backend): submissions appear in
-// Netlify → your site → Forms, and can be emailed or forwarded to a mailing
-// list tool later. Submits over fetch so the visitor is never taken off the
+// Email capture. Sent by Web3Forms (no backend): each signup is emailed to
+// you, and can be moved to a mailing list tool later. Submits over fetch so the visitor is never taken off the
 // page; falls back to a normal POST if JavaScript is off.
 interface Props {
   heading?: string;
@@ -11,6 +10,7 @@ const {
   heading = 'Get new locations as we verify them',
   blurb = 'One email when a batch of locations goes live. No spam, unsubscribe any time.',
 } = Astro.props;
+import { FORMS } from '../data/site';
 ---
 
 <section class="notify" aria-labelledby="notify-h">
@@ -23,12 +23,13 @@ const {
     class="notify-form"
     name="notify"
     method="POST"
-    action="/thanks/"
-    data-netlify="true"
-    netlify-honeypot="bot-field"
+    action="https://api.web3forms.com/submit"
   >
-    <input type="hidden" name="form-name" value="notify" />
-    <p class="visually-hidden"><label>Don&rsquo;t fill this out: <input name="bot-field" /></label></p>
+    <input type="hidden" name="access_key" value={FORMS.web3formsKey} />
+    <input type="hidden" name="subject" value="Vice City Support: new email signup" />
+    <input type="hidden" name="from_name" value="vicecitysupport.com" />
+    <input type="hidden" name="redirect" value={FORMS.thanksUrl} />
+    <input type="checkbox" name="botcheck" class="visually-hidden" style="display:none" tabindex="-1" autocomplete="off" />
 
     <div class="notify-row">
       <label class="visually-hidden" for="notify-email">Your email address</label>
@@ -89,13 +90,15 @@ const {
       if (status) { status.className = 'notify-status'; status.textContent = ''; }
 
       try {
-        const body = new URLSearchParams(new FormData(form) as any).toString();
-        const res = await fetch('/', {
+        const data = Object.fromEntries(new FormData(form) as any);
+        delete data.redirect;
+        const res = await fetch(form.action, {
           method: 'POST',
-          headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
-          body,
+          headers: { 'Content-Type': 'application/json', Accept: 'application/json' },
+          body: JSON.stringify(data),
         });
-        if (!res.ok) throw new Error(String(res.status));
+        const json = await res.json().catch(() => ({}));
+        if (!res.ok || json.success === false) throw new Error(String(res.status));
         section?.classList.add('done');
         if (status) {
           status.className = 'notify-status ok';

@@ -3,6 +3,7 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
 import Breadcrumbs from '../../components/Breadcrumbs.astro';
 import AdSlot from '../../components/AdSlot.astro';
 import data from '../../data/map-markers.json';
+import { FORMS } from '../../data/site';
 
 const { groups, categories } = data;
 const grouped = groups.map((g) => ({ ...g, cats: categories.filter((c) => c.group === g.id) }));
@@ -33,7 +34,7 @@ const description =
       </div>
       <div>
         <span class="n">3</span>
-        <p><strong>Send a screenshot if you have one.</strong> It&rsquo;s the fastest way for us to verify and get your pin live.</p>
+        <p><strong>Link a screenshot if you have one.</strong> It&rsquo;s the fastest way for us to verify and get your pin live.</p>
       </div>
     </div>
 
@@ -41,13 +42,13 @@ const description =
       class="form submit-form"
       name="location"
       method="POST"
-      action="/thanks/"
-      data-netlify="true"
-      netlify-honeypot="bot-field"
-      enctype="multipart/form-data"
+      action="https://api.web3forms.com/submit"
     >
-      <input type="hidden" name="form-name" value="location" />
-      <p class="visually-hidden"><label>Don&rsquo;t fill this out: <input name="bot-field" /></label></p>
+      <input type="hidden" name="access_key" value={FORMS.web3formsKey} />
+      <input type="hidden" name="subject" value="Vice City Support: new map location" />
+      <input type="hidden" name="from_name" value="vicecitysupport.com" />
+      <input type="hidden" name="redirect" value={FORMS.thanksUrl} />
+      <input type="checkbox" name="botcheck" class="visually-hidden" style="display:none" tabindex="-1" autocomplete="off" />
 
       <label>What is it?
         <select name="category" required>
@@ -78,8 +79,8 @@ const description =
         <textarea name="directions" rows="4" required placeholder="Swim under the boardwalk, it's on the second pillar from the pier. Easier at night."></textarea>
       </label>
 
-      <label>Screenshot <span class="opt">optional, speeds things up a lot</span>
-        <input type="file" name="screenshot" accept="image/*" />
+      <label>Screenshot link <span class="opt">optional, speeds things up a lot &mdash; Imgur, Discord, X, Google Drive&hellip;</span>
+        <input type="url" name="screenshot" placeholder="https://imgur.com/..." />
       </label>
 
       <label>Platform <span class="opt">optional</span>

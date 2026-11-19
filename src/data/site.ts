@@ -20,6 +20,16 @@ export const SOCIAL = {
   reddit: '',
 };
 
+// ─── Forms (Web3Forms) ───
+// The contact, email-signup and submit-a-location forms are sent by Web3Forms,
+// which emails every message to you. Get a free key at https://web3forms.com
+// (type your email, the key arrives by email) and paste it here. The key is
+// meant to be public, so it's fine in this file.
+export const FORMS = {
+  web3formsKey: '' as string,
+  thanksUrl: 'https://vicecitysupport.com/thanks/',
+};
+
 // ─── Advertising (Google AdSense) ───
 // Leave adsenseClient as '' until you have an AdSense account. While it's empty,
 // no ad code, no ads.txt and no ad boxes appear anywhere on the site.
