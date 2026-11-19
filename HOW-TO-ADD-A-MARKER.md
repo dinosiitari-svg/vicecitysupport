@@ -10,7 +10,7 @@ marker &mdash; comes from **one file**: `src/data/map-markers.json`.
 Put your map image at:
 
 ```
-public/map/base-map.jpg
+public/map/base-map.webp
 ```
 
 Until that file exists the page shows a neon placeholder grid and a yellow warning banner. Nothing else
@@ -21,7 +21,7 @@ later moves nothing. Changing the *aspect ratio* does. If your image isn't squar
 size in the `map` block of `map-markers.json`:
 
 ```json
-"map": { "image": "/map/base-map.jpg", "width": 4096, "height": 4096 }
+"map": { "image": "/map/base-map.webp", "width": 4096, "height": 4096 }
 ```
 
 Use an image you have the right to publish. Rockstar's own map art is their copyright &mdash; a map you

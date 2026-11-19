@@ -49,7 +49,7 @@ const jsonLd = [
     <div class="map-status" id="map-status" hidden>
       <strong>Base map image not installed yet.</strong>
       <span>You are looking at a placeholder grid. Markers and filters all work &mdash; drop your map image in
-      <code>public/map/base-map.jpg</code> and it appears here automatically.</span>
+      <code>public/map/base-map.webp</code> and it appears here automatically.</span>
     </div>
 
     <!-- ─── The map ─── -->
@@ -112,6 +112,14 @@ const jsonLd = [
       </p>
       <a class="btn btn-submit" href="/map/submit/">Found something? Add it to the map</a>
     </div>
+    <p class="map-credit">
+      Map image and places:
+      <a href="https://map.gtadb.org" rel="noopener" target="_blank">gtadb.org</a> and contributors
+      (Yanis v16 community map), via
+      <a href="https://github.com/navanem/gta6-leonida-atlas" rel="noopener" target="_blank">Leonida Atlas</a>.
+      Licensed <a href="https://creativecommons.org/licenses/by/4.0/" rel="noopener" target="_blank">CC BY 4.0</a>;
+      recoloured and cropped. Community positions are approximate.
+    </p>
 
     <NotifySignup />
 
@@ -245,6 +253,11 @@ const jsonLd = [
     cursor: pointer; transition: transform 0.12s;
   }
   .pin:hover { transform: scale(1.25); }
+  .cluster {
+    width: 100%; height: 100%; border-radius: 50%; display: grid; place-items: center;
+    font-weight: 800; font-size: 0.8rem; color: #fff; background: rgba(255, 46, 151, 0.85);
+    border: 2px solid rgba(25, 227, 255, 0.9); box-shadow: 0 0 14px rgba(255, 46, 151, 0.7);
+  }
   .pin.unverified { border-style: dashed; border-color: var(--warn); }
   .pin.found { opacity: 0.4; filter: grayscale(1); }
 
@@ -280,12 +293,16 @@ const jsonLd = [
   .map-note { color: var(--muted); font-size: 0.9rem; margin: 0; }
   .map-foot { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 14px; margin: 16px 0 0; }
   .map-foot .map-note { flex: 1 1 320px; }
+  .map-credit { color: var(--muted); font-size: 0.8rem; margin: 10px 0 0; }
+  .map-credit a { color: var(--cyan-soft); }
   .btn-submit { flex: none; font-size: 0.95rem; padding: 11px 20px; }
 </style>
 
 <script>
   import L from 'leaflet';
   import 'leaflet/dist/leaflet.css';
+  import 'leaflet.markercluster';
+  import 'leaflet.markercluster/dist/MarkerCluster.css';
   import data from '../../data/map-markers.json';
 
   const { map: cfg, categories, markers } = data;
@@ -301,7 +318,7 @@ const jsonLd = [
     } catch {
       found = new Set<string>();
     }
-    const keyOf = (m: { cat: string; name: string }) => `${m.cat}|${m.name}`;
+    const keyOf = (m: { cat: string; name: string; id?: string }) => (m.id ? `id|${m.id}` : `${m.cat}|${m.name}`);
     const save = () => {
       try {
         localStorage.setItem(STORE_KEY, JSON.stringify([...found]));
@@ -335,17 +352,32 @@ const jsonLd = [
     map.setMinZoom(map.getZoom() - 1);
 
     // ─── Markers ───
-    const layer = L.layerGroup().addTo(map);
-    const entries = markers.map((m) => {
-      const cat = catById[m.cat];
-      const key = keyOf(m);
-      const icon = L.divIcon({
+    // Nearby pins merge into numbered bubbles when zoomed out, and split apart as you zoom in.
+    const layer = (L as any)
+      .markerClusterGroup({
+        showCoverageOnHover: false,
+        maxClusterRadius: 42,
+        disableClusteringAtZoom: 2,
+        chunkedLoading: true,
+        iconCreateFunction: (c: any) => {
+          const n = c.getChildCount();
+          const size = n < 10 ? 30 : n < 100 ? 36 : 42;
+          return L.divIcon({ className: '', html: `<div class="cluster">${n}</div>`, iconSize: [size, size] });
+        },
+      })
+      .addTo(map);
+    const iconFor = (m: any, cat: any, isFound: boolean) =>
+      L.divIcon({
         className: '',
-        html: `<div class="pin ${m.status !== 'confirmed' ? 'unverified' : ''} ${found.has(key) ? 'found' : ''}" style="--c:${cat?.color || '#fff'}">${cat?.glyph || ''}</div>`,
+        html: `<div class="pin ${m.status !== 'confirmed' ? 'unverified' : ''} ${isFound ? 'found' : ''}" style="--c:${cat?.color || '#fff'}">${cat?.glyph || ''}</div>`,
         iconSize: [24, 24],
         iconAnchor: [12, 12],
         popupAnchor: [0, -14],
       });
+    const entries = markers.map((m) => {
+      const cat = catById[m.cat];
+      const key = keyOf(m);
+      const icon = iconFor(m, cat, found.has(key));
       const marker = L.marker([cfg.height * (1 - m.y / 100), cfg.width * (m.x / 100)], {
         icon,
         title: m.name,
@@ -362,7 +394,7 @@ const jsonLd = [
           marker.closePopup();
         });
       });
-      return { m, cat, key, marker };
+      return { m, cat, key, marker, shownFound: found.has(key) };
     });
 
     function popupHtml(m: any, cat: any, key: string) {
@@ -405,9 +437,11 @@ const jsonLd = [
         if (visible) {
           shown++;
           if (isFound) foundShown++;
+          if (e.shownFound !== isFound) {
+            e.marker.setIcon(iconFor(e.m, e.cat, isFound));
+            e.shownFound = isFound;
+          }
           if (!layer.hasLayer(e.marker)) layer.addLayer(e.marker);
-          const pin = e.marker.getElement()?.querySelector('.pin');
-          pin?.classList.toggle('found', isFound);
         } else if (layer.hasLayer(e.marker)) {
           layer.removeLayer(e.marker);
         }
