@@ -26,7 +26,7 @@ export const SOCIAL = {
 // (type your email, the key arrives by email) and paste it here. The key is
 // meant to be public, so it's fine in this file.
 export const FORMS = {
-  web3formsKey: '' as string,
+  web3formsKey: '7f614f77-5915-4060-a5e6-8355fa269c0a' as string,
   thanksUrl: 'https://vicecitysupport.com/thanks/',
 };
 
