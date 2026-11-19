@@ -58,6 +58,10 @@ items:
     detail: "Fishing is catch-and-release only; hunting pays by selling what you collect."
   - title: "Cars need fuel"
     detail: "Vehicles have a fuel gauge; a gas-station stop takes about ten seconds and also lets you repair, and EVs recharge."
+  - title: "Train Health, Stamina and Focus"
+    detail: "Weights raise Health, cardio raises Stamina, and skill activities like the shooting range raise Focus."
+  - title: "15 manual save slots plus autosave"
+    detail: "Save from the pause menu's Game tab; missions can't be replayed, so keep older saves."
 faq:
   - q: "Is GTA 6 more realistic than GTA 5?"
     a: "In several systems, yes: police need witnesses, driving and carjacking were rebuilt, and Jason and Lucia have needs like food and sleep."
@@ -103,6 +107,8 @@ order: 0
 - [How the criminal profile works](/gameplay/how-does-the-criminal-profile-work-in-gta-6/)
 - [Fishing, hunting and side activities](/gameplay/can-you-fish-and-hunt-in-gta-6/)
 - [Fuel and gas stations](/gameplay/do-cars-need-fuel-in-gta-6/)
+- [How to save your game](/gameplay/how-to-save-in-gta-6/)
+- [How to increase Health, Stamina and Focus](/gameplay/how-to-increase-stats-in-gta-6/)
 
 ## How we'll update this page
 
