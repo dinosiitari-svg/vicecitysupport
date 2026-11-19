@@ -27,6 +27,8 @@ items:
 faq:
   - q: "When can you rob jewelry stores in GTA 6?"
     a: "A pre-launch trophy guide reports jewelry store robberies, and the Snap Gun tool, unlock after Chapter 3."
+  - q: "How do you get the snap gun in GTA 6?"
+    a: "Yasmani gives it to you in Chapter 3, after the jewelry job in the mission Dubious Provenance. Use it on a locked door, find the lock's sweet spot with the left stick, then hold the right trigger until the meter fills. It's quieter than kicking the door in, but the alarm can still go off from other doors, smashed display cases or staff. Open the back door to reach the office, where you can switch the alarm off."
   - q: "Can you rob banks in GTA 6?"
     a: "Yes. Large bank vault robberies and armored trucks are reported to open after the optional Chapter 4 mission That's Where The Money Is."
   - q: "How much money do robberies pay in GTA 6?"
@@ -36,6 +38,8 @@ faq:
   - q: "Do robberies count toward 100%?"
     a: "Guides list optional robberies among the things to clear for completion. We'll confirm exactly which ones count."
 sources:
+  - label: "PC Gamer: how to get a snap gun in GTA 6"
+    url: "https://www.pcgamer.com/games/grand-theft-auto/gta-6-snap-gun/"
   - label: "PC Gamer: GTA 6 safe codes and where to find them"
     url: "https://www.pcgamer.com/games/grand-theft-auto/gta-6-safe-codes-combinations/"
   - label: "PowerPyx: GTA 6 trophy guide and roadmap"

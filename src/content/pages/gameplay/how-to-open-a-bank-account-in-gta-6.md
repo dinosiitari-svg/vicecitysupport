@@ -15,9 +15,9 @@ items:
   - title: "Open the BuckMe app"
     detail: "Your account lives in the BuckMe app on the phone (up on the D-pad). You use it to pay for things, pay people who request money and set savings."
   - title: "Deposit cash at an ATM"
-    detail: "Use the app's ATM finder. ATMs are at gas stations and outside banks, among other places."
+    detail: "Open the BuckMe app, scroll to the bottom and pick ATM Finder to route to the nearest one, or check the Personal section of the map index for every deposit spot. At the machine press Triangle (Y on Xbox) to deposit, withdraw or see recent transactions. One launch guide puts the limit at $20,000 per deposit or withdrawal."
   - title: "Keep your cash in the bank"
-    detail: "Cash in your pocket is reported to be lost if you're killed or arrested. Money in the account is safe."
+    detail: "You can carry up to $20,000 in cash, and it's lost if you're wasted or busted (aggressive people can also take it). Money in the account is safe."
 faq:
   - q: "Where is your money kept before you have a bank account?"
     a: "One guide says Jason keeps his cash hidden under the floorboards until the account is set up. We haven't confirmed this ourselves yet."
@@ -25,11 +25,17 @@ faq:
     a: "One launch guide reports a $15,000 limit on the checking account that rises as the story moves on, with upgrades arriving as app notifications. Other guides don't mention a limit, so treat this as unconfirmed."
   - q: "What is Family Savings in GTA 6?"
     a: "It's reported as a shared savings pot for Jason and Lucia inside BuckMe, with a first goal of $5,000. Money you put in reportedly can't be taken back out or spent, so only add what you don't need."
+  - q: "How much cash can you carry in GTA 6?"
+    a: "Up to $20,000 per character, according to a launch-day GamesRadar guide. The same guide says pocket cash only covers purchases up to $1,000, so bigger buys come out of the bank."
+  - q: "Do Jason and Lucia share a bank account?"
+    a: "No. Each character has their own BuckMe account. Family Savings is the shared pot."
   - q: "Can you pay with BuckMe everywhere?"
     a: "Not everywhere. One guide reports strip clubs don't take BuckMe, so carry some cash."
   - q: "Can you rob ATMs?"
     a: "Yes, later in the story. See our [money guide](/gameplay/how-to-make-money-in-gta-6/)."
 sources:
+  - label: "GamesRadar: how to use GTA 6 ATMs"
+    url: "https://www.gamesradar.com/games/grand-theft-auto/gta-6-atm/"
   - label: "Game Rant: how to make a bank account in GTA 6"
     url: "https://gamerant.com/gta-6-bank-account-guide/"
   - label: "Cultured Vultures: how to open a bank account in GTA 6"
@@ -40,7 +46,8 @@ order: 19
 ## What isn't confirmed yet
 
 - The exact mission name and point in the story. Guides describe it slightly differently.
-- Whether the bank account has a cap, and how it differs from the reported $20,000 limit on carried cash.
+- Whether the checking account itself has a cap. One guide says $15,000, others don't mention one.
+- The reported $1,000 limit on paying with pocket cash.
 - Whether any interest or fees exist. No guide has mentioned either.
 
 ## Related guides

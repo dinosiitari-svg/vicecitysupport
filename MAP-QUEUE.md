@@ -19,6 +19,16 @@ Set `"status": "confirmed"` only once you've seen it in-game yourself.
 
 ## Pending
 
+### 2026-11-19 18:15 · Secrets · "UFO encounter, Kelly County"
+- **Reported:** random night encounter (best after 2 AM in-game, after Chapter 1) on a dirt road east of Port Gellhorn in Kelly County, near the Starlet Motel safehouse. Parked car with flickering headlights and open trunk; trail into the woods. Unlocks trophy "The Truth Is Out There". Page: /gameplay/where-is-the-ufo-in-gta-6/
+- **Source:** https://vgtimes.com/gaming-news/175102-gta-6-players-discover-ufo-encounter-that-unlocks-a-secret-trophy.html (player reports via press, unconfirmed)
+- **Suggested category:** none fits; `viewpoints` or a new `secrets` category
+
+### 2026-11-19 18:15 · Strip clubs · "Jack of Hearts, Crosstown"
+- **Reported:** strip club at the north end of Crosstown, Vice City. Locked until a Chapter 3 story mission. (NINE1NINE and "Delights" in Port Gellhorn are already on the map from the community import.) Page: /gameplay/where-are-the-strip-clubs-in-gta-6/
+- **Source:** https://www.gamesradar.com/games/grand-theft-auto/gta-6-strip-club-locations/ (press guide, launch day)
+- **Suggested category:** `shops-food`
+
 ### 2026-11-19 09:30 · Garages/vehicles · "Seaplanes at Sherwin Boatworks, Southwind"
 - **Reported:** Mammoth Dodo seaplanes in and around a small hangar on the south side of the SBW (Sherwin Boatworks) / Chicki's Tiki Bar parking lot at the Southwind bend of Route 1, near Mile Zero Air Station; more moored off the dock. Reachable early from Jason's house in Key Lento.
 - **Source:** https://www.pcgamer.com/games/grand-theft-auto/gta-6-first-plane-and-helicopter/ (press guide, launch day)

@@ -72,6 +72,10 @@ items:
     detail: "Robbery safe codes change each time; find them on site or threaten staff for them."
   - title: "Buy-once parachutes"
     detail: "Buy a parachute at Ammu-Nation or find free ones on rooftops, then re-equip it from the rack after each jump."
+  - title: "Personal vehicles and impound"
+    detail: "Register a car to make it yours; lost or impounded personal vehicles come back through Scooter Bros for a fee."
+  - title: "Random encounters and secrets"
+    detail: "Rare night-time events, like a UFO in the woods of Kelly County, can unlock hidden trophies."
 faq:
   - q: "Is GTA 6 more realistic than GTA 5?"
     a: "In several systems, yes: police need witnesses, driving and carjacking were rebuilt, and Jason and Lucia have needs like food and sleep."
@@ -124,6 +128,8 @@ order: 0
 - [How to open a bank account](/gameplay/how-to-open-a-bank-account-in-gta-6/)
 - [How safe codes work](/gameplay/how-do-safe-codes-work-in-gta-6/)
 - [How to get a parachute](/gameplay/how-to-get-a-parachute-in-gta-6/)
+- [Where is the UFO in GTA 6?](/gameplay/where-is-the-ufo-in-gta-6/)
+- [Strip club locations](/gameplay/where-are-the-strip-clubs-in-gta-6/)
 
 ## How we'll update this page
 
