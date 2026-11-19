@@ -4,7 +4,7 @@ answer: "You can rob stores just by walking in and pulling a weapon, with no mis
 description: "How GTA 6 robberies work: rob any store, when jewelry stores and banks unlock, masks, wanted level, safes and fencing your loot."
 status: verifying
 statusNote: "Pieced together from press previews and a pre-launch trophy guide. Payouts and cooldowns aren't confirmed yet; we're testing in-game."
-updated: 2026-11-18
+updated: 2026-11-19
 listType: steps
 listTitle: "How a robbery plays out"
 items:
@@ -15,7 +15,7 @@ items:
   - title: "Scout first for bigger jobs"
     detail: "Previews show looking for back entrances, safe combinations and security cameras before going in."
   - title: "Get the cash or loot"
-    detail: "Safe combinations come from clues or people around the job, not from guessing."
+    detail: "Robbery safe codes are random each time. Find the four-digit code on a note or a guard, or threaten a worker into giving it up."
   - title: "Get out fast"
     detail: "Your wanted level builds while you're still inside as witnesses and alarms report you, so the longer you stay, the harder the escape."
   - title: "Lose the heat"
@@ -31,9 +31,13 @@ faq:
     a: "Yes. Large bank vault robberies and armored trucks are reported to open after the optional Chapter 4 mission That's Where The Money Is."
   - q: "How much money do robberies pay in GTA 6?"
     a: "Not confirmed. Pre-launch reports suggested small stores pay a couple of thousand dollars at most, with jewelry stores and banks paying much more. We'll add real figures once we've tested them."
+  - q: "How do you know if a store has a safe?"
+    a: "Select the business on the map. A launch-day guide says it shows whether there's a safe, the security level and the rough value of the goods."
   - q: "Do robberies count toward 100%?"
     a: "Guides list optional robberies among the things to clear for completion. We'll confirm exactly which ones count."
 sources:
+  - label: "PC Gamer: GTA 6 safe codes and where to find them"
+    url: "https://www.pcgamer.com/games/grand-theft-auto/gta-6-safe-codes-combinations/"
   - label: "PowerPyx: GTA 6 trophy guide and roadmap"
     url: "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/"
   - label: "AllThings.How: how store, diner and jewelry robberies work"
@@ -51,5 +55,6 @@ order: 3
 
 ## Related
 
+- [How safe codes work](/gameplay/how-do-safe-codes-work-in-gta-6/)
 - [How the GTA 6 wanted system works](/gameplay/how-does-the-wanted-system-work-in-gta-6/)
 - [All GTA 6 gameplay mechanics](/gameplay/gta-6-gameplay-mechanics-explained/)

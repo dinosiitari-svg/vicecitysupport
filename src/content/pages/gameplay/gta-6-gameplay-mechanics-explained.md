@@ -66,6 +66,12 @@ items:
     detail: "Cheats work only once the main story is done, each needs a challenge to unlock, and using one turns saving off."
   - title: "The D-pad index"
     detail: "Right on the D-pad opens an index of missions, robberies, activities and shops; pick one to set your destination."
+  - title: "Bank account through the story"
+    detail: "A Chapter 1 mission gives you the BuckMe banking app; deposit cash at ATMs so you don't lose it."
+  - title: "Random safe codes"
+    detail: "Robbery safe codes change each time; find them on site or threaten staff for them."
+  - title: "Buy-once parachutes"
+    detail: "Buy a parachute at Ammu-Nation or find free ones on rooftops, then re-equip it from the rack after each jump."
 faq:
   - q: "Is GTA 6 more realistic than GTA 5?"
     a: "In several systems, yes: police need witnesses, driving and carjacking were rebuilt, and Jason and Lucia have needs like food and sleep."
@@ -115,6 +121,9 @@ order: 0
 - [How to increase Health, Stamina and Focus](/gameplay/how-to-increase-stats-in-gta-6/)
 - [Are there cheats in GTA 6?](/gameplay/are-there-cheats-in-gta-6/)
 - [How to find missions and activities](/gameplay/how-to-find-missions-in-gta-6/)
+- [How to open a bank account](/gameplay/how-to-open-a-bank-account-in-gta-6/)
+- [How safe codes work](/gameplay/how-do-safe-codes-work-in-gta-6/)
+- [How to get a parachute](/gameplay/how-to-get-a-parachute-in-gta-6/)
 
 ## How we'll update this page
 
