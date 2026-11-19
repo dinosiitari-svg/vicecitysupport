@@ -111,3 +111,19 @@ Editing from your phone: on github.com open `src/data/map-markers.json` &rarr; p
   heavy on older phones; that's the point to add clustering.
 - The page renders the full category list and counts in plain HTML below the map, so Google still sees
   real content even though the map itself is JavaScript.
+
+
+---
+
+## Adding a photo to a marker
+
+Two optional fields go on a marker line:
+
+| Field | What it does |
+|---|---|
+| `image` | **Your own screenshot.** Put the file in `public/map/photos/` and write its path, e.g. `"image": "/map/photos/albany-hotel.webp"`. It shows inside the pop-up. |
+| `photoLink` | **A link to someone else's photo.** Shows a "See in-game photo" button that opens it in a new tab. Most imported gtadb places already have one. |
+
+If a marker has both, your own `image` wins and the link is hidden.
+
+Only put screenshots **you took yourself** in `image`. Don't copy Rockstar's trailer stills or other sites' photos onto the site; link to them with `photoLink` instead.
