@@ -25,6 +25,10 @@ faq:
     a: "Yes, according to EDGE's hands-on preview: a K9 unit chased Jason down during a motorbike pursuit and pinned him after he missed a spike strip laid across the road."
   - q: "How many wanted stars are there in GTA 6?"
     a: "Six, the same maximum as GTA V. Rockstar hasn't published which crimes lead to which star level."
+  - q: "How do you get six stars in GTA 6?"
+    a: "Only through mass destruction. A launch-day guide reports five stars brings out tanks, and the top levels come from things like stealing a passenger jet at the airport or hijacking military vehicles at the army base. The author only reached six stars by stealing a tank from the military base and destroying other tanks and vehicles."
+  - q: "Can you lose a six-star wanted level?"
+    a: "Reportedly not. At six stars the heat never drops and police and military keep hunting you, so dying is effectively the only way out. Expect heavy killing to hurt your criminal profile too."
   - q: "What do the different star styles mean?"
     a: "Solid stars mean police are chasing you and can see you. Flashing stars mean they've lost sight of you and are searching where you were last seen. A hollow star means they know a crime happened but have no information about who did it."
   - q: "Do police instantly know when you commit a crime?"
@@ -42,6 +46,8 @@ faq:
   - q: "Can you talk your way out of a wanted level?"
     a: "At one star, sometimes. Aim at an officer who hasn't drawn a gun and you get options to defuse or provoke; a reviewer reports defusing can clear a one-star wanted level, but some officers attack anyway."
 sources:
+  - label: "PC Gamer: how to reach six stars in GTA 6"
+    url: "https://www.pcgamer.com/games/grand-theft-auto/gta-6-six-stars/"
   - label: "VGTimes: police dogs, fuel and longer nights from EDGE's preview"
     url: "https://vgtimes.com/articles/172804-gta-6-edge-preview-breakdown.html"
   - label: "Kotaku: 32 spoiler-free tips as you hop into Grand Theft Auto 6"
@@ -65,4 +71,4 @@ order: 1
 
 ## What isn't confirmed yet
 
-Exactly which crimes give which star level, how long a hot area lasts, and what being busted or wasted costs you. One guide reports that splitting Jason and Lucia drops your wanted level by a star; we haven't seen that confirmed elsewhere. Guides also report that police keep a profile of you after a wanted level ends, but how long it lasts isn't known. We'll fill these in as we test them.
+Exactly which crimes give stars one to four, how long a hot area lasts, and what being busted or wasted costs you. One guide reports that splitting Jason and Lucia drops your wanted level by a star; we haven't seen that confirmed elsewhere. Guides also report that police keep a profile of you after a wanted level ends, but how long it lasts isn't known. We'll fill these in as we test them.

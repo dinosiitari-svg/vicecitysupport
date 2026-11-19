@@ -62,6 +62,10 @@ items:
     detail: "Weights raise Health, cardio raises Stamina, and skill activities like the shooting range raise Focus."
   - title: "15 manual save slots plus autosave"
     detail: "Save from the pause menu's Game tab; missions can't be replayed, so keep older saves."
+  - title: "Cheats after the story"
+    detail: "Cheats work only once the main story is done, each needs a challenge to unlock, and using one turns saving off."
+  - title: "The D-pad index"
+    detail: "Right on the D-pad opens an index of missions, robberies, activities and shops; pick one to set your destination."
 faq:
   - q: "Is GTA 6 more realistic than GTA 5?"
     a: "In several systems, yes: police need witnesses, driving and carjacking were rebuilt, and Jason and Lucia have needs like food and sleep."
@@ -109,6 +113,8 @@ order: 0
 - [Fuel and gas stations](/gameplay/do-cars-need-fuel-in-gta-6/)
 - [How to save your game](/gameplay/how-to-save-in-gta-6/)
 - [How to increase Health, Stamina and Focus](/gameplay/how-to-increase-stats-in-gta-6/)
+- [Are there cheats in GTA 6?](/gameplay/are-there-cheats-in-gta-6/)
+- [How to find missions and activities](/gameplay/how-to-find-missions-in-gta-6/)
 
 ## How we'll update this page
 

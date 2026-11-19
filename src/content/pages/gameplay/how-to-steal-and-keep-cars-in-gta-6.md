@@ -4,7 +4,7 @@ answer: "Stealing a car in GTA 6 is no longer one button press. Occupied cars ca
 description: "GTA 6 car stealing explained: carjacking, slim jims and key cloners, trackers, registering a stolen car, garage slots and selling cars to a fence."
 status: verifying
 statusNote: "Based on Rockstar interviews and press previews from before launch. Sources disagree on a few details; we're checking them in-game now that GTA 6 is out."
-updated: 2026-11-18
+updated: 2026-11-19
 listType: steps
 listTitle: "How to steal a car and keep it"
 items:
@@ -13,9 +13,9 @@ items:
   - title: "Carjack or break in"
     detail: "Drivers can still be pulled out, though some fight back or pull a gun. For parked cars, use a lockout tool (a short minigame) or smash the window, which is faster but noisier."
   - title: "Get a key cloner for newer cars"
-    detail: "Cars with electronic key fobs need a key cloner. It costs money, and some theft tools only unlock as the story goes on."
+    detail: "Keyless cars can't be hot-wired. You get the key cloner in Chapter 3, during the mission \"Steal the Zorruso for Randy\". Stand by the driver's door, press interact, choose Clone Key, then move the stick to find the sweet spot to speed it up."
   - title: "Watch out for trackers"
-    detail: "Some higher-end cars have trackers that can tip off the police, and reports say you may need to keep your speed up to avoid being traced."
+    detail: "A standard tracker stops you modding the car until it's registered. An advanced tracker sends your exact position to the police; keep your speed up until they lose the signal, because it comes back if you slow down."
   - title: "Get the tracker removed"
     detail: "A fence removes trackers. Some cars can't be sold until this is done."
   - title: "Register the car"
@@ -29,6 +29,8 @@ faq:
     a: "A red tracker icon appears in the bottom-left corner next to the engine and fuel icons. Keep moving, because driving slowly for too long lets police find you. You can also hold up on the D-pad to scan a car with WAINK before you take it."
   - q: "How do you repair a car in GTA 6?"
     a: "Any gas pump repairs cars and motorbikes for a small fee. The Scooter Bros app also repairs vehicles and gets them out of the impound, but usually costs more."
+  - q: "When do you get the key cloner in GTA 6?"
+    a: "In Chapter 3, during the story mission \"Steal the Zorruso for Randy\". Before that, keyless cars stay off-limits. Scan a car with the WAINK app to see whether it's keyless."
   - q: "Can you still steal any car in GTA 6?"
     a: "You can still pull drivers out of their cars, but some parked cars stay locked until you've progressed the story and picked up the right tools, such as a key cloner."
   - q: "How many cars can you keep in GTA 6?"
@@ -40,6 +42,8 @@ faq:
   - q: "Can you store guns in your car?"
     a: "Yes. The trunk works as a mobile armory and wardrobe. See our weapons guide."
 sources:
+  - label: "PC Gamer: how to clone keys in GTA 6"
+    url: "https://www.pcgamer.com/games/grand-theft-auto/gta-6-clone-keys/"
   - label: "Kotaku: 32 spoiler-free tips as you hop into Grand Theft Auto 6"
     url: "https://kotaku.com/32-spoiler-free-tips-as-you-hop-into-grand-theft-auto-6-2000758016"
   - label: "GTABase: GTA 6 car stealing guide"
@@ -66,4 +70,4 @@ Rockstar replaced GTA V's instant hot-wire with what it calls a stratified syste
 
 ## What isn't confirmed yet
 
-The exact number of free garage slots, garage prices, fence and Pay 'n' Spray locations, how much cars sell for, whether mod shops and performance upgrades exist, how fuel works, and whether the scanner is its own device or a phone app (sources name it differently).
+The exact number of free garage slots, garage prices, fence and Pay 'n' Spray locations, how much cars sell for, what mod shops offer beyond winches and modding registered cars, how fuel works, and whether the scanner is its own device or a phone app (sources name it differently).

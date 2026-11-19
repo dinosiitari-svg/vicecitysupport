@@ -26,7 +26,7 @@ faq:
   - q: "Do you need a safehouse or bed to save?"
     a: "No. Manual saves work from the menu anywhere in free roam. Sleeping at a safehouse skips time and restores health and stamina, but it isn't required to save."
   - q: "Do cheats stop you saving in GTA 6?"
-    a: "Yes. Turning on any cheat disables saving (and trophies/achievements) until you quit and reload. Cheats are reported to open up only after the main story."
+    a: "Yes. Turning on any cheat disables saving until you quit without saving. Cheats only work after the main story is finished. See our [cheats guide](/gameplay/are-there-cheats-in-gta-6/)."
   - q: "Can you replay missions in GTA 6?"
     a: "Not according to launch guides. If you want to redo a mission, you need a save from before it."
   - q: "Are GTA 6 saves backed up to the cloud?"

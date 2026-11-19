@@ -19,7 +19,15 @@ Set `"status": "confirmed"` only once you've seen it in-game yourself.
 
 ## Pending
 
-_Nothing queued yet. The hourly sweep adds entries here as it finds them._
+### 2026-11-19 09:30 · Garages/vehicles · "Seaplanes at Sherwin Boatworks, Southwind"
+- **Reported:** Mammoth Dodo seaplanes in and around a small hangar on the south side of the SBW (Sherwin Boatworks) / Chicki's Tiki Bar parking lot at the Southwind bend of Route 1, near Mile Zero Air Station; more moored off the dock. Reachable early from Jason's house in Key Lento.
+- **Source:** https://www.pcgamer.com/games/grand-theft-auto/gta-6-first-plane-and-helicopter/ (press guide, launch day)
+- **Suggested category:** none fits well; `garages` or a new vehicle-spawn category
+
+### 2026-11-19 09:30 · Garages/vehicles · "Buckingham Maverick helicopter dock, Southwind"
+- **Reported:** looking straight east from the SBW / Chicki's Tiki Bar parking lot entrance in Southwind, an open gate leads to a dock with a Buckingham Maverick helicopter.
+- **Source:** https://www.pcgamer.com/games/grand-theft-auto/gta-6-first-plane-and-helicopter/ (press guide, launch day)
+- **Suggested category:** none fits well; `garages` or a new vehicle-spawn category
 
 <!-- Entries are appended below this line, newest first, in this shape:
 
