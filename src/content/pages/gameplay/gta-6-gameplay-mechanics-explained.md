@@ -4,7 +4,7 @@ answer: "GTA 6's biggest changes are a reworked wanted system that depends on wi
 description: "Every new GTA 6 gameplay mechanic in one list: wanted system, character switching, driving, carjacking, respawns, money, robberies and more."
 status: verifying
 statusNote: "Collected from Rockstar's interviews and press previews. We're testing each one in-game and will update as we go."
-updated: 2026-11-18
+updated: 2026-11-19
 listType: steps
 listTitle: "New and changed mechanics"
 items:
@@ -56,6 +56,8 @@ items:
     detail: "A separate rank for Jason and Lucia that tracks needless violence; reportedly it can break for good."
   - title: "Fishing and hunting"
     detail: "Fishing is catch-and-release only; hunting pays by selling what you collect."
+  - title: "Cars need fuel"
+    detail: "Vehicles have a fuel gauge; a gas-station stop takes about ten seconds and also lets you repair, and EVs recharge."
 faq:
   - q: "Is GTA 6 more realistic than GTA 5?"
     a: "In several systems, yes: police need witnesses, driving and carjacking were rebuilt, and Jason and Lucia have needs like food and sleep."
@@ -100,6 +102,7 @@ order: 0
 - [Beginner tips for your first hours](/gameplay/gta-6-tips-for-beginners/)
 - [How the criminal profile works](/gameplay/how-does-the-criminal-profile-work-in-gta-6/)
 - [Fishing, hunting and side activities](/gameplay/can-you-fish-and-hunt-in-gta-6/)
+- [Fuel and gas stations](/gameplay/do-cars-need-fuel-in-gta-6/)
 
 ## How we'll update this page
 

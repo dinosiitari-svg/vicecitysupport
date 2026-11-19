@@ -4,7 +4,7 @@ answer: "GTA 6 keeps a six-star wanted level, but police only come after you onc
 description: "GTA 6's wanted system explained: six stars, what the solid, flashing and hollow stars mean, how police identify you, hot areas and how to lose the cops."
 status: verifying
 statusNote: "Based on Rockstar's pre-launch interviews and press previews. We're checking every detail in-game now that GTA 6 is out."
-updated: 2026-11-18
+updated: 2026-11-19
 listType: steps
 listTitle: "How to lose a wanted level"
 items:
@@ -21,6 +21,8 @@ items:
   - title: "Use a Pay 'n' Spray"
     detail: "Previews report that a respray still clears your wanted level."
 faq:
+  - q: "Do police use dogs and spike strips in GTA 6?"
+    a: "Yes, according to EDGE's hands-on preview: a K9 unit chased Jason down during a motorbike pursuit and pinned him after he missed a spike strip laid across the road."
   - q: "How many wanted stars are there in GTA 6?"
     a: "Six, the same maximum as GTA V. Rockstar hasn't published which crimes lead to which star level."
   - q: "What do the different star styles mean?"
@@ -40,6 +42,8 @@ faq:
   - q: "Can you talk your way out of a wanted level?"
     a: "At one star, sometimes. Aim at an officer who hasn't drawn a gun and you get options to defuse or provoke; a reviewer reports defusing can clear a one-star wanted level, but some officers attack anyway."
 sources:
+  - label: "VGTimes: police dogs, fuel and longer nights from EDGE's preview"
+    url: "https://vgtimes.com/articles/172804-gta-6-edge-preview-breakdown.html"
   - label: "Kotaku: 32 spoiler-free tips as you hop into Grand Theft Auto 6"
     url: "https://kotaku.com/32-spoiler-free-tips-as-you-hop-into-grand-theft-auto-6-2000758016"
   - label: "GTAbase: GTA 6 wanted level and police system guide"
