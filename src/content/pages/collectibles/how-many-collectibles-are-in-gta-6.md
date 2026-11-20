@@ -56,3 +56,13 @@ order: 1
 ## What counts as a collectible
 
 GTA 6 tracks a lot more than hidden items. The Progress list reportedly also covers vehicles, weapons, animals, fishing, stunt jumps, races, gang operations and robberies. This page lists the item types you collect by finding them in the world. We'll add exact in-game confirmations as we check them.
+
+## Location guides
+
+- [All meditation spot locations](/collectibles/all-meditation-spot-locations/)
+- [All magazines, books and comics](/collectibles/all-magazines-books-comics-locations/)
+- [All cocaine flamingo locations](/collectibles/all-cocaine-flamingo-locations/)
+- [All drone race locations](/collectibles/all-drone-race-locations/)
+- [All golf course locations](/collectibles/all-golf-course-locations/)
+- [All pool opponent locations](/collectibles/all-pool-opponent-locations/)
+- [All video game locations](/collectibles/all-video-game-locations/)

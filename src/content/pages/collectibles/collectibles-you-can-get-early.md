@@ -34,3 +34,13 @@ order: 7
 
 - [Best order to collect everything](/collectibles/best-order-to-collect-everything/)
 - [Are any GTA 6 collectibles missable?](/collectibles/are-any-gta-6-collectibles-missable/)
+
+## Location guides
+
+- [All meditation spot locations](/collectibles/all-meditation-spot-locations/)
+- [All magazines, books and comics](/collectibles/all-magazines-books-comics-locations/)
+- [All cocaine flamingo locations](/collectibles/all-cocaine-flamingo-locations/)
+- [All drone race locations](/collectibles/all-drone-race-locations/)
+- [All golf course locations](/collectibles/all-golf-course-locations/)
+- [All pool opponent locations](/collectibles/all-pool-opponent-locations/)
+- [All video game locations](/collectibles/all-video-game-locations/)

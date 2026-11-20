@@ -1,16 +1,18 @@
 ---
 question: "What's the best order to collect everything in GTA 6?"
-answer: "Play the story first and scan vehicles and animals as you go, then do the 100% checklist and challenges after the credits, and finish with Strangers & Freaks and any leftovers. Grab the Chapter 1 meditation spot at Jason's house before you leave Chapter 1."
-description: "The most efficient order to collect everything in GTA 6: story first, 100% checklist after, cleanup last, plus the one thing to grab in Chapter 1."
+answer: "Play the story first and scan vehicles and animals as you go, then do the 100% checklist and challenges after the credits, and finish with Strangers & Freaks and any leftovers. Before each early chapter ends, grab its missables: the meditation spot and five magazines at Jason's house in Chapter 1, two at the Starlet Motel in Chapter 2 and two at the Bayside apartment in Chapter 3."
+description: "The most efficient order to collect everything in GTA 6: story first, 100% checklist after, cleanup last, plus the missables to grab in Chapters 1 to 3."
 status: verifying
 statusNote: "Based on a trophy roadmap from a guide writer who played before launch. We're checking it in-game and will update."
-updated: 2026-11-18
+updated: 2026-11-20
 listType: steps
 listTitle: "Recommended collection order"
 checklist: true
 items:
   - title: "Chapter 1: get the meditation spot at Jason's house"
-    detail: "Reported as only available during Chapter 1. Do it before moving on, in case it counts toward the meditation trophy."
+    detail: "Reported as only available during Chapter 1. Do it before moving on, in case it counts toward the meditation trophy. Also read the five magazines and books around Jason's house: they're gone after Chapter 1."
+  - title: "Chapters 2 and 3: read the motel and apartment magazines"
+    detail: "Two at the Starlet Motel disappear after Chapter 2, and two at the Bayside apartment after Chapter 3. Our magazines page lists exactly where."
   - title: "During the story: scan vehicles and study animals"
     detail: "WAiNK scanning unlocks automatically in Chapter 1, and vehicle and animal progress counts from the start, so build it up while you drive around."
   - title: "During the story: optional missions when they appear"
@@ -41,3 +43,13 @@ order: 6
 - [How many collectibles are in GTA 6?](/collectibles/how-many-collectibles-are-in-gta-6/)
 - [Are any GTA 6 collectibles missable?](/collectibles/are-any-gta-6-collectibles-missable/)
 - [Which collectibles can you get early?](/collectibles/collectibles-you-can-get-early/)
+
+## Location guides
+
+- [All meditation spot locations](/collectibles/all-meditation-spot-locations/)
+- [All magazines, books and comics](/collectibles/all-magazines-books-comics-locations/)
+- [All cocaine flamingo locations](/collectibles/all-cocaine-flamingo-locations/)
+- [All drone race locations](/collectibles/all-drone-race-locations/)
+- [All golf course locations](/collectibles/all-golf-course-locations/)
+- [All pool opponent locations](/collectibles/all-pool-opponent-locations/)
+- [All video game locations](/collectibles/all-video-game-locations/)
