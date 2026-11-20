@@ -92,6 +92,8 @@ items:
     detail: "Sparing or killing Arnold in Hey Arnold! is reported to change Jason's criminal profile, but not the story."
   - title: "Cryptid sightings"
     detail: "Besides the UFO, players have tracked a skunk ape (Leonida's Bigfoot) near Key Lento using Focus."
+  - title: "New default controls, classic option"
+    detail: "Sprint, jump, crouch and melee moved from GTA 5; a Classic control scheme in Settings restores the old layout."
 faq:
   - q: "Is GTA 6 more realistic than GTA 5?"
     a: "In several systems, yes: police need witnesses, driving and carjacking were rebuilt, and Jason and Lucia have needs like food and sleep."
@@ -155,6 +157,7 @@ order: 0
 - [Where is the airport?](/gameplay/where-is-the-airport-in-gta-6/)
 - [Should you kill or spare Arnold?](/gameplay/should-you-kill-or-spare-arnold-in-gta-6/)
 - [Where is Bigfoot?](/gameplay/where-is-bigfoot-in-gta-6/)
+- [How to change to GTA 5 controls](/gameplay/how-to-change-controls-in-gta-6/)
 
 ## How we'll update this page
 

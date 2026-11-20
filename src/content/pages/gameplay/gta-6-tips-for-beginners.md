@@ -63,6 +63,7 @@ order: 11
 
 ## Related guides
 
+- [How to change to GTA 5 controls](/gameplay/how-to-change-controls-in-gta-6/)
 - [How the GTA 6 wanted system works](/gameplay/how-does-the-wanted-system-work-in-gta-6/)
 - [How to steal and keep cars](/gameplay/how-to-steal-and-keep-cars-in-gta-6/)
 - [Every app on the GTA 6 phone](/gameplay/what-apps-are-on-the-gta-6-phone/)
