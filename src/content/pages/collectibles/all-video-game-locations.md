@@ -17,6 +17,7 @@ items:
     detail: "Same availability as the other two console games."
   - title: "4. Bang For Your Buck: arcade machines"
     detail: "Not on the home console. One machine is outside the Bargain World clothing store in Port Gellhorn."
+    pin: "Arcade: Bang For Your Buck (Bargain World)"
 faq:
   - q: "What do you need to do for 100%?"
     a: "The guide says starting each game and quitting straight away is enough, though it also says to play each once. Playing each game briefly covers both."

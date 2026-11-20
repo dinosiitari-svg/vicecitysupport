@@ -12,6 +12,11 @@ const item = z.object({
   title: z.string(),
   // Optional extra detail shown under the title
   detail: z.string().optional(),
+  // Optional: exact name (or id) of a pin in src/data/map-markers.json.
+  // Adds a "Show on map" button that opens the interactive map zoomed to that pin.
+  pin: z.string().optional(),
+  // Optional: a map category id. Adds a "Show all on map" button for that whole category.
+  mapCat: z.string().optional(),
 });
 
 const pages = defineCollection({

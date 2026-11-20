@@ -48,6 +48,21 @@ Open e.g. `src/content/pages/collectibles/are-any-gta-6-collectibles-missable.md
 - replace `items: []` with your list,
 - set `status: verified`, add `lastVerified:` and bump `updated:`.
 
+## "Show on map" buttons
+
+Any list item can get a button that opens the interactive map zoomed to a pin:
+
+```yaml
+  - title: "4. Kelly County: Camp Moonflower"
+    detail: "On the bank of the Emerald River."
+    pin: "Meditations 6–7: Camp Moonflower"   # exact "name" of the pin in src/data/map-markers.json
+```
+
+Or a button that shows a whole category on the map: `mapCat: "meditation"` (a category id).
+
+If the pin name has a typo, the build stops with an error, so a broken button never goes live.
+Copy the name straight from `map-markers.json`.
+
 ## Tips
 - Put quotes around any text containing a colon `:`.
 - Indentation matters in the top section: use 2 spaces, never tabs.

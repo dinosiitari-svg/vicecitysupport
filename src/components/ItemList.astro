@@ -1,8 +1,10 @@
 ---
 // Numbered steps / location list, optionally with a saved checklist.
+import mapData from '../data/map-markers.json';
+
 interface Props {
   storageKey: string;
-  items: { title: string; detail?: string }[];
+  items: { title: string; detail?: string; pin?: string; mapCat?: string }[];
   listType: 'steps' | 'locations';
   checklist: boolean;
   placeholderCount: number;
@@ -16,6 +18,22 @@ const rows = isPlaceholder
     }))
   : items;
 const canCheck = checklist && !isPlaceholder;
+
+// "Show on map" links. A typo in a pin name stops the build, so a broken button can't go live.
+const MAP = '/map/interactive/';
+const mapHref = (it: { pin?: string; mapCat?: string }) => {
+  if (it.pin) {
+    const ok = mapData.markers.some((m: any) => m.name === it.pin || m.id === it.pin);
+    if (!ok) throw new Error(`ItemList: no map pin named "${it.pin}" in src/data/map-markers.json`);
+    return `${MAP}?pin=${encodeURIComponent(it.pin)}`;
+  }
+  if (it.mapCat) {
+    const ok = mapData.categories.some((c: any) => c.id === it.mapCat);
+    if (!ok) throw new Error(`ItemList: no map category "${it.mapCat}" in src/data/map-markers.json`);
+    return `${MAP}?cat=${encodeURIComponent(it.mapCat)}`;
+  }
+  return undefined;
+};
 ---
 {canCheck && (
   <div class="checklist-head" data-checklist-head={storageKey}>
@@ -28,19 +46,28 @@ const canCheck = checklist && !isPlaceholder;
   <p class="meta">A tick-off checklist (saved on your device) will appear here once the list is verified.</p>
 )}
 <ol class:list={['item-list', listType]} data-checklist={canCheck ? storageKey : undefined}>
-  {rows.map((it, i) => (
+  {rows.map((it: any, i) => (
     <li class:list={{ placeholder: isPlaceholder }}>
       {canCheck ? (
         <label>
           <input type="checkbox" data-key={it.title} aria-label={`Mark "${it.title}" as found`} />
-          <span><span class="t">{it.title}</span>{it.detail && <div class="d" set:html={it.detail} />}</span>
+          <span><span class="t">{it.title}</span>{it.detail && <div class="d" set:html={it.detail} />}{mapHref(it) && (<a class="map-link" href={mapHref(it)}><span aria-hidden="true">&#128205;</span> {it.pin ? 'Show on map' : 'Show all on map'}</a>)}</span>
         </label>
       ) : (
-        <span><span class="t">{it.title}</span>{it.detail && <div class="d" set:html={it.detail} />}</span>
+        <span><span class="t">{it.title}</span>{it.detail && <div class="d" set:html={it.detail} />}{mapHref(it) && (<a class="map-link" href={mapHref(it)}><span aria-hidden="true">&#128205;</span> {it.pin ? 'Show on map' : 'Show all on map'}</a>)}</span>
       )}
     </li>
   ))}
 </ol>
+
+<style>
+  .map-link {
+    display: flex; width: fit-content; align-items: center; gap: 6px; margin: 8px 0 2px;
+    font-size: 0.88rem; font-weight: 700; color: var(--cyan-soft, #7ff3ff); text-decoration: none;
+    border: 1px solid rgba(25, 227, 255, 0.45); border-radius: 999px; padding: 5px 12px;
+  }
+  .map-link:hover { background: rgba(25, 227, 255, 0.1); color: #fff; }
+</style>
 
 <script>
   // Checklist progress is stored in localStorage (only on the player's device),

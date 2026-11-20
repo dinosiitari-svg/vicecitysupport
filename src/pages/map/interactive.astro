@@ -504,5 +504,42 @@ const jsonLd = [
     });
 
     refresh();
+
+    // ─── Deep links from guide pages ───
+    //   ?pin=<marker name or id>  → zoom to that pin and open its pop-up
+    //   ?cat=<category id>        → show only that category, zoomed to fit its pins
+    const params = new URLSearchParams(location.search);
+    const pinQ = params.get('pin');
+    const catQ = params.get('cat');
+    if (pinQ) {
+      const e = entries.find((x) => x.m.name === pinQ || (x.m as any).id === pinQ);
+      if (e) {
+        const box = catBoxes.find((b) => b.value === e.m.cat);
+        if (box && !box.checked) { box.checked = true; }
+        if (search) search.value = '';
+        if (hideFound) hideFound.checked = false;
+        refresh();
+        el.scrollIntoView({ block: 'center' });
+        // Jump straight to the zoom where pins stop grouping into bubbles, centred on this pin.
+        // Pins load in batches and only draw when in view, so wait until this one is drawn, then open it.
+        map.setView(e.marker.getLatLng(), 2, { animate: false });
+        let tries = 0;
+        const openPin = () => {
+          if (map.hasLayer(e.marker)) {
+            e.marker.openPopup();
+          } else if (tries++ < 100) {
+            if (tries % 10 === 0) map.setView(e.marker.getLatLng(), 2, { animate: false });
+            setTimeout(openPin, 50);
+          }
+        };
+        openPin();
+      }
+    } else if (catQ && catById[catQ]) {
+      catBoxes.forEach((b) => (b.checked = b.value === catQ));
+      refresh();
+      const pts = entries.filter((x) => x.m.cat === catQ).map((x) => x.marker.getLatLng());
+      el.scrollIntoView({ block: 'center' });
+      if (pts.length) map.fitBounds(L.latLngBounds(pts).pad(0.3), { maxZoom: 1 });
+    }
   }
 </script>
