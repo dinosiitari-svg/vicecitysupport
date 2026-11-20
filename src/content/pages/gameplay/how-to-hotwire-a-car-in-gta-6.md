@@ -1,7 +1,8 @@
 ---
 question: "How do you hotwire a car in GTA 6?"
+seoTitle: "How to Hotwire a Car in GTA 6 (Step by Step)"
 answer: "In GTA 6 you can only hotwire older, low-security cars: get inside by smashing a window or using the slim jim, then play a short stick minigame to start the engine. Newer cars with keyless ignition can't be hotwired at all; you need the key cloner from Chapter 3."
-description: "How hotwiring works in GTA 6: which cars you can hotwire, smash window vs slim jim, the engine minigame, car alarms and why keyless cars need a key cloner."
+description: "Only older cars can be hotwired in GTA 6. How to get in, beat the engine minigame, avoid alarms, and what to do with keyless cars."
 status: verifying
 statusNote: "Based on Rockstar's interviews and launch-day guides. Guides describe the hotwire step only briefly, so we're checking the exact controls in-game."
 updated: 2026-11-20

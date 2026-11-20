@@ -1,7 +1,8 @@
 ---
 question: "Why can't I steal a car in GTA 6?"
+seoTitle: "Can't Steal a Car in GTA 6? Why & How to Fix"
 answer: "Most likely the car needs a tool you don't have yet. In GTA 6 many parked cars stay locked until you progress the story: the slim jim comes in Chapter 2 and the key cloner, which newer keyless cars need, in Chapter 3. You can break into a keyless car by smashing the window, but it won't start without the cloner. Scan the car with the WAINK app first, or just carjack a moving car, which works at any point."
-description: "Can't steal a car in GTA 6? The usual reasons (keyless cars, missing slim jim or key cloner, alarms, trackers) and how to fix each one."
+description: "Car won't unlock or start in GTA 6? It's usually a missing slim jim or key cloner. Which cars need what, and the quick fix for each."
 status: verifying
 statusNote: "Based on Rockstar interviews and launch-day guides. We're checking each fix in-game now that GTA 6 is out."
 updated: 2026-11-20

@@ -62,7 +62,7 @@ const jsonLd = [
   },
 ];
 ---
-<BaseLayout title={d.question} description={d.description} ogType="article" noindex={d.template} jsonLd={d.template ? [] : jsonLd} modified={d.updated}>
+<BaseLayout title={d.seoTitle ?? d.question} description={d.description} ogType="article" noindex={d.template} jsonLd={d.template ? [] : jsonLd} modified={d.updated}>
   <div class="wrap">
     <AdSlot position="top" />
     <div class="layout">

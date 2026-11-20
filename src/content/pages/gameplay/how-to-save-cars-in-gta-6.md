@@ -1,7 +1,8 @@
 ---
 question: "How do you save cars in GTA 6?"
+seoTitle: "How to Save Cars in GTA 6 (Keep Them Forever)"
 answer: "To save a car in GTA 6 you register it as a personal vehicle: from Chapter 2 take a car without a tracker to Moses and choose Register, and from Chapter 3 you can also register at any Pay 'n' Spray. You start with one personal vehicle slot, and buying garages lets you keep more."
-description: "How to keep a car permanently in GTA 6: registering at Moses or a Pay 'n' Spray, trackers, garage slots, and what happens to cars you don't save."
+description: "Register the car at Moses (Chapter 2) or a Pay 'n' Spray (Chapter 3) to keep it. Plus trackers, garage slots and what happens to unsaved cars."
 status: verifying
 statusNote: "From launch-day guides. They disagree on a few details, like when tracker cars can be registered. We're checking in-game."
 updated: 2026-11-20

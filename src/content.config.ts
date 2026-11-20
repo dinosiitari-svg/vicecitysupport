@@ -24,6 +24,9 @@ const pages = defineCollection({
   schema: z.object({
     // H1 = the exact question players search for.
     question: z.string(),
+    // Optional: shorter, click-friendly title for Google results (the H1 stays the question).
+    // Keep it under ~45 characters; " | Vice City Support" is added after it.
+    seoTitle: z.string().optional(),
     // First sentence on the page = the direct answer.
     answer: z.string(),
     // Shown in Google results and when shared (keep under ~155 characters).

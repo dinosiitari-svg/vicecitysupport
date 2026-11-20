@@ -1,7 +1,8 @@
 ---
 question: "How do you lower your criminal profile in GTA 6?"
+seoTitle: "How to Lower Your Criminal Profile in GTA 6"
 answer: "To move your criminal profile back toward Professional, commit crimes cleanly: threaten instead of hurting people, wound enemies instead of killing them, destroy security tapes and escape before the police arrive. Avoid killing civilians, police and pets. Once you hit Irredeemable, reports say it's permanent for that playthrough."
-description: "How to fix a bad criminal profile in GTA 6 and get back to Professional: what helps, what hurts, the 5 ranks, and whether Irredeemable can be undone."
+description: "Get back to Professional by committing crimes cleanly. What raises and lowers your profile, all 5 ranks, and whether Irredeemable is permanent."
 status: verifying
 statusNote: "From launch-day guides. Rank names differ between sources and we're checking how fast the profile moves in-game."
 updated: 2026-11-20

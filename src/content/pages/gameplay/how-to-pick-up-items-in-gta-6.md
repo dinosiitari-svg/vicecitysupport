@@ -1,7 +1,8 @@
 ---
 question: "How do you pick up items in GTA 6?"
+seoTitle: "How to Pick Up Items in GTA 6 (PS5 & Xbox)"
 answer: "Walk up to the item and wait for the on-screen prompt. On PS5, dropped weapons are picked up with L1 (the prompt shows the gun's name first), and most other things, like bags, fridges and objects, use the interact button, Triangle (Y on Xbox). Stolen goods from robberies go into a duffel bag rather than your pockets, and each character can carry up to two bags."
-description: "How to pick up items in GTA 6: weapons from the ground, loot bags, objects, food and drinks, the controls on PS5 and Xbox, and what to do when your bag is full."
+description: "Guns use L1 on PS5, most other items Triangle (Y on Xbox). How to pick up weapons, loot bags and objects, and what to do when your bag is full."
 status: verifying
 statusNote: "Based on launch-day guides and Rockstar's PS5 gameplay footage. Xbox and PC buttons for some prompts aren't published yet, so we're checking them in-game."
 updated: 2026-11-20

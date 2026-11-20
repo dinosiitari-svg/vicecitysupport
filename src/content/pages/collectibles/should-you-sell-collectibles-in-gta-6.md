@@ -1,7 +1,8 @@
 ---
 question: "Should you sell collectibles in GTA 6?"
+seoTitle: "Should You Sell Collectible Cards in GTA 6?"
 answer: "Yes, you can sell collectible cards without losing progress. Selling a card at a pawn shop doesn't remove it from your Collections list, so it still counts toward the set, the trophies and 100% completion. Cards sell for about $20 to over $1,000 depending on rarity."
-description: "Is it safe to sell collectible cards in GTA 6? Selling doesn't remove them from your collection or 100%. Where to sell, how much they're worth, and duplicates."
+description: "Yes: a sold card stays in your collection and still counts for 100%. Where to sell GTA 6 collectible cards, what they're worth, and duplicates."
 status: verifying
 statusNote: "From launch-day collectible guides. We're double-checking in-game that sold cards stay ticked off."
 updated: 2026-11-20
