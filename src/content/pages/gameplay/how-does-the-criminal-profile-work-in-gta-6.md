@@ -24,7 +24,9 @@ faq:
   - q: "Is the criminal profile the same as the wanted level?"
     a: "No. The wanted level (stars and the Heat search) is about what the police know right now. The criminal profile is a longer-term record of your style as a criminal. No source has explained exactly how the two interact."
   - q: "What are the criminal profile ranks?"
-    a: "Previews list Professional, Aggressive, Violent and Psycho. The worst state is called Shattered in some reports and Irredeemable in others, and it isn't clear whether that's one state with two names or a separate fifth rank."
+    a: "Launch-day guides list five: Professional, Hardened, Violent, Psycho and Irredeemable. Pre-launch previews used Aggressive instead of Hardened and called the worst state Shattered."
+  - q: "How do you lower or fix your criminal profile?"
+    a: "Commit crimes cleanly: threaten instead of shooting, wound enemies instead of killing them, destroy security tapes and get away before the police arrive. See our guide on how to lower your criminal profile."
   - q: "Can you fix a shattered criminal profile?"
     a: "Every preview that mentions it says no: once it shatters, it stays that way for the rest of that playthrough. Whether it locks just that character or both Jason and Lucia isn't clear yet."
   - q: "Is the criminal profile like Red Dead 2's Honor?"
@@ -59,6 +61,7 @@ order: 12
 
 ## Related guides
 
+- [How to lower your criminal profile](/gameplay/how-to-lower-your-criminal-profile-in-gta-6/)
 - [How the wanted system works](/gameplay/how-does-the-wanted-system-work-in-gta-6/)
 - [How robberies work](/gameplay/how-do-robberies-work-in-gta-6/)
 - [Beginner tips for your first hours](/gameplay/gta-6-tips-for-beginners/)

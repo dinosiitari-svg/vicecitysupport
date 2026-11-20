@@ -1,10 +1,10 @@
 ---
 question: "What platforms is GTA 6 on?"
-answer: "GTA 6 launches on PlayStation 5 and Xbox Series X|S on November 19, 2026; a PC version has not been announced."
+answer: "GTA 6 is on PlayStation 5 and Xbox Series X|S, released November 19, 2026; a PC version has not been announced."
 description: "GTA 6 platforms confirmed: PS5 and Xbox Series X|S. Is it on PC, PS4, Xbox One or Switch 2? Here's what Rockstar has actually announced."
 status: verified
 lastVerified: 2026-11-13
-updated: 2026-11-13
+updated: 2026-11-20
 listType: locations
 listTitle: "Platform status at launch"
 items:
@@ -15,6 +15,8 @@ items:
   - title: "PS4 and Xbox One: not announced"
   - title: "Nintendo Switch / Switch 2: not announced"
 faq:
+  - q: "What's GTA 6 on?"
+    a: "PlayStation 5 and Xbox Series X|S. No PC, PS4, Xbox One or Switch 2 version has been announced."
   - q: "Is GTA 6 on PC?"
     a: "Not at launch. Rockstar has announced GTA 6 for PS5 and Xbox Series X|S only, with no PC release date."
   - q: "Is GTA 6 on PS4 or Xbox One?"

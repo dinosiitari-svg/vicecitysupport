@@ -1,10 +1,10 @@
 ---
 question: "How do you steal and keep cars in GTA 6?"
 answer: "Stealing a car in GTA 6 is no longer one button press. Occupied cars can still be carjacked, but parked cars have security levels: older ones open with a basic tool or a smashed window, while newer cars with key fobs need a key cloner. To keep a stolen car you get its tracker removed, register it at a Pay 'n' Spray and park it in a garage. How many cars you can keep at the start is disputed: one launch-day guide says one personal vehicle per character, older previews said three, and buying garages adds more."
-description: "GTA 6 car stealing explained: carjacking, slim jims and key cloners, trackers, registering a stolen car, garage slots and selling cars to a fence."
+description: "GTA 6 car stealing explained: carjacking, hotwiring, slim jims and key cloners, trackers, saving a stolen car by registering it, garages and selling."
 status: verifying
 statusNote: "Based on Rockstar interviews and press previews from before launch. Sources disagree on a few details; we're checking them in-game now that GTA 6 is out."
-updated: 2026-11-19
+updated: 2026-11-20
 listType: steps
 listTitle: "How to steal a car and keep it"
 items:
@@ -41,6 +41,10 @@ faq:
     a: "A registered personal vehicle can be recovered through Scooter Bros for a fee. An unregistered car is gone for good, along with anything in its trunk."
   - q: "Where is my car in GTA 6?"
     a: "Your personal vehicle is always marked on the map. The last unregistered car you left is listed under Personal in the map index."
+  - q: "How do you hotwire a car in GTA 6?"
+    a: "Only older cars can be hotwired. Get in by smashing the window or using the slim jim, then do a short stick minigame to start the engine. Keyless cars need the key cloner instead. See our hotwiring guide."
+  - q: "How do you save a stolen car in GTA 6?"
+    a: "Register it as a personal vehicle at Moses (Chapter 2) or a Pay 'n' Spray (Chapter 3), then keep it in a garage. See our guide on saving cars."
   - q: "Can the slim jim start keyless cars?"
     a: "No. It only unlocks doors. Keyless cars need the key cloner from Chapter 3."
   - q: "What happens to a stolen car you don't register?"
@@ -80,6 +84,8 @@ Rockstar replaced GTA V's instant hot-wire with what it calls a stratified syste
 - [How many weapons you can carry](/gameplay/how-do-weapons-work-in-gta-6/)
 - [Every app on the GTA 6 phone](/gameplay/what-apps-are-on-the-gta-6-phone/)
 - [How to sell cars](/gameplay/how-to-sell-cars-in-gta-6/)
+- [How to hotwire a car](/gameplay/how-to-hotwire-a-car-in-gta-6/)
+- [How to save cars](/gameplay/how-to-save-cars-in-gta-6/)
 
 ## What isn't confirmed yet
 

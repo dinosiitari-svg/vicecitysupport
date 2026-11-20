@@ -33,4 +33,4 @@ sources:
 order: 6
 ---
 
-Card set location guides will follow as we confirm them. See also: [how many collectibles are in GTA 6](/collectibles/how-many-collectibles-are-in-gta-6/) and [what you get for finding them all](/collectibles/what-do-you-get-for-finding-all-collectibles/).
+Card set location guides will follow as we confirm them. See also: [how many collectibles are in GTA 6](/collectibles/how-many-collectibles-are-in-gta-6/) and [what you get for finding them all](/collectibles/what-do-you-get-for-finding-all-collectibles/). Thinking of cashing in? Read [should you sell collectibles in GTA 6](/collectibles/should-you-sell-collectibles-in-gta-6/).
