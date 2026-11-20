@@ -86,6 +86,7 @@ Rockstar replaced GTA V's instant hot-wire with what it calls a stratified syste
 - [How to sell cars](/gameplay/how-to-sell-cars-in-gta-6/)
 - [How to hotwire a car](/gameplay/how-to-hotwire-a-car-in-gta-6/)
 - [How to save cars](/gameplay/how-to-save-cars-in-gta-6/)
+- [Why can't I steal a car?](/gameplay/why-cant-i-steal-a-car-in-gta-6/)
 
 ## What isn't confirmed yet
 
