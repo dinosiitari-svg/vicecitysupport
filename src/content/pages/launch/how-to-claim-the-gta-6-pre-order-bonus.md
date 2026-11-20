@@ -4,7 +4,7 @@ answer: "The Vintage Vice City Pack shows up in the main-menu store after the Ch
 description: "How to get the GTA 6 Vintage Vice City Pack pre-order bonus: what's in it, when it unlocks, and where to claim the car, outfits, hair and weapon wrap."
 status: verifying
 statusNote: "From a launch-day guide. We're checking the unlock steps in-game."
-updated: 2026-11-19
+updated: 2026-11-20
 listType: steps
 listTitle: "How to claim the Vintage Vice City Pack"
 items:
@@ -25,7 +25,11 @@ faq:
     a: "No. It's reported to go to everyone who pre-ordered, standard edition included."
   - q: "Why can't I find my pre-order bonus?"
     a: "It's held back until Chapter 3. Keep playing the story and check the Exploration section of the index."
+  - q: "Which garage comes with the '55 Stanier?"
+    a: "Sources disagree. One guide says collecting the car opens Bonita Court Garage north of Washington Beach; a garage guide calls the pre-order garage Shore Court Garage near Ocean Beach. We'll confirm in-game."
 sources:
+  - label: "GamesRadar+: GTA 6 Ultimate Edition and pre-order bonuses"
+    url: "https://www.gamesradar.com/games/grand-theft-auto/gta-6-ultimate-edition-pre-order-bonuses/"
   - label: "PC Gamer: how to collect the Vintage Vice City Pack pre-order bonus"
     url: "https://www.pcgamer.com/games/grand-theft-auto/gta-6-pre-order-bonus-vintage-vice-city-pack/"
 order: 6
@@ -33,5 +37,7 @@ order: 6
 
 ## Related
 
+- [How to claim the Ultimate Edition bonuses](/launch/how-to-claim-gta-6-ultimate-edition-bonuses/)
+- [How to buy garages](/gameplay/how-to-buy-garages-in-gta-6/)
 - [How to find missions and activities](/gameplay/how-to-find-missions-in-gta-6/)
 - [How to change your look](/gameplay/how-to-change-your-look-in-gta-6/)

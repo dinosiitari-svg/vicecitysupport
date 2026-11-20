@@ -43,6 +43,7 @@ order: 22
 
 ## Related guides
 
+- [Other GTA 6 easter eggs found so far](/gameplay/gta-6-easter-eggs/)
 - [How many collectibles are in GTA 6?](/collectibles/how-many-collectibles-are-in-gta-6/)
 - [How to find missions and activities](/gameplay/how-to-find-missions-in-gta-6/)
 - [All GTA 6 gameplay mechanics](/gameplay/gta-6-gameplay-mechanics-explained/)

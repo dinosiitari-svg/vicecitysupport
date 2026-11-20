@@ -4,7 +4,7 @@ answer: "GTA 6's biggest changes are a reworked wanted system that depends on wi
 description: "Every new GTA 6 gameplay mechanic in one list: wanted system, character switching, driving, carjacking, respawns, money, robberies and more."
 status: verifying
 statusNote: "Collected from Rockstar's interviews and press previews. We're testing each one in-game and will update as we go."
-updated: 2026-11-19
+updated: 2026-11-20
 listType: steps
 listTitle: "New and changed mechanics"
 items:
@@ -80,6 +80,10 @@ items:
     detail: "39 repeatable gang sites to rob across nine gang groups; sell the drugs you take to a fence."
   - title: "Selling and respraying cars"
     detail: "Sell your own cars at a Pay 'n' Spray and stolen ones to a fence; a Pay 'n' Spray also clears a car's police heat."
+  - title: "Buy garages for more cars"
+    detail: "A Chapter 2 mission unlocks the Vice City Real Estate app, where garages sell for roughly $4,000 to $40,000."
+  - title: "Fences for stolen goods"
+    detail: "Five goods fences and two car buyers unlock through the story; some pay on the spot, others via drop boxes."
 faq:
   - q: "Is GTA 6 more realistic than GTA 5?"
     a: "In several systems, yes: police need witnesses, driving and carjacking were rebuilt, and Jason and Lucia have needs like food and sleep."
@@ -136,6 +140,9 @@ order: 0
 - [Strip club locations](/gameplay/where-are-the-strip-clubs-in-gta-6/)
 - [How gang Illegal Operations work](/gameplay/how-do-gang-illegal-operations-work-in-gta-6/)
 - [How to sell cars](/gameplay/how-to-sell-cars-in-gta-6/)
+- [How to buy garages](/gameplay/how-to-buy-garages-in-gta-6/)
+- [Where are the fences?](/gameplay/where-are-the-fences-in-gta-6/)
+- [GTA 6 easter eggs found so far](/gameplay/gta-6-easter-eggs/)
 
 ## How we'll update this page
 
