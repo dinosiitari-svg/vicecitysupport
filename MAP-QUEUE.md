@@ -19,6 +19,16 @@ Set `"status": "confirmed"` only once you've seen it in-game yourself.
 
 ## Pending
 
+### 2026-11-20 22:30 · Races · "Hit 'n' Run VC first street race + Yago's restaurant (Little Cuba)"
+- **Reported:** the first street race flag ("Join a Street Race") appears near the border of Salton and Little Cuba after the Ch3 mission Dealer's Choice. Yago's Cuban restaurant is in Little Cuba, across from the Little Cuba souvenir store, with Euroform Automotive (car mod shop) around the corner. Other race venues named only by area: Ocean Beach, Gloriana Key, Salton (Hit 'n' Run VC groups). Page: /gameplay/how-to-unlock-street-races-in-gta-6/
+- **Source:** https://outputlag.com/guides/gta-6-street-races-yago/ , https://techwiser.com/gta-6-racing-locations/ (player guides, unconfirmed)
+- **Suggested category:** `races` (restaurant/Euroform: `side-jobs` or `other`)
+
+### 2026-11-20 22:30 · Secrets · "Four-horse statue near Manifest Canyon; talking parrots liquor store in the Keys"
+- **Reported:** a statue of four horses (one wearing a traffic cone) near Manifest Canyon makes the controller vibrate and beep as you approach. A liquor store in the Keys where parrots reveal hidden cash near a generator. Both Reddit finds, no exact spot. Page: /gameplay/gta-6-easter-eggs/
+- **Source:** https://www.gamingbible.com/news/gta-6-easter-eggs-778903-20261120 (press round-up of Reddit posts, unconfirmed)
+- **Suggested category:** a new `secrets` category
+
 ### 2026-11-20 12:30 · Vehicle spots · "Mile Zero Air Station (military base, fighter jets)"
 - **Reported:** military base on Goose Key, Mariana County, far south-west of the map, south-east of Key Lento via the southern bridges. Jets, tank, APC, Buzzard. Stunt jump "Mile Zero Air Station Southeast" on the south-east corner off the southern access road. No Mile Zero place on the community map to pin to (the Mariana County Guard Booth / Radio Tower at ~28,93 might be it, but that's a guess). Page: /gameplay/how-to-get-a-fighter-jet-in-gta-6/
 - **Source:** https://www.pcgamer.com/games/grand-theft-auto/gta-6-military-base-location/ (press guide)

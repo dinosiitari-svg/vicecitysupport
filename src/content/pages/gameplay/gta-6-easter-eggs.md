@@ -1,6 +1,6 @@
 ---
 question: "What are the best easter eggs in GTA 6?"
-answer: "Players found several easter eggs in the first days: a UFO abduction in Kelly County, a green street-racer car in a garage on Vespucci Island that nods to The Fast and the Furious, a bird's nest on a tall tower whose eggs you can throw for a short cutscene, a possible cameo by Rockstar co-founder Sam Houser in a Chapter 3 mission, a boat near Jason's house whose GPS shows Los Santos, and a skunk ape sighting in the Keys."
+answer: "Players found several easter eggs in the first days: a UFO abduction in Kelly County, a green street-racer car in a garage on Vespucci Island that nods to The Fast and the Furious, a bird's nest on a tall tower whose eggs you can throw for a short cutscene, a possible cameo by Rockstar co-founder Sam Houser in a Chapter 3 mission, a boat near Jason's house whose GPS shows Los Santos, a skunk ape sighting in the Keys, and smaller finds like a Mount Chiliad conversation, a jet-ski rescue dog and a Dexter-style apartment."
 description: "GTA 6 easter eggs players have found so far: the UFO, the Fast and Furious car, the literal Easter egg on a tower and the 'Little Sam' cameo."
 status: verifying
 statusNote: "All player reports picked up by the press in launch week. Rockstar hasn't commented, and we haven't checked them in-game yet."
@@ -13,13 +13,25 @@ items:
   - title: "Fast and Furious car (Vespucci Island)"
     detail: "Players report a green tuner car styled after Brian O'Conner's ride from the first film, inside the garage of a white house near the middle of Vespucci Island. Break into the garage to take it."
   - title: "A literal Easter egg (radio tower)"
-    detail: "A player found a bird's nest on top of a tall radio or communications tower. Climb up (reportedly about seven minutes), throw one of the eggs and a cutscene shows it hitting a passing car's windscreen. Which tower it is hasn't been confirmed."
+    detail: "A player found a bird's nest on top of a tall radio or communications tower. Climb the ladder (about seven minutes) or parachute onto it, throw one of the eggs toward the road and a cutscene shows it hitting a car whose driver looks like a 1980s Vice City character, a nod to a GTA: Vice City secret. Which tower it is hasn't been confirmed."
   - title: "'Little Sam' cameo (Chapter 3)"
     detail: "Redditors think a character credited as Little Sam in the mission Boobie Time is a nod to Rockstar's Sam Houser and a minor GTA III character. Spoilers for Chapter 3."
   - title: "Michael's boat? (Key Lento)"
     detail: "Players noticed a Marquis sailboat, the same model Michael owned in GTA V, near Jason's starting house. Its GPS screen reportedly shows a map of Los Santos instead of Leonida."
   - title: "Bigfoot, or the skunk ape (Key Lento)"
     detail: "A creature sighting across Gambit Bay from Jason's house that you track with Focus, ending at an effigy. Full steps are in our Bigfoot guide, linked below."
+  - title: "Mount Chiliad callback (Chapter 1)"
+    detail: "During an early mission with Brian and Donnie, two people outside a bar talk about the Mount Chiliad mystery from GTA 5 (Reddit find)."
+  - title: "Jet-ski rescue dog"
+    detail: "Get stranded at sea and a dog in goggles and a life jacket may come to your rescue on a jet ski, a nod to a real Florida dog that went viral (Reddit find)."
+  - title: "Talking parrots (the Keys)"
+    detail: "At a liquor store in the Keys, parrots cheer on a fight and one gives away hidden cash near a generator (Reddit find)."
+  - title: "Four-horse statue (near Manifest Canyon)"
+    detail: "Get close and the controller vibrates and beeps. One horse wears a traffic cone. Nobody knows yet if it leads anywhere (Reddit find)."
+  - title: "Abandoned car in the woods (Chapter 2)"
+    detail: "An empty car with its doors open and the alarm going off. Search the woods nearby to find a body and signs of an alien abduction (Reddit find)."
+  - title: "Dexter's apartment? (Vice City)"
+    detail: "Redditors spotted a building that looks like Dexter Morgan's apartment from the TV series Dexter. You can't go inside."
 faq:
   - q: "Is there a UFO in GTA 6?"
     a: "Yes, according to player reports. It's a random encounter in Kelly County after Chapter 1, best tried after 2 AM in-game."
@@ -28,6 +40,10 @@ faq:
   - q: "Do easter eggs give trophies in GTA 6?"
     a: "Some do. The UFO unlocks The Truth Is Out There. No reward has been reported for the car, the tower egg or the cameo."
 sources:
+  - label: "GamingBible: 9 GTA 6 easter eggs you might have missed"
+    url: "https://www.gamingbible.com/news/gta-6-easter-eggs-778903-20261120"
+  - label: "GamingBible: GTA 6 secret cutscene behind a seven-minute climb"
+    url: "https://www.gamingbible.com/news/gta-6-secret-cutscene-seven-minute-tower-easter-egg-795530-20261119"
   - label: "GameRant: GTA 6 players think they've found a big GTA 5 reference"
     url: "https://gamerant.com/grand-theft-auto-6-gta-5-easter-egg-michael-boat/"
   - label: "PC Gamer: where to have a bigfoot (skunk ape) sighting in GTA 6"
@@ -43,7 +59,7 @@ order: 28
 
 ## What isn't confirmed yet
 
-- Exact spots for the car and the tower. Both are described in words only, so they're waiting in our map queue rather than on the map.
+- Exact spots for the car, the tower, the parrots' liquor store and the horse statue. Both are described in words only, so they're waiting in our map queue rather than on the map.
 - Whether the Little Sam character really is a Sam Houser cameo. That's fan speculation.
 - Whether the Marquis boat is meant to be Michael's. The Los Santos GPS is a player find, not something Rockstar has explained.
 - More easter eggs are being reported every day. We'll add them here as they're confirmed.
