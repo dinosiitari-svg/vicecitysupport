@@ -34,7 +34,7 @@ drew, traced or generated yourself is the safe option.
 Open `src/data/map-markers.json`, find `"markers"`, and add a line to the list:
 
 ```json
-{ "cat": "hidden-packages", "x": 31.4, "y": 68.2, "name": "Ocean Drive — under the boardwalk", "note": "Swim under the third set of pillars.", "status": "confirmed" }
+{ "cat": "cocaine-flamingos", "x": 31.4, "y": 68.2, "name": "Cocaine Flamingo: Ocean Drive boardwalk", "note": "Under the third set of pillars.", "status": "confirmed" }
 ```
 
 | Field | What it means |
@@ -45,6 +45,15 @@ Open `src/data/map-markers.json`, find `"markers"`, and add a line to the list:
 | `name` | Shown in bold in the popup, and searchable. |
 | `note` | One line of detail. Optional. |
 | `status` | `confirmed` (you checked it in-game) or `unverified` (community report). |
+| `source` | Optional. `gtadb` = imported from the community map (exact spot). `guide` = placed by hand from a guide's written description, so the spot is a best guess. |
+
+Category ids you can use:
+
+- **Collectibles:** `cocaine-flamingos`, `meditation`, `waink`, `magazines`, `playlists`
+- **Stores & Services:** `clothing`, `gun-shops`, `barbers`, `garages`, `safehouses`, `pawn-shops`, `fences`, `strip-clubs`, `vehicle-spots`
+- **Activities:** `stunt-jumps`, `races`, `side-jobs`
+- **Areas:** `gang-areas`, `police`, `hospitals`, `viewpoints`
+- **Places (community map):** `landmarks`, `hotels`, `shops-food`, `transport`, `nature`, `other`
 
 Mind the commas: every entry except the last one ends with `,`.
 
