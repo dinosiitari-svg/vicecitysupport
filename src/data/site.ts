@@ -60,8 +60,8 @@ export function adsensePubId(): string {
 // Sections = first folder in src/content/pages/. Shown in the nav and homepage grid.
 export const SECTIONS = {
   launch: {
-    label: 'Launch Info',
-    blurb: 'Unlock time, platforms and map size, confirmed facts only.',
+    label: 'PC & Game Info',
+    blurb: 'PC release date status, platforms, edition bonuses and game facts.',
     icon: 'clock',
   },
   collectibles: {

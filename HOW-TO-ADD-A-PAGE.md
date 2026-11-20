@@ -70,15 +70,6 @@ Copy the name straight from `map-markers.json`.
 - Don't change the file name of a live page (it changes the URL). If you must, add a redirect in `netlify.toml`.
 - Writing it from your phone: on github.com open the file → pencil icon → edit → "Commit changes". Cloudflare deploys automatically.
 
-## Set the official unlock time
-Edit `src/data/site.ts` → `LAUNCH`:
-```ts
-unlockMode: 'global',
-unlockTimeUTC: '2026-11-19T04:00:00Z',   // official time converted to UTC
-```
-or `unlockMode: 'local-midnight'` if it unlocks at midnight in each region. Then update the
-`answer:` and `status:` in `src/content/pages/launch/what-time-does-gta-6-unlock.md`.
-
 ## Add ad code later
 - Global head script (e.g. AdSense auto ads): `src/layouts/BaseLayout.astro`, marked comment.
 - Fixed ad units: `src/components/AdSlot.astro`, one file, used by every top/mid/sidebar slot.

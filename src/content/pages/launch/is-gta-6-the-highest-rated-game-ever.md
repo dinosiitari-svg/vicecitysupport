@@ -47,6 +47,5 @@ Only one game had ever reached 99 on Metacritic before, and it did so in 1998. P
 
 ## Related guides
 
-- [What time does GTA 6 unlock?](/launch/what-time-does-gta-6-unlock/)
 - [New gameplay mechanics in GTA 6](/gameplay/gta-6-gameplay-mechanics-explained/)
 - [Beginner tips for your first hours](/gameplay/gta-6-tips-for-beginners/)

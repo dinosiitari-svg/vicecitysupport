@@ -43,5 +43,4 @@ order: 5
 
 ## Related
 
-- [What time does GTA 6 unlock in my timezone?](/launch/what-time-does-gta-6-unlock/)
 - [What platforms is GTA 6 on?](/launch/what-platforms-is-gta-6-on/)

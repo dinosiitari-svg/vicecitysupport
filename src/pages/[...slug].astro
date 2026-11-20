@@ -6,7 +6,6 @@ import AdSlot from '../components/AdSlot.astro';
 import Breadcrumbs from '../components/Breadcrumbs.astro';
 import StatusBanner from '../components/StatusBanner.astro';
 import ItemList from '../components/ItemList.astro';
-import UnlockTime from '../components/UnlockTime.astro';
 import Icon from '../components/Icon.astro';
 import { SITE, SECTIONS } from '../data/site';
 import { sectionOf, urlOf, fmtDate, byOrder, type Page } from '../lib/pages';
@@ -82,7 +81,6 @@ const jsonLd = [
         </div>
 
         {verifying && <StatusBanner note={d.statusNote} />}
-        {d.widget === 'unlock-time' && <UnlockTime />}
 
         {(d.items.length > 0 || verifying) && (
           <section aria-labelledby="list-h">

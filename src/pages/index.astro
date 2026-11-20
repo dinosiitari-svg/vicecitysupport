@@ -2,7 +2,6 @@
 import BaseLayout from '../layouts/BaseLayout.astro';
 import AdSlot from '../components/AdSlot.astro';
 import Icon from '../components/Icon.astro';
-import Countdown from '../components/Countdown.astro';
 import { SITE, SECTIONS, type SectionKey } from '../data/site';
 import { getPublicPages, sectionOf, sectionLabel, urlOf, byUpdated, fmtDate } from '../lib/pages';
 
@@ -24,7 +23,6 @@ const jsonLd = [{
       <div class="sun" aria-hidden="true"></div>
       <div class="grid-floor" aria-hidden="true"></div>
       <h1>GTA 6 collectibles, <span class="c">found fast.</span></h1>
-      <Countdown />
       <p class="lead">Straight answers, map locations and tick-off checklists for every GTA 6 collectible. Built for your phone, next to the TV.</p>
       <div class="search" role="search">
         <label for="q" class="visually-hidden">Search the guides</label>
@@ -33,8 +31,8 @@ const jsonLd = [{
         <ul id="results" class="search-results" aria-live="polite"></ul>
       </div>
       <div class="launch-strip">
-        <a class="chip" href="/launch/what-time-does-gta-6-unlock/">Release: <strong>Nov 19, 2026</strong></a>
-        <a class="chip" href="/launch/what-platforms-is-gta-6-on/">PS5 · Xbox Series X|S</a>
+        <a class="chip" href="/launch/what-platforms-is-gta-6-on/">Out now: <strong>PS5 · Xbox Series X|S</strong></a>
+        <a class="chip" href="/launch/what-platforms-is-gta-6-on/">PC release date: <strong>not announced</strong></a>
         <span class="chip">Collectible data: <strong>verifying at launch</strong></span>
       </div>
     </section>
