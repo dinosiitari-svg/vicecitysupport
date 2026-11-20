@@ -19,6 +19,21 @@ Set `"status": "confirmed"` only once you've seen it in-game yourself.
 
 ## Pending
 
+### 2026-11-20 12:30 · Vehicle spots · "Mile Zero Air Station (military base, fighter jets)"
+- **Reported:** military base on Goose Key, Mariana County, far south-west of the map, south-east of Key Lento via the southern bridges. Jets, tank, APC, Buzzard. Stunt jump "Mile Zero Air Station Southeast" on the south-east corner off the southern access road. No Mile Zero place on the community map to pin to (the Mariana County Guard Booth / Radio Tower at ~28,93 might be it, but that's a guess). Page: /gameplay/how-to-get-a-fighter-jet-in-gta-6/
+- **Source:** https://www.pcgamer.com/games/grand-theft-auto/gta-6-military-base-location/ (press guide)
+- **Suggested category:** `vehicle-spots` (and `stunt-jumps` for the jump)
+
+### 2026-11-20 12:30 · Secrets · "Skunk ape (Bigfoot) sighting, west of Gambit Bay"
+- **Reported:** take the boat from Jason's house in Key Lento across Gambit Bay to a dead-end road on the west side of the peninsula; Focus prompt before landing, effigy by a tree in the mangroves. Page: /gameplay/where-is-bigfoot-in-gta-6/
+- **Source:** https://www.pcgamer.com/games/grand-theft-auto/gta-6-bigfoot-location-skunk-ape/ (press guide, unconfirmed)
+- **Suggested category:** none fits; a new `secrets` category
+
+### 2026-11-20 12:30 · Easter eggs · "Marquis boat with Los Santos GPS, Jason's house"
+- **Reported:** Marquis sailboat (Michael's GTA V model) near Jason's starting house in Key Lento (Jason's House marker is at 57.69, 86.06); its GPS shows Los Santos. Page: /gameplay/gta-6-easter-eggs/
+- **Source:** https://gamerant.com/grand-theft-auto-6-gta-5-easter-egg-michael-boat/ (player reports via press)
+- **Suggested category:** a new `secrets` category
+
 ### 2026-11-20 10:45 · Garages · "Bonita Court Garage, Bay Harbor"
 - **Reported:** buyable garage ($34,000) in Bay Harbor. We have no Bay Harbor place on the map yet to pin it to.
 - **Source:** https://beebom.com/gta-6-garage-locations/ (press guide)

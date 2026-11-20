@@ -84,6 +84,14 @@ items:
     detail: "A Chapter 2 mission unlocks the Vice City Real Estate app, where garages sell for roughly $4,000 to $40,000."
   - title: "Fences for stolen goods"
     detail: "Five goods fences and two car buyers unlock through the story; some pay on the spot, others via drop boxes."
+  - title: "Steal a fighter jet"
+    detail: "Jets, tanks and an attack helicopter are kept at the Mile Zero Air Station military base in the Keys; expect a big wanted level."
+  - title: "Fly a plane from the airport"
+    detail: "Passenger jets sit on the runways at Vice City International Airport and can reportedly be taken."
+  - title: "Story choices shape your profile"
+    detail: "Sparing or killing Arnold in Hey Arnold! is reported to change Jason's criminal profile, but not the story."
+  - title: "Cryptid sightings"
+    detail: "Besides the UFO, players have tracked a skunk ape (Leonida's Bigfoot) near Key Lento using Focus."
 faq:
   - q: "Is GTA 6 more realistic than GTA 5?"
     a: "In several systems, yes: police need witnesses, driving and carjacking were rebuilt, and Jason and Lucia have needs like food and sleep."
@@ -143,6 +151,10 @@ order: 0
 - [How to buy garages](/gameplay/how-to-buy-garages-in-gta-6/)
 - [Where are the fences?](/gameplay/where-are-the-fences-in-gta-6/)
 - [GTA 6 easter eggs found so far](/gameplay/gta-6-easter-eggs/)
+- [How to get a fighter jet](/gameplay/how-to-get-a-fighter-jet-in-gta-6/)
+- [Where is the airport?](/gameplay/where-is-the-airport-in-gta-6/)
+- [Should you kill or spare Arnold?](/gameplay/should-you-kill-or-spare-arnold-in-gta-6/)
+- [Where is Bigfoot?](/gameplay/where-is-bigfoot-in-gta-6/)
 
 ## How we'll update this page
 

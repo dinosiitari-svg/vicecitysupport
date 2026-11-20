@@ -4,7 +4,7 @@ answer: "GTA 6's criminal profile tracks how Jason and Lucia commit crimes, not 
 description: "GTA 6 criminal profile explained: what it tracks, the reported ranks, what raises and lowers it, and whether it can break for good."
 status: verifying
 statusNote: "Based on pre-launch press previews plus one launch-day hands-on report. Sources disagree on the rank names and on how permanent the worst state is. We're checking it in-game."
-updated: 2026-11-18
+updated: 2026-11-20
 listType: steps
 listTitle: "How to keep a good criminal profile"
 items:
@@ -31,9 +31,13 @@ faq:
     a: "It's a similar idea, but Rockstar frames it around professionalism rather than good versus evil. Committing a crime doesn't lower it by itself, because you're a criminal either way."
   - q: "What does the criminal profile change?"
     a: "Previews say it affects how the story plays out, but none describe specific scenes, missions or rewards tied to it. We'll add details once we've seen them in-game."
+  - q: "Does killing Arnold affect your criminal profile?"
+    a: "Yes, according to launch-week guides. Killing Arnold at the end of Hey Arnold! is reported to push Jason's profile towards Violent, and sparing him to keep it Restrained. Restrained isn't one of the rank names from the previews, so the in-game labels may differ from what was reported before launch."
   - q: "Where do you see your criminal profile?"
     a: "There's reportedly no on-screen bar. A preview describes a Jason and Lucia tab in the menu that shows each profile's icon."
 sources:
+  - label: "Beebom: GTA 6 Hey Arnold! mission guide"
+    url: "https://beebom.com/gta-6-hey-arnold-mission/"
   - label: "GTABase: GTA 6 criminal profile explained, professional to psycho"
     url: "https://www.gtabase.com/articles/gta-6/gta-6-criminal-profile-explained-professional-to-psycho"
   - label: "Gfinity: how the GTA 6 criminal profile works"

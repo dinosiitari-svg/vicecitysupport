@@ -1,6 +1,6 @@
 ---
 question: "What are the best easter eggs in GTA 6?"
-answer: "Players found several easter eggs in the first days: a UFO abduction in Kelly County, a green street-racer car in a garage on Vespucci Island that nods to The Fast and the Furious, a bird's nest on a tall tower whose eggs you can throw for a short cutscene, and a possible cameo by Rockstar co-founder Sam Houser in a Chapter 3 mission."
+answer: "Players found several easter eggs in the first days: a UFO abduction in Kelly County, a green street-racer car in a garage on Vespucci Island that nods to The Fast and the Furious, a bird's nest on a tall tower whose eggs you can throw for a short cutscene, a possible cameo by Rockstar co-founder Sam Houser in a Chapter 3 mission, a boat near Jason's house whose GPS shows Los Santos, and a skunk ape sighting in the Keys."
 description: "GTA 6 easter eggs players have found so far: the UFO, the Fast and Furious car, the literal Easter egg on a tower and the 'Little Sam' cameo."
 status: verifying
 statusNote: "All player reports picked up by the press in launch week. Rockstar hasn't commented, and we haven't checked them in-game yet."
@@ -16,6 +16,10 @@ items:
     detail: "A player found a bird's nest on top of a tall radio or communications tower. Climb up (reportedly about seven minutes), throw one of the eggs and a cutscene shows it hitting a passing car's windscreen. Which tower it is hasn't been confirmed."
   - title: "'Little Sam' cameo (Chapter 3)"
     detail: "Redditors think a character credited as Little Sam in the mission Boobie Time is a nod to Rockstar's Sam Houser and a minor GTA III character. Spoilers for Chapter 3."
+  - title: "Michael's boat? (Key Lento)"
+    detail: "Players noticed a Marquis sailboat, the same model Michael owned in GTA V, near Jason's starting house. Its GPS screen reportedly shows a map of Los Santos instead of Leonida."
+  - title: "Bigfoot, or the skunk ape (Key Lento)"
+    detail: "A creature sighting across Gambit Bay from Jason's house that you track with Focus, ending at an effigy. Full steps are in our Bigfoot guide, linked below."
 faq:
   - q: "Is there a UFO in GTA 6?"
     a: "Yes, according to player reports. It's a random encounter in Kelly County after Chapter 1, best tried after 2 AM in-game."
@@ -24,6 +28,10 @@ faq:
   - q: "Do easter eggs give trophies in GTA 6?"
     a: "Some do. The UFO unlocks The Truth Is Out There. No reward has been reported for the car, the tower egg or the cameo."
 sources:
+  - label: "GameRant: GTA 6 players think they've found a big GTA 5 reference"
+    url: "https://gamerant.com/grand-theft-auto-6-gta-5-easter-egg-michael-boat/"
+  - label: "PC Gamer: where to have a bigfoot (skunk ape) sighting in GTA 6"
+    url: "https://www.pcgamer.com/games/grand-theft-auto/gta-6-bigfoot-location-skunk-ape/"
   - label: "BGR: GTA 6's hidden Fast and Furious easter egg"
     url: "https://www.bgr.com/2322463/gta-6-hidden-fast-and-furious-paul-walker-car/"
   - label: "IBTimes UK: GTA 6 player finds a literal Easter egg"
@@ -37,9 +45,11 @@ order: 28
 
 - Exact spots for the car and the tower. Both are described in words only, so they're waiting in our map queue rather than on the map.
 - Whether the Little Sam character really is a Sam Houser cameo. That's fan speculation.
+- Whether the Marquis boat is meant to be Michael's. The Los Santos GPS is a player find, not something Rockstar has explained.
 - More easter eggs are being reported every day. We'll add them here as they're confirmed.
 
 ## Related guides
 
 - [Where is the UFO in GTA 6?](/gameplay/where-is-the-ufo-in-gta-6/)
+- [Where is Bigfoot in GTA 6?](/gameplay/where-is-bigfoot-in-gta-6/)
 - [All GTA 6 gameplay mechanics](/gameplay/gta-6-gameplay-mechanics-explained/)
