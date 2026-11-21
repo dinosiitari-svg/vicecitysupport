@@ -19,7 +19,7 @@ const pages = (await getPublicPages()).filter((p) => sectionOf(p) === section).s
     <ul class="page-list">
       {pages.map((p) => (
         <li><a href={urlOf(p)}><span class="q">{p.data.question}</span>
-          <span class:list={['badge', p.data.status]}>{p.data.status === 'verified' ? 'Verified' : 'Verifying'}</span></a></li>
+          </a></li>
       ))}
     </ul>
     <AdSlot position="mid" />
