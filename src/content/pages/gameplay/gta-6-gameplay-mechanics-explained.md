@@ -4,7 +4,7 @@ answer: "GTA 6's biggest changes are a reworked wanted system that depends on wi
 description: "Every new GTA 6 gameplay mechanic in one list: wanted system, character switching, driving, carjacking, respawns, money, robberies and more."
 status: verifying
 statusNote: "Collected from Rockstar's interviews and press previews. We're testing each one in-game and will update as we go."
-updated: 2026-11-20
+updated: 2026-11-21
 listType: steps
 listTitle: "New and changed mechanics"
 items:
@@ -100,6 +100,12 @@ items:
     detail: "24 gun stores reported; only Expanded stores sell snipers and launchers, and big buys need BuckMe money."
   - title: "No official first-person mode"
     detail: "GTA 6 is third-person only at launch, though a PS5 camera glitch forces first person."
+  - title: "Two shooting ranges"
+    detail: "Griffin (Vice City) and Rodgers Ranch (Port Gellhorn): $5 waiver, 12 challenges, 42 golds, and every attempt raises Focus."
+  - title: "Fishing open from the start"
+    detail: "Equip the rod from the weapon wheel's Equipment tab as soon as Jason can roam; lures sold at tackle shops and some Ammu-Nations."
+  - title: "Five-chapter story"
+    detail: "A prologue plus five chapters with roughly 91–97 main missions; no mission replay reported."
 faq:
   - q: "Is GTA 6 more realistic than GTA 5?"
     a: "In several systems, yes: police need witnesses, driving and carjacking were rebuilt, and Jason and Lucia have needs like food and sleep."
@@ -167,6 +173,8 @@ order: 0
 - [How to unlock street races](/gameplay/how-to-unlock-street-races-in-gta-6/)
 - [Where to buy guns](/gameplay/where-to-buy-guns-in-gta-6/)
 - [Is there a first-person mode?](/gameplay/is-there-first-person-in-gta-6/)
+- [How do shooting ranges work?](/gameplay/how-do-shooting-ranges-work-in-gta-6/)
+- [How many missions are in GTA 6?](/gameplay/how-many-missions-are-in-gta-6/)
 
 ## How we'll update this page
 

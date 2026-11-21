@@ -3,17 +3,29 @@ question: "Can you fish and hunt in GTA 6?"
 answer: "Yes. GTA 6 has both, but they work differently: fishing is catch-and-release only, so you can't keep or sell fish, while hunting does pay, because you sell what you collect from the animals you take down."
 description: "How fishing and hunting work in GTA 6: catch-and-release fishing, selling hunting finds, Mount Kalaga, and the other side activities in Leonida."
 status: verifying
-statusNote: "Based on interviews with Rockstar North's Rob Nelson and pre-launch previews. We're checking the details in-game now that GTA 6 is out."
-updated: 2026-11-18
+statusNote: "Fishing controls and lures come from a launch-day player guide; hunting details still come from Rob Nelson's interviews and pre-launch previews. We're checking both in-game."
+updated: 2026-11-21
 listType: steps
 listTitle: "How fishing and hunting work"
 items:
+  - title: "Get to the water as Jason"
+    detail: "A launch-day guide says fishing is open as soon as you can roam freely as Jason, with no story mission needed. Walk onto a dock or shoreline in the Keys."
+  - title: "Equip the rod from the weapon wheel"
+    detail: "Hold L1 (LB), move the right stick to the Equipment tab, then flick through with L2/R2 (LT/RT) until the Fishing Rod is selected."
+  - title: "Pick a lure"
+    detail: "You start with a Small Saltwater Lure and a Small Freshwater Lure. Bigger lures, such as a Medium Saltwater Lure, are sold at Ammu-Nation branches that stock fishing gear and at Chuck's Tackle & Shot near Jason's place in Key Lento."
+  - title: "Cast and wait for a bite"
+    detail: "Hold L2 (LT) to aim the cast and press R2 (RT) to throw. Clicking the sticks uses Focus to spot fish, though the guide says you don't need it to get bites."
+  - title: "Hook it and tire it out"
+    detail: "When the controller buzzes, press R2 (RT) to set the hook. Push the left stick away from the direction the fish is swimming to tire it."
+  - title: "Reel in while it rests"
+    detail: "When the fish stops pulling, spin the right stick to reel. Repeat until it's landed."
   - title: "Fish for the sport, not the cash"
     detail: "Every catch goes back in the water. You can look at a fish once it's landed, but there's no keeping it, cooking it or selling it."
   - title: "Expect Red Dead-style depth"
     detail: "Rockstar describes fishing as about as detailed as Red Dead Redemption 2's, rather than a quick button-press minigame."
   - title: "Look out for fishing in challenges and story moments"
-    detail: "Fishing reportedly links into story scenes, collectibles and challenges, so it isn't purely a side hobby."
+    detail: "Fishing reportedly links into challenges and collectibles. Chapter 1's first story mission after the prologue, Gone Fishing, starts with Jason and Cal on a fishing boat, though it's a boat chase rather than real fishing."
   - title: "Unlock hunting through a contact"
     detail: "Hunting is introduced by a character who already knows Jason. Rockstar hasn't shown who that is yet."
   - title: "Hunt in the Mount Kalaga wilderness"
@@ -21,6 +33,12 @@ items:
   - title: "Sell what you collect"
     detail: "Unlike fishing, hunting earns money: you sell the parts you take from animals. Prices haven't been published."
 faq:
+  - q: "Do you need to unlock fishing in GTA 6?"
+    a: "Reportedly not. A launch-day guide fished from a Key Lento dock as soon as Jason could roam, unlike Red Dead Redemption 2 where fishing was tied to a story mission. The rod is already in the Equipment tab of the weapon wheel."
+  - q: "Where do you buy lures in GTA 6?"
+    a: "Chuck's Tackle & Shot near Jason's Key Lento home, and Ammu-Nation stores that carry fishing supplies. Prices haven't been published yet."
+  - q: "What is the Gone Fishing mission in GTA 6?"
+    a: "The first Chapter 1 mission after the prologue. Jason and Cal chase Donnie's plane in a boat, scoop up the packages it drops, then rescue Donnie from a Kingfisher camp and fly his plane out. It's required for 100% and unlocks Jason's house in Key Lento, per launch guides."
   - q: "Why can't you keep fish in GTA 6?"
     a: "Rob Nelson said keeping catches didn't fit the game. It also stops fishing turning into an easy money farm."
   - q: "Is hunting a good way to make money in GTA 6?"
@@ -32,6 +50,10 @@ faq:
   - q: "Do you need a gym membership in GTA 6?"
     a: "Yes, gyms reportedly charge for membership. Jason and Lucia can train together, which Nelson described as a kind of date."
 sources:
+  - label: "Shacknews: how to start fishing in GTA 6"
+    url: "https://www.shacknews.com/article/151389/how-to-go-fishing-gta6"
+  - label: "VGC: GTA 6 Gone Fishing mission walkthrough"
+    url: "https://www.videogameschronicle.com/guide/gta-6-gone-fishing-mission-walkthrough/"
   - label: "AllThingsHow: how fishing and hunting work in GTA 6"
     url: "https://allthings.how/gta-6-how-fishing-and-hunting-work-catch-and-release-explained/"
   - label: "PlayNews: Rockstar details fishing, hunting and weight gain"
@@ -47,8 +69,8 @@ order: 13
 |---|---|---|
 | Keep what you catch? | No, catch-and-release | Yes, you collect parts |
 | Earns money? | No | Yes, by selling finds |
-| Where | Not confirmed | Mount Kalaga National Park |
-| How it unlocks | Not confirmed | Through a contact who knows Jason |
+| Where | Docks and shores, e.g. Key Lento | Mount Kalaga National Park |
+| How it unlocks | Reportedly open from the start as Jason | Through a contact who knows Jason |
 
 ## Related guides
 
@@ -58,4 +80,4 @@ order: 13
 
 ## What isn't confirmed yet
 
-Which animals and fish are in the game, what hunting finds sell for and where, whether you need to buy a rod or rifle, when in the story fishing and hunting unlock, and whether legendary or rare fish exist.
+Which animals and fish are in the game, what hunting finds and lures cost, who introduces hunting and when, whether hunting needs a specific rifle, and whether legendary or rare fish exist. Sources also disagree on whether Jason's Key Lento house is open before Gone Fishing ends.

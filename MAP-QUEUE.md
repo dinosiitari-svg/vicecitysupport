@@ -19,6 +19,16 @@ Set `"status": "confirmed"` only once you've seen it in-game yourself.
 
 ## Pending
 
+### 2026-11-21 06:30 · Shooting ranges · "Griffin Shooting Range (NW Vice City) and Rodgers Ranch (NE Port Gellhorn)"
+- **Reported:** GTA 6's two shooting ranges. Griffin Shooting Range is in the north-west of Vice City; Rodgers Ranch is in the north-east of Port Gellhorn. Neither is on the map yet and no landmark was given. Page: /gameplay/how-do-shooting-ranges-work-in-gta-6/
+- **Source:** https://www.powerpyx.com/gta-6-all-shooting-range-gold-medal-challenges/ (player guide, unconfirmed)
+- **Suggested category:** `gun-shops` or a new `shooting-ranges` category
+
+### 2026-11-21 06:30 · Shops · "Chuck's Tackle & Shot (fishing lures), Key Lento"
+- **Reported:** sells fishing lures; near Jason's place in Key Lento (Jason's House marker is at 57.69, 86.06), exact spot not given. Page: /gameplay/can-you-fish-and-hunt-in-gta-6/
+- **Source:** https://www.shacknews.com/article/151389/how-to-go-fishing-gta6 (launch-day guide, unconfirmed)
+- **Suggested category:** `gun-shops` (it's a tackle-and-gun store) or `shops-food`
+
 ### 2026-11-20 22:30 · Races · "Hit 'n' Run VC first street race + Yago's restaurant (Little Cuba)"
 - **Reported:** the first street race flag ("Join a Street Race") appears near the border of Salton and Little Cuba after the Ch3 mission Dealer's Choice. Yago's Cuban restaurant is in Little Cuba, across from the Little Cuba souvenir store, with Euroform Automotive (car mod shop) around the corner. Other race venues named only by area: Ocean Beach, Gloriana Key, Salton (Hit 'n' Run VC groups). Page: /gameplay/how-to-unlock-street-races-in-gta-6/
 - **Source:** https://outputlag.com/guides/gta-6-street-races-yago/ , https://techwiser.com/gta-6-racing-locations/ (player guides, unconfirmed)
