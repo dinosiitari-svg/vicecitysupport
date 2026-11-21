@@ -4,7 +4,7 @@ answer: "Early guides count roughly 3,000 trackable items in GTA 6's in-game Pro
 description: "How many collectibles are in GTA 6? About 3,000 tracked items, including 480 cards in 18 sets and 125 Cocaine Flamingos. Counts by type."
 status: verifying
 statusNote: "Early numbers from guide writers who played before launch. We are checking them in-game and will update."
-updated: 2026-11-19
+updated: 2026-11-21
 listType: locations
 listTitle: "Collectible types and counts (early reports)"
 checklist: false
@@ -26,6 +26,11 @@ items:
   - title: "Meditation spots: 18"
     detail: "Listed under exploration in the Progress menu."
     mapCat: "meditation"
+  - title: "Unique playlist posters: 5"
+    detail: "Four unlock The Sniper of La Perle and one unlocks The Vault Radio."
+    mapCat: "playlists"
+  - title: "Stunts: 397"
+    detail: "130 stunt jumps, 202 Under the Bridge, 40 Knife Flights and 25 Base Jumps. Any 300 count for 100%."
   - title: "Wyman's cars: 5"
     detail: "Reported as exclusive to the Ultimate Edition."
   - title: "Shooting range challenges: 42"
@@ -72,3 +77,5 @@ GTA 6 tracks a lot more than hidden items. The Progress list reportedly also cov
 - [All golf course locations](/collectibles/all-golf-course-locations/)
 - [All pool opponent locations](/collectibles/all-pool-opponent-locations/)
 - [All video game locations](/collectibles/all-video-game-locations/)
+- [All unique playlist locations](/collectibles/all-unique-playlist-locations/)
+- [How do stunt jumps work?](/gameplay/how-do-stunt-jumps-work-in-gta-6/)

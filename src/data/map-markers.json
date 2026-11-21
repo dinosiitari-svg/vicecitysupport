@@ -75,7 +75,7 @@
       "label": "Playlist Posters",
       "color": "#3ef0a0",
       "glyph": "♪",
-      "page": "/collectibles/how-many-collectibles-are-in-gta-6/"
+      "page": "/collectibles/all-unique-playlist-locations/"
     },
     {
       "id": "clothing",
@@ -155,7 +155,7 @@
       "label": "Stunt Jumps",
       "color": "#ff2e97",
       "glyph": "↑",
-      "page": ""
+      "page": "/gameplay/how-do-stunt-jumps-work-in-gta-6/"
     },
     {
       "id": "races",
