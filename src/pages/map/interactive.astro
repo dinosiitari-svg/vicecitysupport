@@ -352,6 +352,8 @@ const jsonLd = [
       crs: L.CRS.Simple,
       minZoom: -5,
       maxZoom: 4,
+      zoomSnap: 0.25,
+      maxBoundsViscosity: 1,
       zoomControl: true,
       attributionControl: false,
       preferCanvas: true,
@@ -367,9 +369,21 @@ const jsonLd = [
     };
     probe.src = cfg.image;
 
-    map.fitBounds(bounds);
-    map.setMaxBounds(bounds.pad(0.25));
-    map.setMinZoom(map.getZoom() - 1);
+    // Fill the whole box with map: the most zoomed-out view is the one where the image just
+    // covers the box (no dark borders), and you can't drag past the image edges.
+    const coverZoom = () => {
+      const size = map.getSize();
+      return Math.log2(Math.max(size.x / cfg.width, size.y / cfg.height));
+    };
+    map.setMaxBounds(bounds);
+    map.setMinZoom(coverZoom());
+    map.setView(bounds.getCenter(), coverZoom(), { animate: false });
+    map.on('resize', () => {
+      const z = coverZoom();
+      map.setMinZoom(z);
+      if (map.getZoom() < z) map.setZoom(z, { animate: false });
+      map.panInsideBounds(bounds, { animate: false });
+    });
 
     // ─── Markers ───
     // Nearby pins merge into numbered bubbles when zoomed out, and split apart as you zoom in.
