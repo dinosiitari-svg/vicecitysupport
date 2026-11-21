@@ -88,7 +88,7 @@
       "icon": "shirt"
     },
     {
-      "id": "gun-shops",
+      "id": "gun-shops", "icon": "pistol",
       "group": "stores",
       "label": "Gun Shops",
       "color": "#ff6b4a",
@@ -96,7 +96,7 @@
       "page": "/gameplay/how-do-weapons-work-in-gta-6/"
     },
     {
-      "id": "barbers",
+      "id": "barbers", "icon": "scissors",
       "group": "stores",
       "label": "Barbers, Salons & Tattoo",
       "color": "#8af1ff",
@@ -104,7 +104,7 @@
       "page": ""
     },
     {
-      "id": "garages",
+      "id": "garages", "icon": "wrench",
       "group": "stores",
       "label": "Garages, Mod Shops & Sprays",
       "color": "#ffb347",
@@ -136,7 +136,7 @@
       "page": "/gameplay/where-are-the-fences-in-gta-6/"
     },
     {
-      "id": "strip-clubs",
+      "id": "strip-clubs", "icon": "heel",
       "group": "stores",
       "label": "Strip Clubs",
       "color": "#ff5fa2",
@@ -170,7 +170,7 @@
       "page": "/gameplay/how-do-stunt-jumps-work-in-gta-6/"
     },
     {
-      "id": "races",
+      "id": "races", "icon": "flag",
       "group": "activities",
       "label": "Races",
       "color": "#19e3ff",
