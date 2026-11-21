@@ -4,9 +4,7 @@ import { getCollection, render } from 'astro:content';
 import BaseLayout from '../layouts/BaseLayout.astro';
 import AdSlot from '../components/AdSlot.astro';
 import Breadcrumbs from '../components/Breadcrumbs.astro';
-import StatusBanner from '../components/StatusBanner.astro';
 import ItemList from '../components/ItemList.astro';
-import Icon from '../components/Icon.astro';
 import { SITE, SECTIONS } from '../data/site';
 import { sectionOf, urlOf, fmtDate, byOrder, type Page } from '../lib/pages';
 
@@ -21,7 +19,6 @@ const { Content } = await render(page);
 const section = sectionOf(page);
 const sec = SECTIONS[section];
 const url = new URL(urlOf(page), SITE.url).href;
-const verifying = d.status === 'verifying';
 
 const related = (await getCollection('pages'))
   .filter((p) => !p.data.template && p.id !== page.id && sectionOf(p) === section)
@@ -74,15 +71,10 @@ const jsonLd = [
         <h1>{d.question}</h1>
         <p class="direct-answer">{d.answer}</p>
         <div class="meta">
-          {verifying
-            ? <span class="badge verifying"><Icon name="alert" size={14} /> Being verified</span>
-            : <span class="badge verified"><Icon name="check" size={14} /> Verified</span>}
-          <span>Last verified: <time datetime={d.lastVerified?.toISOString()}>{d.lastVerified ? fmtDate(d.lastVerified) : 'Pending, verifying at launch'}</time></span>
+          <span>Updated: <time datetime={d.updated.toISOString()}>{fmtDate(d.updated)}</time></span>
         </div>
 
-        {verifying && <StatusBanner note={d.statusNote} />}
-
-        {(d.items.length > 0 || verifying) && (
+        {d.items.length > 0 && (
           <section aria-labelledby="list-h">
             <h2 id="list-h">{listTitle}</h2>
             <ItemList storageKey={page.id} items={d.items} listType={d.listType} checklist={d.checklist} placeholderCount={d.placeholderCount} />
