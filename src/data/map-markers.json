@@ -39,7 +39,7 @@
   ],
   "categories": [
     {
-      "id": "cocaine-flamingos",
+      "id": "cocaine-flamingos", "icon": "flamingo",
       "group": "collectibles",
       "label": "Cocaine Flamingos",
       "color": "#ff2e97",
@@ -63,7 +63,7 @@
       "page": "/collectibles/how-many-collectibles-are-in-gta-6/"
     },
     {
-      "id": "magazines",
+      "id": "magazines", "icon": "book",
       "group": "collectibles",
       "label": "Magazines & Books",
       "color": "#ffd23f",
