@@ -3,7 +3,7 @@ question: "Can you fish and hunt in GTA 6?"
 answer: "Yes. GTA 6 has both, but they work differently: fishing is catch-and-release only, so you can't keep or sell fish, while hunting does pay, because you sell what you collect from the animals you take down."
 description: "How fishing and hunting work in GTA 6: catch-and-release fishing, selling hunting finds, Mount Kalaga, and the other side activities in Leonida."
 status: verifying
-statusNote: "Fishing controls and lures come from a launch-day player guide; hunting details still come from Rob Nelson's interviews and pre-launch previews. We're checking both in-game."
+statusNote: "Fishing controls and the hunting unlock come from launch-day player guides; hunting payouts and animal lists are still unreported or pre-launch. We're checking both in-game."
 updated: 2026-11-21
 listType: steps
 listTitle: "How fishing and hunting work"
@@ -26,12 +26,18 @@ items:
     detail: "Rockstar describes fishing as about as detailed as Red Dead Redemption 2's, rather than a quick button-press minigame."
   - title: "Look out for fishing in challenges and story moments"
     detail: "Fishing reportedly links into challenges and collectibles. Chapter 1's first story mission after the prologue, Gone Fishing, starts with Jason and Cal on a fishing boat, though it's a boat chase rather than real fishing."
-  - title: "Unlock hunting through a contact"
-    detail: "Hunting is introduced by a character who already knows Jason. Rockstar hasn't shown who that is yet."
-  - title: "Hunt in the Mount Kalaga wilderness"
-    detail: "Previews place hunting in Mount Kalaga National Park, tracking animals through woods and wetland."
+  - title: "Unlock hunting through Bret (Jason only)"
+    detail: "A launch-day guide says a hunter called Bret texts Jason in Chapter 2, after the mission Coffee Break, which starts the side mission Veteran Hunted. The same guide says Lucia can't take it. Other reports only say a contact who knows Jason introduces hunting."
+  - title: "Track and study the animal"
+    detail: "Follow the scent trail with Focus and study the animal through binoculars or a rifle scope before taking the shot. The guide says a pistol won't do the job."
+  - title: "Take one clean shot"
+    detail: "A single shot to the head or heart keeps the animal in pristine condition. Messy kills are worth less."
+  - title: "Carry it back yourself"
+    detail: "In Veteran Hunted you have to carry the animal to Bret's truck and then to his cabin. Leaving it where it fell doesn't count."
+  - title: "Hunt in the wilds"
+    detail: "Previews and wiki entries place hunting in Mount Kalaga National Park and Leonida's wetlands. After the first hunt, more hunting spots reportedly show on the map as purple markers."
   - title: "Sell what you collect"
-    detail: "Unlike fishing, hunting earns money: you sell the parts you take from animals. Prices haven't been published."
+    detail: "Unlike fishing, hunting earns money: you sell what you take from animals. Per-animal prices haven't been published."
 faq:
   - q: "Do you need to unlock fishing in GTA 6?"
     a: "Reportedly not. A launch-day guide fished from a Key Lento dock as soon as Jason could roam, unlike Red Dead Redemption 2 where fishing was tied to a story mission. The rod is already in the Equipment tab of the weapon wheel."
@@ -41,6 +47,10 @@ faq:
     a: "The first Chapter 1 mission after the prologue. Jason and Cal chase Donnie's plane in a boat, scoop up the packages it drops, then rescue Donnie from a Kingfisher camp and fly his plane out. It's required for 100% and unlocks Jason's house in Key Lento, per launch guides."
   - q: "Why can't you keep fish in GTA 6?"
     a: "Rob Nelson said keeping catches didn't fit the game. It also stops fishing turning into an easy money farm."
+  - q: "How do you unlock hunting in GTA 6?"
+    a: "Reportedly through Bret, who texts Jason in Chapter 2 after the mission Coffee Break and starts the side mission Veteran Hunted. One guide ties the text to having about $15,000 saved, but it isn't clear that's a real requirement. Lucia reportedly can't start it."
+  - q: "Does hunting count toward 100% completion?"
+    a: "Reportedly yes. One launch guide says studying 100 of the game's 255 animal types is needed for 100%, and a wiki entry lists hunting as required. Treat the numbers as unconfirmed for now."
   - q: "Is hunting a good way to make money in GTA 6?"
     a: "It does pay, but nobody has published reliable payouts yet. We'll add real prices once we've sold some finds in-game."
   - q: "Does fishing count toward 100% completion?"
@@ -54,6 +64,10 @@ sources:
     url: "https://www.shacknews.com/article/151389/how-to-go-fishing-gta6"
   - label: "VGC: GTA 6 Gone Fishing mission walkthrough"
     url: "https://www.videogameschronicle.com/guide/gta-6-gone-fishing-mission-walkthrough/"
+  - label: "eGamers: GTA 6 hunting guide, Veteran Hunted with Bret"
+    url: "https://egamers.io/gta-6-hunting-guide-how-to-finish-veteran-hunted-with-bret/"
+  - label: "GTABase: GTA 6 hunting"
+    url: "https://www.gtabase.com/side-missions/gta-6/hunting"
   - label: "AllThingsHow: how fishing and hunting work in GTA 6"
     url: "https://allthings.how/gta-6-how-fishing-and-hunting-work-catch-and-release-explained/"
   - label: "PlayNews: Rockstar details fishing, hunting and weight gain"
@@ -70,7 +84,7 @@ order: 13
 | Keep what you catch? | No, catch-and-release | Yes, you collect parts |
 | Earns money? | No | Yes, by selling finds |
 | Where | Docks and shores, e.g. Key Lento | Mount Kalaga National Park |
-| How it unlocks | Reportedly open from the start as Jason | Through a contact who knows Jason |
+| How it unlocks | Reportedly open from the start as Jason | Reportedly via Bret in Chapter 2 (Jason only) |
 
 ## Related guides
 
@@ -80,4 +94,4 @@ order: 13
 
 ## What isn't confirmed yet
 
-Which animals and fish are in the game, what hunting finds and lures cost, who introduces hunting and when, whether hunting needs a specific rifle, and whether legendary or rare fish exist. Sources also disagree on whether Jason's Key Lento house is open before Gone Fishing ends.
+Which animals and fish are in the game, what hunting finds and lures cost, whether the Bret unlock and $15,000 trigger hold up in-game, which rifle works best, and whether legendary or rare fish exist. Sources also disagree on whether Jason's Key Lento house is open before Gone Fishing ends.

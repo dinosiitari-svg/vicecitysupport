@@ -19,6 +19,11 @@ Set `"status": "confirmed"` only once you've seen it in-game yourself.
 
 ## Pending
 
+### 2026-11-21 18:15 · Tattoo shops · "8 tattoo studios without a pin"
+- **Reported:** Layin' Ink, Dominion Ink, Hyper Ink, Cross My Heart, Inkomplete Tattoo Co., Black Spot Tattoo (all Vice-Dale County), Blood Sugar Tattoo and Freedom Tattoo (Kelly County). Only county given, no landmark. In-game they show as an orange heart icon (map filter Style > Tattoos). Inked Mermaid, Twa Ponya and Electric Fang are already pinned. Page: /gameplay/where-are-the-tattoo-shops-in-gta-6/
+- **Source:** https://www.powerpyx.com/gta-6-all-tattoo-studios-locations/ (player guide, unconfirmed)
+- **Suggested category:** `barbers`
+
 ### 2026-11-21 06:30 · Shooting ranges · "Griffin Shooting Range (NW Vice City) and Rodgers Ranch (NE Port Gellhorn)"
 - **Reported:** GTA 6's two shooting ranges. Griffin Shooting Range is in the north-west of Vice City; Rodgers Ranch is in the north-east of Port Gellhorn. Neither is on the map yet and no landmark was given. Page: /gameplay/how-do-shooting-ranges-work-in-gta-6/
 - **Source:** https://www.powerpyx.com/gta-6-all-shooting-range-gold-medal-challenges/ (player guide, unconfirmed)

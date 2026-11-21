@@ -108,6 +108,8 @@ items:
     detail: "A prologue plus five chapters with roughly 91–97 main missions; no mission replay reported."
   - title: "397 stunts to hunt"
     detail: "130 stunt jumps plus Under the Bridge, Knife Flight and Base Jump stunts; any 250 for the trophy, any 300 for 100%."
+  - title: "11 tattoo studios"
+    detail: "Each studio has its own style; Electric Fang is reportedly Ultimate Edition only."
 faq:
   - q: "Is GTA 6 more realistic than GTA 5?"
     a: "In several systems, yes: police need witnesses, driving and carjacking were rebuilt, and Jason and Lucia have needs like food and sleep."
@@ -178,6 +180,7 @@ order: 0
 - [How do shooting ranges work?](/gameplay/how-do-shooting-ranges-work-in-gta-6/)
 - [How many missions are in GTA 6?](/gameplay/how-many-missions-are-in-gta-6/)
 - [How do stunt jumps work?](/gameplay/how-do-stunt-jumps-work-in-gta-6/)
+- [Where are the tattoo shops?](/gameplay/where-are-the-tattoo-shops-in-gta-6/)
 
 ## How we'll update this page
 

@@ -4,7 +4,7 @@ answer: "You can't create your own character in GTA 6, but you can restyle Jason
 description: "GTA 6 character customization explained: clothes shops, haircuts, salons, tattoos, gym and weight, and how your outfit affects the police."
 status: verifying
 statusNote: "Based on Rockstar's official edition details and pre-launch press interviews. We're checking each option in-game now that GTA 6 is out."
-updated: 2026-11-18
+updated: 2026-11-21
 listType: steps
 listTitle: "Ways to change Jason and Lucia's look"
 items:
@@ -17,7 +17,7 @@ items:
   - title: "Trim or shave at a safehouse"
     detail: "At home you can only go shorter: cut the hair down or shave. New styles need a barber."
   - title: "Get tattoos at a tattoo parlor"
-    detail: "Rockstar has confirmed a tattoo parlor with more than 50 designs for Ultimate Edition owners. Tattoo shops in the Standard Edition aren't confirmed yet."
+    detail: "A launch-week guide counts 11 tattoo studios across Leonida, each with its own style. Rockstar's Electric Fang parlor (50+ designs) is an Ultimate Edition extra; the other ten reportedly aren't tied to an edition. See our tattoo shop guide for the list."
   - title: "Work out at the gym"
     detail: "Training raises muscle and strength in levels. Jason and Lucia can train together for a bigger boost."
   - title: "Watch what you eat"
@@ -36,6 +36,8 @@ faq:
   - q: "What clothes do you get from the pre-order bonus?"
     a: "The Vintage Vice City pack gives Jason a pastel suit and a new haircut, and Lucia a red sequin dress and curled hair. Rockstar says it covers purchases made before November 20, 2026."
 sources:
+  - label: "PowerPyx: all GTA 6 tattoo studio locations"
+    url: "https://www.powerpyx.com/gta-6-all-tattoo-studios-locations/"
   - label: "Timesaver: GTA 6 character customization (IGN, Edge and Rockstar details)"
     url: "https://timesaver.gg/blog/gta-6-character-customization"
   - label: "Gfinity: GTA 6 character customization guide"
@@ -51,7 +53,8 @@ Both leads have their own wardrobe and hairstyles, so you can dress them differe
 
 - [How safehouses work](/gameplay/how-do-safehouses-work-in-gta-6/)
 - [How the wanted system works](/gameplay/how-does-the-wanted-system-work-in-gta-6/)
+- [Where are the tattoo shops?](/gameplay/where-are-the-tattoo-shops-in-gta-6/)
 
 ## What isn't confirmed yet
 
-In-game prices, how many outfits and hairstyles there are, whether tattoo parlors exist in the Standard Edition, whether hair grows back, how fast weight comes off, and whether masks can be bought at clothing shops.
+In-game prices, how many outfits and hairstyles there are, tattoo prices and whether tattoos can be removed, whether hair grows back, how fast weight comes off, and whether masks can be bought at clothing shops.
