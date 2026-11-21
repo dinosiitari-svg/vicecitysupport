@@ -5,6 +5,7 @@ import Breadcrumbs from '../../components/Breadcrumbs.astro';
 import NotifySignup from '../../components/NotifySignup.astro';
 import { SITE } from '../../data/site';
 import data from '../../data/map-markers.json';
+import { iconHtml } from '../../data/map-icons';
 
 const { groups, categories, markers } = data;
 
@@ -83,7 +84,7 @@ const jsonLd = [
               {g.cats.map((c) => (
                 <label class="fp-row">
                   <input type="checkbox" class="cat-toggle" value={c.id} checked />
-                  <span class="dot" style={`--c:${c.color}`} aria-hidden="true">{c.glyph}</span>
+                  <span class="dot" style={`--c:${c.color}`} aria-hidden="true" set:html={iconHtml(c)} />
                   <span class="fp-label">{c.label}</span>
                   <span class="fp-num">{c.count}</span>
                 </label>
@@ -136,7 +137,7 @@ const jsonLd = [
           <ul class="legend-list">
             {g.cats.map((c) => (
               <li>
-                <span class="dot" style={`--c:${c.color}`} aria-hidden="true">{c.glyph}</span>
+                <span class="dot" style={`--c:${c.color}`} aria-hidden="true" set:html={iconHtml(c)} />
                 {c.page ? <a href={c.page}>{c.label}</a> : <span>{c.label}</span>}
                 <span class="fp-num">{c.count}</span>
               </li>
@@ -257,6 +258,10 @@ const jsonLd = [
     cursor: pointer; transition: transform 0.12s;
   }
   .pin:hover { transform: scale(1.25); }
+  .pin svg { width: 14px; height: 14px; display: block; }
+  .pin svg.wide { width: 21px; height: 21px; }
+  .dot svg.wide { width: 20px; height: 20px; }
+  .dot svg { width: 13px; height: 13px; display: block; }
   .cluster {
     width: 100%; height: 100%; border-radius: 50%; display: grid; place-items: center;
     font-weight: 800; font-size: 0.8rem; color: #fff; background: rgba(255, 46, 151, 0.85);
@@ -316,6 +321,7 @@ const jsonLd = [
   import 'leaflet.markercluster';
   import 'leaflet.markercluster/dist/MarkerCluster.css';
   import data from '../../data/map-markers.json';
+  import { iconHtml } from '../../data/map-icons';
 
   const { map: cfg, categories, markers } = data;
   const catById = Object.fromEntries(categories.map((c) => [c.id, c]));
@@ -381,7 +387,7 @@ const jsonLd = [
     const iconFor = (m: any, cat: any, isFound: boolean) =>
       L.divIcon({
         className: '',
-        html: `<div class="pin ${m.status !== 'confirmed' ? 'unverified' : ''} ${isFound ? 'found' : ''}" style="--c:${cat?.color || '#fff'}">${cat?.glyph || ''}</div>`,
+        html: `<div class="pin ${m.status !== 'confirmed' ? 'unverified' : ''} ${isFound ? 'found' : ''}" style="--c:${cat?.color || '#fff'}">${iconHtml(cat, m)}</div>`,
         iconSize: [24, 24],
         iconAnchor: [12, 12],
         popupAnchor: [0, -14],

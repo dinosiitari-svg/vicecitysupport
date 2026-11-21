@@ -53,7 +53,7 @@ Category ids you can use:
 - **Stores & Services:** `clothing`, `gun-shops`, `barbers`, `garages`, `safehouses`, `pawn-shops`, `fences`, `strip-clubs`, `vehicle-spots`
 - **Activities:** `stunt-jumps`, `races`, `side-jobs`
 - **Areas:** `gang-areas`, `police`, `hospitals`, `viewpoints`
-- **Places (community map):** `landmarks`, `hotels`, `shops-food`, `transport`, `nature`, `other`
+- **Places (community map):** `landmarks`, `hotels`, `shops`, `food`, `nightlife`, `transport`, `nature`, `other`
 
 Mind the commas: every entry except the last one ends with `,`.
 
