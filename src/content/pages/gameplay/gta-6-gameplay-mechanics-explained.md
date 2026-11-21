@@ -4,7 +4,7 @@ answer: "GTA 6's biggest changes are a reworked wanted system that depends on wi
 description: "Every new GTA 6 gameplay mechanic in one list: wanted system, character switching, driving, carjacking, respawns, money, robberies and more."
 status: verifying
 statusNote: "Collected from Rockstar's interviews and press previews. We're testing each one in-game and will update as we go."
-updated: 2026-11-21
+updated: 2026-11-22
 listType: steps
 listTitle: "New and changed mechanics"
 items:
@@ -110,6 +110,8 @@ items:
     detail: "130 stunt jumps plus Under the Bridge, Knife Flight and Base Jump stunts; any 250 for the trophy, any 300 for 100%."
   - title: "11 tattoo studios"
     detail: "Each studio has its own style; Electric Fang is reportedly Ultimate Edition only."
+  - title: "Multiple endings"
+    detail: "More than two main endings, shaped by relationship, criminal profile, savings and a final choice; you can keep playing after."
 faq:
   - q: "Is GTA 6 more realistic than GTA 5?"
     a: "In several systems, yes: police need witnesses, driving and carjacking were rebuilt, and Jason and Lucia have needs like food and sleep."
@@ -181,6 +183,7 @@ order: 0
 - [How many missions are in GTA 6?](/gameplay/how-many-missions-are-in-gta-6/)
 - [How do stunt jumps work?](/gameplay/how-do-stunt-jumps-work-in-gta-6/)
 - [Where are the tattoo shops?](/gameplay/where-are-the-tattoo-shops-in-gta-6/)
+- [How many endings does GTA 6 have?](/gameplay/how-many-endings-does-gta-6-have/)
 
 ## How we'll update this page
 

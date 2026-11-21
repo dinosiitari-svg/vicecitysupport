@@ -3,8 +3,8 @@ question: "How does the wanted system work in GTA 6?"
 answer: "GTA 6 keeps a six-star wanted level, but police only come after you once a crime is witnessed, reported or sets off an alarm, and they hunt you based on what they know about you, such as your clothes, car and weapon, rather than always knowing exactly where you are."
 description: "GTA 6's wanted system explained: six stars, what the solid, flashing and hollow stars mean, how police identify you, hot areas and how to lose the cops."
 status: verifying
-statusNote: "Based on Rockstar's pre-launch interviews and press previews. We're checking every detail in-game now that GTA 6 is out."
-updated: 2026-11-19
+statusNote: "Based on Rockstar's pre-launch interviews, press previews and launch-week guides. We're checking every detail in-game now that GTA 6 is out."
+updated: 2026-11-22
 listType: steps
 listTitle: "How to lose a wanted level"
 items:
@@ -43,6 +43,10 @@ faq:
     a: "Reportedly not. Police no longer show on the minimap; instead you use the Focus ability to spot nearby officers, even through walls."
   - q: "Does a mask stop you getting a wanted level?"
     a: "Wearing a mask and avoiding witnesses and cameras may leave police with no description, which shows as a hollow star. This is reported in guides but not yet confirmed in-game."
+  - q: "Can you change clothes without going to a store?"
+    a: "Launch guides say yes: Jason's and Lucia's personal vehicles let you keep a spare outfit and weapons in the trunk, so you can swap your look after breaking line of sight. Change only once officers can't see you, or they'll just update your description."
+  - q: "Does killing cops make it harder to escape?"
+    a: "Yes. Guides agree that shooting officers or running people over raises your wanted level, and violence also hurts your criminal profile. Hiding, switching cars and changing your look work better than fighting."
   - q: "Can you talk your way out of a wanted level?"
     a: "At one star, sometimes. Aim at an officer who hasn't drawn a gun and you get options to defuse or provoke; a reviewer reports defusing can clear a one-star wanted level, but some officers attack anyway."
 sources:
@@ -58,6 +62,10 @@ sources:
     url: "https://www.svg.com/2246084/gta-6-wanted-system-explained-rockstar/"
   - label: "Press Start: how GTA 6's reinvented wanted system works"
     url: "https://press-start.com.au/guides/2026/11/18/how-gta-6s-reinvented-wanted-system-works-and-how-to-stay-out-of-trouble/"
+  - label: "KeenGamer: how to lose the cops and clear your wanted level"
+    url: "https://www.keengamer.com/articles/guides/gta-6-how-to-lose-the-cops-and-clear-your-wanted-level/"
+  - label: "Beebom: how to lose cops in GTA 6 and avoid getting busted"
+    url: "https://beebom.com/gta-6-how-to-lose-cops-avoid-arrest/"
   - label: "Yahoo Tech: GTA 6 wanted level explained"
     url: "https://tech.yahoo.com/gaming/articles/gta-6-wanted-level-explained-170115765.html"
 order: 1

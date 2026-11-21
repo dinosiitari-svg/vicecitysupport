@@ -4,7 +4,7 @@ answer: "GTA 6's story has a prologue and five chapters with roughly 91 to 97 ma
 description: "How many missions are in GTA 6: all five chapters, mission counts per chapter, how long the story is, and whether you can replay missions."
 status: verifying
 statusNote: "Counts come from launch-week fan mission lists, which disagree by a few missions. Rockstar hasn't given an official total."
-updated: 2026-11-21
+updated: 2026-11-22
 listType: steps
 listTitle: "GTA 6 chapters in order"
 items:
@@ -44,8 +44,7 @@ order: 43
 ## What isn't confirmed yet
 
 - The official mission total and exact count for Chapters 3 to 5.
-- Whether there's a point of no return before the final missions.
-- How many endings there are.
+- The exact number of endings. Reports so far: more than two, and the game asks before the final mission so you can keep playing first. See [how many endings GTA 6 has](/gameplay/how-many-endings-does-gta-6-have/).
 
 ## Related guides
 
