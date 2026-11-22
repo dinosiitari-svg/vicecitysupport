@@ -48,6 +48,7 @@ Because GTA 6 has close to 100 missions and no replay option, treat your manual 
 ## Related guides
 
 - [Beginner tips for your first hours](/gameplay/gta-6-tips-for-beginners/)
+- [Can you replay missions?](/gameplay/can-you-replay-missions-in-gta-6/)
 - [How safehouses work](/gameplay/how-do-safehouses-work-in-gta-6/)
 - [What happens when you die or get busted](/gameplay/what-happens-when-you-die-in-gta-6/)
 

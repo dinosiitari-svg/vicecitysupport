@@ -112,6 +112,12 @@ items:
     detail: "Each studio has its own style; Electric Fang is reportedly Ultimate Edition only."
   - title: "Multiple endings"
     detail: "More than two main endings, shaped by relationship, criminal profile, savings and a final choice; you can keep playing after."
+  - title: "No mission replay"
+    detail: "Finished story missions can't be picked again; load a manual save from before them. Side activities can be repeated."
+  - title: "Fog over the map"
+    detail: "Leonida is open after the prologue, but the map stays hidden until you explore; flying clears it fastest."
+  - title: "Long story"
+    detail: "Roughly 50–70 hours for the story, 80–120 with side content and about 200 for 100%."
 faq:
   - q: "Is GTA 6 more realistic than GTA 5?"
     a: "In several systems, yes: police need witnesses, driving and carjacking were rebuilt, and Jason and Lucia have needs like food and sleep."
@@ -184,6 +190,9 @@ order: 0
 - [How do stunt jumps work?](/gameplay/how-do-stunt-jumps-work-in-gta-6/)
 - [Where are the tattoo shops?](/gameplay/where-are-the-tattoo-shops-in-gta-6/)
 - [How many endings does GTA 6 have?](/gameplay/how-many-endings-does-gta-6-have/)
+- [Can you replay missions?](/gameplay/can-you-replay-missions-in-gta-6/)
+- [How to unlock the full map](/gameplay/how-to-unlock-the-full-map-in-gta-6/)
+- [How long does it take to beat GTA 6?](/gameplay/how-long-does-it-take-to-beat-gta-6/)
 
 ## How we'll update this page
 

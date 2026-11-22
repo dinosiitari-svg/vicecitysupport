@@ -51,5 +51,7 @@ order: 43
 - [How to find missions and activities](/gameplay/how-to-find-missions-in-gta-6/)
 - [Are any collectibles missable?](/collectibles/are-any-gta-6-collectibles-missable/)
 - [How to save in GTA 6](/gameplay/how-to-save-in-gta-6/)
+- [Can you replay missions?](/gameplay/can-you-replay-missions-in-gta-6/)
+- [How long does it take to beat GTA 6?](/gameplay/how-long-does-it-take-to-beat-gta-6/)
 - [How to make money](/gameplay/how-to-make-money-in-gta-6/)
 - [All GTA 6 gameplay mechanics](/gameplay/gta-6-gameplay-mechanics-explained/)
