@@ -19,6 +19,14 @@ Set `"status": "confirmed"` only once you've seen it in-game yourself.
 
 ## Pending
 
+### 2026-11-23 00:15 · Easter eggs · "Giant crab, simulation house, merman, Dexter apartment"
+- Source: https://gameriv.com/gta-6-easter-eggs/ (player reports collected by GameRiv, 22 Nov; unconfirmed, no coordinates given)
+- Giant mutant crab: inside a building in Gullet Marsh (which building not stated).
+- "It's a simulation" house: a house in Belville; conspiracy den in its garage.
+- Merman: small island near Shores Keys, north-east of Key Lento.
+- Dexter-style apartment: Trinity Apartments, Washington Island, Vice Beach; Slice of Life-style boat moored nearby.
+- Suggested category: existing easter-egg/secret category if there is one, otherwise a new `easter-eggs` category.
+
 ### 2026-11-22 18:15 · Treasure / dive sites · "Six shipwreck dive sites off Key Lento + Island Dreams charter dock"
 - Source: https://www.gtaboom.com/gta-6-treasure-hunting-2b73 , https://www.slashgear.com/2322274/gta-6-how-to-make-money-early-underwater-shipwreck-treasure-dives-locations/ (launch-week guides, unconfirmed; no coordinates given)
 - Island Dreams Boat Charters (Kenton's shop, scuba gear on the dock): Key Lento. Not on our map.

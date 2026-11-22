@@ -1,10 +1,10 @@
 ---
 question: "What are the best easter eggs in GTA 6?"
-answer: "Players found several easter eggs in the first days: a UFO abduction in Kelly County, a green street-racer car in a garage on Vespucci Island that nods to The Fast and the Furious, a bird's nest on a tall tower whose eggs you can throw for a short cutscene, a possible cameo by Rockstar co-founder Sam Houser in a Chapter 3 mission, a boat near Jason's house whose GPS shows Los Santos, a skunk ape sighting in the Keys, and smaller finds like a Mount Chiliad conversation, a jet-ski rescue dog and a Dexter-style apartment."
-description: "GTA 6 easter eggs players have found so far: the UFO, the Fast and Furious car, the literal Easter egg on a tower and the 'Little Sam' cameo."
+answer: "Players found several easter eggs in the first days: a UFO abduction in Kelly County, a green street-racer car in a garage on Vespucci Island that nods to The Fast and the Furious, a bird's nest on a tall tower whose eggs you can throw for a short cutscene, a possible cameo by Rockstar co-founder Sam Houser in a Chapter 3 mission, a boat near Jason's house whose GPS shows Los Santos, a skunk ape sighting in the Keys, a giant mutant crab in Gullet Marsh, a farmer who turns into a red-skinned monster in a strawberry side quest, a 'simulation' conspiracy hideout in a Belville garage, a merman on an island in the Keys, and smaller finds like a Mount Chiliad conversation, a jet-ski rescue dog and a Dexter-style apartment."
+description: "GTA 6 easter eggs players have found so far: the UFO, the Fast and Furious car, the giant crab, the 'Red Hulk' farmer, the simulation house, the merman and the 'Little Sam' cameo."
 status: verifying
 statusNote: "All player reports picked up by the press in launch week. Rockstar hasn't commented, and we haven't checked them in-game yet."
-updated: 2026-11-20
+updated: 2026-11-23
 listType: steps
 listTitle: "Easter eggs found so far"
 items:
@@ -30,8 +30,16 @@ items:
     detail: "Get close and the controller vibrates and beeps. One horse wears a traffic cone. Nobody knows yet if it leads anywhere (Reddit find)."
   - title: "Abandoned car in the woods (Chapter 2)"
     detail: "An empty car with its doors open and the alarm going off. Search the woods nearby to find a body and signs of an alien abduction (Reddit find)."
-  - title: "Dexter's apartment? (Vice City)"
-    detail: "Redditors spotted a building that looks like Dexter Morgan's apartment from the TV series Dexter. You can't go inside."
+  - title: "Dexter's apartment? (Vice Beach)"
+    detail: "Redditors spotted a building that looks like Dexter Morgan's apartment from the TV series Dexter, reported as Trinity Apartments on Washington Island in Vice Beach. A boat moored nearby looks like Dexter's Slice of Life. You can't go inside."
+  - title: "Giant mutant crab (Gullet Marsh)"
+    detail: "Players report an oversized crab inside a building in Gullet Marsh. Some think it's tied to a crab research facility in Pelican Valley, but nothing links the two yet."
+  - title: "The 'Red Hulk' farmer (side quest)"
+    detail: "A side quest has a farmer trying to grow giant strawberries. He moves on to chemicals and ends up as a huge red-skinned mutant. It plays as a parody, not a Marvel crossover. Where the quest starts hasn't been published."
+  - title: "'It's a simulation' house (Belville)"
+    detail: "A house that fans first spotted in a photo inside 2021's GTA San Andreas: The Definitive Edition turns out to be in Belville. Its garage hides a conspiracy theorist's den with a note reading IT'S A SIMULATION."
+  - title: "A merman (Shores Keys)"
+    detail: "A man in a turquoise mermaid tail is posing for a photo shoot on a small island near Shores Keys, north-east of Key Lento."
 faq:
   - q: "Is there a UFO in GTA 6?"
     a: "Yes, according to player reports. It's a random encounter in Kelly County after Chapter 1, best tried after 2 AM in-game."
@@ -40,6 +48,8 @@ faq:
   - q: "Do easter eggs give trophies in GTA 6?"
     a: "Some do. The UFO unlocks The Truth Is Out There. No reward has been reported for the car, the tower egg or the cameo."
 sources:
+  - label: "GameRiv: GTA 6 easter eggs, from Red Hulk to a giant mutant crab"
+    url: "https://gameriv.com/gta-6-easter-eggs/"
   - label: "GamingBible: 9 GTA 6 easter eggs you might have missed"
     url: "https://www.gamingbible.com/news/gta-6-easter-eggs-778903-20261120"
   - label: "GamingBible: GTA 6 secret cutscene behind a seven-minute climb"
@@ -60,6 +70,8 @@ order: 28
 ## What isn't confirmed yet
 
 - Exact spots for the car, the tower, the parrots' liquor store and the horse statue. Both are described in words only, so they're waiting in our map queue rather than on the map.
+- Exact spots for the crab building, the Belville house and the merman's island, and where the strawberry farmer's side quest begins.
+- Clips of a giant kraken and an NPC who can't be killed are going around, but nobody has said where or how to find them. We're leaving them off this list until someone does.
 - Whether the Little Sam character really is a Sam Houser cameo. That's fan speculation.
 - Whether the Marquis boat is meant to be Michael's. The Los Santos GPS is a player find, not something Rockstar has explained.
 - More easter eggs are being reported every day. We'll add them here as they're confirmed.

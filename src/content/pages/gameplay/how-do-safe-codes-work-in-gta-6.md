@@ -4,7 +4,7 @@ answer: "In robberies, GTA 6 safe codes are random, so there's no fixed list to 
 description: "GTA 6 safe codes explained: why robbery codes are random, how to find or force them out of staff, using Focus to spot them, and blowing safes instead."
 status: verifying
 statusNote: "Based on a launch-day guide from players with 100+ hours and earlier previews. We're testing it in-game."
-updated: 2026-11-19
+updated: 2026-11-23
 listType: steps
 listTitle: "How to get into a safe during a robbery"
 items:
@@ -22,10 +22,12 @@ faq:
   - q: "Is there a list of GTA 6 safe codes?"
     a: "Not for robberies. Robbery codes are reported to change each time, so a list wouldn't work. Codes in story missions are handed to you."
   - q: "Can you blow a safe open instead?"
-    a: "Previews showed explosives working, faster than finding the code but at the cost of damaging some of the contents. Hunting for the code keeps more loot but gives police longer to arrive."
+    a: "Yes. Previews showed explosives working, faster than finding the code but at the cost of damaging some of the contents. A reviewer's tips guide adds that any explosion does it, not just sticky bombs: a grenade, a rocket or a propane tank set off next to the safe will open it. Hunting for the code keeps more loot but gives police longer to arrive."
   - q: "Can a fence give you the safe code?"
     a: "A pre-launch demo showed a fence texting a safe code before a robbery. We haven't confirmed how often this happens."
 sources:
+  - label: "The Big Lead: GTA 6 tips the game doesn't tell you"
+    url: "https://www.thebiglead.com/gta-6-tips-the-game-doesnt-tell-you/"
   - label: "PC Gamer: GTA 6 safe codes and where to find them"
     url: "https://www.pcgamer.com/games/grand-theft-auto/gta-6-safe-codes-combinations/"
   - label: "GTA BOOM: GTA 6 robberies, loot and money"

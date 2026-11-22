@@ -1,10 +1,10 @@
 ---
 question: "What should you know before you start GTA 6? Beginner tips"
 answer: "Eat and drink before trouble starts (it tops up health, stamina and Focus), use your car's trunk as a wardrobe and gun locker, scan stolen cars for trackers with WAINK, fix cars cheaply at gas pumps, and hold down on the D-pad to see nearby activities without opening the map. Most of these systems aren't explained up front."
-description: "GTA 6 beginner tips from launch-day hands-on play: Focus, food, trunk storage, car trackers, cheap repairs, fast travel, alarmed doors and calming cops down."
+description: "GTA 6 beginner tips from launch-week hands-on play: Focus, food, trunk storage, car trackers, cheap repairs, pushing cars, faster swimming, casing robberies and which buildings you can enter."
 status: verifying
-statusNote: "Based on a reviewer's hands-on tips published on launch day (Kotaku, 18 November 2026). Button prompts are for controller; we're checking each one in-game."
-updated: 2026-11-18
+statusNote: "Based on reviewers' hands-on tips published on launch day (Kotaku and The Big Lead, 18 November 2026). Button prompts are for PlayStation controllers; we're checking each one in-game."
+updated: 2026-11-23
 listType: steps
 listTitle: "Spoiler-free tips for your first hours"
 items:
@@ -44,6 +44,20 @@ items:
     detail: "Garages around the map add slots for cars and motorbikes. That's all they're for."
   - title: "Visit more than one clothes shop and barber"
     detail: "Most of them stock items you can't get anywhere else. At a safehouse mirror you can only trim your hair or beard, not restyle it."
+  - title: "Push stuck boats and flipped cars yourself"
+    detail: "Walk into a vehicle until a prompt appears, then hold Square to shove it. It's enough to get a beached boat back in the water or tip a car back onto its wheels, so you don't have to pay to get it moved."
+  - title: "Hit people with your car door"
+    detail: "Press Square while driving to swing the door open into someone. On a motorbike it's a kick instead, handy for knocking a rival off their bike in a race."
+  - title: "Find the extra car controls"
+    detail: "Hold left on the D-pad to bring up the radio list, then push the left stick up for the vehicle menu: hazard lights, full beams, windows and, on convertibles, the roof. Tap left or right on the D-pad to indicate."
+  - title: "Swim faster and stay under longer"
+    detail: "On the surface, click the left stick once to swim faster and twice for top speed. That drains stamina, but once you dive the meter switches to lung capacity, so swimming underwater lets you keep full speed for roughly twice as long."
+  - title: "Case a robbery before you pull it"
+    detail: "Walk in as a normal customer, lock on to a guard and press right on the D-pad to tag them with an arrow, so you always know where they are once things kick off."
+  - title: "Read the building colours on the map"
+    detail: "Dark blue buildings have somewhere you can go inside, even if it's only a garage or a corridor. Light blue ones can't be entered. Look for the interaction prompt near the doors."
+  - title: "Any explosion opens a safe"
+    detail: "You don't need the code or a sticky bomb. A grenade, a rocket or a propane tank going off next to a safe will open it, though you may lose some of what's inside."
 faq:
   - q: "Is there fast travel in GTA 6?"
     a: "Yes, through the Ryde Me app. Book a ride, then interact with the driver to skip the trip for $100."
@@ -53,9 +67,15 @@ faq:
     a: "Listen for shouting or loud noises, then turn on Focus (click both sticks) to see where it's coming from."
   - q: "How do you lose a one-star wanted level quickly?"
     a: "Aim at a nearby officer who hasn't drawn a gun and pick the defuse option, or change into a different outfit. Neither works every time."
+  - q: "How do you flip a car back over in GTA 6?"
+    a: "Walk up to it until a push prompt appears, then hold Square (on PlayStation) to shove it back onto its wheels. The same trick pushes a grounded boat back into the water."
+  - q: "How do you swim faster in GTA 6?"
+    a: "Click the left stick once for a faster stroke and twice for full speed. Diving switches you from stamina to lung capacity, which lets you keep that speed up for longer."
   - q: "What is Scooter Bros Premium?"
     a: "A $12,500 upgrade to the Scooter Bros app that gives three free vehicle deliveries, repairs or impound pickups per in-game day."
 sources:
+  - label: "The Big Lead: 8 GTA 6 tips the game doesn't tell you"
+    url: "https://www.thebiglead.com/gta-6-tips-the-game-doesnt-tell-you/"
   - label: "Kotaku: 32 spoiler-free tips as you hop into Grand Theft Auto 6"
     url: "https://kotaku.com/32-spoiler-free-tips-as-you-hop-into-grand-theft-auto-6-2000758016"
 order: 11
