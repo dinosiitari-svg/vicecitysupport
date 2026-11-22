@@ -4,7 +4,7 @@ answer: "In GTA 6 story mode you make money mainly by robbing places, from corne
 description: "How to make money in GTA 6: robberies, fencing loot, banking cash at ATMs, selling cards, and why you need money to progress the story."
 status: verifying
 statusNote: "Based on Rockstar interviews, press previews and early guides. Exact payouts aren't confirmed yet; we're testing in-game and will add real numbers."
-updated: 2026-11-19
+updated: 2026-11-22
 listType: steps
 listTitle: "The money loop, step by step"
 items:
@@ -37,6 +37,8 @@ faq:
     a: "Guides report you can carry up to $20,000 in cash. Anything above that should go in the bank, which also protects it if you die."
   - q: "Can you lose money when you die or get arrested?"
     a: "Carried cash is reported to be lost when you die, which is why banking it at an ATM matters. Bank money is safe."
+  - q: "Is there an easy early money spot in GTA 6?"
+    a: "A GamingBible writer reports a warehouse called Apollo Aggregates near Hamlet in South Vice-Dale County, open from the very start, holding marked bills, drugs, guns and a collectible card worth around $14,000 in total. Bring a vehicle with room for the loot, sell the goods to Brian or Donnie and the card at a pawn shop. Not checked in-game yet; it also has [free weapons](/gameplay/where-to-find-free-weapons-in-gta-6/)."
   - q: "Can you buy property or businesses in GTA 6?"
     a: "Not confirmed. Rockstar has said safehouses come through the story rather than being bought, and whether you can buy businesses hasn't been confirmed."
   - q: "Is there a stock market in GTA 6?"
@@ -46,6 +48,8 @@ sources:
     url: "https://www.gamesradar.com/games/grand-theft-auto/gta-6-make-money-fast/"
   - label: "GTAbase: GTA 6 money-making guide"
     url: "https://www.gtabase.com/articles/gta-6/how-to-make-money-in-gta-6-full-money-making-guide"
+  - label: "GamingBible: hidden warehouse with $14,000 of easy money"
+    url: "https://www.gamingbible.com/news/gta-6-hidden-warehouse-14000-easy-money-location-951211-20261120"
   - label: "PowerPyx: GTA 6 trophy guide and roadmap"
     url: "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/"
   - label: "VICE: GTA 6 review roundup"
@@ -63,6 +67,7 @@ GTA 6 separates your money into three pots, and knowing the difference saves you
 
 ## Related guides
 
+- [Free weapons you can find early](/gameplay/where-to-find-free-weapons-in-gta-6/)
 - [How to unlock street races](/gameplay/how-to-unlock-street-races-in-gta-6/)
 - [How to open a bank account](/gameplay/how-to-open-a-bank-account-in-gta-6/)
 - [Where are the ATMs?](/gameplay/where-are-the-atms-in-gta-6/)

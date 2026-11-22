@@ -8,6 +8,8 @@ updated: 2026-11-22
 listType: steps
 listTitle: "New and changed mechanics"
 items:
+  - title: "Free weapons hidden in the world"
+    detail: "Launch guides list early pickups including a sniper rifle, two shotguns and a warehouse full of guns near Hamlet."
   - title: "Wanted system needs witnesses"
     detail: "Six stars, but police only respond to reported crimes and track you by description."
   - title: "Switch between Jason and Lucia"
@@ -193,6 +195,7 @@ order: 0
 - [Can you replay missions?](/gameplay/can-you-replay-missions-in-gta-6/)
 - [How to unlock the full map](/gameplay/how-to-unlock-the-full-map-in-gta-6/)
 - [How long does it take to beat GTA 6?](/gameplay/how-long-does-it-take-to-beat-gta-6/)
+- [Where to find free weapons early](/gameplay/where-to-find-free-weapons-in-gta-6/)
 
 ## How we'll update this page
 

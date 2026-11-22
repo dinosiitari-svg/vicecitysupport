@@ -19,6 +19,16 @@ Set `"status": "confirmed"` only once you've seen it in-game yourself.
 
 ## Pending
 
+### 2026-11-22 12:30 · Weapons / money · "Free early weapons + Apollo Aggregates loot warehouse"
+- Source: https://www.noobfeed.com/articles/gta-6-early-game-guns , https://www.gamingbible.com/news/gta-6-hidden-warehouse-14000-easy-money-location-951211-20261120 (launch-week guides, unconfirmed)
+- Loot warehouse (Type 9 SMG, Duke 556, Kalinga 50, marked bills, drugs, Leroy Rook card, ~$14,000 total): GamingBible calls it Apollo Aggregates near Hamlet, South Vice-Dale; NoobFeed says ~3 miles from Jason's house. The community map already has an "Apollo Aggregates" landmark at x 61.49, y 71.05 (Peregrine Bay, east of Hamlet) — probably the same place, but I didn't add a pin because the drone-race guide also puts an "Apollo Aggregates" in Balsero.
+- Kingfisher W-22 rifle: Kingfisher Compound, Grassrivers, building nearest the water (after Donnie mentions the robbery). No Kingfisher marker on our map.
+- Laird 350 sniper: stranded men on the road Grassrivers → Hamlet (or an abandoned motel south of Hamlet; source contradicts itself).
+- Hobo shotgun: industrial storage building off the highway south of Hamlet (listen for screaming).
+- Nipper .38 pistol: spy ship wreck, southern tip of the south-east Permit Keys island. Permit Keys not labelled on our map.
+- Gorse 425 shotgun: abandoned smuggler boat, northernmost Permit Keys island.
+- Suggested category: a new `weapons` category (free weapon pickups) if you want these as their own layer.
+
 ### 2026-11-22 07:00 · Cocaine Flamingos · "10 reported flamingos without a pin + 12 best-guess pins to check"
 - **Pinned on Nov 22 (best guesses, please nudge in-game):** Abismo Key SE coast, Capri Halloween house, outside La Costa (Capri), Key Lento eccentric house, Featherstone north tip / south shore / SE shore, 3 at the Meerwunder wreck beach, Watson Bay north end, Watson Bay candle room. I took the northern Featherstone island to be the long spit at the top of the NW island group and the Meerwunder beach to be the SE corner of the lower-right island there. The base map has no labels for those, so both are assumptions. Capri's lake was assumed to be Tortoise Lake.
 - **Reported but not placeable (no pin):**
