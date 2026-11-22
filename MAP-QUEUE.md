@@ -19,6 +19,22 @@ Set `"status": "confirmed"` only once you've seen it in-game yourself.
 
 ## Pending
 
+### 2026-11-22 07:00 · Cocaine Flamingos · "10 reported flamingos without a pin + 12 best-guess pins to check"
+- **Pinned on Nov 22 (best guesses, please nudge in-game):** Abismo Key SE coast, Capri Halloween house, outside La Costa (Capri), Key Lento eccentric house, Featherstone north tip / south shore / SE shore, 3 at the Meerwunder wreck beach, Watson Bay north end, Watson Bay candle room. I took the northern Featherstone island to be the long spit at the top of the NW island group and the Meerwunder beach to be the SE corner of the lower-right island there. The base map has no labels for those, so both are assumptions. Capri's lake was assumed to be Tortoise Lake.
+- **Reported but not placeable (no pin):**
+  - Capri: on a dock beside a dead body (two more reported nearby, near music; use Focus). Unconfirmed.
+  - Capri: by the sunken ship, among lawn flamingos where only one is real. Unconfirmed.
+  - Capri: front yard of a locked house west of Volcano Coffee Co.
+  - Sandbar island south of Cottonmouth Lake (Leonida Keys), west side of the island. Cottonmouth Lake isn't on our map.
+  - Key Lento: in the corner between two trees, just left of a fire hydrant. Unconfirmed.
+  - Mile Zero Air Station: among the shoreline rocks of Goose Key (wanted level). Goose Key looks like the big south-west airbase island with Southwind, but no side of the coast was given.
+  - Port Gellhorn: on top of the garbage heap, under an old fridge. Unconfirmed; there's no landfill on our map.
+  - Riquezas Keys: inside a building with a radar dome on the big south-west island. There are two radar candidates (Weather Radar ~25.6, 90.5 and Air Force Radar Station on Maroon Key ~43.3, 93.3).
+  - Watson Bay: beach party camp on the shore (one map puts it at Southwind instead). Unconfirmed.
+  - Watson Bay: standing on a table in a small building. Unconfirmed.
+- **Source:** https://vicecitydb.org/collectibles/cocaine-flamingos (fan database, updated Nov 21; 30 of 125 listed)
+- **Suggested category:** `cocaine-flamingos`
+
 ### 2026-11-21 18:15 · Tattoo shops · "8 tattoo studios without a pin"
 - **Reported:** Layin' Ink, Dominion Ink, Hyper Ink, Cross My Heart, Inkomplete Tattoo Co., Black Spot Tattoo (all Vice-Dale County), Blood Sugar Tattoo and Freedom Tattoo (Kelly County). Only county given, no landmark. In-game they show as an orange heart icon (map filter Style > Tattoos). Inked Mermaid, Twa Ponya and Electric Fang are already pinned. Page: /gameplay/where-are-the-tattoo-shops-in-gta-6/
 - **Source:** https://www.powerpyx.com/gta-6-all-tattoo-studios-locations/ (player guide, unconfirmed)
@@ -71,7 +87,7 @@ Set `"status": "confirmed"` only once you've seen it in-game yourself.
 
 ### 2026-11-20 10:45 · Collectibles · "Pins placed from descriptions — nudge when you see them"
 - **What:** the collectible pins, the area-level garages and fences, and the vehicle spots added on Nov 20 were placed by reading guide descriptions (notes say "Pin placed from the … description"). When you're near one in-game, drag-check it with `?coords` and fix x/y, then set `confirmed`.
-- **Still to come:** guides have only published 8 of 125 Cocaine Flamingos, 16 of 112 WAiNK scans, 20 of 27 magazines and no card or underwater locations yet. The news sweep should add the rest as guides fill in.
+- **Still to come:** guides have only published 8 of 125 Cocaine Flamingos (now 20 pinned, see the Nov 22 entry), 16 of 112 WAiNK scans, 20 of 27 magazines and no card or underwater locations yet. The news sweep should add the rest as guides fill in.
 
 ### 2026-11-20 04:30 · Easter eggs · "Fast and Furious car garage, Vespucci Island"
 - **Reported:** green tuner car (Brian O'Conner nod) inside the garage of a white house near the middle of Vespucci Island; break into the garage. Page: /gameplay/gta-6-easter-eggs/
