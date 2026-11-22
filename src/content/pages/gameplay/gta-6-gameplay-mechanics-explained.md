@@ -8,6 +8,10 @@ updated: 2026-11-22
 listType: steps
 listTitle: "New and changed mechanics"
 items:
+  - title: "Fast travel is a ride you skip"
+    detail: "No map teleport: call Paradise Taxi or book RydeMe, then pay about $100 to skip the trip."
+  - title: "Treasure diving off Key Lento"
+    detail: "After Island Dreams you can dive six shipwrecks with a metal detector and sell the finds to Kenton."
   - title: "Free weapons hidden in the world"
     detail: "Launch guides list early pickups including a sniper rifle, two shotguns and a warehouse full of guns near Hamlet."
   - title: "Wanted system needs witnesses"
@@ -196,6 +200,8 @@ order: 0
 - [How to unlock the full map](/gameplay/how-to-unlock-the-full-map-in-gta-6/)
 - [How long does it take to beat GTA 6?](/gameplay/how-long-does-it-take-to-beat-gta-6/)
 - [Where to find free weapons early](/gameplay/where-to-find-free-weapons-in-gta-6/)
+- [How to fast travel](/gameplay/how-to-fast-travel-in-gta-6/)
+- [How to find sunken treasure](/gameplay/how-to-find-sunken-treasure-in-gta-6/)
 
 ## How we'll update this page
 

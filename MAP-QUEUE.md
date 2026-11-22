@@ -19,6 +19,17 @@ Set `"status": "confirmed"` only once you've seen it in-game yourself.
 
 ## Pending
 
+### 2026-11-22 18:15 · Treasure / dive sites · "Six shipwreck dive sites off Key Lento + Island Dreams charter dock"
+- Source: https://www.gtaboom.com/gta-6-treasure-hunting-2b73 , https://www.slashgear.com/2322274/gta-6-how-to-make-money-early-underwater-shipwreck-treasure-dives-locations/ (launch-week guides, unconfirmed; no coordinates given)
+- Island Dreams Boat Charters (Kenton's shop, scuba gear on the dock): Key Lento. Not on our map.
+- Nuestra Señora de la Noche (7 finds): south-east of Key Lento's tip, the search circle nearest the island (not the one by Abismo Key).
+- Nuestra Señora de la Ética Laxa (5): south of La Noche, off Abismo Key.
+- Urca de Cinco Torres (6): off south-east Key Lento, beside the small hooked island in the island chain.
+- Nuestra Señora Lujuriosa (6): south-west of that hooked island, between it and the longer island to the south.
+- Urca de Santa Sierra (6): farther out, east of the two wrecks by the island chain.
+- Nuestra Señora del Ocio (10 doubloons, Island Dreams wreck): east of Key Lento, north-east of Kenton's shop, past a small offshore island.
+- Suggested category: a new `treasure` / dive-sites category. Dive sites show in-game as map search circles, so you can read them off the pause map.
+
 ### 2026-11-22 12:30 · Weapons / money · "Free early weapons + Apollo Aggregates loot warehouse"
 - Source: https://www.noobfeed.com/articles/gta-6-early-game-guns , https://www.gamingbible.com/news/gta-6-hidden-warehouse-14000-easy-money-location-951211-20261120 (launch-week guides, unconfirmed)
 - Loot warehouse (Type 9 SMG, Duke 556, Kalinga 50, marked bills, drugs, Leroy Rook card, ~$14,000 total): GamingBible calls it Apollo Aggregates near Hamlet, South Vice-Dale; NoobFeed says ~3 miles from Jason's house. The community map already has an "Apollo Aggregates" landmark at x 61.49, y 71.05 (Peregrine Bay, east of Hamlet) — probably the same place, but I didn't add a pin because the drone-race guide also puts an "Apollo Aggregates" in Balsero.

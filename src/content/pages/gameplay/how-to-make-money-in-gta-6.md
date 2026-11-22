@@ -68,6 +68,7 @@ GTA 6 separates your money into three pots, and knowing the difference saves you
 ## Related guides
 
 - [Free weapons you can find early](/gameplay/where-to-find-free-weapons-in-gta-6/)
+- [How to find sunken treasure](/gameplay/how-to-find-sunken-treasure-in-gta-6/)
 - [How to unlock street races](/gameplay/how-to-unlock-street-races-in-gta-6/)
 - [How to open a bank account](/gameplay/how-to-open-a-bank-account-in-gta-6/)
 - [Where are the ATMs?](/gameplay/where-are-the-atms-in-gta-6/)
