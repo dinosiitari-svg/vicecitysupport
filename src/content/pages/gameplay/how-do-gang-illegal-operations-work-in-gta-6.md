@@ -4,7 +4,7 @@ answer: "Illegal Operations are gang-run sites you can rob over and over. Launch
 description: "GTA 6 gang Illegal Operations explained: all 9 gang groups, how to find and rob 39 sites, selling drugs to fences, heat, and the Pest Control trophy."
 status: verifying
 statusNote: "Based on launch-day player guides. Counts and trophy rules not yet checked by us in-game."
-updated: 2026-11-19
+updated: 2026-11-23
 listType: steps
 listTitle: "How to rob a gang Illegal Operation"
 items:
@@ -26,7 +26,7 @@ faq:
   - q: "How many Illegal Operations are there?"
     a: "39 according to launch-day guides: Other Criminals 13, Kolts & Associates 5, San4San 5, Final Chapter 4, Kingfishers 3, Guardia Brothers 3, M7 2, La Polilla Negra 2 and PTT Youngin$ 2. An extra PTT Youngin$ site in the Ultimate Edition is reported not to count toward the 39."
   - q: "Where are the gangs based?"
-    a: "Reported home turf: Kingfishers in the Grassrivers swamps and Pelican Valley, Kolts & Associates around Port Gellhorn, Final Chapter in Ambrosia, San4San in La Perle (Vice City), PTT Youngin$ in Southside (Vice City), and La Polilla Negra with a site in Watson Bay. M7 is tied to Lucia's Chapter 3 story; we haven't seen a home area reported for M7 or the Guardia Brothers yet."
+    a: "Reported home turf: Kingfishers in the Grassrivers swamps and Pelican Valley, Kolts & Associates around Port Gellhorn, Final Chapter in Ambrosia, San4San in La Perle (Vice City), PTT Youngin$ in Southside (Vice City), and La Polilla Negra with a site in Watson Bay. One launch-week gang list puts M7 (a Salvadoran gang tied to Lucia's Chapter 3 story) in Hamlet with a second site far to the north, and the Guardia Brothers (Cuban mobsters) around Little Cuba in Vice City. That's a single source, so treat those two as unconfirmed."
   - q: "What do you need for the Pest Control trophy?"
     a: "Rob one Illegal Operation from each gang. One guide says Other Criminals counts as one of the gangs; another doesn't say. To be safe, do at least one from all nine groups."
   - q: "How much money do Illegal Operations pay?"
@@ -40,6 +40,8 @@ sources:
     url: "https://egamers.io/gta-6-gang-operations-guide-39-robbery-spots-and-the-pest-control-trophy/"
   - label: "GamesRadar+: GTA 6 trophy and achievement list"
     url: "https://www.gamesradar.com/games/grand-theft-auto/gta-6-trophy-achievement-list/"
+  - label: "DayOne: all the gangs and criminals in GTA 6 (18 Nov)"
+    url: "https://playday.one/2026/11/18/all-the-gangs-and-criminals-in-gta-6/"
 order: 24
 ---
 
@@ -48,7 +50,7 @@ order: 24
 - How long a site takes to restock after you rob it.
 - Whether Other Criminals definitely counts toward Pest Control.
 - Real payouts per site, and when Illegal Operations first appear in the story.
-- Home areas for M7 and the Guardia Brothers.
+- Home areas for M7 (reported Hamlet) and the Guardia Brothers (reported Little Cuba) come from one gang list only.
 
 We're not putting individual operation sites on the [interactive map](/map/interactive/) until we have positions we can place accurately.
 

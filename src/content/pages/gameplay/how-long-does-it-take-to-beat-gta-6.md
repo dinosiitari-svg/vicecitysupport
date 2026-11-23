@@ -51,3 +51,4 @@ order: 51
 - [How many endings does GTA 6 have?](/gameplay/how-many-endings-does-gta-6-have/)
 - [Do collectibles count toward 100%?](/collectibles/do-collectibles-count-toward-100-percent-completion/)
 - [Can you replay missions?](/gameplay/can-you-replay-missions-in-gta-6/)
+- [How many trophies are in GTA 6?](/gameplay/how-many-trophies-are-in-gta-6/)

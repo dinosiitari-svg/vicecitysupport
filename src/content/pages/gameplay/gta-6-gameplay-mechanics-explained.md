@@ -4,7 +4,7 @@ answer: "GTA 6's biggest changes are a reworked wanted system that depends on wi
 description: "Every new GTA 6 gameplay mechanic in one list: wanted system, character switching, driving, carjacking, respawns, money, robberies and more."
 status: verifying
 statusNote: "Collected from Rockstar's interviews and press previews. We're testing each one in-game and will update as we go."
-updated: 2026-11-22
+updated: 2026-11-23
 listType: steps
 listTitle: "New and changed mechanics"
 items:
@@ -124,6 +124,8 @@ items:
     detail: "Leonida is open after the prologue, but the map stays hidden until you explore; flying clears it fastest."
   - title: "Long story"
     detail: "Roughly 50–70 hours for the story, 80–120 with side content and about 200 for 100%."
+  - title: "55 trophies, all single player"
+    detail: "55 trophies (1,000 Gamerscore on Xbox), no online ones yet, around 200 hours to Platinum; cheats switch trophies off."
 faq:
   - q: "Is GTA 6 more realistic than GTA 5?"
     a: "In several systems, yes: police need witnesses, driving and carjacking were rebuilt, and Jason and Lucia have needs like food and sleep."
@@ -202,6 +204,7 @@ order: 0
 - [Where to find free weapons early](/gameplay/where-to-find-free-weapons-in-gta-6/)
 - [How to fast travel](/gameplay/how-to-fast-travel-in-gta-6/)
 - [How to find sunken treasure](/gameplay/how-to-find-sunken-treasure-in-gta-6/)
+- [How many trophies are in GTA 6?](/gameplay/how-many-trophies-are-in-gta-6/)
 
 ## How we'll update this page
 
