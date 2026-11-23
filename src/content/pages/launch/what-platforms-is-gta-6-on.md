@@ -4,7 +4,7 @@ answer: "GTA 6 is on PlayStation 5 and Xbox Series X|S, released November 19, 20
 description: "GTA 6 platforms confirmed: PS5 and Xbox Series X|S. Is it on PC, PS4, Xbox One or Switch 2? Here's what Rockstar has actually announced."
 status: verified
 lastVerified: 2026-11-13
-updated: 2026-11-20
+updated: 2026-11-23
 listType: locations
 listTitle: "Platform status at launch"
 items:
@@ -28,5 +28,9 @@ sources:
     url: "https://www.rockstargames.com/newswire/article/ak3ak31a49a221/grand-theft-auto-vi-is-now-set-to-launch-november-19-2026"
 order: 3
 ---
+
+## PC version rumours
+
+On 22 November 2026 reports picked up a GamesBeat post citing unnamed inside sources, which says Rockstar plans to release GTA 6 on PC in the first three months of 2027. Rockstar and Take-Two have not confirmed this, so treat it as a rumour. Some headlines called it an "official" update; it isn't.
 
 We'll update this page immediately if Rockstar announces a PC version or any other platform.

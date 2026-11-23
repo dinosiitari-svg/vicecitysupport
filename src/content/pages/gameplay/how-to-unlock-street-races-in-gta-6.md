@@ -1,10 +1,10 @@
 ---
 question: "How do you unlock street races in GTA 6?"
-answer: "Street racing opens in Chapter 3, once Jason and Lucia reach Vice City. In the story mission Dealer's Choice, say yes when Dre'Quan offers to get Jason into street racing. A race flag then appears between Salton and Little Cuba; win it and a young racer called Yago starts a short side story. Launch guides count around 39–40 races across six venues in Leonida, and winning 20 different ones unlocks a trophy."
+answer: "Street racing opens in Chapter 3, once Jason and Lucia reach Vice City. In the story mission Dealer's Choice, say yes when Dre'Quan offers to get Jason into street racing. A race flag then appears between Salton and Little Cuba; win it and a young racer called Yago starts a short side story. Launch guides now mostly agree on 40 races across six venues in Leonida, plus 13 separate Race Challenges. Winning 20 different races unlocks a trophy, and 30 wins are needed for 100%."
 description: "How to unlock street races in GTA 6: the Dealer's Choice trigger, Yago's side missions, buy-ins, car ratings, payouts and the race trophy."
 status: verifying
 statusNote: "Taken from launch-week player guides. Buy-ins, payouts and the race count differ between sources; we're checking them in-game."
-updated: 2026-11-20
+updated: 2026-11-23
 listType: steps
 listTitle: "How to start street racing"
 items:
@@ -21,10 +21,14 @@ items:
   - title: "Meet Yago"
     detail: "After the first race a young racer from Little Cuba, Yago, asks Jason to teach him and leaves his number. His missions appear on the map afterwards."
   - title: "Unlock the rest by medalling"
-    detail: "At each venue, later races reportedly open once you've finished earlier ones with at least a bronze medal."
+    detail: "At each venue, later races open as you finish earlier ones. One guide says you need at least a bronze; another says you must win the previous race."
+  - title: "Open the other venues"
+    detail: "Reported unlocks: Gellhorn Raceway opens after its Introduction event, which starts a 5-race amateur series; Thrillbilly Mud Club comes through Billy's optional Thrillbillies side story in Chapter 2. On the map, filter Activities > Racing; race icons show up blue once you're close."
 faq:
   - q: "How many races are in GTA 6?"
-    a: "One launch guide counts 39 races at six venues: Ambrosia Raceway, Gellhorn Raceway, Boone Speedway, the Animal Crackers off-road series, Thrillbilly Mud Club and Hit 'n' Run VC street races. Another says the in-game list should show 40. We're counting them in-game."
+    a: "Most launch guides now count 40 races at six venues. One breakdown: Gellhorn International Raceway 11, Hit 'n' Run VC street races 9, Animal Crackers off-road 8, Thrillbilly Mud Club 8, Boone Speedway 2 and Ambrosia Raceway 2. An earlier guide counted 39. We're counting them in-game."
+  - q: "What are Race Challenges in GTA 6?"
+    a: "They're a separate set of 13 timed or scored events (trials, stunt runs, drag, hill-climb, dirt-track, oval and swamp events, six of them at the Mud Club). Each has bronze, silver and gold medals. Guides say 10 of the 13 golds count toward 100% completion."
   - q: "Who is Yago in GTA 6?"
     a: "Yago Jiménez is a rich but inexperienced street racer from Little Cuba. His side story has about four missions: the first street race, Bumper to Bumper (car upgrades at Euroform Automotive, then a race with Yago riding along and a police chase), Race Against Yago (a timed mission that can expire) and Brother to Brother."
   - q: "How much do you win from street races?"
@@ -32,7 +36,7 @@ faq:
   - q: "How much does it cost to enter a race?"
     a: "Reports differ: one guide saw a $300 buy-in plus $300 rental for the first race, another lists $150 for each. Some Vice City street races reportedly have no buy-in at all."
   - q: "Is there a trophy for races in GTA 6?"
-    a: "Yes. Earn Cash, Not Kudos is reported for winning 20 different races. For 100% completion, guides say you need 30 wins (gold medals)."
+    a: "Yes. Earn Cash, Not Kudos is reported for winning 20 different races. For 100% completion, guides say you need 30 of the 40 race wins, plus 10 gold medals in Race Challenges."
   - q: "Can Lucia do street races?"
     a: "Yes, both can run the open races. Some of Yago's missions are Jason-only."
 sources:
@@ -40,6 +44,10 @@ sources:
     url: "https://outputlag.com/guides/gta-6-street-races-yago/"
   - label: "TechWiser: GTA 6 racing activities, all race locations and payouts"
     url: "https://techwiser.com/gta-6-racing-locations/"
+  - label: "PowerPyx: GTA 6 all unique race locations"
+    url: "https://www.powerpyx.com/gta-6-all-unique-race-locations-racing-activities/"
+  - label: "PowerPyx: GTA 6 all race challenge locations and gold medals"
+    url: "https://www.powerpyx.com/gta-6-all-race-challenge-locations-gold-medals/"
 order: 39
 ---
 
@@ -52,7 +60,8 @@ order: 39
 
 ## What isn't confirmed yet
 
-- The exact race count (39 or 40) and whether Vice City street races count toward the trophy.
+- The exact race count (most guides now say 40; one said 39) and whether Vice City street races count toward the trophy.
+- Whether a later race needs a win or just a bronze to unlock.
 - Buy-ins and payouts, which differ between guides.
 - Exact start points. Race starts are described by area only, so they're not on our map yet.
 
