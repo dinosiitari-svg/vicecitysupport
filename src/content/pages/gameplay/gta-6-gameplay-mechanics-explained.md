@@ -8,6 +8,8 @@ updated: 2026-11-23
 listType: steps
 listTitle: "New and changed mechanics"
 items:
+  - title: "A shared relationship meter"
+    detail: "Jason and Lucia's bond has four levels that rise with time together and teamwork, and drop with neglect."
   - title: "Fast travel is a ride you skip"
     detail: "No map teleport: call Paradise Taxi or book RydeMe, then pay about $100 to skip the trip."
   - title: "Treasure diving off Key Lento"
@@ -205,6 +207,7 @@ order: 0
 - [How to fast travel](/gameplay/how-to-fast-travel-in-gta-6/)
 - [How to find sunken treasure](/gameplay/how-to-find-sunken-treasure-in-gta-6/)
 - [How many trophies are in GTA 6?](/gameplay/how-many-trophies-are-in-gta-6/)
+- [How does the relationship work?](/gameplay/how-does-the-relationship-work-in-gta-6/)
 
 ## How we'll update this page
 

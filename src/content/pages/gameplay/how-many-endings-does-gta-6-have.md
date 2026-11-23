@@ -52,6 +52,7 @@ This page avoids story spoilers. It doesn't name who lives, dies or betrays anyo
 
 ## Related guides
 
+- [How does Jason and Lucia's relationship work?](/gameplay/how-does-the-relationship-work-in-gta-6/)
 - [How does the criminal profile work?](/gameplay/how-does-the-criminal-profile-work-in-gta-6/)
 - [How to lower your criminal profile](/gameplay/how-to-lower-your-criminal-profile-in-gta-6/)
 - [How to open a bank account](/gameplay/how-to-open-a-bank-account-in-gta-6/)

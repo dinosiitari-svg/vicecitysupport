@@ -38,3 +38,7 @@ order: 2
 ## Why it matters for collectibles
 
 If a collectible or side activity is tied to one character, you may need to switch before you can pick it up. We'll flag any character-specific collectibles on their pages once we've confirmed them.
+
+## Related
+
+- [How does Jason and Lucia's relationship work?](/gameplay/how-does-the-relationship-work-in-gta-6/)
