@@ -19,6 +19,11 @@ Set `"status": "confirmed"` only once you've seen it in-game yourself.
 
 ## Pending
 
+### 2026-11-24 00:15 · Vehicle spots · "Private helipad east of Hamlet (Maverick-type helicopter)"
+- Source: https://gamerant.com/gta-6-helicopter-location/ (hands-on, 19 Nov; no coordinates), https://happygamer.com/gta-6-how-to-get-a-helicopter-179627/ (secondhand)
+- Private helipad in a guarded compound east of Hamlet, close to Key Lento. Guards at the gate checkpoint; you can climb the chain-link fence at the side. Helicopter is unlocked; no wanted level reported for taking it.
+- Suggested category: `vehicle-spots`.
+
 ### 2026-11-23 00:15 · Easter eggs · "Giant crab, simulation house, merman, Dexter apartment"
 - Source: https://gameriv.com/gta-6-easter-eggs/ (player reports collected by GameRiv, 22 Nov; unconfirmed, no coordinates given)
 - Giant mutant crab: inside a building in Gullet Marsh (which building not stated).

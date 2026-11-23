@@ -46,6 +46,7 @@ order: 52
 ## Related guides
 
 - [How big is the GTA 6 map?](/launch/how-big-is-the-gta-6-map/)
+- [How to get a helicopter](/gameplay/how-to-get-a-helicopter-in-gta-6/)
 - [How to get a fighter jet](/gameplay/how-to-get-a-fighter-jet-in-gta-6/)
 - [Where is the airport?](/gameplay/where-is-the-airport-in-gta-6/)
 - [GTA 6 interactive map](/map/interactive/)

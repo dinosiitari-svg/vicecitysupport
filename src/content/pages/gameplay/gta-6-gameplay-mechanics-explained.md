@@ -128,6 +128,8 @@ items:
     detail: "Roughly 50–70 hours for the story, 80–120 with side content and about 200 for 100%."
   - title: "55 trophies, all single player"
     detail: "55 trophies (1,000 Gamerscore on Xbox), no online ones yet, around 200 hours to Platinum; cheats switch trophies off."
+  - title: "Helicopters are taken, not bought"
+    detail: "An unguarded Maverick sits on a Southwind dock near Jason's house; airport and military aircraft bring wanted stars."
 faq:
   - q: "Is GTA 6 more realistic than GTA 5?"
     a: "In several systems, yes: police need witnesses, driving and carjacking were rebuilt, and Jason and Lucia have needs like food and sleep."
@@ -208,6 +210,7 @@ order: 0
 - [How to find sunken treasure](/gameplay/how-to-find-sunken-treasure-in-gta-6/)
 - [How many trophies are in GTA 6?](/gameplay/how-many-trophies-are-in-gta-6/)
 - [How does the relationship work?](/gameplay/how-does-the-relationship-work-in-gta-6/)
+- [How to get a helicopter](/gameplay/how-to-get-a-helicopter-in-gta-6/)
 
 ## How we'll update this page
 

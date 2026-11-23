@@ -51,6 +51,7 @@ order: 29
 ## Related guides
 
 - [Where is the airport in GTA 6?](/gameplay/where-is-the-airport-in-gta-6/)
+- [How to get a helicopter (no wanted level)](/gameplay/how-to-get-a-helicopter-in-gta-6/)
 - [How the GTA 6 wanted system works](/gameplay/how-does-the-wanted-system-work-in-gta-6/)
 - [How to steal and keep cars](/gameplay/how-to-steal-and-keep-cars-in-gta-6/)
 - [All GTA 6 gameplay mechanics](/gameplay/gta-6-gameplay-mechanics-explained/)
