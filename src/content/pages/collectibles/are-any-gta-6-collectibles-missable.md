@@ -1,5 +1,6 @@
 ---
 question: "Are any GTA 6 collectibles missable?"
+seoTitle: "GTA 6 Missables: Every Collectible You Can Miss"
 answer: "Yes, a few: the meditation spot at Jason's house can only be done in Chapter 1, and several magazines and books at Jason's house, the Starlet Motel and the Bayside apartment disappear after Chapters 1 to 3. Collectible cards are also a limited supply, so don't skip cards you need for a set (selling them is fine; sold cards still count)."
 description: "GTA 6 missables: the Chapter 1 meditation spot, magazines and books that vanish after Chapters 1 to 3, limited cards, and what you can get after the story."
 status: verifying

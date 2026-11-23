@@ -1,5 +1,6 @@
 ---
 question: "How does the criminal profile work in GTA 6?"
+seoTitle: "GTA 6 Criminal Profile Explained (+ How to Lower It)"
 answer: "GTA 6's criminal profile tracks how Jason and Lucia commit crimes, not whether they commit them: clean, low-violence jobs keep it in good shape, while needless killing pushes it down, and reports say it can 'shatter' permanently for the rest of that playthrough."
 description: "GTA 6 criminal profile explained: what it tracks, the reported ranks, what raises and lowers it, and whether it can break for good."
 status: verifying

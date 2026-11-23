@@ -1,5 +1,6 @@
 ---
 question: "How do collectible cards work in GTA 6?"
+seoTitle: "GTA 6 Collectible Cards Explained (480 Cards, 18 Sets)"
 answer: "GTA 6 has 480 collectible cards split into 18 themed sets; you find them around the map, can sell them at pawn shops without losing them from your collection, and finishing sets unlocks trophies and counts toward 100% completion."
 description: "GTA 6 collectible cards explained: 480 cards in 18 sets, selling at pawn shops, trophies, and how many sets you need for 100%."
 status: verifying

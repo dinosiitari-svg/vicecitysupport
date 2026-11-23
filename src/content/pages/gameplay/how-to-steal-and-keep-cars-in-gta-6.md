@@ -1,5 +1,6 @@
 ---
 question: "How do you steal and keep cars in GTA 6?"
+seoTitle: "How to Steal & Keep Cars in GTA 6 (Slim Jim, Trackers)"
 answer: "Stealing a car in GTA 6 is no longer one button press. Occupied cars can still be carjacked, but parked cars have security levels: older ones open with a basic tool or a smashed window, while newer cars with key fobs need a key cloner. To keep a stolen car you get its tracker removed, register it at a Pay 'n' Spray and park it in a garage. How many cars you can keep at the start is disputed: one launch-day guide says one personal vehicle per character, older previews said three, and buying garages adds more."
 description: "GTA 6 car stealing explained: carjacking, hotwiring, slim jims and key cloners, trackers, saving a stolen car by registering it, garages and selling."
 status: verifying
