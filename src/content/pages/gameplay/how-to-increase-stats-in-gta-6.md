@@ -3,8 +3,8 @@ question: "How do you increase health, stamina and Focus in GTA 6?"
 answer: "GTA 6 has three stats you can train: Health goes up with weight workouts, Stamina with cardio like the treadmill, bike or punching bag, and Focus with skill activities such as the shooting range, pool, putting and fishing. Check them in the pause menu under Jason & Lucia."
 description: "How to raise Health, Stamina and Focus in GTA 6: which workouts and activities train each stat, the gym, eating, resting and where to check progress."
 status: verifying
-statusNote: "Based on a single launch-day guide. We're confirming each activity, and whether Jason and Lucia train separately, in-game."
-updated: 2026-11-19
+statusNote: "Based on launch-week guides that mostly agree. Health-from-weights and the gym price come from one guide each; we're checking both in-game."
+updated: 2026-11-25
 listType: steps
 listTitle: "How to train each stat"
 items:
@@ -25,7 +25,11 @@ items:
   - title: "Top up Focus as you play"
     detail: "Headshots and good deeds give small Focus boosts too."
   - title: "Track it in the Fitness app"
-    detail: "Finished workouts are logged in the Fitness app on the phone."
+    detail: "Finished workouts are logged in the Fitness app on the phone (D-pad up, then Fitness). It also shows each character's Strength and Cardio progress and your calorie balance."
+  - title: "Train inside your Workout Window"
+    detail: "The Fitness app shows a countdown to your next workout. Two guides say that if the timer runs out before you train, you lose some progress, so plan sessions around it rather than repeating workouts while exhausted."
+  - title: "Train both characters"
+    detail: "Jason and Lucia each have their own fitness levels, so time spent on one doesn't raise the other. One guide says the character you aren't playing can finish a workout on their own while you train the other."
 faq:
   - q: "What stats are in GTA 6?"
     a: "Three: Health (trained through strength work), Stamina (trained through cardio) and Focus (trained through skill activities)."
@@ -34,14 +38,24 @@ faq:
   - q: "Does working out change how Jason and Lucia look?"
     a: "Yes. Lifting while eating enough adds size, and cardio burns calories to lose weight. See our customization guide."
   - q: "Do Jason and Lucia have separate stats?"
-    a: "Not confirmed yet. Launch guides only describe training with Jason so far; we'll update this once we've checked Lucia."
+    a: "Yes, according to launch-week guides: each has their own Strength and Cardio levels in the Fitness app. They do share one gym membership, so you only pay once."
   - q: "Do stats go down if you stop training?"
-    a: "No source has described stat decay so far. We'll update this if players report it."
+    a: "Guides say missing a Workout Window can cost you some progress. Body weight also shifts with what you eat: overeating or junk food adds weight, skipping meals takes it off. Stamina you've already built with cardio is described as permanent."
+  - q: "What does Focus do in GTA 6?"
+    a: "It works like Dead Eye in Red Dead Redemption 2: time slows a little so you can aim or spot things. One guide says your criminal profile changes how you earn it in combat, with non-lethal takedowns for Professional or Hardened players and headshots for Violent or Psycho ones."
+  - q: "Where are the gyms in GTA 6?"
+    a: "Gyms are spread across the map and most need a membership, bought at the front desk the first time you walk in. Jason's house in Key Lento has free weights and a heavy bag, so you can train for free early on."
 sources:
   - label: "Game Rant: how to increase all stats in GTA 6"
     url: "https://gamerant.com/gta-6-upgrade-stats-fast-health-stamina-focus/"
   - label: "Kotaku: 32 spoiler-free tips for GTA 6"
     url: "https://kotaku.com/32-spoiler-free-tips-as-you-hop-into-grand-theft-auto-6-2000758016"
+  - label: "Insider Gaming: how fitness works in GTA 6"
+    url: "https://insider-gaming.com/how-fitness-works-gta-6-strength-cardio-focus/"
+  - label: "KeenGamer: GTA 6 stamina guide"
+    url: "https://www.keengamer.com/articles/guides/gta-6-stamina-guide-how-to-work-out-and-increase-cardio/"
+  - label: "Shacknews: how to work out in GTA 6"
+    url: "https://www.shacknews.com/article/151398/working-out-gta6"
 order: 17
 ---
 
@@ -53,4 +67,4 @@ order: 17
 
 ## What isn't confirmed yet
 
-Stat caps or level numbers, whether stats decay, whether Jason and Lucia train separately, and exactly what each higher level unlocks.
+Stat caps or level numbers, how long a Workout Window lasts, and exactly what each higher level unlocks. Sources also differ on Focus training: one guide lists the shooting range, pool, putting and fishing; another lists basketball, fishing, golf, pool and meditation. None of the guides mentions a fitness trophy.
