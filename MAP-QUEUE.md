@@ -19,6 +19,13 @@ Set `"status": "confirmed"` only once you've seen it in-game yourself.
 
 ## Pending
 
+### 2026-11-24 18:15 · Easter eggs · "Vice City portal chain: Badger R&D radio tower, 12 LPL substations, Reactor 2 at LPL Turtle Head power station"
+- Source: https://www.thetechbasket.com/gta-6-vice-city-portal-easter-egg/ (guide, 24 Nov), https://www.forbes.com/sites/paultassi/2026/11/23/a-gta-6-player-finds-tommy-vercettis-shirt-portal-to-original-vice-city/ (no coordinates given)
+- Start: Badger R&D radio tower, Key Lento (top floor power switch + button).
+- Substations in order: Downtown Vice City, Balsero, Key Lento, north end of Vice Beach, North Vice City, Port Gellhorn, Hamlet, Gloriana Key, Hamlet, Port Gellhorn, Hamlet, near Breakwater Quarry (SW of the airport). Two "Electric Substation" gtadb pins exist at the airport (L2436, L2552) but no source ties them to this chain.
+- Portal: Reactor 2, LPL Turtle Head power station, east of Hamlet (7 PM–6 AM). Not the Fuzzard Power Station already pinned in Peregrine Bay.
+- Suggested category: a new `easter-eggs` category.
+
 ### 2026-11-24 12:15 · Easter eggs / meteorites · "Max Manhours' cabin + meteorite chunk under the north pier, Belpoint Island"
 - Source: https://showgamer.com/en/guides/8122-gde-nayti-maksa-menhauersa-v-gta-6-tayna-ostrova-belpoynt (guide, 21 Nov; no coordinates given)
 - Max Manhours' cabin: the northern tip of Belpoint Island (west of Capri, Mariana County). Talk to him through the window to the left of the door. Our Belpoint flamingo pins are at the south-east end, around x 17.1–17.6, y 57.4–57.8.

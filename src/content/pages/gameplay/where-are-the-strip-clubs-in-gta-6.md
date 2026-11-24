@@ -4,7 +4,7 @@ answer: "Launch-day guides list three strip clubs in GTA 6: NINE1NINE in the nor
 description: "All three GTA 6 strip club locations: NINE1NINE in Downtown Vice City, Jack of Hearts in Crosstown and Delight's Cabaret in Port Gellhorn, plus when they unlock."
 status: verifying
 statusNote: "From a launch-day guide. We're checking the locations and prices in-game."
-updated: 2026-11-19
+updated: 2026-11-24
 listType: locations
 listTitle: "GTA 6 strip clubs"
 checklist: true
@@ -22,9 +22,15 @@ faq:
     a: "NINE1NINE and Delight's Cabaret are reported to be open from early on, at any hour. Jack of Hearts opens through a Chapter 3 mission."
   - q: "Do strip clubs take BuckMe?"
     a: "One guide reports they don't, so bring cash. See our [bank account guide](/gameplay/how-to-open-a-bank-account-in-gta-6/)."
+  - q: "Are there nightclubs in GTA 6?"
+    a: "Yes. A launch-week guide counts four places with a club feel: the three strip clubs above plus The Vault, a regular dance club with a bar right next to NINE1NINE north of Downtown Vice City. No unlock step has been reported for The Vault."
+  - q: "Does going to a strip club count as cheating on Lucia?"
+    a: "One guide says the special shows Jason gets at Jack of Hearts don't count against the relationship. Rockstar hasn't said. See [how the relationship works](/gameplay/how-does-the-relationship-work-in-gta-6/)."
   - q: "Are the strip clubs on the interactive map?"
     a: "NINE1NINE and a Port Gellhorn building called Delights are already pinned from the community map. Jack of Hearts isn't yet; we'll add it once we've checked the spot."
 sources:
+  - label: "Beebom: all GTA 6 nightclub locations"
+    url: "https://beebom.com/gta-6-nightclub-locations/"
   - label: "GamesRadar: GTA 6 strip club locations"
     url: "https://www.gamesradar.com/games/grand-theft-auto/gta-6-strip-club-locations/"
 order: 23
