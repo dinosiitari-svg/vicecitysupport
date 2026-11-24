@@ -4,7 +4,7 @@ answer: "Eat and drink before trouble starts (it tops up health, stamina and Foc
 description: "GTA 6 beginner tips from launch-week hands-on play: Focus, food, trunk storage, car trackers, cheap repairs, pushing cars, faster swimming, casing robberies and which buildings you can enter."
 status: verifying
 statusNote: "Based on reviewers' hands-on tips published on launch day (Kotaku and The Big Lead, 18 November 2026). Button prompts are for PlayStation controllers; we're checking each one in-game."
-updated: 2026-11-23
+updated: 2026-11-24
 listType: steps
 listTitle: "Spoiler-free tips for your first hours"
 items:
@@ -36,6 +36,10 @@ items:
     detail: "A strong rumble while you're on foot means something nearby can be scanned. Open WAINK to find it."
   - title: "Carry a Zombix"
     detail: "Zombix is the healing item for combat. You'll find some lying around, and shop clerks sell it if you ask, since it usually isn't on the shelves."
+  - title: "Stock up at convenience stores"
+    detail: "Guides count 72 convenience stores (chains like 247, LTD Food Mart and Xero Food Mart, plus independents). They sell Zombix, pet food and groceries for your fridge at home. Filter the map with Food & Drink > Convenience Stores to list them."
+  - title: "Hide early cash under Jason's floorboards"
+    detail: "Until the Buck Me mission sets up a bank account, one guide says loose floorboards in Jason's bedroom are a safe place to stash cash, since dying costs you what you're carrying."
   - title: "Earn good-behaviour points"
     detail: "Petting dogs and cats (aim at them with the left trigger) and putting litter in a bin raise Focus and add good-behaviour points to your criminal profile."
   - title: "Shop as a couple"
@@ -76,6 +80,10 @@ faq:
 sources:
   - label: "The Big Lead: 8 GTA 6 tips the game doesn't tell you"
     url: "https://www.thebiglead.com/gta-6-tips-the-game-doesnt-tell-you/"
+  - label: "PowerPyx: GTA 6 all convenience store locations (72 stores, what they sell)"
+    url: "https://www.powerpyx.com/gta-6-all-convenience-stores-locations/"
+  - label: "Red Bull: GTA 6 beginner's guide (21 November 2026)"
+    url: "https://www.redbull.com/us-en/gta-6-beginners-guide"
   - label: "Kotaku: 32 spoiler-free tips as you hop into Grand Theft Auto 6"
     url: "https://kotaku.com/32-spoiler-free-tips-as-you-hop-into-grand-theft-auto-6-2000758016"
 order: 11

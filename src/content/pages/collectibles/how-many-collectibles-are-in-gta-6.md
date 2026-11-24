@@ -78,4 +78,5 @@ GTA 6 tracks a lot more than hidden items. The Progress list reportedly also cov
 - [All pool opponent locations](/collectibles/all-pool-opponent-locations/)
 - [All video game locations](/collectibles/all-video-game-locations/)
 - [All unique playlist locations](/collectibles/all-unique-playlist-locations/)
+- [How do WAiNK scans work?](/collectibles/how-do-waink-scans-work-in-gta-6/)
 - [How do stunt jumps work?](/gameplay/how-do-stunt-jumps-work-in-gta-6/)
