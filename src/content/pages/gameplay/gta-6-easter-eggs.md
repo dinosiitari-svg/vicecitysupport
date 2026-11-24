@@ -1,10 +1,10 @@
 ---
 question: "What are the best easter eggs in GTA 6?"
-answer: "Players found several easter eggs in the first days: a UFO abduction in Kelly County, a green street-racer car in a garage on Vespucci Island that nods to The Fast and the Furious, a bird's nest on a tall tower whose eggs you can throw for a short cutscene, a possible cameo by Rockstar co-founder Sam Houser in a Chapter 3 mission, a boat near Jason's house whose GPS shows Los Santos, a skunk ape sighting in the Keys, a giant mutant crab in Gullet Marsh, a farmer who turns into a red-skinned monster in a strawberry side quest, a 'simulation' conspiracy hideout in a Belville garage, a merman on an island in the Keys, and smaller finds like a Mount Chiliad conversation, a jet-ski rescue dog and a Dexter-style apartment."
+answer: "Players found several easter eggs in the first days: a UFO abduction in Kelly County, a green street-racer car in a garage on Vespucci Island that nods to The Fast and the Furious, a bird's nest on a tall tower whose eggs you can throw for a short cutscene, a possible cameo by Rockstar co-founder Sam Houser in a Chapter 3 mission, a boat near Jason's house whose GPS shows Los Santos, a skunk ape sighting in the Keys, a giant mutant crab in Gullet Marsh, a farmer who turns into a red-skinned monster in a strawberry side quest, a 'simulation' conspiracy hideout in a Belville garage, a merman on an island in the Keys, a massacre mystery on Belpoint Island, and smaller finds like a Mount Chiliad conversation, a jet-ski rescue dog and a Dexter-style apartment."
 description: "GTA 6 easter eggs players have found so far: the UFO, the Fast and Furious car, the giant crab, the 'Red Hulk' farmer, the simulation house, the merman and the 'Little Sam' cameo."
 status: verifying
 statusNote: "All player reports picked up by the press in launch week. Rockstar hasn't commented, and we haven't checked them in-game yet."
-updated: 2026-11-23
+updated: 2026-11-24
 listType: steps
 listTitle: "Easter eggs found so far"
 items:
@@ -40,6 +40,8 @@ items:
     detail: "A house that fans first spotted in a photo inside 2021's GTA San Andreas: The Definitive Edition turns out to be in Belville. Its garage hides a conspiracy theorist's den with a note reading IT'S A SIMULATION."
   - title: "A merman (Shores Keys)"
     detail: "A man in a turquoise mermaid tail is posing for a photo shoot on a small island near Shores Keys, north-east of Key Lento."
+  - title: "The Belpoint Island mystery (Mariana County)"
+    detail: "Belpoint is a narrow island off the west coast of Mariana County that you can only reach by boat. At night its southern end looks like a beach party, but ashore you'll find bodies around a stage. Max Manhours is shut inside a cabin at the island's northern tip. You can't open his door, so aim at him through the window to the left of it and ask if he's alright. He then tells you, in a long speech, how a yacht and a cocaine shipment led to the killings. No reward has been reported for talking to him."
 faq:
   - q: "Is there a UFO in GTA 6?"
     a: "Yes, according to player reports. It's a random encounter in Kelly County after Chapter 1, best tried after 2 AM in-game."
@@ -62,6 +64,8 @@ sources:
     url: "https://www.bgr.com/2322463/gta-6-hidden-fast-and-furious-paul-walker-car/"
   - label: "IBTimes UK: GTA 6 player finds a literal Easter egg"
     url: "https://www.ibtimes.co.uk/gta-6-player-discovers-literal-easter-egg-leonida-1833342"
+  - label: "ShowGamer: where to find Max Manhours, the Belpoint Island mystery"
+    url: "https://showgamer.com/en/guides/8122-gde-nayti-maksa-menhauersa-v-gta-6-tayna-ostrova-belpoynt"
   - label: "GamesRadar+: fans find 'Little Sam' easter egg in GTA 6"
     url: "https://www.gamesradar.com/games/grand-theft-auto/it-sure-looks-like-rockstar-co-founder-sam-houser-is-hiding-in-gta-6-as-fans-find-little-sam-easter-egg-that-calls-back-to-gta-3/"
 order: 28
@@ -70,7 +74,8 @@ order: 28
 ## What isn't confirmed yet
 
 - Exact spots for the car, the tower, the parrots' liquor store and the horse statue. Both are described in words only, so they're waiting in our map queue rather than on the map.
-- Exact spots for the crab building, the Belville house and the merman's island, and where the strawberry farmer's side quest begins.
+- Exact spots for the crab building, the Belville house, the merman's island and Max Manhours' cabin, and where the strawberry farmer's side quest begins.
+- Whether Max Manhours' story leads anywhere. One guide says it has no reward and no confirmed ending.
 - Clips of a giant kraken and an NPC who can't be killed are going around, but nobody has said where or how to find them. We're leaving them off this list until someone does.
 - Whether the Little Sam character really is a Sam Houser cameo. That's fan speculation.
 - Whether the Marquis boat is meant to be Michael's. The Los Santos GPS is a player find, not something Rockstar has explained.

@@ -19,6 +19,12 @@ Set `"status": "confirmed"` only once you've seen it in-game yourself.
 
 ## Pending
 
+### 2026-11-24 12:15 · Easter eggs / meteorites · "Max Manhours' cabin + meteorite chunk under the north pier, Belpoint Island"
+- Source: https://showgamer.com/en/guides/8122-gde-nayti-maksa-menhauersa-v-gta-6-tayna-ostrova-belpoynt (guide, 21 Nov; no coordinates given)
+- Max Manhours' cabin: the northern tip of Belpoint Island (west of Capri, Mariana County). Talk to him through the window to the left of the door. Our Belpoint flamingo pins are at the south-east end, around x 17.1–17.6, y 57.4–57.8.
+- Meteorite chunk: under the northern wooden pier on Belpoint, below a Santa Claus decoration; it glows purple.
+- Suggested category: a new `easter-eggs` category for the cabin. Use a new `meteorites` category for the chunk.
+
 ### 2026-11-24 00:15 · Vehicle spots · "Private helipad east of Hamlet (Maverick-type helicopter)"
 - Source: https://gamerant.com/gta-6-helicopter-location/ (hands-on, 19 Nov; no coordinates), https://happygamer.com/gta-6-how-to-get-a-helicopter-179627/ (secondhand)
 - Private helipad in a guarded compound east of Hamlet, close to Key Lento. Guards at the gate checkpoint; you can climb the chain-link fence at the side. Helicopter is unlocked; no wanted level reported for taking it.

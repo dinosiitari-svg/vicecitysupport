@@ -4,7 +4,7 @@ answer: "Yes, but you have to earn them. GTA 6's cheats only work after you've f
 description: "GTA 6 cheats explained: when they unlock, how to enter them on the phone, how challenges unlock each cheat, and why cheats turn off saving."
 status: verifying
 statusNote: "Based on launch-day guides from players who have finished the story. We haven't tested the cheat menu ourselves yet."
-updated: 2026-11-19
+updated: 2026-11-24
 listType: steps
 listTitle: "How to use cheats in GTA 6"
 items:
@@ -25,8 +25,10 @@ faq:
     a: "No, according to launch guides. Cheats only work once the main story is complete, so they're a post-game playground rather than a shortcut."
   - q: "Do cheats disable saving in GTA 6?"
     a: "Yes. Turning on a cheat stops you saving, so you can't use cheats to make progress on side content or challenges."
+  - q: "How many cheats are in GTA 6?"
+    a: "Launch guides list 61 cheats in five groups: player, combat, vehicle, environment and screen filters. Once you finish the story, a Cheats List appears in the Progress menu. Some of the button codes still haven't been published."
   - q: "Do cheats disable trophies and achievements?"
-    a: "Not confirmed. The guides we've read don't mention trophies or achievements. Because saving is switched off anyway, nothing you do while cheating sticks."
+    a: "Reportedly yes. A launch-week list says any cheat switches off trophies, achievements and saving for that session. Earlier guides didn't mention trophies, so we're still checking this."
   - q: "What kinds of cheats are there?"
     a: "Reported categories are player cheats (money, armor, parachute, no fall damage, wanted level), combat cheats (ammo and explosive weapons), vehicle spawns, time and weather controls, and screen filters."
   - q: "Is there a money cheat in GTA 6?"
@@ -36,6 +38,8 @@ faq:
 sources:
   - label: "PC Gamer: all GTA 6 cheats and how to unlock them"
     url: "https://www.pcgamer.com/games/grand-theft-auto/gta-6-cheats-list/"
+  - label: "TweakTown: GTA 6 has 61 cheats, but you'll have to beat the story first"
+    url: "https://www.tweaktown.com/news/114769/gta-6-has-61-cheats-but-youll-have-to-beat-the-story-before-using-any-of-them/index.html"
 order: 17
 ---
 
