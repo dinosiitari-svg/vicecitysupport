@@ -4,7 +4,7 @@ answer: "GTA 6's biggest changes are a reworked wanted system that depends on wi
 description: "Every new GTA 6 gameplay mechanic in one list: wanted system, character switching, driving, carjacking, respawns, money, robberies and more."
 status: verifying
 statusNote: "Collected from Rockstar's interviews and press previews. We're testing each one in-game and will update as we go."
-updated: 2026-11-25
+updated: 2026-11-26
 listType: steps
 listTitle: "New and changed mechanics"
 items:
@@ -144,6 +144,10 @@ items:
     detail: "From Chapter 3, Randy's Wish List asks for high-end cars, some parked only at set hours, with a bonus for undamaged deliveries."
   - title: "Free car repairs early on"
     detail: "In Chapter 1 you can phone Joey for a free repair; later, Scooter Bros Premium gives three free fixes a day, and gas pumps or a Pay 'n' Spray charge."
+  - title: "Strangers and Freaks questlines"
+    detail: "Optional side stories unlock chapter by chapter; finishing eight of them earns the Strangers & Freaks trophy."
+  - title: "Side activities with 100% targets"
+    detail: "Races, stunts, drone trials, shooting ranges, basketball, pool, mini golf and more each have a checklist count; there's no darts or playable bowling."
 faq:
   - q: "Is GTA 6 more realistic than GTA 5?"
     a: "In several systems, yes: police need witnesses, driving and carjacking were rebuilt, and Jason and Lucia have needs like food and sleep."
@@ -232,6 +236,8 @@ order: 0
 - [How hunting works](/gameplay/how-does-hunting-work-in-gta-6/)
 - [How to find rare cars](/gameplay/how-to-find-rare-cars-in-gta-6/)
 - [How to fix your car for free](/gameplay/how-to-fix-your-car-for-free-in-gta-6/)
+- [How Strangers and Freaks missions work](/gameplay/how-do-strangers-and-freaks-missions-work-in-gta-6/)
+- [Every side activity in GTA 6](/gameplay/what-side-activities-are-in-gta-6/)
 
 ## How we'll update this page
 
