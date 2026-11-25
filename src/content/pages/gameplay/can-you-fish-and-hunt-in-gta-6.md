@@ -3,8 +3,8 @@ question: "Can you fish and hunt in GTA 6?"
 answer: "Yes. GTA 6 has both, but they work differently: fishing is catch-and-release only, so you can't keep or sell fish, while hunting does pay, because you sell what you collect from the animals you take down."
 description: "How fishing and hunting work in GTA 6: catch-and-release fishing, selling hunting finds, Mount Kalaga, and the other side activities in Leonida."
 status: verifying
-statusNote: "Fishing controls and the hunting unlock come from launch-day player guides; hunting payouts and animal lists are still unreported or pre-launch. We're checking both in-game."
-updated: 2026-11-21
+statusNote: "Fishing controls and the hunting unlock come from launch-week player guides; only a few hunting prices have been reported so far. We're checking both in-game."
+updated: 2026-11-25
 listType: steps
 listTitle: "How fishing and hunting work"
 items:
@@ -37,7 +37,7 @@ items:
   - title: "Hunt in the wilds"
     detail: "Previews and wiki entries place hunting in Mount Kalaga National Park and Leonida's wetlands. After the first hunt, more hunting spots reportedly show on the map as purple markers."
   - title: "Sell what you collect"
-    detail: "Unlike fishing, hunting earns money: you sell what you take from animals. Per-animal prices haven't been published."
+    detail: "Unlike fishing, hunting earns money: you sell carcasses to Bret at Killtelligence Provisions in Mount Kalaga National Park. Early reported prices are about $220 to $380 for a whitetail doe and $290 to $505 for a buck, more for a clean Pristine kill."
 faq:
   - q: "Do you need to unlock fishing in GTA 6?"
     a: "Reportedly not. A launch-day guide fished from a Key Lento dock as soon as Jason could roam, unlike Red Dead Redemption 2 where fishing was tied to a story mission. The rod is already in the Equipment tab of the weapon wheel."
@@ -88,6 +88,7 @@ order: 13
 
 ## Related guides
 
+- [How hunting works: Target Decks, Pristine kills and selling](/gameplay/how-does-hunting-work-in-gta-6/)
 - [How to make money](/gameplay/how-to-make-money-in-gta-6/)
 - [Character customization, gym and weight](/gameplay/how-to-change-your-look-in-gta-6/)
 - [All gameplay mechanics explained](/gameplay/gta-6-gameplay-mechanics-explained/)

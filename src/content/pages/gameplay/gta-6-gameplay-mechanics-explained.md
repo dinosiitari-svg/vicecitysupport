@@ -138,6 +138,10 @@ items:
     detail: "Jason starts with a free fishing boat in Key Lento; other boats are stolen from marinas and can't be stored or bought (as reported so far)."
   - title: "A secret trip to Hell"
     detail: "A night-time encounter in Port Gellhorn leads to a fight with Satan, reportedly rewarding a shotgun and a permanent health boost."
+  - title: "Hunting runs on Bret's Target Decks"
+    detail: "Jason unlocks hunting in Chapter 2 and works through 15 Target Decks; one clean head or heart shot gives the best-paying Pristine carcass."
+  - title: "Rare cars for Randy"
+    detail: "From Chapter 3, Randy's Wish List asks for high-end cars, some parked only at set hours, with a bonus for undamaged deliveries."
 faq:
   - q: "Is GTA 6 more realistic than GTA 5?"
     a: "In several systems, yes: police need witnesses, driving and carjacking were rebuilt, and Jason and Lucia have needs like food and sleep."
@@ -223,6 +227,8 @@ order: 0
 - [What you lose at the end of Chapter 1](/gameplay/what-do-you-lose-at-the-end-of-chapter-1-in-gta-6/)
 - [How to get a boat](/gameplay/how-to-get-a-boat-in-gta-6/)
 - [How to find the secret Hell mission](/gameplay/how-to-find-the-hell-mission-in-gta-6/)
+- [How hunting works](/gameplay/how-does-hunting-work-in-gta-6/)
+- [How to find rare cars](/gameplay/how-to-find-rare-cars-in-gta-6/)
 
 ## How we'll update this page
 
