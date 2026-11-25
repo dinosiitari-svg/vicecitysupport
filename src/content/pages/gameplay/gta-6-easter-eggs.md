@@ -1,10 +1,10 @@
 ---
 question: "What are the best easter eggs in GTA 6?"
-answer: "The biggest find so far is a hidden puzzle that opens a portal back to the 2002 Vice City and unlocks Tommy Vercetti's shirt. Players also found a UFO abduction in Kelly County, a green street-racer car in a garage on Vespucci Island that nods to The Fast and the Furious, a bird's nest on a tall tower whose eggs you can throw for a short cutscene, a possible cameo by Rockstar co-founder Sam Houser in a Chapter 3 mission, a boat near Jason's house whose GPS shows Los Santos, a skunk ape sighting in the Keys, a giant mutant crab in Gullet Marsh, a farmer who turns into a red-skinned monster in a strawberry side quest, a 'simulation' conspiracy hideout in a Belville garage, a merman on an island in the Keys, a massacre mystery on Belpoint Island, and smaller finds like a Mount Chiliad conversation, a jet-ski rescue dog and a Dexter-style apartment."
+answer: "The biggest find so far is a hidden puzzle that opens a portal back to the 2002 Vice City and unlocks Tommy Vercetti's shirt, followed by a secret night-time mission in Port Gellhorn that sends you to Hell to fight Satan. Players also found a UFO abduction in Kelly County, a green street-racer car in a garage on Vespucci Island that nods to The Fast and the Furious, a bird's nest on a tall tower whose eggs you can throw for a short cutscene, a possible cameo by Rockstar co-founder Sam Houser in a Chapter 3 mission, a boat near Jason's house whose GPS shows Los Santos, a skunk ape sighting in the Keys, a giant mutant crab in Gullet Marsh, a farmer who turns into a red-skinned monster in a strawberry side quest, a 'simulation' conspiracy hideout in a Belville garage, a merman on an island in the Keys, a massacre mystery on Belpoint Island, and smaller finds like a Mount Chiliad conversation, a jet-ski rescue dog and a Dexter-style apartment."
 description: "GTA 6 easter eggs players have found so far: the Vice City portal, the UFO, the Fast and Furious car, the giant crab, the 'Red Hulk' farmer, the simulation house, the merman and the 'Little Sam' cameo."
 status: verifying
 statusNote: "All player reports picked up by the press in launch week. Rockstar hasn't commented, and we haven't checked them in-game yet."
-updated: 2026-11-24
+updated: 2026-11-25
 listType: steps
 listTitle: "Easter eggs found so far"
 items:
@@ -44,6 +44,8 @@ items:
     detail: "A man in a turquoise mermaid tail is posing for a photo shoot on a small island near Shores Keys, north-east of Key Lento."
   - title: "The Belpoint Island mystery (Mariana County)"
     detail: "Belpoint is a narrow island off the west coast of Mariana County that you can only reach by boat. At night its southern end looks like a beach party, but ashore you'll find bodies around a stage. Max Manhours is shut inside a cabin at the island's northern tip. You can't open his door, so aim at him through the window to the left of it and ask if he's alright. He then tells you, in a long speech, how a yacht and a cocaine shipment led to the killings. No reward has been reported for talking to him."
+  - title: "A trip to Hell (Port Gellhorn)"
+    detail: "At night, two metalheads in an open garage in northern Port Gellhorn take you by van to a bonfire. Stare into it and you're fighting demons and then Satan. The reward is reportedly a unique shotgun, a top, a tattoo and a permanent health boost. Steps are in our Hell mission guide, linked below."
 faq:
   - q: "Is there a UFO in GTA 6?"
     a: "Yes, according to player reports. It's a random encounter in Kelly County after Chapter 1, best tried after 2 AM in-game."
@@ -54,6 +56,8 @@ faq:
   - q: "Do easter eggs give trophies in GTA 6?"
     a: "Some do. The UFO unlocks The Truth Is Out There. No reward has been reported for the car, the tower egg or the cameo."
 sources:
+  - label: "GAMINGbible: GTA 6's secret Hell mission (23 Nov)"
+    url: "https://www.gamingbible.com/news/gta-6-secret-hell-mission-satan-location-rewards-623661-20261123"
   - label: "Forbes: a GTA 6 player finds Tommy Vercetti's shirt and a portal to original Vice City"
     url: "https://www.forbes.com/sites/paultassi/2026/11/23/a-gta-6-player-finds-tommy-vercettis-shirt-portal-to-original-vice-city/"
   - label: "VICE: there's an NPC in GTA 6 who knows he's in a video game"
@@ -93,4 +97,6 @@ order: 28
 
 - [Where is the UFO in GTA 6?](/gameplay/where-is-the-ufo-in-gta-6/)
 - [Where is Bigfoot in GTA 6?](/gameplay/where-is-bigfoot-in-gta-6/)
+- [How to find the secret Hell mission](/gameplay/how-to-find-the-hell-mission-in-gta-6/)
+- [How to unlock the Vice City portal](/gameplay/how-to-unlock-the-vice-city-portal-in-gta-6/)
 - [All GTA 6 gameplay mechanics](/gameplay/gta-6-gameplay-mechanics-explained/)

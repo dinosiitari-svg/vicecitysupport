@@ -19,6 +19,11 @@ Set `"status": "confirmed"` only once you've seen it in-game yourself.
 
 ## Pending
 
+### 2026-11-25 12:15 · Easter eggs · "Circles of Hell house (metalheads' garage), northern Port Gellhorn"
+- Source: https://www.gamingbible.com/news/gta-6-secret-hell-mission-satan-location-rewards-623661-20261123 (news, 23 Nov; no coordinates given)
+- House with an open garage in the north of Port Gellhorn, north of the Stash House illegal operation. Night only (midnight–4 AM suggested). No Stash House marker exists in map-markers.json to derive from.
+- Suggested category: a new `easter-eggs` category.
+
 ### 2026-11-24 18:15 · Easter eggs · "Vice City portal chain: Badger R&D radio tower, 12 LPL substations, Reactor 2 at LPL Turtle Head power station"
 - Source: https://www.thetechbasket.com/gta-6-vice-city-portal-easter-egg/ (guide, 24 Nov), https://www.forbes.com/sites/paultassi/2026/11/23/a-gta-6-player-finds-tommy-vercettis-shirt-portal-to-original-vice-city/ (no coordinates given)
 - Start: Badger R&D radio tower, Key Lento (top floor power switch + button).

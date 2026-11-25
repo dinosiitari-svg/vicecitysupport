@@ -4,7 +4,7 @@ answer: "A YouTuber called Memeio solved a hidden puzzle that opens a portal bac
 description: "How to open the secret GTA 6 portal to the original 2002 Vice City: the radio tower, the 12 substations, the reactor time window and the Tommy Vercetti shirt reward."
 status: verifying
 statusNote: "Found by one player (Memeio) on 23 November and reported by Forbes and guide sites. Rockstar hasn't commented, nobody else has posted a full repeat yet, and guides disagree on the exact inputs. We haven't done it in-game yet."
-updated: 2026-11-24
+updated: 2026-11-25
 listType: steps
 listTitle: "How to open the portal (as reported)"
 items:
@@ -35,7 +35,13 @@ faq:
     a: "Forbes and several guide sites have covered Memeio's video, and nobody has debunked it, but as of 24 November no one else has posted a full repeat and Rockstar hasn't said anything."
   - q: "Where is the portal on the map?"
     a: "At the LPL Turtle Head power station east of Hamlet. We haven't pinned it yet because no source gives an exact spot; it's in our map queue."
+  - q: "Can Lucia open the Vice City portal?"
+    a: "Probably. Most footage shows Jason, but Pure Xbox points to a player on X who says Lucia did it solo. Treat that as one report for now."
+  - q: "Why won't the portal appear for me?"
+    a: "Nobody knows yet. Pure Xbox says many players report finishing the substations without the portal ever showing up. Make sure you went between substations without fast travel and arrived between 7 PM and 6 AM."
 sources:
+  - label: "Pure Xbox: GTA 6's most spectacular easter egg so far (24 Nov)"
+    url: "https://www.purexbox.com/news/2026/11/gta-6s-most-spectacular-easter-egg-so-far-has-just-been-discovered"
   - label: "Forbes: a GTA 6 player finds Tommy Vercetti's shirt and a portal to original Vice City"
     url: "https://www.forbes.com/sites/paultassi/2026/11/23/a-gta-6-player-finds-tommy-vercettis-shirt-portal-to-original-vice-city/"
   - label: "The Tab: how to unlock the secret GTA 6 portal to 2002 Vice City"
@@ -50,6 +56,8 @@ order: 56
 - The exact input at each substation. The step list above follows one guide, and other reports describe the inputs differently.
 - Whether the radio tower step is required. Only one guide mentions it.
 - Whether a motorbike is part of the reward, and whether you need Chapter 3.
+- Why the portal doesn't appear for some players who finish the chain.
+- Some players report a 'flashback' message afterwards hinting at four more. That's unconfirmed.
 - Exact spots for the radio tower, the substations and Reactor 2. They're described in words only, so they're in our map queue, not on the map yet.
 
 ## Related
