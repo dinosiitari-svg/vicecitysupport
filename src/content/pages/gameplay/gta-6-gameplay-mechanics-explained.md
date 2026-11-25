@@ -4,7 +4,7 @@ answer: "GTA 6's biggest changes are a reworked wanted system that depends on wi
 description: "Every new GTA 6 gameplay mechanic in one list: wanted system, character switching, driving, carjacking, respawns, money, robberies and more."
 status: verifying
 statusNote: "Collected from Rockstar's interviews and press previews. We're testing each one in-game and will update as we go."
-updated: 2026-11-24
+updated: 2026-11-25
 listType: steps
 listTitle: "New and changed mechanics"
 items:
@@ -132,6 +132,8 @@ items:
     detail: "An unguarded Maverick sits on a Southwind dock near Jason's house; airport and military aircraft bring wanted stars."
   - title: "A secret portal to 2002 Vice City"
     detail: "A player-solved puzzle across 12 power substations opens a night-time portal east of Hamlet; the reward is reportedly Tommy Vercetti's shirt (unconfirmed by Rockstar)."
+  - title: "Chapter 1 ends with a money wipe"
+    detail: "Cash, the checking balance, Jason's house stash and your cars are lost when Chapter 1 ends; Family Savings, weapons and clothes carry over."
 faq:
   - q: "Is GTA 6 more realistic than GTA 5?"
     a: "In several systems, yes: police need witnesses, driving and carjacking were rebuilt, and Jason and Lucia have needs like food and sleep."
@@ -214,6 +216,7 @@ order: 0
 - [How does the relationship work?](/gameplay/how-does-the-relationship-work-in-gta-6/)
 - [How to get a helicopter](/gameplay/how-to-get-a-helicopter-in-gta-6/)
 - [How to unlock the Vice City portal and Tommy Vercetti's shirt](/gameplay/how-to-unlock-the-vice-city-portal-in-gta-6/)
+- [What you lose at the end of Chapter 1](/gameplay/what-do-you-lose-at-the-end-of-chapter-1-in-gta-6/)
 
 ## How we'll update this page
 

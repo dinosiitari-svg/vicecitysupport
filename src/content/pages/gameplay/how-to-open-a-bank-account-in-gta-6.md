@@ -4,7 +4,7 @@ answer: "You can't open a bank account whenever you like in GTA 6. It comes thro
 description: "How to get a bank account in GTA 6: the Buck Me story mission, the BuckMe app, using ATMs, Family Savings and why carried cash is at risk."
 status: verifying
 statusNote: "Based on launch-day guides that don't fully agree on the mission details. We're checking the unlock and the account limit in-game."
-updated: 2026-11-19
+updated: 2026-11-25
 listType: steps
 listTitle: "How to get and use your bank account"
 items:
@@ -24,7 +24,13 @@ faq:
   - q: "Is there a limit on how much money you can have in the bank?"
     a: "One launch guide reports a $15,000 limit on the checking account that rises as the story moves on, with upgrades arriving as app notifications. Other guides don't mention a limit, so treat this as unconfirmed."
   - q: "What is Family Savings in GTA 6?"
-    a: "It's reported as a shared savings pot for Jason and Lucia inside BuckMe, with a first goal of $5,000. Money you put in reportedly can't be taken back out or spent, so only add what you don't need."
+    a: "It's a shared savings pot for Jason and Lucia inside BuckMe. It opens in the Buck Me mission with a $100 welcome deposit. Money you put in can't be taken back out or spent on guns, cars, garages or clothes, but it isn't lost when you die and it survives the end of Chapter 1. One guide says it also earns interest and feeds into the story's ending."
+  - q: "How do you put money into Family Savings?"
+    a: "Deposit cash at an ATM first, then open BuckMe on the phone (up on the D-pad), choose Buck Yourself, pick an amount from your checking balance and confirm. The transfer can't be undone. Progress is tracked by a story task called Save for the Future."
+  - q: "What are the Family Savings goals and perks?"
+    a: "One guide (Tech4Gamers) lists these tiers: $5,000 (no perk), $10,000 (20% off RydeMe rides), $100,000 (20% off garages), $500,000 (10% off liveries), $1,000,000 and $2,000,000. Each tier also raises your checking account limit, from $15,000 at the start. Later tiers only open as the story moves on. This comes from one guide, so treat it as unconfirmed."
+  - q: "Should I put money in Family Savings before Chapter 1 ends?"
+    a: "Yes. Cash and your checking balance are wiped at the end of Chapter 1, but Family Savings carries over. Guides say up to $5,000 fits in during Chapter 1. See [what you lose at the end of Chapter 1](/gameplay/what-do-you-lose-at-the-end-of-chapter-1-in-gta-6/)."
   - q: "How much cash can you carry in GTA 6?"
     a: "Up to $20,000 per character, according to a launch-day GamesRadar guide. The same guide says pocket cash only covers purchases up to $1,000, so bigger buys come out of the bank."
   - q: "Do Jason and Lucia share a bank account?"
@@ -34,6 +40,8 @@ faq:
   - q: "Can you rob ATMs?"
     a: "Yes, later in the story. See our [money guide](/gameplay/how-to-make-money-in-gta-6/)."
 sources:
+  - label: "Tech4Gamers: GTA 6 Family Savings explained"
+    url: "https://gta.tech4gamers.com/gta-6/guides/family-savings/"
   - label: "GamesRadar: how to use GTA 6 ATMs"
     url: "https://www.gamesradar.com/games/grand-theft-auto/gta-6-atm/"
   - label: "Game Rant: how to make a bank account in GTA 6"
@@ -48,10 +56,11 @@ order: 19
 - The exact mission name and point in the story. Guides describe it slightly differently.
 - Whether the checking account itself has a cap. One guide says $15,000, others don't mention one.
 - The reported $1,000 limit on paying with pocket cash.
-- Whether any interest or fees exist. No guide has mentioned either.
+- The Family Savings tiers, perks and interest. So far only one guide lists them.
 
 ## Related guides
 
 - [How to make money in GTA 6](/gameplay/how-to-make-money-in-gta-6/)
+- [What you lose at the end of Chapter 1](/gameplay/what-do-you-lose-at-the-end-of-chapter-1-in-gta-6/)
 - [Every app on the GTA 6 phone](/gameplay/what-apps-are-on-the-gta-6-phone/)
 - [What happens when you die or get busted](/gameplay/what-happens-when-you-die-in-gta-6/)

@@ -4,7 +4,7 @@ answer: "Eat and drink before trouble starts (it tops up health, stamina and Foc
 description: "GTA 6 beginner tips from launch-week hands-on play: Focus, food, trunk storage, car trackers, cheap repairs, pushing cars, faster swimming, casing robberies and which buildings you can enter."
 status: verifying
 statusNote: "Based on reviewers' hands-on tips published on launch day (Kotaku and The Big Lead, 18 November 2026). Button prompts are for PlayStation controllers; we're checking each one in-game."
-updated: 2026-11-24
+updated: 2026-11-25
 listType: steps
 listTitle: "Spoiler-free tips for your first hours"
 items:
@@ -62,6 +62,8 @@ items:
     detail: "Dark blue buildings have somewhere you can go inside, even if it's only a garage or a corridor. Light blue ones can't be entered. Look for the interaction prompt near the doors."
   - title: "Any explosion opens a safe"
     detail: "You don't need the code or a sticky bomb. A grenade, a rocket or a propane tank going off next to a safe will open it, though you may lose some of what's inside."
+  - title: "Don't stockpile cash in Chapter 1"
+    detail: "Your cash, bank balance, Jason's house stash and cars are wiped when Chapter 1 ends. Spend on guns and clothes, and move up to $5,000 into Family Savings before the call from Kat and Mattia."
 faq:
   - q: "Is there fast travel in GTA 6?"
     a: "Yes, through the Ryde Me app. Book a ride, then interact with the driver to skip the trip for $100."
