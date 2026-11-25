@@ -142,6 +142,8 @@ items:
     detail: "Jason unlocks hunting in Chapter 2 and works through 15 Target Decks; one clean head or heart shot gives the best-paying Pristine carcass."
   - title: "Rare cars for Randy"
     detail: "From Chapter 3, Randy's Wish List asks for high-end cars, some parked only at set hours, with a bonus for undamaged deliveries."
+  - title: "Free car repairs early on"
+    detail: "In Chapter 1 you can phone Joey for a free repair; later, Scooter Bros Premium gives three free fixes a day, and gas pumps or a Pay 'n' Spray charge."
 faq:
   - q: "Is GTA 6 more realistic than GTA 5?"
     a: "In several systems, yes: police need witnesses, driving and carjacking were rebuilt, and Jason and Lucia have needs like food and sleep."
@@ -229,6 +231,7 @@ order: 0
 - [How to find the secret Hell mission](/gameplay/how-to-find-the-hell-mission-in-gta-6/)
 - [How hunting works](/gameplay/how-does-hunting-work-in-gta-6/)
 - [How to find rare cars](/gameplay/how-to-find-rare-cars-in-gta-6/)
+- [How to fix your car for free](/gameplay/how-to-fix-your-car-for-free-in-gta-6/)
 
 ## How we'll update this page
 

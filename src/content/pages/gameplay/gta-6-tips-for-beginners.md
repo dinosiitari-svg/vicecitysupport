@@ -68,7 +68,7 @@ faq:
   - q: "Is there fast travel in GTA 6?"
     a: "Yes, through the Ryde Me app. Book a ride, then interact with the driver to skip the trip for $100."
   - q: "How do you repair your car in GTA 6?"
-    a: "Pull up at any gas pump and pay a small fee. The Scooter Bros app can also repair your vehicles, but it usually costs more."
+    a: "Pull up at any gas pump and pay a fee, or use the Scooter Bros app. In Chapter 1 you can also call Joey for a free repair. See our guide to fixing your car for free."
   - q: "How do you find random events in GTA 6?"
     a: "Listen for shouting or loud noises, then turn on Focus (click both sticks) to see where it's coming from."
   - q: "How do you lose a one-star wanted level quickly?"
@@ -93,6 +93,7 @@ order: 11
 
 ## Related guides
 
+- [How to fix your car for free](/gameplay/how-to-fix-your-car-for-free-in-gta-6/)
 - [How to change to GTA 5 controls](/gameplay/how-to-change-controls-in-gta-6/)
 - [How the GTA 6 wanted system works](/gameplay/how-does-the-wanted-system-work-in-gta-6/)
 - [How to steal and keep cars](/gameplay/how-to-steal-and-keep-cars-in-gta-6/)
