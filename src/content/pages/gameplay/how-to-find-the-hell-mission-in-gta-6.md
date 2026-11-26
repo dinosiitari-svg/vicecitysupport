@@ -49,6 +49,7 @@ order: 59
 ## Related guides
 
 - [GTA 6 easter eggs found so far](/gameplay/gta-6-easter-eggs/)
+- [How to start the secret Capri Cops mission](/gameplay/how-to-start-the-secret-capri-cops-mission-in-gta-6/)
 - [How to increase stats](/gameplay/how-to-increase-stats-in-gta-6/)
 - [Where are the tattoo shops?](/gameplay/where-are-the-tattoo-shops-in-gta-6/)
 - [How do gang illegal operations work?](/gameplay/how-do-gang-illegal-operations-work-in-gta-6/)

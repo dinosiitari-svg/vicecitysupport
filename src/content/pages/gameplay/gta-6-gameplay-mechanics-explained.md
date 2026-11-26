@@ -138,6 +138,8 @@ items:
     detail: "Jason starts with a free fishing boat in Key Lento; other boats are stolen from marinas and can't be stored or bought (as reported so far)."
   - title: "A secret trip to Hell"
     detail: "A night-time encounter in Port Gellhorn leads to a fight with Satan, reportedly rewarding a shotgun and a permanent health boost."
+  - title: "Capri's police have a secret"
+    detail: "Get taken in by the Capri police and you're caged in a hidden lock-up; escaping wins a unique CPD Moreland 850 shotgun (player reports)."
   - title: "Hunting runs on Bret's Target Decks"
     detail: "Jason unlocks hunting in Chapter 2 and works through 15 Target Decks; one clean head or heart shot gives the best-paying Pristine carcass."
   - title: "Rare cars for Randy"
@@ -237,6 +239,7 @@ order: 0
 - [What you lose at the end of Chapter 1](/gameplay/what-do-you-lose-at-the-end-of-chapter-1-in-gta-6/)
 - [How to get a boat](/gameplay/how-to-get-a-boat-in-gta-6/)
 - [How to find the secret Hell mission](/gameplay/how-to-find-the-hell-mission-in-gta-6/)
+- [How to start the secret Capri Cops mission](/gameplay/how-to-start-the-secret-capri-cops-mission-in-gta-6/)
 - [How hunting works](/gameplay/how-does-hunting-work-in-gta-6/)
 - [How to find rare cars](/gameplay/how-to-find-rare-cars-in-gta-6/)
 - [How to fix your car for free](/gameplay/how-to-fix-your-car-for-free-in-gta-6/)

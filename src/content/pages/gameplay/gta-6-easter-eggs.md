@@ -4,7 +4,7 @@ answer: "The biggest find so far is a hidden puzzle that opens a portal back to 
 description: "GTA 6 easter eggs players have found so far: the Vice City portal, the UFO, the Fast and Furious car, the giant crab, the 'Red Hulk' farmer, the simulation house, the merman and the 'Little Sam' cameo."
 status: verifying
 statusNote: "All player reports picked up by the press in launch week. Rockstar hasn't commented, and we haven't checked them in-game yet."
-updated: 2026-11-25
+updated: 2026-11-26
 listType: steps
 listTitle: "Easter eggs found so far"
 items:
@@ -13,7 +13,7 @@ items:
   - title: "UFO abduction (Kelly County)"
     detail: "A random night-time encounter east of Port Gellhorn that unlocks a hidden trophy. Full steps are in our UFO guide, linked below."
   - title: "Fast and Furious car (Vespucci Island)"
-    detail: "Players report a green tuner car styled after Brian O'Conner's ride from the first film, inside the garage of a white house near the middle of Vespucci Island. Break into the garage to take it."
+    detail: "Players report a green tuner car styled after Brian O'Conner's ride from the first film, inside the garage of a white house near the middle of Vespucci Island. Break the garage door, smash the car's window and hotwire it. Insider Gaming says you can grab it right after the opening missions, and you can keep driving it afterwards. Open the boot and a snake lunges out, which players read as a Toy Story joke ('there's a snake in my boot')."
   - title: "A literal Easter egg (radio tower)"
     detail: "A player found a bird's nest on top of a tall radio or communications tower. Climb the ladder (about seven minutes) or parachute onto it, throw one of the eggs toward the road and a cutscene shows it hitting a car whose driver looks like a 1980s Vice City character, a nod to a GTA: Vice City secret. Which tower it is hasn't been confirmed."
   - title: "'Little Sam' cameo (Chapter 3)"
@@ -46,6 +46,8 @@ items:
     detail: "Belpoint is a narrow island off the west coast of Mariana County that you can only reach by boat. At night its southern end looks like a beach party, but ashore you'll find bodies around a stage. Max Manhours is shut inside a cabin at the island's northern tip. You can't open his door, so aim at him through the window to the left of it and ask if he's alright. He then tells you, in a long speech, how a yacht and a cocaine shipment led to the killings. No reward has been reported for talking to him."
   - title: "A trip to Hell (Port Gellhorn)"
     detail: "At night, two metalheads in an open garage in northern Port Gellhorn take you by van to a bonfire. Stare into it and you're fighting demons and then Satan. The reward is reportedly a unique shotgun, a top, a tattoo and a permanent health boost. Steps are in our Hell mission guide, linked below."
+  - title: "Capri's corrupt cops (Capri)"
+    detail: "Let the Capri police take you in and you end up caged in a hidden lock-up instead of a cell. Break out, take back your gear and a unique shotgun, and free the other captives. Steps are in our Capri Cops guide, linked below."
 faq:
   - q: "Is there a UFO in GTA 6?"
     a: "Yes, according to player reports. It's a random encounter in Kelly County after Chapter 1, best tried after 2 AM in-game."
@@ -72,6 +74,10 @@ sources:
     url: "https://gamerant.com/grand-theft-auto-6-gta-5-easter-egg-michael-boat/"
   - label: "PC Gamer: where to have a bigfoot (skunk ape) sighting in GTA 6"
     url: "https://www.pcgamer.com/games/grand-theft-auto/gta-6-bigfoot-location-skunk-ape/"
+  - label: "Game Rant: how to escape the Capri cells (24 Nov)"
+    url: "https://gamerant.com/gta-6-capri-cops-secret-mission-cell-keys/"
+  - label: "Insider Gaming: Paul Walker easter egg in GTA 6"
+    url: "https://insider-gaming.com/paul-walker-gta-6-easter-egg/"
   - label: "BGR: GTA 6's hidden Fast and Furious easter egg"
     url: "https://www.bgr.com/2322463/gta-6-hidden-fast-and-furious-paul-walker-car/"
   - label: "IBTimes UK: GTA 6 player finds a literal Easter egg"
@@ -98,5 +104,6 @@ order: 28
 - [Where is the UFO in GTA 6?](/gameplay/where-is-the-ufo-in-gta-6/)
 - [Where is Bigfoot in GTA 6?](/gameplay/where-is-bigfoot-in-gta-6/)
 - [How to find the secret Hell mission](/gameplay/how-to-find-the-hell-mission-in-gta-6/)
+- [How to start the secret Capri Cops mission](/gameplay/how-to-start-the-secret-capri-cops-mission-in-gta-6/)
 - [How to unlock the Vice City portal](/gameplay/how-to-unlock-the-vice-city-portal-in-gta-6/)
 - [All GTA 6 gameplay mechanics](/gameplay/gta-6-gameplay-mechanics-explained/)
