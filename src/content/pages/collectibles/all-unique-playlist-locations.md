@@ -60,6 +60,7 @@ order: 16
 ## Related guides
 
 - [How many collectibles are in GTA 6?](/collectibles/how-many-collectibles-are-in-gta-6/)
+- [Every GTA 6 radio station](/gameplay/what-radio-stations-are-in-gta-6/)
 - [Where are the strip clubs?](/gameplay/where-are-the-strip-clubs-in-gta-6/)
 - [Do collectibles count toward 100% completion?](/collectibles/do-collectibles-count-toward-100-percent-completion/)
 - [Best order to collect everything](/collectibles/best-order-to-collect-everything/)

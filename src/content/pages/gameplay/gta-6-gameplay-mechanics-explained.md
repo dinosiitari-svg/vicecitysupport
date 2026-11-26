@@ -4,7 +4,7 @@ answer: "GTA 6's biggest changes are a reworked wanted system that depends on wi
 description: "Every new GTA 6 gameplay mechanic in one list: wanted system, character switching, driving, carjacking, respawns, money, robberies and more."
 status: verifying
 statusNote: "Collected from Rockstar's interviews and press previews. We're testing each one in-game and will update as we go."
-updated: 2026-11-26
+updated: 2026-11-27
 listType: steps
 listTitle: "New and changed mechanics"
 items:
@@ -156,6 +156,8 @@ items:
     detail: "In the missable Chapter 4 mission Bad Driver!, killing Felipe pays $20,000 and sparing him unlocks a vehicle gift mission."
   - title: "Sleep to skip time"
     detail: "Rest in a safehouse bed and pick morning, evening or night to wake; sleeping refills Health and Stamina, and a full day reportedly lasts about 2 hours 24 minutes."
+  - title: "The biggest radio line-up in the series"
+    detail: "Launch guides count 21 music stations and 2 talk stations, about 810 songs, playable in cars or on foot through your phone headphones."
 faq:
   - q: "Is GTA 6 more realistic than GTA 5?"
     a: "In several systems, yes: police need witnesses, driving and carjacking were rebuilt, and Jason and Lucia have needs like food and sleep."
@@ -250,6 +252,7 @@ order: 0
 - [Can you buy property or businesses?](/gameplay/can-you-buy-property-in-gta-6/)
 - [Should you kill or spare Felipe?](/gameplay/should-you-kill-or-spare-felipe-in-gta-6/)
 - [How to skip time and sleep](/gameplay/how-to-skip-time-and-sleep-in-gta-6/)
+- [Every GTA 6 radio station](/gameplay/what-radio-stations-are-in-gta-6/)
 
 ## How we'll update this page
 
