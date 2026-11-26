@@ -148,6 +148,10 @@ items:
     detail: "Optional side stories unlock chapter by chapter; finishing eight of them earns the Strangers & Freaks trophy."
   - title: "Side activities with 100% targets"
     detail: "Races, stunts, drone trials, shooting ranges, basketball, pool, mini golf and more each have a checklist count; there's no darts or playable bowling."
+  - title: "Garages are the only property for sale"
+    detail: "No houses, nightclubs or businesses to buy; eight garages are sold in the Vice City Real Estate app and none of them earn money."
+  - title: "Felipe: cash or a gift"
+    detail: "In the missable Chapter 4 mission Bad Driver!, killing Felipe pays $20,000 and sparing him unlocks a vehicle gift mission."
 faq:
   - q: "Is GTA 6 more realistic than GTA 5?"
     a: "In several systems, yes: police need witnesses, driving and carjacking were rebuilt, and Jason and Lucia have needs like food and sleep."
@@ -238,6 +242,8 @@ order: 0
 - [How to fix your car for free](/gameplay/how-to-fix-your-car-for-free-in-gta-6/)
 - [How Strangers and Freaks missions work](/gameplay/how-do-strangers-and-freaks-missions-work-in-gta-6/)
 - [Every side activity in GTA 6](/gameplay/what-side-activities-are-in-gta-6/)
+- [Can you buy property or businesses?](/gameplay/can-you-buy-property-in-gta-6/)
+- [Should you kill or spare Felipe?](/gameplay/should-you-kill-or-spare-felipe-in-gta-6/)
 
 ## How we'll update this page
 

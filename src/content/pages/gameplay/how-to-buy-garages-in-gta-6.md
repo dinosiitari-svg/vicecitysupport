@@ -3,8 +3,8 @@ question: "How to buy garages in GTA 6"
 answer: "Garages go on sale once a Chapter 2 story mission gives you the Vice City Real Estate app. One guide counts 14 garages: 8 you buy (from about $4,000 to $40,000, roughly $160,000 for all of them), 4 the story hands you for free, and 2 that come with pre-order bonuses."
 description: "How GTA 6 garages work: when you can buy them, every reported garage with its area and price, free story garages and the pre-order garages."
 status: verifying
-statusNote: "Based on one launch-week guide we couldn't cross-check yet. Prices, names and unlock missions may change as we test them in-game."
-updated: 2026-11-20
+statusNote: "Based on launch-week guides that don't fully agree on prices. Prices, names and unlock missions may change as we test them in-game."
+updated: 2026-11-26
 listType: steps
 listTitle: "How to get more garage space"
 items:
@@ -30,18 +30,33 @@ faq:
   - q: "Which garage do you get with the Vintage Vice City Pack?"
     a: "Sources disagree. One garage guide calls it Shore Court Garage near Ocean Beach, while a pre-order bonus guide says collecting the Stanier opens Bonita Court Garage north of Washington Beach. We'll confirm in-game."
   - q: "How many cars fit in a garage?"
-    a: "It varies. The figures reported so far are 1 space at Atlantic Court, 2 at Thompson Court and NE 15th Street, and 3 at Pegassi Residences. Capacity for the rest hasn't been reported."
+    a: "It varies. The figures reported so far are 1 space at Atlantic Court, 2 at Thompson Court and NE 15th Street, and 3 at Pegassi Residences. Other guides say each bought garage holds 1 car, with room for about 18 cars in total once you count your two personal vehicles."
+  - q: "Are the garage prices the same for everyone?"
+    a: "Guides don't agree. Besides the prices above, one guide has Persistence Road at $9,500 and Vela Rota Drive at $30,000, and another lists Mitchel Auto Center at $5,000 up to Atlantic Court at $50,000. Check the app before you save up."
+  - q: "Is there a trophy for buying garages?"
+    a: "One trophy guide lists Little Boxes for buying all eight garages that are for sale."
+  - q: "What else can you keep in a garage?"
+    a: "Besides cars, guides say a garage holds your weapon loadout and can store illegal goods that contacts sell for you. Garages don't earn money."
+  - q: "Can you buy a garage without the app?"
+    a: "One report says you can also buy a garage by going to it in person. The app is the usual way."
 sources:
   - label: "Beebom: all GTA 6 garage locations and their prices"
     url: "https://beebom.com/gta-6-garage-locations/"
   - label: "GamesRadar+: GTA 6 Ultimate Edition and pre-order bonuses"
     url: "https://www.gamesradar.com/games/grand-theft-auto/gta-6-ultimate-edition-pre-order-bonuses/"
+  - label: "ViceSplat: GTA 6 properties and businesses"
+    url: "https://vicesplat.com/guides/gta-6-properties-and-businesses/"
+  - label: "GTA Boss: GTA 6 businesses"
+    url: "https://www.gtaboss.gg/gta-6/guides/gta-6-businesses"
+  - label: "Red Bull: GTA 6 beginner's guide"
+    url: "https://www.redbull.com/int-en/gta-6-beginners-guide"
 order: 26
 ---
 
 ## What isn't confirmed yet
 
-- Prices and names come from a single guide. One price is given two ways in that guide (Wyatt Motors: $21,600 or $21,500).
+- Prices: guides give three different price lists, and one gives Wyatt Motors two ways ($21,600 or $21,500).
+- Names: Mitchell or Mitchel Auto Center, and one guide's early list leaves out Store N' Bolt.
 - How many cars fit in most garages.
 - Whether you can sell a garage or move cars between garages freely.
 - The exact spots. Garages aren't on our map yet. We'll add them once we've checked them in-game.
@@ -51,4 +66,5 @@ order: 26
 - [How to steal and keep cars](/gameplay/how-to-steal-and-keep-cars-in-gta-6/)
 - [How to sell cars](/gameplay/how-to-sell-cars-in-gta-6/)
 - [How safehouses work](/gameplay/how-do-safehouses-work-in-gta-6/)
+- [Can you buy property or businesses?](/gameplay/can-you-buy-property-in-gta-6/)
 - [How to claim the pre-order bonus](/launch/how-to-claim-the-gta-6-pre-order-bonus/)

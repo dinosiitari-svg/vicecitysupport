@@ -4,7 +4,7 @@ answer: "It's your call, and it changes very little. At the end of the Chapter 1
 description: "GTA 6 Hey Arnold! choice explained: what happens if you kill or spare Arnold, how it affects your criminal profile and how to get through the mission."
 status: verifying
 statusNote: "From launch-week press walkthroughs. One only played the kill outcome, so the spare outcome rests on a single guide. Story spoilers for Chapter 1."
-updated: 2026-11-20
+updated: 2026-11-26
 listType: steps
 listTitle: "Hey Arnold! walkthrough"
 items:
@@ -47,6 +47,7 @@ order: 32
 
 ## Related guides
 
+- [Should you kill or spare Felipe?](/gameplay/should-you-kill-or-spare-felipe-in-gta-6/)
 - [How the criminal profile works](/gameplay/how-does-the-criminal-profile-work-in-gta-6/)
 - [How to find missions and activities](/gameplay/how-to-find-missions-in-gta-6/)
 - [All GTA 6 gameplay mechanics](/gameplay/gta-6-gameplay-mechanics-explained/)
