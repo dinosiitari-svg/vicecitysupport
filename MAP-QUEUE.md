@@ -19,6 +19,11 @@ Set `"status": "confirmed"` only once you've seen it in-game yourself.
 
 ## Pending
 
+### 2026-11-26 18:15 · Easter eggs · "Arthur Morgan's hat yard sale, south Port Gellhorn"
+- Source: https://www.gfinityesports.com/article/gta-6-how-to-find-arthur-morgans-hat-red-dead-redemption-2-easter-egg , https://gameshorizon.com/guides/gta-6-arthur-morgans-hat-easter-egg-location/ (guides, 19–24 Nov; no coordinates given)
+- Yard sale at a house with balloons tied outside, south side of Port Gellhorn; hat ("Genuine Cowboy Hat", $35) by the couch. Reported Chapter 2, possibly Lucia only. No nearby marker in map-markers.json to derive from.
+- Suggested category: a new `easter-eggs` category.
+
 ### 2026-11-26 12:15 · Secret mission · "Capri Cops mission start, central Capri plaza"
 - Source: https://gamerant.com/gta-6-capri-cops-secret-mission-cell-keys/ , https://gamerhour.net/guides/gta-6-secret-mission-capri-cops-kidnap-you-guide/ (guides, 24–25 Nov; no coordinates given, exact spot only in an image)
 - Get taken in by Capri police around the central plaza of Capri (town west of Vice City). The cage lock-up you wake in has a dock with a boat; its location isn't described. No "central plaza" marker exists in map-markers.json to derive from.

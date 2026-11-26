@@ -1,6 +1,6 @@
 ---
 question: "What are the best easter eggs in GTA 6?"
-answer: "The biggest find so far is a hidden puzzle that opens a portal back to the 2002 Vice City and unlocks Tommy Vercetti's shirt, followed by a secret night-time mission in Port Gellhorn that sends you to Hell to fight Satan. Players also found a UFO abduction in Kelly County, a green street-racer car in a garage on Vespucci Island that nods to The Fast and the Furious, a bird's nest on a tall tower whose eggs you can throw for a short cutscene, a possible cameo by Rockstar co-founder Sam Houser in a Chapter 3 mission, a boat near Jason's house whose GPS shows Los Santos, a skunk ape sighting in the Keys, a giant mutant crab in Gullet Marsh, a farmer who turns into a red-skinned monster in a strawberry side quest, a 'simulation' conspiracy hideout in a Belville garage, a merman on an island in the Keys, a massacre mystery on Belpoint Island, and smaller finds like a Mount Chiliad conversation, a jet-ski rescue dog and a Dexter-style apartment."
+answer: "The biggest find so far is a hidden puzzle that opens a portal back to the 2002 Vice City and unlocks Tommy Vercetti's shirt, followed by a secret night-time mission in Port Gellhorn that sends you to Hell to fight Satan. Players also found a UFO abduction in Kelly County, a green street-racer car in a garage on Vespucci Island that nods to The Fast and the Furious, a bird's nest on a tall tower whose eggs you can throw for a short cutscene, a possible cameo by Rockstar co-founder Sam Houser in a Chapter 3 mission, a boat near Jason's house whose GPS shows Los Santos, a skunk ape sighting in the Keys, a giant mutant crab in Gullet Marsh, a farmer who turns into a red-skinned monster in a strawberry side quest, a 'simulation' conspiracy hideout in a Belville garage, a merman on an island in the Keys, a massacre mystery on Belpoint Island, and smaller finds like a Mount Chiliad conversation, a jet-ski rescue dog, a Dexter-style apartment and Arthur Morgan's cowboy hat at a Port Gellhorn yard sale."
 description: "GTA 6 easter eggs players have found so far: the Vice City portal, the UFO, the Fast and Furious car, the giant crab, the 'Red Hulk' farmer, the simulation house, the merman and the 'Little Sam' cameo."
 status: verifying
 statusNote: "All player reports picked up by the press in launch week. Rockstar hasn't commented, and we haven't checked them in-game yet."
@@ -48,6 +48,8 @@ items:
     detail: "At night, two metalheads in an open garage in northern Port Gellhorn take you by van to a bonfire. Stare into it and you're fighting demons and then Satan. The reward is reportedly a unique shotgun, a top, a tattoo and a permanent health boost. Steps are in our Hell mission guide, linked below."
   - title: "Capri's corrupt cops (Capri)"
     detail: "Let the Capri police take you in and you end up caged in a hidden lock-up instead of a cell. Break out, take back your gear and a unique shotgun, and free the other captives. Steps are in our Capri Cops guide, linked below."
+  - title: "Arthur Morgan's hat (Port Gellhorn)"
+    detail: "A Red Dead Redemption 2 nod. Three guides report a yard sale on the south side of Port Gellhorn, at a house with balloons out front, selling a 'Genuine Cowboy Hat' for $35. It's by the couch, and the rope knot on the band is what marks it as Arthur's. Gfinity and Ayther say it's on sale in Chapter 2, and Ayther says only while you're playing Lucia. Press Triangle / Y to preview it, then buy."
 faq:
   - q: "Is there a UFO in GTA 6?"
     a: "Yes, according to player reports. It's a random encounter in Kelly County after Chapter 1, best tried after 2 AM in-game."
@@ -55,9 +57,15 @@ faq:
     a: "Reports put it in the garage of a white house roughly in the middle of Vespucci Island. Nobody has published a more exact spot yet, so we haven't added it to the map."
   - q: "Is there a portal to old Vice City in GTA 6?"
     a: "Yes, according to a player who solved it on 23 November and press coverage since. Rockstar hasn't commented. See our [Vice City portal guide](/gameplay/how-to-unlock-the-vice-city-portal-in-gta-6/)."
+  - q: "Where is Arthur Morgan's hat in GTA 6?"
+    a: "Guides put it at a yard sale on the south side of Port Gellhorn during Chapter 2, sold as the Genuine Cowboy Hat for $35. It isn't on the map yet because nobody has given an exact spot."
   - q: "Do easter eggs give trophies in GTA 6?"
     a: "Some do. The UFO unlocks The Truth Is Out There. No reward has been reported for the car, the tower egg or the cameo."
 sources:
+  - label: "Gfinity: how to find Arthur Morgan's hat"
+    url: "https://www.gfinityesports.com/article/gta-6-how-to-find-arthur-morgans-hat-red-dead-redemption-2-easter-egg"
+  - label: "Games Horizon: Arthur Morgan's hat location"
+    url: "https://gameshorizon.com/guides/gta-6-arthur-morgans-hat-easter-egg-location/"
   - label: "GAMINGbible: GTA 6's secret Hell mission (23 Nov)"
     url: "https://www.gamingbible.com/news/gta-6-secret-hell-mission-satan-location-rewards-623661-20261123"
   - label: "Forbes: a GTA 6 player finds Tommy Vercetti's shirt and a portal to original Vice City"
@@ -97,6 +105,7 @@ order: 28
 - Clips of a giant kraken and an NPC who can't be killed are going around, but nobody has said where or how to find them. We're leaving them off this list until someone does.
 - Whether the Little Sam character really is a Sam Houser cameo. That's fan speculation.
 - Whether the Marquis boat is meant to be Michael's. The Los Santos GPS is a player find, not something Rockstar has explained.
+- When Arthur Morgan's hat is on sale. Gfinity and Ayther say Chapter 2 (Ayther: Lucia only, and possibly gone later); Games Horizon says it's near the start area. Gfinity says Jason can wear it later in Chapter 2, which conflicts with Ayther.
 - More easter eggs are being reported every day. We'll add them here as they're confirmed.
 
 ## Related guides

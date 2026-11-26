@@ -154,6 +154,8 @@ items:
     detail: "No houses, nightclubs or businesses to buy; eight garages are sold in the Vice City Real Estate app and none of them earn money."
   - title: "Felipe: cash or a gift"
     detail: "In the missable Chapter 4 mission Bad Driver!, killing Felipe pays $20,000 and sparing him unlocks a vehicle gift mission."
+  - title: "Sleep to skip time"
+    detail: "Rest in a safehouse bed and pick morning, evening or night to wake; sleeping refills Health and Stamina, and a full day reportedly lasts about 2 hours 24 minutes."
 faq:
   - q: "Is GTA 6 more realistic than GTA 5?"
     a: "In several systems, yes: police need witnesses, driving and carjacking were rebuilt, and Jason and Lucia have needs like food and sleep."
@@ -247,6 +249,7 @@ order: 0
 - [Every side activity in GTA 6](/gameplay/what-side-activities-are-in-gta-6/)
 - [Can you buy property or businesses?](/gameplay/can-you-buy-property-in-gta-6/)
 - [Should you kill or spare Felipe?](/gameplay/should-you-kill-or-spare-felipe-in-gta-6/)
+- [How to skip time and sleep](/gameplay/how-to-skip-time-and-sleep-in-gta-6/)
 
 ## How we'll update this page
 
