@@ -47,6 +47,7 @@ order: 67
 
 ## Related guides
 
+- [Should you shoot or spare Halifax? (Dubious Provenance)](/gameplay/should-you-shoot-or-spare-halifax-in-gta-6/)
 - [Should you kill or spare Felipe?](/gameplay/should-you-kill-or-spare-felipe-in-gta-6/)
 - [Should you kill or spare Arnold?](/gameplay/should-you-kill-or-spare-arnold-in-gta-6/)
 - [How to unlock street races](/gameplay/how-to-unlock-street-races-in-gta-6/)

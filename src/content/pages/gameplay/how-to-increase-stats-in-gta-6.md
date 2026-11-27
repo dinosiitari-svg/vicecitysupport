@@ -61,6 +61,7 @@ order: 17
 
 ## Related guides
 
+- [How to heal](/gameplay/how-to-heal-in-gta-6/)
 - [Character customization: clothes, hair and tattoos](/gameplay/how-to-change-your-look-in-gta-6/)
 - [Fishing, hunting and side activities](/gameplay/can-you-fish-and-hunt-in-gta-6/)
 - [Beginner tips for your first hours](/gameplay/gta-6-tips-for-beginners/)

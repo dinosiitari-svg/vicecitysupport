@@ -164,6 +164,10 @@ items:
     detail: "In Chapter 3 you choose which batch to sell; Pure is the clean sale, while guides disagree on whether Cut ends in a discount or a shootout."
   - title: "Studying wildlife"
     detail: "Look at animals through binoculars and hold R1 to log them; guides count 255 entries and say 100 studies count toward 100% (launch guides)."
+  - title: "Healing takes items, not just waiting"
+    detail: "Health only partly refills on its own, so you heal with Zombix, heart-icon food and drink, first aid kits or a night's sleep (launch guides)."
+  - title: "Shoot or spare Halifax"
+    detail: "The Chapter 3 Dubious Provenance choice reportedly only shifts your criminal profile; handing him the statue earlier is what unlocks the watch and the cash."
 faq:
   - q: "Is GTA 6 more realistic than GTA 5?"
     a: "In several systems, yes: police need witnesses, driving and carjacking were rebuilt, and Jason and Lucia have needs like food and sleep."
@@ -262,6 +266,8 @@ order: 0
 - [How to find the jet-ski dog (Cool Dog)](/gameplay/how-to-find-the-jet-ski-dog-in-gta-6/)
 - [Should you sell Cut or Pure in Dealer's Choice?](/gameplay/should-you-sell-cut-or-pure-in-dealers-choice-gta-6/)
 - [How to study animals](/gameplay/how-to-study-animals-in-gta-6/)
+- [How to heal](/gameplay/how-to-heal-in-gta-6/)
+- [Should you shoot or spare Halifax?](/gameplay/should-you-shoot-or-spare-halifax-in-gta-6/)
 
 ## How we'll update this page
 
