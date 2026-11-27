@@ -162,6 +162,8 @@ items:
     detail: "Swim away from your boat in Gambit Bay for about five minutes and Cool Dog arrives on a jet ski, then leads you to a wallet worth about $1,200 (player reports)."
   - title: "Cut or Pure in Dealer's Choice"
     detail: "In Chapter 3 you choose which batch to sell; Pure is the clean sale, while guides disagree on whether Cut ends in a discount or a shootout."
+  - title: "Studying wildlife"
+    detail: "Look at animals through binoculars and hold R1 to log them; guides count 255 entries and say 100 studies count toward 100% (launch guides)."
 faq:
   - q: "Is GTA 6 more realistic than GTA 5?"
     a: "In several systems, yes: police need witnesses, driving and carjacking were rebuilt, and Jason and Lucia have needs like food and sleep."
@@ -259,6 +261,7 @@ order: 0
 - [Every GTA 6 radio station](/gameplay/what-radio-stations-are-in-gta-6/)
 - [How to find the jet-ski dog (Cool Dog)](/gameplay/how-to-find-the-jet-ski-dog-in-gta-6/)
 - [Should you sell Cut or Pure in Dealer's Choice?](/gameplay/should-you-sell-cut-or-pure-in-dealers-choice-gta-6/)
+- [How to study animals](/gameplay/how-to-study-animals-in-gta-6/)
 
 ## How we'll update this page
 

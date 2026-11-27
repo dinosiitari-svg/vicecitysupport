@@ -73,6 +73,7 @@ These names come from one launch-week guide. We'll confirm them in-game.
 
 ## Related guides
 
+- [How to study animals](/gameplay/how-to-study-animals-in-gta-6/)
 - [Can you fish and hunt?](/gameplay/can-you-fish-and-hunt-in-gta-6/)
 - [How to increase stats](/gameplay/how-to-increase-stats-in-gta-6/)
 - [How weapons work](/gameplay/how-do-weapons-work-in-gta-6/)
