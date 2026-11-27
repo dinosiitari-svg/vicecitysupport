@@ -4,7 +4,7 @@ answer: "Health only partly refills on its own when you stop taking damage, so c
 description: "All the ways to heal in GTA 6: natural regeneration, Zombix, food and drink, Adrenaline, first aid kits, sleeping, and how to raise your max health."
 status: verifying
 statusNote: "From launch-week guides (Gfinity, Beebom, Xbox & Play). They mostly agree but differ on details: where Zombix is sold, how far health regenerates and what Adrenaline does. First aid kits, pill tolerance and the button prompt each come from one guide. We haven't tested these ourselves yet."
-updated: 2026-11-27
+updated: 2026-11-28
 listType: steps
 listTitle: "Ways to heal, fastest first"
 items:
@@ -36,7 +36,7 @@ faq:
   - q: "Is there a health cheat in GTA 6?"
     a: "Guides say cheats only unlock after you finish the story once. See our cheats page."
   - q: "What about body armor?"
-    a: "None of the healing guides we checked cover body armor yet. We'll add where to buy it once it's reliably reported."
+    a: "Armor isn't healing, but it protects your health bar. Guides say you buy vests at gun stores (about $250 in one guide) or take them from police car trunks, and a damaged vest can't be repaired. See our [body armor guide](/gameplay/how-to-get-body-armor-in-gta-6/)."
 sources:
   - label: "Gfinity Esports: GTA 6 how to heal"
     url: "https://www.gfinityesports.com/article/gta-6-how-to-heal"
@@ -53,10 +53,10 @@ order: 71
 - How far natural regeneration goes, and whether that changes as your stats improve.
 - What Adrenaline actually does: guides describe a health boost, damage reduction or brief invulnerability.
 - First aid kits, pill tolerance and the L1 button prompt each come from a single guide.
-- Body armor: where to buy it and how much it costs.
 
 ## Related guides
 
+- [How to get body armor](/gameplay/how-to-get-body-armor-in-gta-6/)
 - [How to increase your stats](/gameplay/how-to-increase-stats-in-gta-6/)
 - [How to skip time and sleep](/gameplay/how-to-skip-time-and-sleep-in-gta-6/)
 - [What happens when you die](/gameplay/what-happens-when-you-die-in-gta-6/)

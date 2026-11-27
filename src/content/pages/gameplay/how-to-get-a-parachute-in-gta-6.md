@@ -44,5 +44,6 @@ order: 20
 
 ## Related guides
 
+- [How to get body armor](/gameplay/how-to-get-body-armor-in-gta-6/)
 - [How weapons and loadouts work](/gameplay/how-do-weapons-work-in-gta-6/)
 - [Beginner tips for your first hours](/gameplay/gta-6-tips-for-beginners/)

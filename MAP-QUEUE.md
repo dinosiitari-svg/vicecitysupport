@@ -19,6 +19,16 @@ Set `"status": "confirmed"` only once you've seen it in-game yourself.
 
 ## Pending
 
+### 2026-11-28 00:15 · Strangers & Freaks · "Freddie's doomsday compound (hurricane questline)"
+- Source: https://www.keengamer.com/articles/guides/gta-6-hurricane-weather-guide-freddies-questline-walkthrough/ (guide, 27 Nov; no coordinates given)
+- North of Lake Leonida in North Leonard County, close to the Lummox County border and SR-27. Hidden tunnel under an orange shipping container; water tower entry on the second visit. No nearby marker in map-markers.json to derive from.
+- Suggested category: `other` (or a new `side-missions` category).
+
+### 2026-11-28 00:15 · Easter eggs · "Haunted hotel for sale, Crosstown"
+- Source: https://www.addictinggames.com/news/gta-6-players-discover-a-haunted-hotel-with-a-dark-secret (news, 20 Nov; no coordinates, no hotel name)
+- Abandoned hotel "up for sale" in Crosstown, across the interstate from downtown Vice City. Rooftop has the seller's note and a collectible luxury watch. Crosstown has several gtadb markers, but none is this hotel, so the spot can't be derived.
+- Suggested category: a new `easter-eggs` category.
+
 ### 2026-11-27 06:15 · Easter eggs · "Cool Dog's Dog Island beach (jet-ski dog)"
 - Source: https://www.gfinityesports.com/article/gta-6-how-to-find-cool-dog-lucky-dog , https://gamesfuze.com/guides/how-to-find-dog-island-in-gta-6/ (guides, 19–24 Nov; no coordinates given)
 - The rescue itself happens anywhere in open water in Gambit Bay near Key Lento (Partridge Bay also reported), so it isn't a fixed pin. The beach he takes you to ("Dog Island", several dogs, lockbox with sunglasses by an upturned boat, wallet ~$1,200) is a fixed place but no guide describes where it is. No marker to derive from.

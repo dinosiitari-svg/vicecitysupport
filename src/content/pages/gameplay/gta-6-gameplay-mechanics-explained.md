@@ -4,7 +4,7 @@ answer: "GTA 6's biggest changes are a reworked wanted system that depends on wi
 description: "Every new GTA 6 gameplay mechanic in one list: wanted system, character switching, driving, carjacking, respawns, money, robberies and more."
 status: verifying
 statusNote: "Collected from Rockstar's interviews and press previews. We're testing each one in-game and will update as we go."
-updated: 2026-11-27
+updated: 2026-11-28
 listType: steps
 listTitle: "New and changed mechanics"
 items:
@@ -168,6 +168,10 @@ items:
     detail: "Health only partly refills on its own, so you heal with Zombix, heart-icon food and drink, first aid kits or a night's sleep (launch guides)."
   - title: "Shoot or spare Halifax"
     detail: "The Chapter 3 Dubious Provenance choice reportedly only shifts your criminal profile; handing him the statue earlier is what unlocks the watch and the cash."
+  - title: "Body armor"
+    detail: "Buy vests at gun stores (about $250 in one guide) or loot them from police car trunks; a blue bar soaks up bullets and damaged armor can't be repaired (launch guides)."
+  - title: "Hurricanes are unlocked, not random from the start"
+    detail: "Finishing Freddie's Strangers and Freaks questline unlocks hurricane weather, which then turns up at random in free roam (one walkthrough)."
 faq:
   - q: "Is GTA 6 more realistic than GTA 5?"
     a: "In several systems, yes: police need witnesses, driving and carjacking were rebuilt, and Jason and Lucia have needs like food and sleep."
@@ -268,6 +272,8 @@ order: 0
 - [How to study animals](/gameplay/how-to-study-animals-in-gta-6/)
 - [How to heal](/gameplay/how-to-heal-in-gta-6/)
 - [Should you shoot or spare Halifax?](/gameplay/should-you-shoot-or-spare-halifax-in-gta-6/)
+- [How to get body armor](/gameplay/how-to-get-body-armor-in-gta-6/)
+- [How to unlock hurricane weather](/gameplay/how-to-unlock-hurricane-weather-in-gta-6/)
 
 ## How we'll update this page
 

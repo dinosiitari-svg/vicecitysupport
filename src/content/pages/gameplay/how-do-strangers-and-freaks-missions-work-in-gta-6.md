@@ -5,7 +5,7 @@ answer: "Strangers and Freaks are GTA 6's optional side questlines, each run by 
 description: "How GTA 6 Strangers and Freaks side missions work: when each questline unlocks, Jason vs Lucia, which count toward the trophy, rewards and missable ones."
 status: verifying
 statusNote: "Based on launch-week guides (PowerPyx, KeenGamer). They disagree on which questlines count toward the trophy, and we haven't played every strand ourselves yet."
-updated: 2026-11-26
+updated: 2026-11-28
 listType: steps
 listTitle: "How to find and finish Strangers and Freaks missions"
 items:
@@ -65,6 +65,7 @@ Besides Strangers & Freaks itself, both guides name Fair Game (Bret Vogel), The 
 
 ## Related guides
 
+- [How to unlock hurricane weather (Freddie)](/gameplay/how-to-unlock-hurricane-weather-in-gta-6/)
 - [How hunting works (Bret Vogel)](/gameplay/how-does-hunting-work-in-gta-6/)
 - [How to find rare cars (Randy's Wish List)](/gameplay/how-to-find-rare-cars-in-gta-6/)
 - [Where is the UFO?](/gameplay/where-is-the-ufo-in-gta-6/)
