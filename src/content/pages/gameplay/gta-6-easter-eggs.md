@@ -4,7 +4,7 @@ answer: "The biggest find so far is a hidden puzzle that opens a portal back to 
 description: "GTA 6 easter eggs players have found so far: the Vice City portal, the UFO, the Fast and Furious car, the giant crab, the 'Red Hulk' farmer, the simulation house, the merman and the 'Little Sam' cameo."
 status: verifying
 statusNote: "All player reports picked up by the press in launch week. Rockstar hasn't commented, and we haven't checked them in-game yet."
-updated: 2026-11-26
+updated: 2026-11-27
 listType: steps
 listTitle: "Easter eggs found so far"
 items:
@@ -25,7 +25,7 @@ items:
   - title: "Mount Chiliad callback (Chapter 1)"
     detail: "During an early mission with Brian and Donnie, two people outside a bar talk about the Mount Chiliad mystery from GTA 5 (Reddit find)."
   - title: "Jet-ski rescue dog"
-    detail: "Get stranded at sea and a dog in goggles and a life jacket may come to your rescue on a jet ski, a nod to a real Florida dog that went viral (Reddit find)."
+    detail: "Swim away from your boat in Gambit Bay for about five minutes and Cool Dog, in goggles and a life jacket, rides up on a jet ski to rescue you, a nod to a real Florida dog that went viral. Stay on and he takes you to a beach of dogs where he digs up a wallet with about $1,200. Steps are in our jet-ski dog guide, linked below."
   - title: "Talking parrots (the Keys)"
     detail: "At a liquor store in the Keys, parrots cheer on a fight and one gives away hidden cash near a generator (Reddit find)."
   - title: "Four-horse statue (near Manifest Canyon)"
@@ -62,6 +62,8 @@ faq:
   - q: "Do easter eggs give trophies in GTA 6?"
     a: "Some do. The UFO unlocks The Truth Is Out There. No reward has been reported for the car, the tower egg or the cameo."
 sources:
+  - label: "Gfinity: how to find Cool Dog (Lucky Dog)"
+    url: "https://www.gfinityesports.com/article/gta-6-how-to-find-cool-dog-lucky-dog"
   - label: "Gfinity: how to find Arthur Morgan's hat"
     url: "https://www.gfinityesports.com/article/gta-6-how-to-find-arthur-morgans-hat-red-dead-redemption-2-easter-egg"
   - label: "Games Horizon: Arthur Morgan's hat location"
@@ -115,4 +117,5 @@ order: 28
 - [How to find the secret Hell mission](/gameplay/how-to-find-the-hell-mission-in-gta-6/)
 - [How to start the secret Capri Cops mission](/gameplay/how-to-start-the-secret-capri-cops-mission-in-gta-6/)
 - [How to unlock the Vice City portal](/gameplay/how-to-unlock-the-vice-city-portal-in-gta-6/)
+- [How to find the jet-ski dog (Cool Dog)](/gameplay/how-to-find-the-jet-ski-dog-in-gta-6/)
 - [All GTA 6 gameplay mechanics](/gameplay/gta-6-gameplay-mechanics-explained/)

@@ -4,7 +4,7 @@ answer: "Press right on the D-pad to open the index, a menu down the side of the
 description: "How to find missions in GTA 6: the D-pad index, its categories, setting a destination, quick navigation and placing your own map markers."
 status: verifying
 statusNote: "Based on launch-day guides from players' first hours. We're checking the controls ourselves."
-updated: 2026-11-19
+updated: 2026-11-27
 listType: steps
 listTitle: "How to find your next mission or activity"
 items:
@@ -29,9 +29,13 @@ faq:
     a: "Hover a robbery target in the index or map, and it shows the potential score and the valuables you can take. Bigger scores are more dangerous."
   - q: "How do you find local activities?"
     a: "As well as the index, motels and hotels can have pamphlets or town maps that point out nearby spots."
+  - q: "Why won't Dunk call me in GTA 6 (Painkiller Supplier)?"
+    a: "A launch guide says Lucia's Chapter 2 mission Painkiller Supplier ('Dunk will be in touch') has nothing to do: it's a wait. It stays open until Dunk has phoned you twice and a few in-game days have passed. Play other Chapter 2 missions meanwhile, such as Moses, New Look or Ambulance Chaser. If he still never calls, it may be the missed-phone-call bug that Rockstar's 23 November patch says it fixed, so check you're on the latest update."
 sources:
   - label: "GamesRadar+: how to find tasks, objectives and useful locations in GTA 6"
     url: "https://www.gamesradar.com/games/grand-theft-auto/gta-6-index-how-to-find-your-missions-objectives/"
+  - label: "eGamers: Dunk not calling? Painkiller Supplier is a timed wait"
+    url: "https://egamers.io/gta-6-dunk-not-calling-painkiller-supplier-is-a-timed-wait/"
 order: 18
 ---
 

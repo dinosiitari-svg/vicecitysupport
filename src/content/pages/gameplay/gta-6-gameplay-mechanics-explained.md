@@ -158,6 +158,10 @@ items:
     detail: "Rest in a safehouse bed and pick morning, evening or night to wake; sleeping refills Health and Stamina, and a full day reportedly lasts about 2 hours 24 minutes."
   - title: "The biggest radio line-up in the series"
     detail: "Launch guides count 21 music stations and 2 talk stations, about 810 songs, playable in cars or on foot through your phone headphones."
+  - title: "A dog that rescues you at sea"
+    detail: "Swim away from your boat in Gambit Bay for about five minutes and Cool Dog arrives on a jet ski, then leads you to a wallet worth about $1,200 (player reports)."
+  - title: "Cut or Pure in Dealer's Choice"
+    detail: "In Chapter 3 you choose which batch to sell; Pure is the clean sale, while guides disagree on whether Cut ends in a discount or a shootout."
 faq:
   - q: "Is GTA 6 more realistic than GTA 5?"
     a: "In several systems, yes: police need witnesses, driving and carjacking were rebuilt, and Jason and Lucia have needs like food and sleep."
@@ -253,6 +257,8 @@ order: 0
 - [Should you kill or spare Felipe?](/gameplay/should-you-kill-or-spare-felipe-in-gta-6/)
 - [How to skip time and sleep](/gameplay/how-to-skip-time-and-sleep-in-gta-6/)
 - [Every GTA 6 radio station](/gameplay/what-radio-stations-are-in-gta-6/)
+- [How to find the jet-ski dog (Cool Dog)](/gameplay/how-to-find-the-jet-ski-dog-in-gta-6/)
+- [Should you sell Cut or Pure in Dealer's Choice?](/gameplay/should-you-sell-cut-or-pure-in-dealers-choice-gta-6/)
 
 ## How we'll update this page
 

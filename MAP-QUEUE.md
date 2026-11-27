@@ -19,6 +19,11 @@ Set `"status": "confirmed"` only once you've seen it in-game yourself.
 
 ## Pending
 
+### 2026-11-27 06:15 · Easter eggs · "Cool Dog's Dog Island beach (jet-ski dog)"
+- Source: https://www.gfinityesports.com/article/gta-6-how-to-find-cool-dog-lucky-dog , https://gamesfuze.com/guides/how-to-find-dog-island-in-gta-6/ (guides, 19–24 Nov; no coordinates given)
+- The rescue itself happens anywhere in open water in Gambit Bay near Key Lento (Partridge Bay also reported), so it isn't a fixed pin. The beach he takes you to ("Dog Island", several dogs, lockbox with sunglasses by an upturned boat, wallet ~$1,200) is a fixed place but no guide describes where it is. No marker to derive from.
+- Suggested category: a new `easter-eggs` category.
+
 ### 2026-11-26 18:15 · Easter eggs · "Arthur Morgan's hat yard sale, south Port Gellhorn"
 - Source: https://www.gfinityesports.com/article/gta-6-how-to-find-arthur-morgans-hat-red-dead-redemption-2-easter-egg , https://gameshorizon.com/guides/gta-6-arthur-morgans-hat-easter-egg-location/ (guides, 19–24 Nov; no coordinates given)
 - Yard sale at a house with balloons tied outside, south side of Port Gellhorn; hat ("Genuine Cowboy Hat", $35) by the couch. Reported Chapter 2, possibly Lucia only. No nearby marker in map-markers.json to derive from.
