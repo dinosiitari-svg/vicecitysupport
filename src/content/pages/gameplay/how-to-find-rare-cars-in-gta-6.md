@@ -65,6 +65,8 @@ order: 61
 
 ## Related guides
 
+- [How to get the key cloner](/gameplay/how-to-get-the-key-cloner-in-gta-6/)
+- [How to remove an advanced tracker](/gameplay/how-to-remove-advanced-trackers-in-gta-6/)
 - [How to steal and keep cars](/gameplay/how-to-steal-and-keep-cars-in-gta-6/)
 - [How to hotwire a car](/gameplay/how-to-hotwire-a-car-in-gta-6/)
 - [How to sell cars](/gameplay/how-to-sell-cars-in-gta-6/)

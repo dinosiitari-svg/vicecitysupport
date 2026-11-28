@@ -80,6 +80,8 @@ Rockstar replaced GTA V's instant hot-wire with what it calls a stratified syste
 
 ## Related guides
 
+- [How to get the key cloner](/gameplay/how-to-get-the-key-cloner-in-gta-6/)
+- [How to remove an advanced tracker](/gameplay/how-to-remove-advanced-trackers-in-gta-6/)
 - [How to find rare cars and Randy's Wish List](/gameplay/how-to-find-rare-cars-in-gta-6/)
 - [How the GTA 6 wanted system works](/gameplay/how-does-the-wanted-system-work-in-gta-6/)
 - [How to make money](/gameplay/how-to-make-money-in-gta-6/)

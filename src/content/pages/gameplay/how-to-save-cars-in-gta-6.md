@@ -40,6 +40,8 @@ order: 34
 
 ## Related guides
 
+- [How to get the key cloner](/gameplay/how-to-get-the-key-cloner-in-gta-6/)
+- [How to remove an advanced tracker](/gameplay/how-to-remove-advanced-trackers-in-gta-6/)
 - [How to steal and keep cars](/gameplay/how-to-steal-and-keep-cars-in-gta-6/)
 - [How to buy garages](/gameplay/how-to-buy-garages-in-gta-6/)
 - [How to hotwire a car](/gameplay/how-to-hotwire-a-car-in-gta-6/)
@@ -48,4 +50,4 @@ order: 34
 
 ## What isn't confirmed yet
 
-Registration fees, whether cars with an advanced tracker can ever be registered, and exactly how many cars each garage holds.
+Registration fees and exactly how many cars each garage holds. Cars with an advanced tracker can be registered once you finish Randy's Wish List: see [how to remove an advanced tracker](/gameplay/how-to-remove-advanced-trackers-in-gta-6/).

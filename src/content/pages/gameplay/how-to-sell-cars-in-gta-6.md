@@ -48,6 +48,7 @@ order: 25
 
 ## Related
 
+- [How to remove an advanced tracker](/gameplay/how-to-remove-advanced-trackers-in-gta-6/)
 - [How to steal and keep cars](/gameplay/how-to-steal-and-keep-cars-in-gta-6/)
 - [How to open a bank account](/gameplay/how-to-open-a-bank-account-in-gta-6/)
 - [How to make money](/gameplay/how-to-make-money-in-gta-6/)
