@@ -39,6 +39,7 @@ order: 38
 
 ## Related guides
 
+- [How to fight (melee controls)](/gameplay/how-to-fight-in-gta-6/)
 - [Beginner tips for your first hours](/gameplay/gta-6-tips-for-beginners/)
 - [How weapons work](/gameplay/how-do-weapons-work-in-gta-6/)
 - [How to pick up items](/gameplay/how-to-pick-up-items-in-gta-6/)

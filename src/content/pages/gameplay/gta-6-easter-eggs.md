@@ -1,6 +1,6 @@
 ---
 question: "What are the best easter eggs in GTA 6?"
-answer: "The biggest find so far is a hidden puzzle that opens a portal back to the 2002 Vice City and unlocks Tommy Vercetti's shirt, followed by a secret night-time mission in Port Gellhorn that sends you to Hell to fight Satan. Players also found a UFO abduction in Kelly County, a green street-racer car in a garage on Vespucci Island that nods to The Fast and the Furious, a bird's nest on a tall tower whose eggs you can throw for a short cutscene, a possible cameo by Rockstar co-founder Sam Houser in a Chapter 3 mission, a boat near Jason's house whose GPS shows Los Santos, a skunk ape sighting in the Keys, a giant mutant crab in Gullet Marsh, a farmer who turns into a red-skinned monster in a strawberry side quest, a 'simulation' conspiracy hideout in a Belville garage, a merman on an island in the Keys, a massacre mystery on Belpoint Island, and smaller finds like a Mount Chiliad conversation, a jet-ski rescue dog, a Dexter-style apartment Arthur Morgan's cowboy hat at a Port Gellhorn yard sale and a haunted hotel for sale in Crosstown."
+answer: "The biggest find so far is a hidden puzzle that opens a portal back to the 2002 Vice City and unlocks Tommy Vercetti's shirt, followed by a secret night-time mission in Port Gellhorn that sends you to Hell to fight Satan. Players also found a UFO abduction in Kelly County, a green street-racer car in a garage on Vespucci Island that nods to The Fast and the Furious, a bird's nest on a tall tower whose eggs you can throw for a short cutscene, a possible cameo by Rockstar co-founder Sam Houser in a Chapter 3 mission, a boat near Jason's house whose GPS shows Los Santos, a skunk ape sighting in the Keys, a giant mutant crab in Gullet Marsh, a farmer who turns into a red-skinned monster in a strawberry side quest, a 'simulation' conspiracy hideout in a Belville garage, a merman on an island in the Keys, a massacre mystery on Belpoint Island, and smaller finds like a Mount Chiliad conversation, a jet-ski rescue dog, a Dexter-style apartment, Arthur Morgan's cowboy hat at a Port Gellhorn yard sale, a haunted hotel for sale in Crosstown and four Ninja Turtles at the end of a storm drain."
 description: "GTA 6 easter eggs players have found so far: the Vice City portal, the UFO, the Fast and Furious car, the giant crab, the 'Red Hulk' farmer, the simulation house, the merman and the 'Little Sam' cameo."
 status: verifying
 statusNote: "All player reports picked up by the press in launch week. Rockstar hasn't commented, and we haven't checked them in-game yet."
@@ -52,6 +52,8 @@ items:
     detail: "A Red Dead Redemption 2 nod. Three guides report a yard sale on the south side of Port Gellhorn, at a house with balloons out front, selling a 'Genuine Cowboy Hat' for $35. It's by the couch, and the rope knot on the band is what marks it as Arthur's. Gfinity and Ayther say it's on sale in Chapter 2, and Ayther says only while you're playing Lucia. Press Triangle / Y to preview it, then buy."
   - title: "A haunted hotel (Crosstown, Vice City)"
     detail: "Players found an abandoned hotel that's up for sale in Crosstown, across the interstate from downtown Vice City. Explore it and a shadowy figure appears in a corner, a door slams behind you, sigils cover the room and you're led through fog up to the roof. Up there you'll find a note from the seller about how long the place has been on the market, plus one of the game's collectible luxury watches. One report so far, with no hotel name, time of day or chapter given."
+  - title: "Ninja Turtles in a storm drain"
+    detail: "A Teenage Mutant Ninja Turtles nod: follow a storm drain to its end and you reportedly find four turtles sitting next to a stack of pizza boxes. A clip shared by DiscussingFilm on X on 24 November spread widely, but nobody has said which drain it is or how to get in."
 faq:
   - q: "Is there a UFO in GTA 6?"
     a: "Yes, according to player reports. It's a random encounter in Kelly County after Chapter 1, best tried after 2 AM in-game."
@@ -96,6 +98,8 @@ sources:
     url: "https://www.bgr.com/2322463/gta-6-hidden-fast-and-furious-paul-walker-car/"
   - label: "IBTimes UK: GTA 6 player finds a literal Easter egg"
     url: "https://www.ibtimes.co.uk/gta-6-player-discovers-literal-easter-egg-leonida-1833342"
+  - label: "Complex: GTA 6 players discover a Teenage Mutant Ninja Turtles easter egg"
+    url: "https://www.complex.com/pop-culture/a/markelibert/gta-6-teenage-mutant-ninja-turtles-easter-egg"
   - label: "ShowGamer: where to find Max Manhours, the Belpoint Island mystery"
     url: "https://showgamer.com/en/guides/8122-gde-nayti-maksa-menhauersa-v-gta-6-tayna-ostrova-belpoynt"
   - label: "GamesRadar+: fans find 'Little Sam' easter egg in GTA 6"
@@ -113,6 +117,7 @@ order: 28
 - Whether the Marquis boat is meant to be Michael's. The Los Santos GPS is a player find, not something Rockstar has explained.
 - When Arthur Morgan's hat is on sale. Gfinity and Ayther say Chapter 2 (Ayther: Lucia only, and possibly gone later); Games Horizon says it's near the start area. Gfinity says Jason can wear it later in Chapter 2, which conflicts with Ayther.
 - The haunted hotel's name and exact spot, and whether it needs a certain time or chapter. Only one report so far.
+- Which storm drain the Ninja Turtles are in. The clip that spread doesn't say, so it isn't on the map or in our queue yet.
 - More easter eggs are being reported every day. We'll add them here as they're confirmed.
 
 ## Related guides
