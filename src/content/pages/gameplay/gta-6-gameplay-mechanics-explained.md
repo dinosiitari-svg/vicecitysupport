@@ -180,6 +180,8 @@ items:
     detail: "Keyless cars need the key cloner, installed on your phone during the Chapter 3 Zorrusso mission for Randy."
   - title: "Advanced trackers come off only after Randy's Wish List"
     detail: "Red trackers alert police when you slow down; Pay 'n' Spray removes them only once you've delivered Randy's rare cars and he calls."
+  - title: "Weather is local and moves across the map"
+    detail: "Rain can fall in one area while another stays sunny; a launch bug kept skies clear for hours until the 23 November patch, and a Cycle Weather cheat unlocks after the story."
 faq:
   - q: "Is GTA 6 more realistic than GTA 5?"
     a: "In several systems, yes: police need witnesses, driving and carjacking were rebuilt, and Jason and Lucia have needs like food and sleep."
@@ -286,6 +288,7 @@ order: 0
 - [How to play golf and mini golf](/gameplay/how-to-play-golf-in-gta-6/)
 - [How to get the key cloner](/gameplay/how-to-get-the-key-cloner-in-gta-6/)
 - [How to remove an advanced tracker](/gameplay/how-to-remove-advanced-trackers-in-gta-6/)
+- [How weather works (and why it rarely rains)](/gameplay/how-does-weather-work-in-gta-6/)
 
 ## How we'll update this page
 

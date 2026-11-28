@@ -4,7 +4,7 @@ answer: "Yes, but you have to earn them. GTA 6's cheats only work after you've f
 description: "GTA 6 cheats explained: when they unlock, how to enter them on the phone, how challenges unlock each cheat, and why cheats turn off saving."
 status: verifying
 statusNote: "Based on launch-day guides from players who have finished the story. We haven't tested the cheat menu ourselves yet."
-updated: 2026-11-24
+updated: 2026-11-28
 listType: steps
 listTitle: "How to use cheats in GTA 6"
 items:
@@ -31,11 +31,15 @@ faq:
     a: "Reportedly yes. A launch-week list says any cheat switches off trophies, achievements and saving for that session. Earlier guides didn't mention trophies, so we're still checking this."
   - q: "What kinds of cheats are there?"
     a: "Reported categories are player cheats (money, armor, parachute, no fall damage, wanted level), combat cheats (ammo and explosive weapons), vehicle spawns, time and weather controls, and screen filters."
+  - q: "What is the GTA 6 weather cheat?"
+    a: "Three launch-week guides give Cycle Weather as Down, Right, Up, Down, Right, Up, Right. Enter it again to keep cycling. It only works after the story, and one guide says you also need the whole map revealed. See [how weather works](/gameplay/how-does-weather-work-in-gta-6/)."
   - q: "Is there a money cheat in GTA 6?"
     a: "A $250,000 cash cheat is reported, but like every cheat it only works after the story and with saving switched off, so the money can't be kept."
   - q: "How do you unlock the weather and time cheats?"
     a: "Guides report the time-of-day cheats are tied to finding collectible watches, while some cheats, such as cycling the weather, have no listed challenge."
 sources:
+  - label: "Tpose Gaming: GTA 6 no rain? (Cycle Weather code, 26 Nov)"
+    url: "https://tposegaming.com/gta-6-no-rain/"
   - label: "PC Gamer: all GTA 6 cheats and how to unlock them"
     url: "https://www.pcgamer.com/games/grand-theft-auto/gta-6-cheats-list/"
   - label: "TweakTown: GTA 6 has 61 cheats, but you'll have to beat the story first"
