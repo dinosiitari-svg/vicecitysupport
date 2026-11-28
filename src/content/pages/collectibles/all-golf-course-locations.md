@@ -4,7 +4,7 @@ answer: "GTA 6 has 5 golf courses: 3 mini golf courses (King Gator in Buckskin S
 description: "All 5 GTA 6 golf courses: 3 mini golf and 2 full courses, where they are, and how many you need for 100% completion."
 status: verifying
 statusNote: "From a launch-week guide. We're checking unlocks and rewards in-game."
-updated: 2026-11-20
+updated: 2026-11-28
 listType: locations
 listTitle: "All golf courses"
 checklist: true
@@ -16,28 +16,35 @@ items:
     detail: "Waning Sands, Leonard County."
     pin: "Frontier Adventure Golf"
   - title: "3. Dino Golf Challenge (mini golf)"
-    detail: "Frogswater, Kelly County."
+    detail: "Frogswater, Kelly County. An abandoned course, free to play (PPE.pl)."
   - title: "4. Leaf Links Golf Challenge"
-    detail: "Leaf Links, Vice Beach."
+    detail: "Leaf Links, Vice Beach. Golfmagic says 18 holes, PPE.pl says 9."
     pin: "Leaf Links Golf Challenge"
   - title: "5. Mount Hailes Golf Challenge"
-    detail: "Mount Hailes Club, Waning Sands, Leonard County."
+    detail: "Mount Hailes Country Club, Waning Sands, Leonard County. 18 holes."
     pin: "Mount Hailes Golf Challenge"
 faq:
   - q: "How many golf courses do you need for 100%?"
     a: "At least 2 of the 3 mini golf courses."
   - q: "Where do you see your golf scores?"
     a: "Progress > Activities > Sports shows which courses you've played and your best scores."
+  - q: "How do you play golf in GTA 6?"
+    a: "At a club, go to the nearest marked starting spot. Lowest stroke count wins. Mini golf holes must be played in order. See our [golf guide](/gameplay/how-to-play-golf-in-gta-6/)."
   - q: "Is there a golf trophy?"
     a: "None has been reported."
 sources:
   - label: "PowerPyx: GTA 6 all golf course locations"
     url: "https://www.powerpyx.com/gta-6-all-golf-course-locations/"
+  - label: "PPE.pl: GTA 6 golf and mini golf (Polish, updated 26 Nov)"
+    url: "https://www.ppe.pl/poradniki/432031/gta-6-golf-i-minigolf-jak-grac-i-wygrywac-zasady-mini-gry.html"
+  - label: "Golfmagic: you can play golf in GTA 6 (19 Nov)"
+    url: "https://www.golfmagic.com/news-0/you-can-play-golf-gta6-and-people-are-already-loving-it"
 order: 13
 ---
 
 ## Related guides
 
+- [How to play golf in GTA 6](/gameplay/how-to-play-golf-in-gta-6/)
 - [All pool opponent locations](/collectibles/all-pool-opponent-locations/)
 - [All drone race locations](/collectibles/all-drone-race-locations/)
 - [How many collectibles are in GTA 6?](/collectibles/how-many-collectibles-are-in-gta-6/)

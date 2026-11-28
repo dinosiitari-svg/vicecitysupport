@@ -5,7 +5,7 @@ answer: "GTA 6's side activities include street races, race challenges, drone tr
 description: "Every GTA 6 side activity and minigame: races, stunts, drone trials, shooting ranges, basketball, pool, mini golf, hunting and more, with 100% counts."
 status: verifying
 statusNote: "Counts come from a launch-week guide that read them off the in-game 100% checklist. We haven't checked every total ourselves yet."
-updated: 2026-11-26
+updated: 2026-11-28
 listType: locations
 listTitle: "Side activities and how many you need"
 items:
@@ -24,7 +24,7 @@ items:
   - title: "Pool: 7 opponents (5 for 100%)"
     detail: "Found in bars and cafes."
   - title: "Mini golf: 3 courses (2 for 100%)"
-    detail: "Full-size golf courses don't count toward this."
+    detail: "King Gator, Frontier and Dino Golf. The two full-size golf courses, Leaf Links and Mount Hailes, don't count toward this."
   - title: "Video games: 4 (all 4)"
     detail: "Three home console games and the arcade cabinet Bang For Your Buck."
   - title: "Hunting Target Decks: 15 (all 15)"
@@ -74,7 +74,6 @@ Water sports like jet skiing, airboating and kayaking, scuba diving, clubbing, e
 
 ## What isn't confirmed yet
 
-- The name of the third mini golf course.
 - Whether casino games exist anywhere in the game.
 - Every total above, which comes from one guide's reading of the checklist.
 
@@ -84,6 +83,7 @@ Water sports like jet skiing, airboating and kayaking, scuba diving, clubbing, e
 - [How stunt jumps work](/gameplay/how-do-stunt-jumps-work-in-gta-6/)
 - [How shooting ranges work](/gameplay/how-do-shooting-ranges-work-in-gta-6/)
 - [How hunting works](/gameplay/how-does-hunting-work-in-gta-6/)
+- [How to play golf and mini golf](/gameplay/how-to-play-golf-in-gta-6/)
 - [Strangers and Freaks side missions](/gameplay/how-do-strangers-and-freaks-missions-work-in-gta-6/)
 - [All drone race locations](/collectibles/all-drone-race-locations/)
 - [All pool opponent locations](/collectibles/all-pool-opponent-locations/)

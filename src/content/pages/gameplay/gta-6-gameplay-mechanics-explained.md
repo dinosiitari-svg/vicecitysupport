@@ -174,6 +174,8 @@ items:
     detail: "Finishing Freddie's Strangers and Freaks questline unlocks hurricane weather, which then turns up at random in free roam (one walkthrough)."
   - title: "Melee: punch on Square, block and counter on Cross"
     detail: "Lock on with L2, punch with Square (hold for heavy), block or counter with a timed Cross, grab with R2 for throws, chokeholds and takedowns; Jason and Lucia each get a few special moves (launch guides)."
+  - title: "Golf: two full courses and three mini golf courses"
+    detail: "Leaf Links and Mount Hailes for full golf; only mini golf counts toward 100%, and you need 2 of the 3 courses."
 faq:
   - q: "Is GTA 6 more realistic than GTA 5?"
     a: "In several systems, yes: police need witnesses, driving and carjacking were rebuilt, and Jason and Lucia have needs like food and sleep."
@@ -277,6 +279,7 @@ order: 0
 - [How to get body armor](/gameplay/how-to-get-body-armor-in-gta-6/)
 - [How to unlock hurricane weather](/gameplay/how-to-unlock-hurricane-weather-in-gta-6/)
 - [How to fight (melee controls)](/gameplay/how-to-fight-in-gta-6/)
+- [How to play golf and mini golf](/gameplay/how-to-play-golf-in-gta-6/)
 
 ## How we'll update this page
 

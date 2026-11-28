@@ -19,6 +19,11 @@ Set `"status": "confirmed"` only once you've seen it in-game yourself.
 
 ## Pending
 
+### 2026-11-28 12:15 · Golf · "Dino Golf Challenge (abandoned mini golf), Frogswater"
+- Source: https://www.ppe.pl/poradniki/432031/gta-6-golf-i-minigolf-jak-grac-i-wygrywac-zasady-mini-gry.html , https://www.powerpyx.com/gta-6-all-golf-course-locations/ (guides, 18–26 Nov; no coordinates given)
+- Abandoned mini golf course in Frogswater, Kelly County, free to play. One of the 3 mini golf courses on /collectibles/all-golf-course-locations/ (the only one without a pin). No Frogswater marker in map-markers.json to derive from.
+- Suggested category: `golf`.
+
 ### 2026-11-28 00:15 · Strangers & Freaks · "Freddie's doomsday compound (hurricane questline)"
 - Source: https://www.keengamer.com/articles/guides/gta-6-hurricane-weather-guide-freddies-questline-walkthrough/ (guide, 27 Nov; no coordinates given)
 - North of Lake Leonida in North Leonard County, close to the Lummox County border and SR-27. Hidden tunnel under an orange shipping container; water tower entry on the second visit. No nearby marker in map-markers.json to derive from.
